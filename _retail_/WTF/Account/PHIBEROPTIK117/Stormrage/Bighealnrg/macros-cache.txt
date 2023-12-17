@@ -1,0 +1,48 @@
+VER 3 010000000000000F "Feather" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@cursor] Angelic Feather
+END
+VER 3 010000000000000B "Flash Heal" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover,help,nodead][] Flash Heal
+END
+VER 3 010000000000000A "Grip" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover] Leap of Faith
+END
+VER 3 010000000000001C "Holy Word: Sanct" "134400"
+#showtooltip
+/cast [@cursor] Holy Word: Sanctify
+END
+VER 3 010000000000001B "Lev" "134400"
+#showtooltip
+/cast [@player] Levitate
+END
+VER 3 0100000000000018 "MD" "134400"
+#show
+/cast [@cursor] Mass Dispel
+END
+VER 3 0100000000000007 "POM" "135944"
+#show
+/cast [@mouseover] Prayer of Mending
+END
+VER 3 010000000000000D "Power Infusion" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover] Power Infusion
+END
+VER 3 0100000000000009 "Rez" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover] Resurrection
+END
+VER 3 010000000000001D "Serenity" "134400"
+#showtooltip
+/cast [@mouseover] Holy Word: Serenity
+END
+VER 3 0100000000000008 "Shield" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover] Power Word: Shield
+END
+VER 3 0100000000000011 "Star / Halo" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@player] Power Word: Fortitude
+END

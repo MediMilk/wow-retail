@@ -1,0 +1,4 @@
+VER 3 0100000000000002 "D&D" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@cursor] !Death and Decay
+END

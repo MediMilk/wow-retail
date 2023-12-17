@@ -1,0 +1,20 @@
+VER 3 0100000000000004 "Blind" "134400"
+#showtooltip
+/cast [@mouseover][@target] Blind
+END
+VER 3 0100000000000002 "Distract" "134400"
+#showtooltip
+/cast [@cursor] Distract
+END
+VER 3 0100000000000006 "Poisons" "134718"
+#showtooltip
+/castsequence reset=combat/10 Deadly Poison, Amplifying Poison, Crippling Poison, Atrophic Poison
+END
+VER 3 0100000000000005 "Step" "134400"
+#showtooltip
+/cast [@mouseover] Shadowstep
+END
+VER 3 0100000000000003 "TotT" "134400"
+#showtooltip
+/cast [@mouseover] Tricks of the Trade
+END

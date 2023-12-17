@@ -1,0 +1,685 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 1724,
+	["tabela_historico"] = {
+		["tabelas"] = {
+		},
+	},
+	["ocd_tracker"] = {
+		["show_title"] = true,
+		["current_cooldowns"] = {
+		},
+		["pos"] = {
+		},
+		["group_frames"] = true,
+		["lines_per_column"] = 12,
+		["frames"] = {
+			["defensive-raid"] = {
+			},
+			["main"] = {
+			},
+			["ofensive"] = {
+			},
+			["defensive-target"] = {
+			},
+			["utility"] = {
+			},
+			["defensive-personal"] = {
+			},
+		},
+		["show_options"] = false,
+		["own_frame"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = false,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+		["height"] = 18,
+		["framme_locked"] = false,
+		["width"] = 120,
+		["cooldowns"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["enabled"] = false,
+		["filters"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+	},
+	["last_version"] = "10.2.0 12097",
+	["player_stats"] = {
+	},
+	["force_font_outline"] = "",
+	["tabela_pets"] = {
+		["Pet-0-4227-2549-21287-165189-0A04971622"] = {
+			"Wreckshop", -- [1]
+			"Player-3684-0AC753AF", -- [2]
+			1300, -- [3]
+			1702696347, -- [4]
+			true, -- [5]
+			"oo", -- [6]
+			"Pet-0-4227-2549-21287-165189-0A04971622", -- [7]
+		},
+	},
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[3] = 2,
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -478.4990348815918,
+					["x"] = 649.498779296875,
+					["w"] = 205.0004730224609,
+					["h"] = 121.0000152587891,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				1, -- [1]
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -478.4990348815918,
+					["x"] = 854.499267578125,
+					["w"] = 205.0004730224609,
+					["h"] = 121.0000152587891,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["isLocked"] = false,
+			["is_open"] = true,
+			["snap"] = {
+			},
+			["modo"] = 2,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = 1.000244140625,
+					["x"] = 626,
+					["w"] = 309.9999389648438,
+					["h"] = 157.9999847412109,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [3]
+	},
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 2549,
+	["data_harvest_for_charsts"] = {
+		["players"] = {
+			{
+				["playerKey"] = "total",
+				["combatObjectContainer"] = 1,
+				["name"] = "Damage of Each Individual Player",
+				["playerOnly"] = true,
+			}, -- [1]
+		},
+		["totals"] = {
+			{
+				["combatObjectSubTableKey"] = 1,
+				["name"] = "Damage of All Player Combined",
+				["combatObjectSubTableName"] = "totals",
+			}, -- [1]
+		},
+	},
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Luckyone 2.48",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["last_realversion"] = 155,
+	["combat_log"] = {
+		["inverse_deathlog_overalldata"] = false,
+		["evoker_calc_damage"] = false,
+		["track_hunter_frenzy"] = false,
+		["merge_critical_heals"] = false,
+		["inverse_deathlog_raid"] = false,
+		["merge_gemstones_1007"] = false,
+		["evoker_show_realtimedps"] = false,
+		["inverse_deathlog_mplus"] = false,
+	},
+	["last_encounter"] = "Fyrakk the Blazing",
+	["mythic_plus_log"] = {
+		"05/05/23 19:21:50|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.", -- [1]
+		"05/05/23 19:21:50|MythicDungeonFinished() | merge_boss_trash = true", -- [2]
+		"05/05/23 19:21:48|MergeTrashCleanup started.", -- [3]
+		"05/05/23 19:21:48|BossDefeated | key level: | 27 | Ner'zhul | Shadowmoon Burial Grounds", -- [4]
+		"05/05/23 19:14:46|MergeTrashCleanup started.", -- [5]
+		"05/05/23 19:14:46|BossDefeated | key level: | 27 | Bonemaw | Shadowmoon Burial Grounds", -- [6]
+		"05/05/23 19:02:07|MergeTrashCleanup started.", -- [7]
+		"05/05/23 19:02:07|BossDefeated | key level: | 27 | Nhallish | Shadowmoon Burial Grounds", -- [8]
+		"05/05/23 18:56:56|MergeTrashCleanup started.", -- [9]
+		"05/05/23 18:56:56|BossDefeated | key level: | 27 | Sadana Bloodfury | Shadowmoon Burial Grounds", -- [10]
+		"05/05/23 18:46:28|CHALLENGE_MODE_START | settings: make_overall_boss_only = false | merge_boss_trash = true | delay_to_show_graphic = 5 | always_in_combat = false | reverse_death_log = false | make_overall_when_done = true | delete_trash_after_merge = true | show_damage_graphic = false | boss_dedicated_segment = true |  | level: 27 | zone: Shadowmoon Burial Grounds | zoneId: 1176", -- [11]
+		"17/04/23 20:44:19|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.", -- [12]
+		"17/04/23 20:44:19|MythicDungeonFinished() | merge_boss_trash = true", -- [13]
+		"17/04/23 20:44:16|MergeTrashCleanup | no segments to merge.", -- [14]
+		"17/04/23 20:44:16|BossDefeated | key level: | 26 | Umbrelskul | The Azure Vault", -- [15]
+		"17/04/23 20:39:22|MergeTrashCleanup started.", -- [16]
+		"17/04/23 20:39:22|BossDefeated | key level: | 26 | Telash Greywing | The Azure Vault", -- [17]
+		"17/04/23 20:30:44|MergeTrashCleanup started.", -- [18]
+		"17/04/23 20:30:44|BossDefeated | key level: | 26 | Azureblade | The Azure Vault", -- [19]
+		"17/04/23 20:19:52|MergeTrashCleanup started.", -- [20]
+		"17/04/23 20:19:52|BossDefeated | key level: | 26 | Leymor | The Azure Vault", -- [21]
+		"17/04/23 20:09:57|CHALLENGE_MODE_START | settings: make_overall_boss_only = false | merge_boss_trash = true | delay_to_show_graphic = 5 | always_in_combat = false | reverse_death_log = false | make_overall_when_done = true | delete_trash_after_merge = true | show_damage_graphic = false | boss_dedicated_segment = true |  | level: 26 | zone: The Azure Vault | zoneId: 2515", -- [22]
+		"16/04/23 15:28:12|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.", -- [23]
+		"16/04/23 15:28:12|MythicDungeonFinished() | merge_boss_trash = true", -- [24]
+		"16/04/23 15:28:12|MythicDungeonFinished() | Details was in combat.", -- [25]
+		"16/04/23 15:28:10|MergeTrashCleanup started.", -- [26]
+		"16/04/23 15:28:10|BossDefeated | key level: | 25 | Echo of Doragosa | Algeth'ar Academy", -- [27]
+		"16/04/23 15:19:39|MergeTrashCleanup started.", -- [28]
+		"16/04/23 15:19:39|BossDefeated | key level: | 25 | Vexamus | Algeth'ar Academy", -- [29]
+		"16/04/23 15:12:07|MergeTrashCleanup started.", -- [30]
+		"16/04/23 15:12:07|BossDefeated | key level: | 25 | Crawth | Algeth'ar Academy", -- [31]
+		"16/04/23 15:03:10|MergeTrashCleanup started.", -- [32]
+		"16/04/23 15:03:10|BossDefeated | key level: | 25 | Overgrown Ancient | Algeth'ar Academy", -- [33]
+		"16/04/23 14:56:29|CHALLENGE_MODE_START | settings: make_overall_boss_only = false | merge_boss_trash = true | delay_to_show_graphic = 5 | always_in_combat = false | reverse_death_log = false | make_overall_when_done = true | delete_trash_after_merge = true | show_damage_graphic = false | boss_dedicated_segment = true |  | level: 25 | zone: Algeth'ar Academy | zoneId: 2526", -- [34]
+		"16/04/23 14:39:51|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.", -- [35]
+		"16/04/23 14:39:51|delete_trash_after_merge | concluded", -- [36]
+		"16/04/23 14:39:51|running MergeRemainingTrashAfterAllBossesDone.", -- [37]
+		"16/04/23 14:39:51|MythicDungeonFinished() | merge_boss_trash = true", -- [38]
+		"16/04/23 14:39:51|MythicDungeonFinished() | Details was in combat.", -- [39]
+		"16/04/23 14:38:54|MergeTrashCleanup started.", -- [40]
+		"16/04/23 14:38:54|BossDefeated | key level: | 25 | Echo of Doragosa | Algeth'ar Academy", -- [41]
+		"16/04/23 14:31:11|MergeTrashCleanup started.", -- [42]
+		"16/04/23 14:31:11|BossDefeated | key level: | 25 | Vexamus | Algeth'ar Academy", -- [43]
+		"16/04/23 14:26:49|COMBAT_PLAYER_LEAVE | wiped on boss | key level: | 25 | Vexamus Algeth'ar Academy", -- [44]
+		"16/04/23 14:22:06|MergeTrashCleanup started.", -- [45]
+		"16/04/23 14:22:06|BossDefeated | key level: | 25 | Crawth | Algeth'ar Academy", -- [46]
+		"16/04/23 14:12:54|MergeTrashCleanup started.", -- [47]
+		"16/04/23 14:12:54|BossDefeated | key level: | 25 | Overgrown Ancient | Algeth'ar Academy", -- [48]
+		"16/04/23 14:06:04|CHALLENGE_MODE_START | settings: make_overall_boss_only = false | merge_boss_trash = true | delay_to_show_graphic = 5 | always_in_combat = false | reverse_death_log = false | make_overall_when_done = true | delete_trash_after_merge = true | show_damage_graphic = false | boss_dedicated_segment = true |  | level: 25 | zone: Algeth'ar Academy | zoneId: 2526", -- [49]
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["nick_tag_cache"] = {
+		["last_version"] = 16,
+		["nextreset"] = 1703704169,
+		["Beestboy"] = {
+			"Bestboy", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
+		["Thesleepypan"] = {
+			"Worst Hunter", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			10, -- [7]
+		},
+	},
+	["on_death_menu"] = false,
+	["ignore_nicktag"] = false,
+	["data_harvested_for_charts"] = {
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["disable_gouge"] = false,
+		},
+		["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+			["enabled"] = true,
+			["author"] = "Terciob",
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Terciob",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
+			["enabled"] = true,
+			["last_boss"] = false,
+			["last_player"] = false,
+			["captures"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["timeline_cutoff_delete_time"] = 3,
+			["author"] = "Details! Team",
+			["max_deaths_for_current"] = 20,
+			["max_deaths_for_timeline"] = 5,
+			["last_encounter_hash"] = false,
+			["endurance_threshold"] = 3,
+			["timeline_cutoff_time"] = 3,
+			["last_segment"] = false,
+			["show_icon"] = 1,
+			["InstalledAt"] = 1702408180,
+			["max_segments_for_current"] = 2,
+			["showing_type"] = 4,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = true,
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["arrow_anchor_y"] = 0,
+			["main_frame_size"] = {
+				300, -- [1]
+				500.0000915527344, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = true,
+			},
+			["main_frame_locked"] = false,
+			["arrow_anchor_x"] = 0,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 0.000457763671875,
+				["x"] = 3.0517578125e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["author"] = "Terciob",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 0.00042724609375,
+			["use_spark"] = true,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["last_instance_time"] = 1702691468,
+	["combat_id"] = 0,
+	["savedStyles"] = {
+	},
+	["character_data"] = {
+		["logons"] = 8,
+	},
+	["last_day"] = "15",
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1702696347,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["bossTimers"] = {
+		},
+		["trinketProcs"] = {
+		},
+		["totals"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["amountCasts"] = {
+		},
+		["totals_grupo"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["data_inicio"] = 0,
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["cleu_timeline"] = {
+		},
+		["spells_cast_timeline"] = {
+		},
+		["start_time"] = 0,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["combat_counter"] = 110,
+	},
+	["combat_counter"] = 111,
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["cached_roles"] = {
+	},
+	["cached_specs"] = {
+		["Player-3684-0E483D7D"] = 105,
+	},
+}

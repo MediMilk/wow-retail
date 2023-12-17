@@ -1,0 +1,12 @@
+## Title: |cff1784d1ElvUI|r |cff4beb2cLuckyoneUI|r |cffFF7E40Classic|r
+## Notes: Luckyone's ElvUI Edit
+## Dependencies: ElvUI
+
+## DefaultState: enabled
+## Author: Luckyone
+## Version: 2.48
+
+## Interface: 11500
+## X-Required-ElvUI: 13.53
+
+Load.xml

@@ -1,0 +1,33 @@
+## Interface: 100002
+## Title: |cffA02C2FIncoherent|r Loot Council
+## Version: @project-version@
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: ILC_CONFIG, ILC_HISTORY
+
+# Libs
+libs\utf8data.lua
+libs\utf8.lua
+
+libs\LibStub.lua
+libs\CallbackHandler-1.0.lua
+libs\ChatThrottleLib.lua
+libs\AceComm-3.0.lua
+libs\ItemButton.lua
+
+# init
+core\init.lua
+core\localization.lua
+
+# core
+core\functions.lua
+core\load.lua
+core\frames.lua
+core\council.lua
+core\session.lua
+core\events.lua
+core\versions.lua
+core\tests.lua
+# config\config_frames.lua
+# config\config.lua
+config\config2.lua

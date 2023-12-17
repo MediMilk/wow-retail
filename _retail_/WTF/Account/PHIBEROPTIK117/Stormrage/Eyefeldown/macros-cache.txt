@@ -1,0 +1,17 @@
+VER 3 0100000000000003 "Consume" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead] [] Consume Magic
+END
+VER 3 0100000000000004 "Interrupt" "134400"
+#showtooltip
+/stopcasting
+/cast !Disrupt
+END
+VER 3 0100000000000002 "Meta" "134400"
+#showtooltip
+/cast [@cursor] !Metamorphosis
+END
+VER 3 0100000000000001 "Sigil of Flame" "134400"
+#showtooltip
+/cast [@cursor] !Sigil of Flame
+END

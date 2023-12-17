@@ -1,0 +1,72 @@
+VER 3 010000000000001E "Bark" "134400"
+#showtooltip
+/cast [@player] Ironbark
+END
+VER 3 010000000000001F "Bark Others" "134400"
+#showtooltip
+/cast [@mouseover] Ironbark
+END
+VER 3 010000000000001C "Debuff" "134400"
+#showtooltip
+/cast [@mouseover] Nature's Cure
+END
+VER 3 010000000000001A "Efflorescence" "134400"
+#showtooltip
+/cast [@cursor] Efflorescence
+END
+VER 3 0100000000000023 "Fly" "134400"
+#showtooltip
+/cast [@mouseover] Wild Charge
+END
+VER 3 0100000000000024 "Growth" "134400"
+#showtooltip
+/cast [@mouseover] Wild Growth
+END
+VER 3 0100000000000025 "Hibernate" "136090"
+#showtooltip
+/cast [@mouseover] Hibernate
+END
+VER 3 0100000000000020 "Innervate" "134400"
+#showtooltip
+/cast [@mouseover] Innervate
+END
+VER 3 0100000000000026 "Innervate Me" "134400"
+#showtooltip
+/cast [@player] Innervate
+END
+VER 3 010000000000001B "Lifebloom" "134400"
+#showtooltip
+/cast [@player] Lifebloom
+END
+VER 3 0100000000000019 "MOTW" "134400"
+#showtooltip
+/cast [@player] Mark of the Wild
+END
+VER 3 0100000000000012 "Rebirth" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover] !Rebirth
+END
+VER 3 010000000000000B "Regrowth" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover,help,nodead] [] !Regrowth
+END
+VER 3 0100000000000005 "Rejuv" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover,help,nodead] [] !Rejuvenation
+END
+VER 3 0100000000000021 "Revive" "134400"
+#showtooltip
+/cast [@mouseover] Revive
+END
+VER 3 010000000000001D "Swiftmend" "134400"
+#showtooltip
+/cast [@mouseover] Swiftmend
+END
+VER 3 0100000000000028 "Treant" "134400"
+#show
+/cast [@mouseover] Grove Guardians
+END
+VER 3 0100000000000022 "Vortex" "134400"
+#showtooltip
+/cast [@cursor] Ursol's Vortex
+END

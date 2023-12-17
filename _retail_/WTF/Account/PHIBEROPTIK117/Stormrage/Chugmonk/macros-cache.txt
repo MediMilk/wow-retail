@@ -1,0 +1,61 @@
+VER 3 0100000000000004 "Bonedust Brew" "134400"
+#showtooltip
+/cast [@target] !Bonedust Brew
+END
+VER 3 0100000000000007 "Chi Wave" "134400"
+#showtooltip
+/cast [@player] Chi Wave
+END
+VER 3 0100000000000009 "Detox" "134400"
+#showtooltip
+/cast [@mouseover] Detox
+END
+VER 3 0100000000000003 "Exploding Keg" "134400"
+#showtooltip
+/cast [@player] Exploding Keg
+END
+VER 3 010000000000000B "Gateway Control" "134400"
+#showtooltip
+/stopcasting
+/use Gateway Control Shard
+END
+VER 3 010000000000000A "Ire Trinket" "134400"
+#showtooltip
+/cast [@player] Ward of Faceless Ire
+END
+VER 3 0100000000000008 "Keg Smash" "134400"
+#showtooltip
+/cast [@target] Keg Smash
+END
+VER 3 010000000000000C "Paral" "134400"
+#showtooltip
+/cast [@mouseover] Paralysis
+END
+VER 3 010000000000000D "Ring of Penis" "134400"
+#showtooltip
+/cast [@cursor] Ring of Peace
+END
+VER 3 010000000000000F "Rising Sun / DBD" "134400"
+#showtooltip
+/cast Rising Sun Kick
+/use [@target] 14
+END
+VER 3 0100000000000006 "Soothing Mist" "134400"
+#showtooltip
+/cast [@mouseover] Soothing Mist
+END
+VER 3 0100000000000002 "Summon Statue" "134400"
+#showtooltip
+/cast [@cursor, known:115313] Summon Jade Serpent Statue;[@cursor, known:388686] Summon White Tiger Statue; [@cursor, known:115315] Summon Black Ox Statue
+END
+VER 3 010000000000000E "Tiger Palm" "606551"
+/cast Tiger Palm
+END
+VER 3 0100000000000001 "Tiger's Lust" "134400"
+#showtooltip
+/cast [@player] !Tiger's Lust
+END
+VER 3 0100000000000005 "Vivify" "134400"
+#showtooltip
+/cast [@mouseover] Vivify
+END

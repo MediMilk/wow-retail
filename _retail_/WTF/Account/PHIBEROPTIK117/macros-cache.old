@@ -1,0 +1,49 @@
+VER 3 0000000000000052 " Skull" "132097"
+#showtooltip
+/wm [@cursor] 8
+END
+VER 3 0000000000000053 "clear" "132220"
+/cwm all
+END
+VER 3 0000000000000057 "Druid Shift" "134400"
+#showtooltip
+/stopcasting
+/cast [noform] Cat Form
+/cancelform
+END
+VER 3 000000000000004C "Guild" "413580"
+/2 <Incoherent Screaming> [1/9M] - LF AUG for Core Raid team. TUES/WED 9-12am EST. Non-toxic, active Mythic+ teams, Midcore raid, Discord! PST for more info or to join.
+/sw 5:00
+/sw play
+END
+VER 3 000000000000005A "Guild 2" "413580"
+/2 <Incoherent Screaming> - Tu/We 9-12am EST. Need AUG for Core Raid team. 1/9M, Aiming for CE. PST for more info.
+/sw 5:00
+/sw play
+END
+VER 3 0000000000000049 "Health Pot" "134400"
+#showtooltip
+/use Dreamwalker's Healing Potion
+END
+VER 3 000000000000005C "MD Focus" "134400"
+#showtooltip
+/cast [@focus] Misdirection
+END
+VER 3 0000000000000037 "Mount" "134400"
+#show
+/cast Renewed Proto-Drake
+/cast [flyable] Mimiron's Head; Grand Expedition Yak
+/dismount
+END
+VER 3 000000000000004D "Trinket 1" "134400"
+#showtooltip
+/use 13
+END
+VER 3 000000000000004E "Trinket 2" "134400"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000056 "Weapon" "134400"
+#showtooltip
+/use 16
+END

@@ -1,0 +1,41 @@
+# Root Files
+World of Warcraft Launcher.exe
+.battle.net/
+
+# _retail_/ Junk WoW Folders
+_retail_/Errors/
+_retail_/Cache/
+_retail_/Logs/
+_retail_/Screenshots/
+_retail_/Utils/
+_retail_/Cache.old/
+_retail_/Data.old/
+_retail_/Logs.old/
+_retail_/Screenshots.old/
+_retail_/Utils.old/
+
+# _retail_/ Junk WoW Files
+_retail_/dbghelp.dll
+_retail_/.favlorinfo
+_retail_/.curseclient
+_retail_/WoW.mfil
+_retail_/GFSDK_Aftermath_Lib.x64.dll
+
+# Junk WoW Files
+Data/
+.build.info
+.curseclient
+.patch.result
+.product.db
+Launcher.db
+
+# EXE Files
+World of Warcraft Launcher.exe
+_retail_/Wow.exe
+_retail_/BlizzardError.exe
+
+# Backup Files
+*.rar
+*.zip
+*.7z
+*.gz

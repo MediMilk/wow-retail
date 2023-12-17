@@ -1,0 +1,61 @@
+VER 3 0100000000000003 "Bulb" "134400"
+#showtooltip
+/cast [@mouseover] Emerald Blossom(Green)
+END
+VER 3 0100000000000007 "Cauterize" "134400"
+#showtooltip
+/cast [@mouseover] Cauterizing Flame(Red)
+END
+VER 3 010000000000000C "Echo" "134400"
+#showtooltip
+/cast [@mouseover] Echo(Bronze)
+END
+VER 3 0100000000000004 "Interrupt" "134400"
+#showtooltip
+/stopcasting
+/cast [@target] Quell
+END
+VER 3 0100000000000005 "Interrupt Focus" "134400"
+#showtooltip
+/stopcasting
+/cast [@focus] Quell
+END
+VER 3 0100000000000001 "living flame" "134400"
+#showtooltip
+/cast [@mouseover] Living Flame
+END
+VER 3 0100000000000009 "Naturalize" "134400"
+#showtooltip
+/cast [@mouseover] Naturalize(Green)
+END
+VER 3 010000000000000E "Renewing Blaze" "134400"
+#showtooltip
+/stopcasting
+/cast [@player] Renewing Blaze
+/use Healthstone
+END
+VER 3 0100000000000002 "Res" "134400"
+#showtooltip
+/cast [@mouseover] Return(Bronze)
+END
+VER 3 010000000000000D "Rescue" "134400"
+#showtooltip Rescue
+/cast [@cursor] Rescue
+END
+VER 3 010000000000000A "Reversion" "134400"
+#showtooltip
+/cast [@mouseover] !Reversion(Bronze)
+END
+VER 3 0100000000000008 "Spiritbloom" "134400"
+#showtooltip
+/cast [@mouseover] !Spiritbloom(Green)
+END
+VER 3 010000000000000B "Time Dilation" "134400"
+#showtooltip
+/cast [@mouseover] Time Dilation(Bronze)
+END
+VER 3 0100000000000006 "Verdant Embrace" "134400"
+#showtooltip
+/stopcasting
+/cast [@mouseover] Verdant Embrace(Green)
+END

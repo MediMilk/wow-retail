@@ -1,0 +1,17261 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 11,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005688,
+							["pets"] = {
+							},
+							["classe"] = "EVOKER",
+							["total_without_pet"] = 15805539.005688,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 15805539.005688,
+							["spec"] = 1467,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-60-0F3969A1",
+							["ilvl"] = 226,
+							["damage_from"] = {
+								["The Lich King"] = true,
+							},
+							["targets"] = {
+								["The Lich King"] = 15805539,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702664718,
+							["on_hold"] = false,
+							["aID"] = "60-0F3969A1",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[356995] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["The Lich King"] = 8388199,
+										},
+										["n_total"] = 8388199,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 8388199,
+										["c_max"] = 0,
+										["id"] = 356995,
+										["r_dmg"] = 0,
+										["spellschool"] = 80,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 1776589,
+										["r_amt"] = 0,
+									},
+									[377420] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["The Lich King"] = 849,
+										},
+										["n_total"] = 849,
+										["n_min"] = 212,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 849,
+										["c_max"] = 0,
+										["id"] = 377420,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 213,
+										["r_amt"] = 0,
+									},
+									[377551] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["The Lich King"] = 288539,
+										},
+										["n_total"] = 288539,
+										["n_min"] = 288539,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 288539,
+										["c_max"] = 0,
+										["id"] = 377551,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 288539,
+										["r_amt"] = 0,
+									},
+									[362969] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["The Lich King"] = 7127952,
+										},
+										["n_total"] = 7127952,
+										["n_min"] = 752645,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 7127952,
+										["c_max"] = 0,
+										["id"] = 362969,
+										["r_dmg"] = 0,
+										["spellschool"] = 80,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 1403869,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["nome"] = "Skalesbruh",
+							["custom"] = 0,
+							["last_event"] = 1702664709,
+							["damage_taken"] = 1132.005688,
+							["start_time"] = 1702664691,
+							["delay"] = 1702664571,
+							["last_dps"] = 94608.82190855786,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 27598.00708,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 27598.00708,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37028-00007C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Frenzied Abomination"] = 27598,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["dps_started"] = true,
+							["totalabsorbed"] = 0.00708,
+							["aID"] = "37028",
+							["nome"] = "Kor'kron Stalker",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 27598,
+										},
+										["n_total"] = 27598,
+										["n_min"] = 972,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 27598,
+										["c_max"] = 0,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 16,
+										["n_max"] = 2716,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69920] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 69920,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702664750,
+							["damage_taken"] = 0.00708,
+							["start_time"] = 1702664733,
+							["delay"] = 1702664750,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 21165.003752,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 21165.003752,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37544-0001FC95F8",
+							["damage_from"] = {
+								["Skybreaker Summoner"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Summoner"] = 9503,
+								["Skybreaker Hierophant"] = 11662,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["dps_started"] = true,
+							["totalabsorbed"] = 0.003752,
+							["aID"] = "37544",
+							["nome"] = "Spire Gargoyle",
+							["spells"] = {
+								["_ActorTable"] = {
+									[70189] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Summoner"] = 9503,
+											["Skybreaker Hierophant"] = 11662,
+										},
+										["n_total"] = 21165,
+										["n_min"] = 441,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 21165,
+										["c_max"] = 0,
+										["id"] = 70189,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 16,
+										["n_max"] = 2560,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702664751,
+							["damage_taken"] = 3323.003752,
+							["start_time"] = 1702664733,
+							["delay"] = 1702664751,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 14790.004775,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 14790.004775,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37029-00007C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Frenzied Abomination"] = 14790,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["dps_started"] = true,
+							["totalabsorbed"] = 0.004775,
+							["aID"] = "37029",
+							["nome"] = "Kor'kron Reaver",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 14790,
+										},
+										["n_total"] = 14790,
+										["n_min"] = 1901,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 14790,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["n_max"] = 2302,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702664750,
+							["damage_taken"] = 0.004775,
+							["start_time"] = 1702664734,
+							["delay"] = 1702664750,
+							["last_dps"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 2600,
+							["pets"] = {
+							},
+							["aID"] = "38493",
+							["total_without_pet"] = 14163.006767,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = true,
+							["total"] = 14163.006767,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3019-571-77-38493-0000FC444D",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Pustulent Horror"] = 3040,
+								["Vicious Geist"] = 11123,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.006767,
+							["on_hold"] = true,
+							["nome"] = "Argent Crusader",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Pustulent Horror"] = 3040,
+											["Vicious Geist"] = 11123,
+										},
+										["n_total"] = 12053,
+										["a_amt"] = 0,
+										["n_min"] = 125,
+										["g_dmg"] = 0,
+										["counter"] = 90,
+										["MISS"] = 2,
+										["total"] = 14163,
+										["c_max"] = 370,
+										["DODGE"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 259,
+										["successful_casted"] = 0,
+										["c_total"] = 2110,
+										["n_amt"] = 78,
+										["n_max"] = 187,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["custom"] = 0,
+							["last_event"] = 1702664881,
+							["damage_taken"] = 0.006767,
+							["start_time"] = 1702664849,
+							["delay"] = 1702664881,
+							["last_dps"] = 0,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 12858.001676,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 12858.001676,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37546-00007C95F8",
+							["damage_from"] = {
+								["Kor'kron Reaver"] = true,
+								["Kor'kron Stalker"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Hierophant"] = 12858,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["dps_started"] = true,
+							["totalabsorbed"] = 0.001676,
+							["aID"] = "37546",
+							["nome"] = "Frenzied Abomination",
+							["spells"] = {
+								["_ActorTable"] = {
+									[70191] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Stalker"] = 0,
+											["Kor'kron Vanquisher"] = 0,
+											["Skybreaker Hierophant"] = 12858,
+										},
+										["n_total"] = 12858,
+										["n_min"] = 6127,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+										["id"] = 70191,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 6731,
+										["total"] = 12858,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = true,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702664748,
+							["damage_taken"] = 42388.001676,
+							["start_time"] = 1702664736,
+							["delay"] = 1702664748,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 2600,
+							["pets"] = {
+							},
+							["aID"] = "38505",
+							["total_without_pet"] = 7907.007525,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = true,
+							["total"] = 7907.007525,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3019-571-77-38505-0000F880CE",
+							["damage_from"] = {
+								["Pustulent Horror"] = true,
+							},
+							["targets"] = {
+								["Pustulent Horror"] = 2862,
+								["Vicious Geist"] = 5045,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007525,
+							["on_hold"] = true,
+							["nome"] = "Knight of the Ebon Blade",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Pustulent Horror"] = 540,
+											["Vicious Geist"] = 5045,
+										},
+										["n_total"] = 5316,
+										["n_min"] = 63,
+										["g_dmg"] = 0,
+										["counter"] = 76,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 142,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 5,
+										["c_min"] = 127,
+										["successful_casted"] = 0,
+										["c_total"] = 269,
+										["n_amt"] = 68,
+										["n_max"] = 94,
+										["total"] = 5585,
+									}, -- [1]
+									[67767] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 282,
+										["targets"] = {
+											["Pustulent Horror"] = 1085,
+										},
+										["n_total"] = 1085,
+										["n_min"] = 261,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1085,
+										["c_max"] = 0,
+										["id"] = 67767,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[66047] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Vicious Geist"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 66047,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[66021] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 630,
+										["targets"] = {
+											["Pustulent Horror"] = 1237,
+										},
+										["n_total"] = 1237,
+										["n_min"] = 607,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1237,
+										["c_max"] = 0,
+										["id"] = 66021,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["custom"] = 0,
+							["last_event"] = 1702664881,
+							["damage_taken"] = 343.007525,
+							["start_time"] = 1702664840,
+							["delay"] = 1702664881,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37148",
+							["total_without_pet"] = 3323.008381,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = true,
+							["total"] = 3323.008381,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+							["damage_from"] = {
+								["Spire Gargoyle"] = true,
+							},
+							["targets"] = {
+								["Spire Gargoyle"] = 3323,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.008381,
+							["on_hold"] = true,
+							["nome"] = "Skybreaker Summoner",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Gargoyle"] = 3323,
+										},
+										["n_total"] = 3323,
+										["n_min"] = 567,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 3323,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 743,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["custom"] = 0,
+							["last_event"] = 1702664750,
+							["damage_taken"] = 9503.008381,
+							["start_time"] = 1702664735,
+							["delay"] = 1702664750,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 2600,
+							["pets"] = {
+							},
+							["aID"] = "",
+							["total_without_pet"] = 2938.001219,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = true,
+							["total"] = 2938.001219,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Vehicle-0-3019-571-77-38500-00007880CD",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Pustulent Horror"] = 523,
+								["Vicious Geist"] = 2415,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001219,
+							["on_hold"] = true,
+							["nome"] = "Argent Warhorse",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Pustulent Horror"] = 523,
+											["Vicious Geist"] = 2415,
+										},
+										["n_total"] = 2743,
+										["n_min"] = 87,
+										["g_dmg"] = 0,
+										["counter"] = 32,
+										["MISS"] = 2,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 195,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 3,
+										["c_min"] = 195,
+										["successful_casted"] = 0,
+										["c_total"] = 195,
+										["n_amt"] = 26,
+										["n_max"] = 124,
+										["total"] = 2938,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["custom"] = 0,
+							["last_event"] = 1702664881,
+							["damage_taken"] = 0.001219,
+							["start_time"] = 1702664844,
+							["delay"] = 1702664881,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 1132.008391,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 1132.008391,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skalesbruh"] = true,
+							},
+							["targets"] = {
+								["Skalesbruh"] = 1132,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.008391,
+							["end_time"] = 1702664718,
+							["nome"] = "The Lich King",
+							["aID"] = "36597",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skalesbruh"] = 19,
+										},
+										["n_total"] = 19,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 19,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 10,
+										["r_amt"] = 0,
+									}, -- [1]
+									[68981] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 68981,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[72133] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skalesbruh"] = 15,
+										},
+										["n_total"] = 15,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 15,
+										["c_max"] = 0,
+										["id"] = 72133,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 4,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 3,
+										["r_amt"] = 0,
+									},
+									[72259] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 72259,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[72350] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skalesbruh"] = 304,
+										},
+										["n_total"] = 304,
+										["n_min"] = 304,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 304,
+										["c_max"] = 0,
+										["id"] = 72350,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 304,
+										["r_amt"] = 0,
+									},
+									[71769] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 71769,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[68983] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skalesbruh"] = 794,
+										},
+										["n_total"] = 794,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 120,
+										["total"] = 794,
+										["c_max"] = 0,
+										["id"] = 68983,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 120,
+										["n_max"] = 7,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702664625,
+							["damage_taken"] = 15805539.008391,
+							["start_time"] = 1702664645,
+							["delay"] = 1702664625,
+							["last_dps"] = 0,
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005253,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 343.005253,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = true,
+							["total"] = 343.005253,
+							["on_hold"] = true,
+							["total_extra"] = 0,
+							["damage_from"] = {
+								["Argent Crusader"] = true,
+								["Knight of the Ebon Blade"] = true,
+								["Argent Warhorse"] = true,
+							},
+							["targets"] = {
+								["Knight of the Ebon Blade"] = 343,
+							},
+							["serial"] = "Vehicle-0-3019-571-77-31139-00007C9A82",
+							["aID"] = "",
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["nome"] = "Pustulent Horror",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 220,
+										["targets"] = {
+											["Knight of the Ebon Blade"] = 343,
+										},
+										["n_total"] = 343,
+										["n_min"] = 123,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 343,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 6425.005253,
+							["start_time"] = 1702664855,
+							["delay"] = 1702664857,
+							["last_event"] = 1702664857,
+						}, -- [11]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.008041,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.008041,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37545-00017C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["dps_started"] = false,
+							["totalabsorbed"] = 0.008041,
+							["aID"] = "37545",
+							["nome"] = "Spire Minion",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Protector"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[70396] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Protector"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 70396,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702664742,
+							["damage_taken"] = 0.008041,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [12]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "36998",
+							["total_without_pet"] = 0.004872,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.004872,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-36998-0000FC95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.004872,
+							["on_hold"] = false,
+							["nome"] = "Skybreaker Protector",
+							["spells"] = {
+								["_ActorTable"] = {
+									[69965] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["IMMUNE"] = 2,
+										["id"] = 69965,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69903] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Minion"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 69903,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["custom"] = 0,
+							["last_event"] = 1702664749,
+							["damage_taken"] = 0.004872,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [13]
+						{
+							["flag_original"] = 2600,
+							["pets"] = {
+							},
+							["aID"] = "31147",
+							["total_without_pet"] = 0.00225,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.00225,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3019-571-77-31147-00037C9A17",
+							["damage_from"] = {
+								["Argent Crusader"] = true,
+								["Knight of the Ebon Blade"] = true,
+								["Argent Warhorse"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.00225,
+							["on_hold"] = false,
+							["nome"] = "Vicious Geist",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 17907.00225,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [14]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.00143,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.00143,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37035-00007C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["dps_started"] = false,
+							["totalabsorbed"] = 0.00143,
+							["aID"] = "37035",
+							["nome"] = "Kor'kron Vanquisher",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69927] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["IMMUNE"] = 1,
+										["id"] = 69927,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702664745,
+							["damage_taken"] = 0.00143,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [15]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37144",
+							["total_without_pet"] = 0.001053,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001053,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37144-00007C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001053,
+							["on_hold"] = false,
+							["nome"] = "Skybreaker Marksman",
+							["spells"] = {
+								["_ActorTable"] = {
+									[69989] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 69989,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["custom"] = 0,
+							["last_event"] = 1702664743,
+							["damage_taken"] = 0.001053,
+							["start_time"] = 0,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [16]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 11,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.008245,
+							["total_without_pet"] = 0.008245,
+							["monster"] = true,
+							["total"] = 0.008245,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[72350] = 752645,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+							["totalabsorb"] = 0.008245,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.008245,
+							["healing_taken"] = 0.008245,
+							["last_event"] = 1702664572,
+							["aID"] = "36597",
+							["end_time"] = 1702664718,
+							["targets_overheal"] = {
+							},
+							["nome"] = "The Lich King",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702664718,
+							["heal_enemy_amt"] = 752645,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.008245,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 11,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 11,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[356995] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = 356995,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[377420] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = 377420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[370898] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 10,
+										["id"] = 370898,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 680,
+							["classe"] = "EVOKER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[381748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 165,
+										["id"] = 381748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225788] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 165,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[359618] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 359618,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[358733] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 358733,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[377544] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 16,
+										["id"] = 377544,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 165,
+										["id"] = 397734,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[73828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 165,
+										["id"] = 73828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 18,
+							["boss_fight_component"] = true,
+							["spec"] = 1467,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["aID"] = "60-0F3969A1",
+							["nome"] = "Skalesbruh",
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-60-0F3969A1",
+							["last_event"] = 1702664718,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "The Lich King",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+							["aID"] = "36597",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["aID"] = "36597",
+							["boss_debuff"] = true,
+							["damage_spellid"] = 72133,
+							["monster"] = true,
+							["debuff_uptime"] = 8,
+							["spellschool"] = 32,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["nome"] = "Pain and Suffering",
+							["last_event"] = 1702664571,
+							["damage_twin"] = "The Lich King",
+							["debuff_uptime_targets"] = {
+								["Skalesbruh"] = {
+									["uptime"] = 8,
+									["appliedamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["refreshamt"] = 0,
+								},
+							},
+							["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+							["tipo"] = 4,
+						}, -- [3]
+						{
+							["flag_original"] = 68168,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["aID"] = "36597",
+							["boss_debuff"] = true,
+							["damage_spellid"] = 72350,
+							["monster"] = true,
+							["debuff_uptime"] = 2,
+							["spellschool"] = 32,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["nome"] = "Fury of Frostmourne",
+							["last_event"] = 1702664574,
+							["damage_twin"] = "The Lich King",
+							["debuff_uptime_targets"] = {
+								["Skalesbruh"] = {
+									["uptime"] = 2,
+									["appliedamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["refreshamt"] = 0,
+								},
+							},
+							["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+							["tipo"] = 4,
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 11,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Skalesbruh"] = "Player-60-0F3969A1",
+				},
+				["raid_roster_indexed"] = {
+					"Skalesbruh", -- [1]
+				},
+				["CombatStartedAt"] = 179169.68,
+				["tempo_start"] = 1702664553,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossIcon"] = "",
+				["bossTimers"] = {
+					{
+						"bw", -- [1]
+						4.567999999999302, -- [2]
+						72262, -- [3]
+						"Quake", -- [4]
+						62, -- [5]
+						135784, -- [6]
+					}, -- [1]
+					{
+						"bw", -- [1]
+						4.567999999999302, -- [2]
+						69200, -- [3]
+						"Raging Spirit", -- [4]
+						15, -- [5]
+						132344, -- [6]
+					}, -- [2]
+					{
+						"bw", -- [1]
+						9.384000000020023, -- [2]
+						72262, -- [3]
+						"Quake", -- [4]
+						62, -- [5]
+						135784, -- [6]
+					}, -- [3]
+					{
+						"bw", -- [1]
+						9.384000000020023, -- [2]
+						69200, -- [3]
+						"Raging Spirit", -- [4]
+						15, -- [5]
+						132344, -- [6]
+					}, -- [4]
+					{
+						"bw", -- [1]
+						16.71900000001187, -- [2]
+						72350, -- [3]
+						"Last Phase", -- [4]
+						160, -- [5]
+						135305, -- [6]
+					}, -- [5]
+				},
+				["combat_counter"] = 41,
+				["playing_solo"] = true,
+				["totals"] = {
+					15911756, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					15805539, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["The Lich King"] = {
+						["Raise Dead"] = 1,
+						["Fury of Frostmourne"] = 1,
+						["Remorseless Winter"] = 2,
+						["Pain and Suffering"] = 4,
+					},
+					["Skalesbruh"] = {
+						["Red Magic Infusion"] = 1,
+						["Glide"] = 1,
+						["Disintegrate"] = 2,
+						["Azure Strike"] = 5,
+					},
+				},
+				["instance_type"] = "raid",
+				["data_fim"] = "13:25:18",
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "The Lich King",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 2.385999999998603,
+				["CombatEndedAt"] = 179172.066,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "13:22:33",
+				["end_time"] = 179124.265,
+				["combat_id"] = 11,
+				["overall_added"] = true,
+				["contra"] = "The Lich King",
+				["frags"] = {
+					["The Lich King"] = 1,
+				},
+				["is_boss"] = {
+					["diff_string"] = "25 Player (Heroic)",
+					["index"] = 1,
+					["zone"] = "Icecrown Citadel",
+					["encounter"] = "The Lich King",
+					["mapid"] = 631,
+					["try_number"] = 1,
+					["name"] = "The Lich King",
+					["diff"] = 6,
+					["ej_instance_id"] = 758,
+					["id"] = 1106,
+					["unixtime"] = 1702664553,
+					["killed"] = true,
+				},
+				["player_last_events"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					{
+						3, -- [1]
+						9.384000000020023, -- [2]
+					}, -- [2]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+						[3] = {
+						},
+					},
+					["damage"] = {
+						{
+							["Skalesbruh"] = 9593312.005688,
+						}, -- [1]
+						[3] = {
+							["Skalesbruh"] = 6212227,
+						},
+					},
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["start_time"] = 178957.203,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00652,
+							["pets"] = {
+							},
+							["classe"] = "EVOKER",
+							["total_without_pet"] = 10404954.00652,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 10404954.00652,
+							["spec"] = 1467,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-60-0F3969A1",
+							["ilvl"] = 226,
+							["damage_from"] = {
+								["Blood-Queen Lana'thel"] = true,
+							},
+							["targets"] = {
+								["Blood-Queen Lana'thel"] = 10404954,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702664325,
+							["on_hold"] = false,
+							["aID"] = "60-0F3969A1",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[362969] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Blood-Queen Lana'thel"] = 3764614,
+										},
+										["n_total"] = 3764614,
+										["n_min"] = 1010384,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 3764614,
+										["c_max"] = 0,
+										["id"] = 362969,
+										["r_dmg"] = 0,
+										["spellschool"] = 80,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 1381206,
+										["r_amt"] = 0,
+									},
+									[356995] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Blood-Queen Lana'thel"] = 6640340,
+										},
+										["n_total"] = 6640340,
+										["n_min"] = 1585490,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 6640340,
+										["c_max"] = 0,
+										["id"] = 356995,
+										["r_dmg"] = 0,
+										["spellschool"] = 80,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 1746161,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["nome"] = "Skalesbruh",
+							["custom"] = 0,
+							["last_event"] = 1702664325,
+							["damage_taken"] = 14.00652,
+							["start_time"] = 1702664320,
+							["delay"] = 0,
+							["last_dps"] = 1954716.138739858,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 14.007868,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 14.007868,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37955-00007C9851",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skalesbruh"] = true,
+							},
+							["targets"] = {
+								["Skalesbruh"] = 14,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007868,
+							["end_time"] = 1702664325,
+							["nome"] = "Blood-Queen Lana'thel",
+							["aID"] = "37955",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skalesbruh"] = 11,
+										},
+										["n_total"] = 11,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 11,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 6,
+										["r_amt"] = 0,
+									}, -- [1]
+									[70985] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skalesbruh"] = 3,
+										},
+										["n_total"] = 3,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3,
+										["c_max"] = 0,
+										["id"] = 70985,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 2,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702664324,
+							["damage_taken"] = 10404954.007868,
+							["start_time"] = 1702664322,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.005412,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.005412,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37126-00007C957E",
+							["on_hold"] = false,
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.005412,
+							["end_time"] = 1702664325,
+							["nome"] = "Sister Svalna",
+							["aID"] = "37126",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[71465] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 71465,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 0.005412,
+							["start_time"] = 1702664325,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.001746,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.001746,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-38125-0000FC957E",
+							["on_hold"] = false,
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001746,
+							["end_time"] = 1702664325,
+							["nome"] = "Ymirjar Deathbringer",
+							["aID"] = "38125",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69929] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69929,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 0.001746,
+							["start_time"] = 1702664325,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[356995] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 2,
+										["id"] = 356995,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[370898] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = 370898,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 22,
+							["classe"] = "EVOKER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[381748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 381748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225788] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[359618] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 359618,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 397734,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[73828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 73828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 5,
+							["boss_fight_component"] = true,
+							["spec"] = 1467,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["aID"] = "60-0F3969A1",
+							["nome"] = "Skalesbruh",
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-60-0F3969A1",
+							["last_event"] = 1702664325,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Sister Svalna",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37126-00007C957E",
+							["aID"] = "37126",
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Ymirjar Deathbringer",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-38125-0000FC957E",
+							["aID"] = "38125",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Skalesbruh"] = "Player-60-0F3969A1",
+				},
+				["raid_roster_indexed"] = {
+					"Skalesbruh", -- [1]
+				},
+				["CombatStartedAt"] = 178776.648,
+				["tempo_start"] = 1702664320,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossIcon"] = "",
+				["bossTimers"] = {
+					{
+						"bw", -- [1]
+						0.2039999999979045, -- [2]
+						"berserk", -- [3]
+						"Berserk", -- [4]
+						320, -- [5]
+						136224, -- [6]
+					}, -- [1]
+					{
+						"bw", -- [1]
+						0.2039999999979045, -- [2]
+						71772, -- [3]
+						"Air phase", -- [4]
+						127, -- [5]
+						136010, -- [6]
+					}, -- [2]
+					{
+						"bw", -- [1]
+						0.2039999999979045, -- [2]
+						71340, -- [3]
+						"Next Pact", -- [4]
+						16, -- [5]
+						136151, -- [6]
+					}, -- [3]
+					{
+						"bw", -- [1]
+						0.2039999999979045, -- [2]
+						71265, -- [3]
+						"Next Shadows", -- [4]
+						30, -- [5]
+						236279, -- [6]
+					}, -- [4]
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					10404968, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					10404954, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Sister Svalna"] = {
+						["Divine Surge"] = 1,
+					},
+					["Skalesbruh"] = {
+						["Azure Strike"] = 2,
+						["Disintegrate"] = 1,
+					},
+					["Ymirjar Deathbringer"] = {
+						["Spirit Stream"] = 1,
+					},
+				},
+				["instance_type"] = "raid",
+				["data_fim"] = "13:18:46",
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Queen Lana'thel",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 5.714000000007218,
+				["CombatEndedAt"] = 178732.132,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "13:18:40",
+				["end_time"] = 178731.727,
+				["combat_id"] = 9,
+				["combat_counter"] = 36,
+				["frags"] = {
+					["Blood-Queen Lana'thel"] = 1,
+				},
+				["is_boss"] = {
+					["diff_string"] = "25 Player (Heroic)",
+					["index"] = 1,
+					["zone"] = "Icecrown Citadel",
+					["encounter"] = "Queen Lana'thel",
+					["mapid"] = 631,
+					["try_number"] = 1,
+					["name"] = "Queen Lana'thel",
+					["diff"] = 6,
+					["ej_instance_id"] = 758,
+					["id"] = 1103,
+					["unixtime"] = 1702664320,
+					["killed"] = true,
+				},
+				["contra"] = "Blood-Queen Lana'thel",
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 178726.404,
+				["TimeData"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Skalesbruh"] = 10404954.00652,
+						}, -- [1]
+					},
+				},
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001424,
+							["pets"] = {
+							},
+							["classe"] = "EVOKER",
+							["total_without_pet"] = 11678607.001424,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 11678607.001424,
+							["spec"] = 1467,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-60-0F3969A1",
+							["ilvl"] = 226,
+							["damage_from"] = {
+								["Deathbringer Saurfang"] = true,
+								["Frost Freeze Trap"] = true,
+							},
+							["targets"] = {
+								["Deathbringer Saurfang"] = 6410249,
+								["Festergut"] = 5268358,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702664001,
+							["on_hold"] = false,
+							["aID"] = "60-0F3969A1",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[356995] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deathbringer Saurfang"] = 1069929,
+											["Festergut"] = 5268358,
+										},
+										["n_total"] = 6338287,
+										["n_min"] = 1069929,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 6338287,
+										["c_max"] = 0,
+										["id"] = 356995,
+										["r_dmg"] = 0,
+										["spellschool"] = 80,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 1843865,
+										["r_amt"] = 0,
+									},
+									[377420] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deathbringer Saurfang"] = 639,
+										},
+										["n_total"] = 639,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 639,
+										["c_max"] = 0,
+										["id"] = 377420,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 213,
+										["r_amt"] = 0,
+									},
+									[362969] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Deathbringer Saurfang"] = 5339681,
+										},
+										["n_total"] = 2751128,
+										["n_min"] = 1362640,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 5339681,
+										["c_max"] = 2588553,
+										["id"] = 362969,
+										["r_dmg"] = 0,
+										["spellschool"] = 80,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 2588553,
+										["successful_casted"] = 0,
+										["c_total"] = 2588553,
+										["n_amt"] = 2,
+										["n_max"] = 1388488,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["nome"] = "Skalesbruh",
+							["custom"] = 0,
+							["last_event"] = 1702664001,
+							["damage_taken"] = 231.001424,
+							["start_time"] = 1702663902,
+							["delay"] = 0,
+							["last_dps"] = 1369603.260398903,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 30935.007292,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 30935.007292,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37544-0001FC95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Summoner"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Templar"] = 5724,
+								["Kor'kron Necrolyte"] = 14159,
+								["Skybreaker Summoner"] = 5982,
+								["Skybreaker Hierophant"] = 5070,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007292,
+							["end_time"] = 1702663977,
+							["nome"] = "Spire Gargoyle",
+							["aID"] = "37544",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[70189] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Templar"] = 5724,
+											["Kor'kron Necrolyte"] = 14159,
+											["Skybreaker Summoner"] = 5982,
+											["Skybreaker Hierophant"] = 5070,
+										},
+										["n_total"] = 30935,
+										["n_min"] = 60,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 30935,
+										["c_max"] = 0,
+										["id"] = 70189,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 12,
+										["c_total"] = 0,
+										["n_amt"] = 22,
+										["n_max"] = 2550,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663923,
+							["damage_taken"] = 1867.007292,
+							["start_time"] = 1702663952,
+							["delay"] = 1702663923,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 30644.00589,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 30644.00589,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37028-00007C95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Vindicator"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Vindicator"] = 21234,
+								["Frenzied Abomination"] = 9410,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.00589,
+							["end_time"] = 1702663977,
+							["nome"] = "Kor'kron Stalker",
+							["aID"] = "37028",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 9410,
+											["Skybreaker Vindicator"] = 21234,
+										},
+										["n_total"] = 21818,
+										["n_min"] = 1232,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 4,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 6827,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 1999,
+										["successful_casted"] = 0,
+										["c_total"] = 8826,
+										["n_amt"] = 9,
+										["n_max"] = 3835,
+										["total"] = 30644,
+									}, -- [1]
+									[69920] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69920,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 4,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663923,
+							["damage_taken"] = 3852.00589,
+							["start_time"] = 1702663953,
+							["delay"] = 1702663923,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 20066.008138,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 20066.008138,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37029-00007C95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Vindicator"] = true,
+								["Skybreaker Assassin"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Vindicator"] = 16179,
+								["Frenzied Abomination"] = 3887,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.008138,
+							["end_time"] = 1702663977,
+							["nome"] = "Kor'kron Reaver",
+							["aID"] = "37029",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 16179,
+											["Frenzied Abomination"] = 3887,
+										},
+										["n_total"] = 20066,
+										["n_min"] = 1888,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 20066,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["n_max"] = 3481,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69916] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69916,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 4,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69912] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69912,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663923,
+							["damage_taken"] = 7466.008138,
+							["start_time"] = 1702663953,
+							["delay"] = 1702663923,
+							["last_dps"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 15109.00541,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 15109.00541,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37032-00007C95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Vindicator"] = true,
+							},
+							["targets"] = {
+								["Spire Frostwyrm"] = 10906,
+								["Skybreaker Sorcerer"] = 796,
+								["Skybreaker Hierophant"] = 855,
+								["Skybreaker Vindicator"] = 2552,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.00541,
+							["end_time"] = 1702663977,
+							["nome"] = "Kor'kron Defender",
+							["aID"] = "37032",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Frostwyrm"] = 10906,
+											["Skybreaker Vindicator"] = 2552,
+										},
+										["n_total"] = 13458,
+										["n_min"] = 2350,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 13458,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 5,
+										["n_max"] = 3093,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69903] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69903,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69901] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69901,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69965] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 855,
+											["Skybreaker Sorcerer"] = 796,
+										},
+										["n_total"] = 1651,
+										["n_min"] = 796,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1651,
+										["c_max"] = 0,
+										["id"] = 69965,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 855,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663923,
+							["damage_taken"] = 3852.00541,
+							["start_time"] = 1702663953,
+							["delay"] = 1702663923,
+							["last_dps"] = 0,
+						}, -- [5]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 11556.00278,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 11556.00278,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37003-00007C95F8",
+							["damage_from"] = {
+								["Kor'kron Stalker"] = true,
+								["Kor'kron Defender"] = true,
+								["Kor'kron Reaver"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Stalker"] = 3852,
+								["Kor'kron Defender"] = 3852,
+								["Kor'kron Reaver"] = 3852,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37003",
+							["end_time"] = 1702663906,
+							["totalabsorbed"] = 0.00278,
+							["nome"] = "Skybreaker Vindicator",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Reaver"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69930] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Stalker"] = 3852,
+											["Kor'kron Defender"] = 3852,
+											["Kor'kron Reaver"] = 3852,
+										},
+										["n_total"] = 11556,
+										["n_min"] = 642,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 11556,
+										["c_max"] = 0,
+										["id"] = 69930,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 18,
+										["n_max"] = 642,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663906,
+							["damage_taken"] = 39965.00278,
+							["start_time"] = 1702663901,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 7710.004103,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 7710.004103,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37230-00007C95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Kor'kron Defender"] = true,
+								["Kor'kron Necrolyte"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Oracle"] = 1285,
+								["Kor'kron Necrolyte"] = 3855,
+								["Kor'kron Invoker"] = 2570,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.004103,
+							["end_time"] = 1702663977,
+							["nome"] = "Spire Frostwyrm",
+							["aID"] = "37230",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[70362] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Oracle"] = 1285,
+											["Kor'kron Necrolyte"] = 3855,
+											["Kor'kron Invoker"] = 2570,
+										},
+										["n_total"] = 7710,
+										["n_min"] = 1285,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 7710,
+										["c_max"] = 0,
+										["id"] = 70362,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 1285,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663923,
+							["damage_taken"] = 13975.004103,
+							["start_time"] = 1702663956,
+							["delay"] = 1702663923,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 6694.001774,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 6694.001774,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+							["damage_from"] = {
+								["Spire Gargoyle"] = true,
+								["Kor'kron Invoker"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Necrolyte"] = 2007,
+								["Spire Gargoyle"] = 1867,
+								["Kor'kron Vanquisher"] = 2820,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37148",
+							["end_time"] = 1702663906,
+							["totalabsorbed"] = 0.001774,
+							["nome"] = "Skybreaker Summoner",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Vanquisher"] = 2820,
+											["Spire Gargoyle"] = 1867,
+										},
+										["n_total"] = 3540,
+										["n_min"] = 720,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 4687,
+										["c_max"] = 1147,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 1147,
+										["successful_casted"] = 0,
+										["c_total"] = 1147,
+										["n_amt"] = 4,
+										["n_max"] = 1079,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69969] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Necrolyte"] = 2007,
+										},
+										["n_total"] = 2007,
+										["n_min"] = 2007,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2007,
+										["c_max"] = 0,
+										["id"] = 69969,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 2007,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663906,
+							["damage_taken"] = 7046.001774,
+							["start_time"] = 1702663899,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 5165.007452,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 5165.007452,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37149-00007C95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Protector"] = true,
+								["Spire Gargoyle"] = true,
+								["Skybreaker Summoner"] = true,
+								["Spire Frostwyrm"] = true,
+							},
+							["targets"] = {
+								["Spire Frostwyrm"] = 3069,
+								["Skybreaker Luminary"] = 2096,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007452,
+							["end_time"] = 1702663977,
+							["nome"] = "Kor'kron Necrolyte",
+							["aID"] = "37149",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Frostwyrm"] = 3069,
+											["Skybreaker Luminary"] = 2096,
+										},
+										["n_total"] = 5165,
+										["n_min"] = 627,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 5165,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 1048,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69972] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69972,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69973] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69973,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69969] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69969,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663923,
+							["damage_taken"] = 20948.007452,
+							["start_time"] = 1702663954,
+							["delay"] = 1702663923,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 3614.00381,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 3614.00381,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37017-00007C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Kor'kron Reaver"] = 3614,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37017",
+							["end_time"] = 1702663906,
+							["totalabsorbed"] = 0.00381,
+							["nome"] = "Skybreaker Assassin",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Reaver"] = 3562,
+										},
+										["n_total"] = 3562,
+										["n_min"] = 985,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["MISS"] = 2,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 2577,
+										["total"] = 3562,
+									}, -- [1]
+									[69920] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Reaver"] = 52,
+										},
+										["n_total"] = 52,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 52,
+										["c_max"] = 0,
+										["id"] = 69920,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 34,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663906,
+							["damage_taken"] = 0.00381,
+							["start_time"] = 1702663901,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [10]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 3396.002103,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 3396.002103,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-36998-00007C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Kor'kron Oracle"] = 738,
+								["Kor'kron Necrolyte"] = 927,
+								["Kor'kron Invoker"] = 981,
+								["Kor'kron Templar"] = 750,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "36998",
+							["end_time"] = 1702663906,
+							["totalabsorbed"] = 0.002103,
+							["nome"] = "Skybreaker Protector",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69965] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Oracle"] = 738,
+											["Kor'kron Necrolyte"] = 927,
+											["Kor'kron Invoker"] = 981,
+											["Kor'kron Templar"] = 750,
+										},
+										["n_total"] = 3396,
+										["n_min"] = 738,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 3396,
+										["c_max"] = 0,
+										["id"] = 69965,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 981,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663903,
+							["damage_taken"] = 0.002103,
+							["start_time"] = 1702663903,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [11]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 2949.007089,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 2949.007089,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37146-0000FC95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Hierophant"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Hierophant"] = 2949,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007089,
+							["end_time"] = 1702663906,
+							["nome"] = "Kor'kron Sniper",
+							["aID"] = "37146",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69975] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 864,
+										},
+										["n_total"] = 864,
+										["n_min"] = 864,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 864,
+										["c_max"] = 0,
+										["id"] = 69975,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 864,
+										["r_amt"] = 0,
+									},
+									[69989] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 1319,
+										},
+										["n_total"] = 1319,
+										["n_min"] = 1319,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1319,
+										["c_max"] = 0,
+										["id"] = 69989,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 1319,
+										["r_amt"] = 0,
+									},
+									[69974] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 766,
+										},
+										["n_total"] = 766,
+										["n_min"] = 766,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 766,
+										["c_max"] = 0,
+										["id"] = 69974,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 766,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663906,
+							["damage_taken"] = 1118.007089,
+							["start_time"] = 1702663901,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [12]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 2129.006697,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 2129.006697,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37026-00007C95F8",
+							["damage_from"] = {
+								["Kor'kron Defender"] = true,
+								["Kor'kron Templar"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Primalist"] = 2129,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37026",
+							["end_time"] = 1702663906,
+							["totalabsorbed"] = 0.006697,
+							["nome"] = "Skybreaker Sorcerer",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69869] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Primalist"] = 2129,
+										},
+										["n_total"] = 2129,
+										["n_min"] = 80,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2129,
+										["c_max"] = 0,
+										["id"] = 69869,
+										["r_dmg"] = 0,
+										["spellschool"] = 20,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 1034,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663906,
+							["damage_taken"] = 1942.006697,
+							["start_time"] = 1702663902,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [13]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 1313.008048,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 1313.008048,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37034-00007C95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Spire Gargoyle"] = true,
+								["Skybreaker Protector"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Luminary"] = 167,
+								["Skybreaker Sorcerer"] = 1146,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.008048,
+							["end_time"] = 1702663906,
+							["nome"] = "Kor'kron Templar",
+							["aID"] = "37034",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69963] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69963,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 5,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69967] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Luminary"] = 167,
+											["Skybreaker Sorcerer"] = 1146,
+										},
+										["n_total"] = 1313,
+										["n_min"] = 167,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1313,
+										["c_max"] = 0,
+										["id"] = 69967,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 1146,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663906,
+							["damage_taken"] = 6474.008048,
+							["start_time"] = 1702663904,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [14]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 1118.00861,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 1118.00861,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37027-00007C95F8",
+							["damage_from"] = {
+								["Kor'kron Sniper"] = true,
+								["Spire Gargoyle"] = true,
+								["Kor'kron Defender"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Sniper"] = 1118,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37027",
+							["end_time"] = 1702663906,
+							["totalabsorbed"] = 0.00861,
+							["nome"] = "Skybreaker Hierophant",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69968] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Sniper"] = 1118,
+										},
+										["n_total"] = 1118,
+										["n_min"] = 1118,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1118,
+										["c_max"] = 0,
+										["id"] = 69968,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 1118,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663906,
+							["damage_taken"] = 8874.00861,
+							["start_time"] = 1702663906,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [15]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 1064.001544,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 1064.001544,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37033-0000FC95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Spire Frostwyrm"] = true,
+								["Skybreaker Protector"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Summoner"] = 1064,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001544,
+							["end_time"] = 1702663977,
+							["nome"] = "Kor'kron Invoker",
+							["aID"] = "37033",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69869] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Summoner"] = 1064,
+										},
+										["n_total"] = 1064,
+										["n_min"] = 80,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1064,
+										["c_max"] = 0,
+										["id"] = 69869,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 4,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 904,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663923,
+							["damage_taken"] = 3551.001544,
+							["start_time"] = 1702663957,
+							["delay"] = 1702663923,
+							["last_dps"] = 0,
+						}, -- [16]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 227.003605,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 227.003605,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Vehicle-0-3882-631-14405-37813-00007C957E",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skalesbruh"] = true,
+							},
+							["targets"] = {
+								["Skalesbruh"] = 227,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.003605,
+							["end_time"] = 1702663906,
+							["nome"] = "Deathbringer Saurfang",
+							["aID"] = "",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skalesbruh"] = 32,
+										},
+										["n_total"] = 32,
+										["n_min"] = 4,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 32,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 4,
+										["r_amt"] = 0,
+									}, -- [1]
+									[101406] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skalesbruh"] = 195,
+										},
+										["n_total"] = 195,
+										["n_min"] = 21,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 195,
+										["c_max"] = 0,
+										["id"] = 101406,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 7,
+										["c_total"] = 0,
+										["n_amt"] = 8,
+										["n_max"] = 28,
+										["r_amt"] = 0,
+									},
+									[72737] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 72737,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663906,
+							["damage_taken"] = 6410249.003605,
+							["start_time"] = 1702663899,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [17]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.008512,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.008512,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37546-00007C95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Kor'kron Stalker"] = true,
+								["Kor'kron Reaver"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.008512,
+							["end_time"] = 1702663906,
+							["nome"] = "Frenzied Abomination",
+							["aID"] = "37546",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Vanquisher"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[70191] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 70191,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663904,
+							["damage_taken"] = 13297.008512,
+							["start_time"] = 1702663906,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [18]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.007123,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.007123,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37016-00007C95F8",
+							["damage_from"] = {
+								["Kor'kron Templar"] = true,
+								["Kor'kron Necrolyte"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37016",
+							["end_time"] = 1702663906,
+							["totalabsorbed"] = 0.007123,
+							["nome"] = "Skybreaker Luminary",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 2263.007123,
+							["start_time"] = 1702663906,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [19]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.005196,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.005196,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37545-0001FC95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.005196,
+							["end_time"] = 1702663906,
+							["nome"] = "Spire Minion",
+							["aID"] = "37545",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[70396] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 70396,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 0.005196,
+							["start_time"] = 1702663906,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [20]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.003762,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.003762,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37031-00007C95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Protector"] = true,
+								["Spire Frostwyrm"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.003762,
+							["end_time"] = 1702663906,
+							["nome"] = "Kor'kron Oracle",
+							["aID"] = "37031",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69958] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69958,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69926] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69926,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69970] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69970,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 4,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 2023.003762,
+							["start_time"] = 1702663906,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [21]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.002836,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.002836,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37144-00007C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37144",
+							["end_time"] = 1702663906,
+							["totalabsorbed"] = 0.002836,
+							["nome"] = "Skybreaker Marksman",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69975] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 69975,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663901,
+							["damage_taken"] = 0.002836,
+							["start_time"] = 1702663906,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [22]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.002262,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.002262,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37035-00007C95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Summoner"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.002262,
+							["end_time"] = 1702663906,
+							["nome"] = "Kor'kron Vanquisher",
+							["aID"] = "37035",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 0,
+											["Skybreaker Protector"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69930] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69930,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69934] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69934,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69927] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69927,
+										["r_dmg"] = 0,
+										["IMMUNE"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663923,
+							["damage_taken"] = 2820.002262,
+							["start_time"] = 1702663906,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [23]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.001705,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.001705,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37030-0000FC95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Sorcerer"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001705,
+							["end_time"] = 1702663906,
+							["nome"] = "Kor'kron Primalist",
+							["aID"] = "37030",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69882] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69882,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69898] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69898,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69899] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69899,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 2129.001705,
+							["start_time"] = 1702663906,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [24]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.001004,
+							["total_without_pet"] = 20352.001004,
+							["total"] = 20352.001004,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37027-00007C95F8",
+							["totalabsorb"] = 0.001004,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Skybreaker Vindicator"] = 7230,
+								["Skybreaker Sorcerer"] = 1323,
+								["Skybreaker Summoner"] = 1323,
+								["Skybreaker Hierophant"] = 10476,
+							},
+							["totalover_without_pet"] = 0.001004,
+							["healing_taken"] = 10476.001004,
+							["start_time"] = 1702663899,
+							["healing_from"] = {
+								["Skybreaker Hierophant"] = true,
+							},
+							["end_time"] = 1702663906,
+							["last_event"] = 1702663906,
+							["nome"] = "Skybreaker Hierophant",
+							["spells"] = {
+								["_ActorTable"] = {
+									[69882] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 441,
+										["targets"] = {
+											["Skybreaker Summoner"] = 1323,
+											["Skybreaker Sorcerer"] = 1323,
+										},
+										["n_total"] = 2646,
+										["n_min"] = 441,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 2646,
+										["spellschool"] = 8,
+										["id"] = 69882,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 6,
+										["absorbed"] = 0,
+									},
+									[69898] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 803,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 2618,
+										},
+										["n_total"] = 2618,
+										["n_min"] = 526,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 2618,
+										["spellschool"] = 8,
+										["id"] = 69898,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["absorbed"] = 0,
+									},
+									[69899] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 7858,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 7858,
+											["Skybreaker Vindicator"] = 7230,
+										},
+										["n_total"] = 15088,
+										["n_min"] = 7230,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 15088,
+										["spellschool"] = 8,
+										["id"] = 69899,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37027",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.001004,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.006562,
+							["total_without_pet"] = 0.006562,
+							["total"] = 0.006562,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+							["totalabsorb"] = 0.006562,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.006562,
+							["healing_taken"] = 4819.006562000001,
+							["start_time"] = 1702663906,
+							["healing_from"] = {
+								["Skybreaker Hierophant"] = true,
+								["Skybreaker Luminary"] = true,
+							},
+							["end_time"] = 1702663906,
+							["last_event"] = 0,
+							["nome"] = "Skybreaker Summoner",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37148",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.006562,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.001806,
+							["total_without_pet"] = 0.001806,
+							["monster"] = true,
+							["total"] = 0.001806,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[71139] = 8146,
+								[69925] = 377,
+								[69963] = 17196,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37034-00007C95F8",
+							["totalabsorb"] = 0.001806,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.001806,
+							["healing_taken"] = 0.001806,
+							["last_event"] = 1702663906,
+							["aID"] = "37034",
+							["end_time"] = 1702663906,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Templar",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663906,
+							["heal_enemy_amt"] = 25719,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.001806,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.002222,
+							["total_without_pet"] = 0.002222,
+							["monster"] = true,
+							["total"] = 0.002222,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37149-00007C95F8",
+							["totalabsorb"] = 0.002222,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.002222,
+							["healing_taken"] = 0.002222,
+							["last_event"] = 0,
+							["aID"] = "37149",
+							["end_time"] = 1702663906,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Necrolyte",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663906,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.002222,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.001595,
+							["total_without_pet"] = 0.001595,
+							["monster"] = true,
+							["total"] = 0.001595,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[69882] = 2069,
+								[69898] = 1377,
+								[69899] = 22208,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37030-00007C95F9",
+							["totalabsorb"] = 0.001595,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.001595,
+							["healing_taken"] = 0.001595,
+							["last_event"] = 1702663906,
+							["aID"] = "37030",
+							["end_time"] = 1702663906,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Primalist",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663906,
+							["heal_enemy_amt"] = 25654,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.001595,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.005969,
+							["total_without_pet"] = 0.005969,
+							["monster"] = true,
+							["total"] = 0.005969,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[69958] = 8405,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37031-00007C95F9",
+							["totalabsorb"] = 0.005969,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.005969,
+							["healing_taken"] = 0.005969,
+							["last_event"] = 1702663905,
+							["aID"] = "37031",
+							["end_time"] = 1702663906,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Oracle",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663906,
+							["heal_enemy_amt"] = 8405,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.005969,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [6]
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.00673,
+							["total_without_pet"] = 0.00673,
+							["total"] = 0.00673,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37026-00007C95F8",
+							["totalabsorb"] = 0.00673,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00673,
+							["healing_taken"] = 1323.00673,
+							["start_time"] = 1702663906,
+							["healing_from"] = {
+								["Skybreaker Hierophant"] = true,
+							},
+							["end_time"] = 1702663906,
+							["last_event"] = 0,
+							["nome"] = "Skybreaker Sorcerer",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37026",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.00673,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.00379,
+							["total_without_pet"] = 0.00379,
+							["monster"] = true,
+							["total"] = 0.00379,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37029-0000FC95F9",
+							["totalabsorb"] = 0.00379,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00379,
+							["healing_taken"] = 0.00379,
+							["last_event"] = 0,
+							["aID"] = "37029",
+							["end_time"] = 1702663906,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Reaver",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663906,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.00379,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [8]
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.002009,
+							["total_without_pet"] = 3844.002009,
+							["total"] = 3844.002009,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37016-00007C95F8",
+							["totalabsorb"] = 0.002009,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Skybreaker Luminary"] = 348,
+								["Skybreaker Summoner"] = 3496,
+							},
+							["totalover_without_pet"] = 0.002009,
+							["healing_taken"] = 348.002009,
+							["start_time"] = 1702663901,
+							["healing_from"] = {
+								["Skybreaker Luminary"] = true,
+							},
+							["end_time"] = 1702663906,
+							["last_event"] = 1702663906,
+							["nome"] = "Skybreaker Luminary",
+							["spells"] = {
+								["_ActorTable"] = {
+									[69925] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 181,
+										["targets"] = {
+											["Skybreaker Luminary"] = 348,
+										},
+										["n_total"] = 348,
+										["n_min"] = 167,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 348,
+										["spellschool"] = 8,
+										["id"] = 69925,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+									[69958] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3496,
+										["targets"] = {
+											["Skybreaker Summoner"] = 3496,
+										},
+										["n_total"] = 3496,
+										["n_min"] = 3496,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 3496,
+										["spellschool"] = 8,
+										["id"] = 69958,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37016",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.002009,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [9]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.001926,
+							["total_without_pet"] = 0.001926,
+							["monster"] = true,
+							["total"] = 0.001926,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37146-00007C95F9",
+							["totalabsorb"] = 0.001926,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.001926,
+							["healing_taken"] = 0.001926,
+							["last_event"] = 0,
+							["aID"] = "37146",
+							["end_time"] = 1702663906,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Sniper",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663906,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.001926,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.008838,
+							["total_without_pet"] = 0.008838,
+							["monster"] = true,
+							["total"] = 0.008838,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37032-00007C95F9",
+							["totalabsorb"] = 0.008838,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.008838,
+							["healing_taken"] = 0.008838,
+							["last_event"] = 0,
+							["aID"] = "37032",
+							["end_time"] = 1702663906,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Defender",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663906,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.008838,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [11]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.001691,
+							["total_without_pet"] = 0.001691,
+							["monster"] = true,
+							["total"] = 0.001691,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[69925] = 272,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37035-00007C95F9",
+							["totalabsorb"] = 0.001691,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.001691,
+							["healing_taken"] = 0.001691,
+							["last_event"] = 1702663902,
+							["aID"] = "37035",
+							["end_time"] = 1702663906,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Vanquisher",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663906,
+							["heal_enemy_amt"] = 272,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.001691,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [12]
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.002182,
+							["total_without_pet"] = 0.002182,
+							["total"] = 0.002182,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37003-00007C95F8",
+							["totalabsorb"] = 0.002182,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.002182,
+							["healing_taken"] = 7230.002182,
+							["start_time"] = 1702663906,
+							["healing_from"] = {
+								["Skybreaker Hierophant"] = true,
+							},
+							["end_time"] = 1702663906,
+							["last_event"] = 0,
+							["nome"] = "Skybreaker Vindicator",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37003",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.002182,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [13]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.004245,
+							["total_without_pet"] = 0.004245,
+							["monster"] = true,
+							["total"] = 0.004245,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37033-00007C95F9",
+							["totalabsorb"] = 0.004245,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.004245,
+							["healing_taken"] = 0.004245,
+							["last_event"] = 0,
+							["aID"] = "37033",
+							["end_time"] = 1702663906,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Invoker",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663906,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.004245,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [14]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[356995] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 356995,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[377420] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = 377420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[370898] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 370898,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 21,
+							["classe"] = "EVOKER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[73828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 73828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225788] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 397734,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 4,
+							["boss_fight_component"] = true,
+							["spec"] = 1467,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["aID"] = "60-0F3969A1",
+							["nome"] = "Skalesbruh",
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-60-0F3969A1",
+							["last_event"] = 1702663906,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Templar",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37034-00007C95F8",
+							["aID"] = "37034",
+						}, -- [2]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37144",
+							["nome"] = "Skybreaker Marksman",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37144-00007C95F8",
+							["last_event"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37027",
+							["nome"] = "Skybreaker Hierophant",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37027-00007C95F8",
+							["last_event"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Reaver",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37029-00007C95F9",
+							["aID"] = "37029",
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Stalker",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37028-00007C95F9",
+							["aID"] = "37028",
+						}, -- [6]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37003",
+							["nome"] = "Skybreaker Vindicator",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37003-00007C95F8",
+							["last_event"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Necrolyte",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37149-00007C95F9",
+							["aID"] = "37149",
+						}, -- [8]
+						{
+							["flag_original"] = 68168,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Deathbringer Saurfang",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Vehicle-0-3882-631-14405-37813-00007C957E",
+							["aID"] = "",
+						}, -- [9]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Invoker",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37033-0000FC95F9",
+							["aID"] = "37033",
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Oracle",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37031-00007C95F9",
+							["aID"] = "37031",
+						}, -- [11]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37148",
+							["nome"] = "Skybreaker Summoner",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+							["last_event"] = 0,
+						}, -- [12]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Frenzied Abomination",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37546-00007C95F8",
+							["aID"] = "37546",
+						}, -- [13]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37017",
+							["nome"] = "Skybreaker Assassin",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37017-00007C95F8",
+							["last_event"] = 0,
+						}, -- [14]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Spire Frostwyrm",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37230-00007C95F8",
+							["aID"] = "37230",
+						}, -- [15]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Vanquisher",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37035-00007C95F8",
+							["aID"] = "37035",
+						}, -- [16]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Primalist",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37030-0000FC95F9",
+							["aID"] = "37030",
+						}, -- [17]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Sniper",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37146-0000FC95F9",
+							["aID"] = "37146",
+						}, -- [18]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Spire Gargoyle",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37544-0001FC95F8",
+							["aID"] = "37544",
+						}, -- [19]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37026",
+							["nome"] = "Skybreaker Sorcerer",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37026-00007C95F8",
+							["last_event"] = 0,
+						}, -- [20]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37004",
+							["nome"] = "Skybreaker Dreadblade",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37004-00007C95F8",
+							["last_event"] = 0,
+						}, -- [21]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "36998",
+							["nome"] = "Skybreaker Protector",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-36998-0000FC95F8",
+							["last_event"] = 0,
+						}, -- [22]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Defender",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37032-0000FC95F9",
+							["aID"] = "37032",
+						}, -- [23]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37016",
+							["nome"] = "Skybreaker Luminary",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37016-00007C95F8",
+							["last_event"] = 0,
+						}, -- [24]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Spire Minion",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37545-0001FC95F8",
+							["aID"] = "37545",
+						}, -- [25]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Skalesbruh"] = "Player-60-0F3969A1",
+				},
+				["raid_roster_indexed"] = {
+					"Skalesbruh", -- [1]
+				},
+				["CombatStartedAt"] = 178439.562,
+				["tempo_start"] = 1702663899,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossIcon"] = "",
+				["bossTimers"] = {
+					{
+						"bw", -- [1]
+						8.527000000001863, -- [2]
+						"berserk", -- [3]
+						"Berserk", -- [4]
+						300, -- [5]
+						136224, -- [6]
+					}, -- [1]
+					{
+						"bw", -- [1]
+						8.527000000001863, -- [2]
+						69279, -- [3]
+						"Gas Spore", -- [4]
+						20, -- [5]
+						136134, -- [6]
+					}, -- [2]
+					{
+						"bw", -- [1]
+						8.527000000001863, -- [2]
+						69165, -- [3]
+						"Inhale (1)", -- [4]
+						33.5, -- [5]
+						342913, -- [6]
+					}, -- [3]
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					11822300, -- [1]
+					24196, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					11678607, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Kor'kron Sniper"] = {
+						["Explosive Shot"] = 1,
+						["Shoot"] = 2,
+						["Arcane Shot"] = 1,
+					},
+					["Kor'kron Necrolyte"] = {
+						["Incinerate"] = 2,
+						["Curse of Doom"] = 2,
+						["Shadow Bolt"] = 3,
+					},
+					["Skybreaker Marksman"] = {
+						["Explosive Shot"] = 1,
+						["Shoot"] = 1,
+					},
+					["Kor'kron Stalker"] = {
+						["Sinister Strike"] = 4,
+					},
+					["Kor'kron Templar"] = {
+						["Smite"] = 3,
+						["Greater Heal"] = 5,
+					},
+					["Skybreaker Assassin"] = {
+						["Sinister Strike"] = 2,
+					},
+					["Skybreaker Vindicator"] = {
+						["Consecration"] = 1,
+					},
+					["Skybreaker Sorcerer"] = {
+						["Frostfire Bolt"] = 2,
+					},
+					["Frenzied Abomination"] = {
+						["Cleave"] = 2,
+					},
+					["Spire Minion"] = {
+						["Ghoul Slash"] = 1,
+					},
+					["Skalesbruh"] = {
+						["Azure Strike"] = 3,
+						["Disintegrate"] = 1,
+					},
+					["Skybreaker Hierophant"] = {
+						["Healing Touch"] = 2,
+						["Rejuvenation"] = 1,
+						["Wrath"] = 2,
+					},
+					["Kor'kron Reaver"] = {
+						["Icy Touch"] = 4,
+						["Plague Strike"] = 3,
+					},
+					["Kor'kron Vanquisher"] = {
+						["Consecration"] = 1,
+						["Avenger's Shield"] = 1,
+						["Holy Wrath"] = 1,
+					},
+					["Skybreaker Protector"] = {
+						["Spell Reflect"] = 1,
+						["Thunderclap"] = 1,
+						["Shield Slam"] = 1,
+					},
+					["Deathbringer Saurfang"] = {
+						["Saurfang's Revenge"] = 7,
+						["Frenzy"] = 1,
+					},
+					["Skybreaker Luminary"] = {
+						["Healing Wave"] = 1,
+					},
+					["Skybreaker Summoner"] = {
+						["Curse of Doom"] = 4,
+					},
+					["Skybreaker Dreadblade"] = {
+						["Icy Touch"] = 1,
+						["Plague Strike"] = 1,
+					},
+					["Spire Gargoyle"] = {
+						["Poison Spit"] = 12,
+					},
+					["Kor'kron Primalist"] = {
+						["Healing Touch"] = 3,
+						["Rejuvenation"] = 1,
+						["Regrowth"] = 1,
+					},
+					["Kor'kron Oracle"] = {
+						["Lightning Bolt"] = 4,
+						["Earth Shield"] = 1,
+						["Healing Wave"] = 3,
+					},
+					["Kor'kron Defender"] = {
+						["Shield Slam"] = 1,
+						["Thunderclap"] = 1,
+						["Spell Reflect"] = 1,
+					},
+					["Kor'kron Invoker"] = {
+						["Frostfire Bolt"] = 4,
+					},
+					["Spire Frostwyrm"] = {
+						["Blizzard"] = 1,
+					},
+				},
+				["instance_type"] = "raid",
+				["data_fim"] = "13:11:47",
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Deathbringer Saurfang",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 3.519000000000233,
+				["CombatEndedAt"] = 178410.091,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "13:11:40",
+				["end_time"] = 178313.63,
+				["combat_id"] = 4,
+				["resincked"] = true,
+				["combat_counter"] = 13,
+				["frags"] = {
+					["Deathbringer Saurfang"] = 1,
+				},
+				["is_boss"] = {
+					["diff_string"] = "25 Player (Heroic)",
+					["index"] = 1,
+					["zone"] = "Icecrown Citadel",
+					["encounter"] = "Deathbringer Saurfang",
+					["mapid"] = 631,
+					["try_number"] = 1,
+					["name"] = "Deathbringer Saurfang",
+					["diff"] = 6,
+					["ej_instance_id"] = 758,
+					["id"] = 1096,
+					["unixtime"] = 1702663900,
+					["killed"] = true,
+				},
+				["contra"] = "Deathbringer Saurfang",
+				["player_last_events"] = {
+					["Skalesbruh"] = {
+						{
+							true, -- [1]
+							70461, -- [2]
+							1, -- [3]
+							1702663932.987, -- [4]
+							71447, -- [5]
+							"Frost Freeze Trap", -- [6]
+							nil, -- [7]
+							16, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [1]
+						{
+							true, -- [1]
+							70461, -- [2]
+							1, -- [3]
+							1702663935.524, -- [4]
+							71447, -- [5]
+							"Frost Freeze Trap", -- [6]
+							nil, -- [7]
+							16, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [2]
+						{
+							true, -- [1]
+							70461, -- [2]
+							1, -- [3]
+							1702663935.775, -- [4]
+							71446, -- [5]
+							"Frost Freeze Trap", -- [6]
+							nil, -- [7]
+							16, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [3]
+						{
+							true, -- [1]
+							70461, -- [2]
+							1, -- [3]
+							1702663936.026, -- [4]
+							71445, -- [5]
+							"Frost Freeze Trap", -- [6]
+							nil, -- [7]
+							16, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 5,
+					},
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 178305.103,
+				["TimeData"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Skalesbruh"] = 6410249.001424,
+						}, -- [1]
+					},
+				},
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.003494,
+							["pets"] = {
+								"Alliance Gunship Cannon <Skalesbruh>", -- [1]
+							},
+							["classe"] = "EVOKER",
+							["total_without_pet"] = 91166.003494,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 91166.003494,
+							["spec"] = 1467,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Player-60-0F3969A1",
+							["ilvl"] = 226,
+							["damage_from"] = {
+								["Deathbringer Saurfang"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Reaver"] = 91166,
+								["Orgrim's Hammer"] = 0,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1702663807,
+							["on_hold"] = false,
+							["aID"] = "60-0F3969A1",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[362969] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Reaver"] = 91166,
+										},
+										["n_total"] = 45583,
+										["n_min"] = 45583,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 91166,
+										["c_max"] = 45583,
+										["id"] = 362969,
+										["r_dmg"] = 0,
+										["spellschool"] = 80,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 45583,
+										["successful_casted"] = 0,
+										["c_total"] = 45583,
+										["n_amt"] = 1,
+										["n_max"] = 45583,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["nome"] = "Skalesbruh",
+							["custom"] = 0,
+							["last_event"] = 1702663802,
+							["damage_taken"] = 4.003494,
+							["start_time"] = 1702663796,
+							["delay"] = 0,
+							["last_dps"] = 7486.737578552159,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 260091.002654,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 260091.002654,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37028-00007C95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Vindicator"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Vindicator"] = 174443,
+								["Frenzied Abomination"] = 85648,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.002654,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Stalker",
+							["aID"] = "37028",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 172641,
+											["Frenzied Abomination"] = 85648,
+										},
+										["n_total"] = 225514,
+										["DODGE"] = 1,
+										["n_min"] = 975,
+										["g_dmg"] = 0,
+										["counter"] = 146,
+										["MISS"] = 31,
+										["total"] = 258289,
+										["c_max"] = 5801,
+										["r_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 7,
+										["c_min"] = 3046,
+										["successful_casted"] = 0,
+										["c_total"] = 32775,
+										["n_amt"] = 100,
+										["n_max"] = 3990,
+										["a_amt"] = 0,
+									}, -- [1]
+									[69920] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 1802,
+											["Frenzied Abomination"] = 0,
+										},
+										["n_total"] = 1802,
+										["n_min"] = 169,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1802,
+										["c_max"] = 0,
+										["id"] = 69920,
+										["r_dmg"] = 0,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 5,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 1144,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663899,
+							["damage_taken"] = 39369.002654,
+							["start_time"] = 1702663796,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 205119.002417,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 205119.002417,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37029-0000FC95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Vindicator"] = true,
+								["Skalesbruh"] = true,
+								["Skybreaker Assassin"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Vindicator"] = 141364,
+								["Frenzied Abomination"] = 63755,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.002417,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Reaver",
+							["aID"] = "37029",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 127922,
+											["Frenzied Abomination"] = 63755,
+											["Skybreaker Assassin"] = 0,
+										},
+										["n_total"] = 174687,
+										["DODGE"] = 2,
+										["n_min"] = 1772,
+										["g_dmg"] = 0,
+										["counter"] = 79,
+										["MISS"] = 4,
+										["total"] = 191677,
+										["c_max"] = 7277,
+										["r_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 3414,
+										["successful_casted"] = 0,
+										["c_total"] = 16990,
+										["n_amt"] = 69,
+										["n_max"] = 3648,
+										["a_amt"] = 0,
+									}, -- [1]
+									[69912] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 5559,
+											["Skybreaker Assassin"] = 0,
+										},
+										["n_total"] = 5559,
+										["n_min"] = 1546,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 5559,
+										["c_max"] = 0,
+										["id"] = 69912,
+										["r_dmg"] = 0,
+										["MISS"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 6,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 2460,
+										["r_amt"] = 0,
+									},
+									[69916] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 219,
+										},
+										["n_total"] = 219,
+										["n_min"] = 219,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 219,
+										["c_max"] = 0,
+										["id"] = 69916,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 6,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 219,
+										["r_amt"] = 0,
+									},
+									[69911] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Frenzied Abomination"] = 0,
+											["Skybreaker Vindicator"] = 5283,
+										},
+										["n_total"] = 5283,
+										["g_dmg"] = 0,
+										["n_min"] = 380,
+										["MISS"] = 1,
+										["counter"] = 16,
+										["DODGE"] = 1,
+										["total"] = 5283,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 69911,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 13,
+										["n_max"] = 439,
+										["a_amt"] = 0,
+									},
+									[69917] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 2381,
+										},
+										["n_total"] = 2381,
+										["n_min"] = 385,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 2381,
+										["c_max"] = 0,
+										["id"] = 69917,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 415,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663899,
+							["damage_taken"] = 163858.002417,
+							["start_time"] = 1702663796,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 184871.001543,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 184871.001543,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37544-0001FC95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Summoner"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Templar"] = 48505,
+								["Kor'kron Necrolyte"] = 49208,
+								["Skybreaker Summoner"] = 54122,
+								["Kor'kron Oracle"] = 3126,
+								["Skybreaker Hierophant"] = 29910,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001543,
+							["end_time"] = 1702663899,
+							["nome"] = "Spire Gargoyle",
+							["aID"] = "37544",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[70189] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Templar"] = 48505,
+											["Kor'kron Necrolyte"] = 49208,
+											["Skybreaker Summoner"] = 54122,
+											["Kor'kron Oracle"] = 3126,
+											["Skybreaker Hierophant"] = 29910,
+										},
+										["n_total"] = 184871,
+										["n_min"] = 61,
+										["g_dmg"] = 0,
+										["counter"] = 126,
+										["total"] = 184871,
+										["c_max"] = 0,
+										["id"] = 70189,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 20,
+										["c_total"] = 0,
+										["n_amt"] = 126,
+										["n_max"] = 2590,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663898,
+							["damage_taken"] = 10021.001543,
+							["start_time"] = 1702663829,
+							["delay"] = 1702663835,
+							["last_dps"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 153685.007661,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 153685.007661,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37230-00007C95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Kor'kron Oracle"] = true,
+								["Kor'kron Necrolyte"] = true,
+								["Kor'kron Defender"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Sniper"] = 37098,
+								["Kor'kron Necrolyte"] = 14789,
+								["Kor'kron Templar"] = 3885,
+								["Kor'kron Oracle"] = 20107,
+								["Kor'kron Invoker"] = 15496,
+								["Kor'kron Primalist"] = 12243,
+								["Kor'kron Defender"] = 50067,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007661,
+							["end_time"] = 1702663899,
+							["nome"] = "Spire Frostwyrm",
+							["aID"] = "37230",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Defender"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["total"] = 0,
+									}, -- [1]
+									[70362] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Sniper"] = 10280,
+											["Kor'kron Necrolyte"] = 8995,
+											["Kor'kron Oracle"] = 14357,
+											["Kor'kron Defender"] = 10280,
+											["Kor'kron Primalist"] = 6425,
+											["Kor'kron Invoker"] = 9725,
+										},
+										["n_total"] = 60062,
+										["n_min"] = 222,
+										["g_dmg"] = 0,
+										["counter"] = 48,
+										["total"] = 60062,
+										["c_max"] = 0,
+										["id"] = 70362,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 48,
+										["n_max"] = 1285,
+										["r_amt"] = 0,
+									},
+									[70361] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Sniper"] = 24847,
+											["Kor'kron Defender"] = 33947,
+										},
+										["n_total"] = 58794,
+										["n_min"] = 5378,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 58794,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 70361,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 7306,
+										["r_amt"] = 0,
+									},
+									[70116] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Sniper"] = 1971,
+											["Kor'kron Necrolyte"] = 5794,
+											["Kor'kron Templar"] = 3885,
+											["Kor'kron Oracle"] = 5750,
+											["Kor'kron Primalist"] = 5818,
+											["Kor'kron Defender"] = 5840,
+											["Kor'kron Invoker"] = 5771,
+										},
+										["n_total"] = 34829,
+										["n_min"] = 1891,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 34829,
+										["c_max"] = 0,
+										["id"] = 70116,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 18,
+										["n_max"] = 1971,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663897,
+							["damage_taken"] = 132587.007661,
+							["start_time"] = 1702663801,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 146053.005368,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 146053.005368,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37032-0000FC95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Vindicator"] = true,
+								["Spire Frostwyrm"] = true,
+							},
+							["targets"] = {
+								["Spire Frostwyrm"] = 110482,
+								["Skybreaker Sorcerer"] = 8187,
+								["Skybreaker Hierophant"] = 7693,
+								["Skybreaker Vindicator"] = 19691,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.005368,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Defender",
+							["aID"] = "37032",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Frostwyrm"] = 110482,
+											["Skybreaker Vindicator"] = 17831,
+										},
+										["n_total"] = 112390,
+										["n_min"] = 2063,
+										["g_dmg"] = 0,
+										["counter"] = 51,
+										["total"] = 128313,
+										["c_max"] = 5414,
+										["MISS"] = 5,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 5183,
+										["successful_casted"] = 0,
+										["c_total"] = 15923,
+										["n_amt"] = 43,
+										["n_max"] = 3197,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69901] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69901,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69965] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 846,
+											["Skybreaker Sorcerer"] = 8187,
+											["Skybreaker Hierophant"] = 7693,
+										},
+										["n_total"] = 16726,
+										["n_min"] = 760,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 16726,
+										["c_max"] = 0,
+										["id"] = 69965,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 19,
+										["n_max"] = 994,
+										["r_amt"] = 0,
+									},
+									[69902] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 1014,
+										},
+										["n_total"] = 1014,
+										["n_min"] = 1014,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1014,
+										["c_max"] = 0,
+										["id"] = 69902,
+										["r_dmg"] = 0,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 1014,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663898,
+							["damage_taken"] = 88791.005368,
+							["start_time"] = 1702663798,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [6]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 115813.00252,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 115813.00252,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37003-00007C95F8",
+							["damage_from"] = {
+								["Kor'kron Sniper"] = true,
+								["Kor'kron Reaver"] = true,
+								["Kor'kron Templar"] = true,
+								["Kor'kron Stalker"] = true,
+								["Kor'kron Primalist"] = true,
+								["Kor'kron Defender"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Stalker"] = 39369,
+								["Kor'kron Defender"] = 38724,
+								["Kor'kron Reaver"] = 37720,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37003",
+							["end_time"] = 1702663899,
+							["totalabsorbed"] = 0.00252,
+							["nome"] = "Skybreaker Vindicator",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Reaver"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["MISS"] = 1,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["total"] = 0,
+									}, -- [1]
+									[69927] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Stalker"] = 7223,
+											["Kor'kron Defender"] = 7360,
+											["Kor'kron Reaver"] = 5435,
+										},
+										["n_total"] = 20018,
+										["n_min"] = 844,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 20018,
+										["c_max"] = 0,
+										["id"] = 69927,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 18,
+										["n_max"] = 1384,
+										["r_amt"] = 0,
+									},
+									[69934] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Stalker"] = 4540,
+											["Kor'kron Defender"] = 4961,
+											["Kor'kron Reaver"] = 4679,
+										},
+										["n_total"] = 14180,
+										["n_min"] = 628,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 14180,
+										["c_max"] = 0,
+										["id"] = 69934,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 18,
+										["n_max"] = 958,
+										["r_amt"] = 0,
+									},
+									[69930] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Stalker"] = 27606,
+											["Kor'kron Defender"] = 26403,
+											["Kor'kron Reaver"] = 27606,
+										},
+										["n_total"] = 81615,
+										["n_min"] = 82,
+										["g_dmg"] = 0,
+										["counter"] = 128,
+										["total"] = 81615,
+										["c_max"] = 0,
+										["id"] = 69930,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 128,
+										["n_max"] = 642,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663897,
+							["damage_taken"] = 340625.00252,
+							["start_time"] = 1702663796,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 65381.006648,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 65381.006648,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+							["damage_from"] = {
+								["Kor'kron Templar"] = true,
+								["Kor'kron Necrolyte"] = true,
+								["Spire Gargoyle"] = true,
+								["Kor'kron Oracle"] = true,
+								["Kor'kron Invoker"] = true,
+								["Kor'kron Vanquisher"] = true,
+							},
+							["targets"] = {
+								["Spire Minion"] = 110,
+								["Kor'kron Necrolyte"] = 12042,
+								["Spire Gargoyle"] = 10021,
+								["Kor'kron Templar"] = 12042,
+								["Kor'kron Vanquisher"] = 17117,
+								["Kor'kron Invoker"] = 14049,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37148",
+							["end_time"] = 1702663899,
+							["totalabsorbed"] = 0.006648,
+							["nome"] = "Skybreaker Summoner",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Gargoyle"] = 10021,
+											["Kor'kron Vanquisher"] = 16619,
+										},
+										["n_total"] = 26640,
+										["n_min"] = 557,
+										["g_dmg"] = 0,
+										["counter"] = 40,
+										["DODGE"] = 1,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 3,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 36,
+										["n_max"] = 1125,
+										["total"] = 26640,
+									}, -- [1]
+									[69969] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Minion"] = 110,
+											["Kor'kron Necrolyte"] = 12042,
+											["Kor'kron Invoker"] = 14049,
+											["Kor'kron Vanquisher"] = 498,
+											["Kor'kron Templar"] = 12042,
+										},
+										["n_total"] = 38741,
+										["n_min"] = 110,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 38741,
+										["c_max"] = 0,
+										["id"] = 69969,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 22,
+										["n_max"] = 2007,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663899,
+							["damage_taken"] = 101857.006648,
+							["start_time"] = 1702663796,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 45739.001767,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 45739.001767,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37146-0000FC95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Spire Frostwyrm"] = true,
+								["Skybreaker Hierophant"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Hierophant"] = 42859,
+								["Skybreaker Vindicator"] = 2880,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001767,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Sniper",
+							["aID"] = "37146",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69975] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 25997,
+											["Skybreaker Vindicator"] = 1528,
+										},
+										["n_total"] = 27525,
+										["n_min"] = 732,
+										["g_dmg"] = 0,
+										["counter"] = 35,
+										["total"] = 27525,
+										["c_max"] = 0,
+										["id"] = 69975,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 35,
+										["n_max"] = 875,
+										["r_amt"] = 0,
+									},
+									[69974] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 10048,
+										},
+										["n_total"] = 10048,
+										["n_min"] = 766,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 10048,
+										["c_max"] = 0,
+										["id"] = 69974,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["c_total"] = 0,
+										["n_amt"] = 11,
+										["n_max"] = 1023,
+										["r_amt"] = 0,
+									},
+									[69989] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 6814,
+											["Skybreaker Vindicator"] = 1352,
+										},
+										["n_total"] = 8166,
+										["n_min"] = 1301,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 8166,
+										["c_max"] = 0,
+										["id"] = 69989,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 1409,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663896,
+							["damage_taken"] = 39428.001767,
+							["start_time"] = 1702663798,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [9]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 42910.001016,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 42910.001016,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37149-00007C95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Kor'kron Necrolyte"] = true,
+								["Spire Gargoyle"] = true,
+								["Skybreaker Luminary"] = true,
+								["Spire Frostwyrm"] = true,
+								["Skybreaker Protector"] = true,
+								["Skybreaker Summoner"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Necrolyte"] = 2163,
+								["Skybreaker Summoner"] = 6966,
+								["Skybreaker Protector"] = 7360,
+								["Skybreaker Luminary"] = 5385,
+								["Spire Frostwyrm"] = 21036,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001016,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Necrolyte",
+							["aID"] = "37149",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Frostwyrm"] = 21036,
+											["Skybreaker Luminary"] = 5385,
+											["Skybreaker Protector"] = 7360,
+										},
+										["n_total"] = 33781,
+										["n_min"] = 576,
+										["g_dmg"] = 0,
+										["counter"] = 41,
+										["total"] = 33781,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 41,
+										["n_max"] = 1113,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69972] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Protector"] = 0,
+											["Kor'kron Necrolyte"] = 1039,
+											["Skybreaker Summoner"] = 1256,
+										},
+										["n_total"] = 2295,
+										["n_min"] = 1039,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2295,
+										["c_max"] = 0,
+										["id"] = 69972,
+										["r_dmg"] = 0,
+										["REFLECT"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 6,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 1256,
+										["r_amt"] = 0,
+									},
+									[69973] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Protector"] = 0,
+											["Kor'kron Necrolyte"] = 1124,
+											["Skybreaker Summoner"] = 1124,
+										},
+										["n_total"] = 2248,
+										["n_min"] = 1124,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2248,
+										["c_max"] = 0,
+										["id"] = 69973,
+										["r_dmg"] = 0,
+										["REFLECT"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["c_total"] = 0,
+										["n_amt"] = 2,
+										["n_max"] = 1124,
+										["r_amt"] = 0,
+									},
+									[1604] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Frostwyrm"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["IMMUNE"] = 3,
+										["id"] = 1604,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69969] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Summoner"] = 4586,
+										},
+										["n_total"] = 4586,
+										["n_min"] = 572,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 4586,
+										["c_max"] = 0,
+										["id"] = 69969,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 2007,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663898,
+							["damage_taken"] = 89133.001016,
+							["start_time"] = 1702663798,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [10]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 34972.002152,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 34972.002152,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37017-00007C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Kor'kron Reaver"] = 34972,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37017",
+							["end_time"] = 1702663899,
+							["totalabsorbed"] = 0.002152,
+							["nome"] = "Skybreaker Assassin",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Reaver"] = 29581,
+										},
+										["n_total"] = 29581,
+										["n_min"] = 979,
+										["g_dmg"] = 0,
+										["counter"] = 43,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 20,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 3,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 20,
+										["n_max"] = 2341,
+										["total"] = 29581,
+									}, -- [1]
+									[69920] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Reaver"] = 5391,
+										},
+										["n_total"] = 5391,
+										["n_min"] = 26,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 5391,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 69920,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 6,
+										["n_max"] = 1368,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663899,
+							["damage_taken"] = 0.002152,
+							["start_time"] = 1702663796,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [11]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 32049.002324,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 32049.002324,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-36998-0000FC95F8",
+							["damage_from"] = {
+								["Kor'kron Necrolyte"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Templar"] = 8289,
+								["Kor'kron Necrolyte"] = 7744,
+								["Kor'kron Oracle"] = 7479,
+								["Kor'kron Invoker"] = 7450,
+								["Kor'kron Vanquisher"] = 231,
+								["Spire Minion"] = 856,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "36998",
+							["end_time"] = 1702663899,
+							["totalabsorbed"] = 0.002324,
+							["nome"] = "Skybreaker Protector",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Minion"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69965] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Minion"] = 856,
+											["Kor'kron Necrolyte"] = 7744,
+											["Kor'kron Invoker"] = 7450,
+											["Kor'kron Oracle"] = 7479,
+											["Kor'kron Vanquisher"] = 231,
+											["Frenzied Abomination"] = 0,
+											["Kor'kron Templar"] = 8289,
+										},
+										["n_total"] = 32049,
+										["n_min"] = 231,
+										["g_dmg"] = 0,
+										["counter"] = 45,
+										["total"] = 32049,
+										["c_max"] = 0,
+										["IMMUNE"] = 7,
+										["id"] = 69965,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 38,
+										["n_max"] = 995,
+										["r_amt"] = 0,
+									},
+									[69902] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Vanquisher"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["a_amt"] = 0,
+										["id"] = 69902,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663898,
+							["damage_taken"] = 7360.002324,
+							["start_time"] = 1702663807,
+							["delay"] = 1702663846,
+							["last_dps"] = 0,
+						}, -- [12]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.001235,
+							["spellicon"] = 135826,
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 28531.001235,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 28531.001235,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "",
+							["on_hold"] = false,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Kor'kron Rocketeer"] = 14792,
+								["Kor'kron Axethrower"] = 6332,
+								["Kor'kron Battle-Mage"] = 7407,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["nome"] = "[*] Explosion",
+							["end_time"] = 1702663807,
+							["aID"] = "",
+							["pets"] = {
+							},
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[70444] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Rocketeer"] = 14792,
+											["Kor'kron Axethrower"] = 6332,
+											["Kor'kron Battle-Mage"] = 7407,
+										},
+										["n_total"] = 28531,
+										["n_min"] = 485,
+										["g_dmg"] = 0,
+										["counter"] = 44,
+										["total"] = 28531,
+										["c_max"] = 0,
+										["id"] = 70444,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 44,
+										["n_max"] = 780,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 1702663807,
+							["damage_taken"] = 0.001235,
+							["start_time"] = 1702663797,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [13]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 25084.00229,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 25084.00229,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37026-00007C95F8",
+							["damage_from"] = {
+								["Kor'kron Defender"] = true,
+								["Kor'kron Templar"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Primalist"] = 25084,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37026",
+							["end_time"] = 1702663899,
+							["totalabsorbed"] = 0.00229,
+							["nome"] = "Skybreaker Sorcerer",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69869] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Primalist"] = 25084,
+										},
+										["n_total"] = 25084,
+										["n_min"] = 80,
+										["g_dmg"] = 0,
+										["counter"] = 54,
+										["total"] = 25084,
+										["c_max"] = 0,
+										["id"] = 69869,
+										["r_dmg"] = 0,
+										["spellschool"] = 20,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 54,
+										["n_max"] = 1038,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663899,
+							["damage_taken"] = 11512.00229,
+							["start_time"] = 1702663797,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [14]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 22591.001943,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 22591.001943,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37035-00007C95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Luminary"] = true,
+								["Skybreaker Summoner"] = true,
+								["Skybreaker Protector"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Summoner"] = 21702,
+								["Skybreaker Luminary"] = 889,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001943,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Vanquisher",
+							["aID"] = "37035",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["DODGE"] = 3,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Protector"] = 0,
+											["Frenzied Abomination"] = 0,
+											["Skybreaker Summoner"] = 0,
+										},
+										["n_total"] = 0,
+										["g_dmg"] = 0,
+										["n_min"] = 0,
+										["MISS"] = 1,
+										["counter"] = 7,
+										["a_amt"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["c_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 3,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["n_max"] = 0,
+									}, -- [1]
+									[69930] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Summoner"] = 16979,
+											["Skybreaker Luminary"] = 889,
+										},
+										["n_total"] = 17868,
+										["n_min"] = 175,
+										["g_dmg"] = 0,
+										["counter"] = 33,
+										["total"] = 17868,
+										["c_max"] = 0,
+										["id"] = 69930,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 33,
+										["n_max"] = 642,
+										["r_amt"] = 0,
+									},
+									[69934] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Summoner"] = 2513,
+										},
+										["n_total"] = 2513,
+										["n_min"] = 100,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2513,
+										["c_max"] = 0,
+										["id"] = 69934,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 987,
+										["r_amt"] = 0,
+									},
+									[69927] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Minion"] = 0,
+											["Frenzied Abomination"] = 0,
+											["Skybreaker Summoner"] = 2210,
+										},
+										["n_total"] = 2210,
+										["n_min"] = 178,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["DODGE"] = 2,
+										["r_amt"] = 0,
+										["spellschool"] = 2,
+										["IMMUNE"] = 4,
+										["id"] = 69927,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 1040,
+										["total"] = 2210,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663898,
+							["damage_taken"] = 18097.001943,
+							["start_time"] = 1702663809,
+							["delay"] = 1702663834,
+							["last_dps"] = 0,
+						}, -- [15]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 14378.007368,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 14378.007368,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37033-0000FC95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Protector"] = true,
+								["Skybreaker Summoner"] = true,
+								["Spire Frostwyrm"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Summoner"] = 14378,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007368,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Invoker",
+							["aID"] = "37033",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69869] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Summoner"] = 14378,
+										},
+										["n_total"] = 14378,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 36,
+										["total"] = 14378,
+										["c_max"] = 0,
+										["id"] = 69869,
+										["r_dmg"] = 0,
+										["spellschool"] = 20,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 6,
+										["c_total"] = 0,
+										["n_amt"] = 36,
+										["n_max"] = 1052,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663898,
+							["damage_taken"] = 36995.007368,
+							["start_time"] = 1702663796,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [16]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 10150.003023,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 10150.003023,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37034-00007C95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Kor'kron Templar"] = true,
+								["Spire Gargoyle"] = true,
+								["Skybreaker Protector"] = true,
+								["Spire Frostwyrm"] = true,
+								["Skybreaker Luminary"] = true,
+								["Skybreaker Summoner"] = true,
+								["Skybreaker Hierophant"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Templar"] = 1194,
+								["Skybreaker Hierophant"] = 3360,
+								["Skybreaker Vindicator"] = 1220,
+								["Skybreaker Sorcerer"] = 3325,
+								["Skybreaker Summoner"] = 1051,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.003023,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Templar",
+							["aID"] = "37034",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69963] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69963,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 10,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69967] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Templar"] = 1194,
+											["Skybreaker Hierophant"] = 3360,
+											["Skybreaker Vindicator"] = 1220,
+											["Skybreaker Sorcerer"] = 3325,
+											["Skybreaker Protector"] = 0,
+											["Skybreaker Summoner"] = 1051,
+										},
+										["n_total"] = 10150,
+										["n_min"] = 1051,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 10150,
+										["c_max"] = 0,
+										["id"] = 69967,
+										["r_dmg"] = 0,
+										["REFLECT"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 9,
+										["n_max"] = 1220,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663899,
+							["damage_taken"] = 78326.003023,
+							["start_time"] = 1702663839,
+							["delay"] = 1702663851,
+							["last_dps"] = 0,
+						}, -- [17]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 7551.007901,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 7551.007901,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37030-0000FC95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Spire Frostwyrm"] = true,
+								["Skybreaker Sorcerer"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Hierophant"] = 6524,
+								["Skybreaker Vindicator"] = 1027,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.007901,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Primalist",
+							["aID"] = "37030",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69899] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69899,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69968] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 6524,
+											["Skybreaker Vindicator"] = 1027,
+										},
+										["n_total"] = 7551,
+										["n_min"] = 1012,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 7551,
+										["c_max"] = 0,
+										["id"] = 69968,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["c_total"] = 0,
+										["n_amt"] = 7,
+										["n_max"] = 1194,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663881,
+							["damage_taken"] = 37327.007901,
+							["start_time"] = 1702663832,
+							["delay"] = 1702663881,
+							["last_dps"] = 0,
+						}, -- [18]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 5155.005057,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 5155.005057,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37031-00007C95F9",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Protector"] = true,
+								["Spire Gargoyle"] = true,
+								["Spire Frostwyrm"] = true,
+							},
+							["targets"] = {
+								["Skybreaker Luminary"] = 448,
+								["Skybreaker Summoner"] = 3638,
+								["Spire Frostwyrm"] = 1069,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.005057,
+							["end_time"] = 1702663899,
+							["nome"] = "Kor'kron Oracle",
+							["aID"] = "37031",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Frostwyrm"] = 1069,
+										},
+										["n_total"] = 1069,
+										["n_min"] = 1069,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1069,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 1069,
+										["r_amt"] = 0,
+									}, -- [1]
+									[69958] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69958,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 5,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69926] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69926,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[69970] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Luminary"] = 448,
+											["Skybreaker Summoner"] = 3638,
+										},
+										["n_total"] = 4086,
+										["n_min"] = 448,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 4086,
+										["c_max"] = 0,
+										["id"] = 69970,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 5,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 1292,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663882,
+							["damage_taken"] = 30712.005057,
+							["start_time"] = 1702663865,
+							["delay"] = 1702663882,
+							["last_dps"] = 0,
+						}, -- [19]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 4596.007894,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 4596.007894,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37027-0000FC95F8",
+							["damage_from"] = {
+								["Kor'kron Sniper"] = true,
+								["Spire Gargoyle"] = true,
+								["Kor'kron Templar"] = true,
+								["Kor'kron Defender"] = true,
+								["Kor'kron Primalist"] = true,
+							},
+							["targets"] = {
+								["Kor'kron Templar"] = 2266,
+								["Kor'kron Sniper"] = 2330,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37027",
+							["end_time"] = 1702663899,
+							["totalabsorbed"] = 0.007894,
+							["nome"] = "Skybreaker Hierophant",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69968] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Kor'kron Templar"] = 2266,
+											["Kor'kron Sniper"] = 2330,
+										},
+										["n_total"] = 4596,
+										["n_min"] = 1032,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 4596,
+										["c_max"] = 0,
+										["id"] = 69968,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 4,
+										["n_max"] = 1234,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663888,
+							["damage_taken"] = 90346.00789400001,
+							["start_time"] = 1702663862,
+							["delay"] = 1702663888,
+							["last_dps"] = 0,
+						}, -- [20]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.008931,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.008931,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37004-00007C95F8",
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37004",
+							["end_time"] = 1702663807,
+							["totalabsorbed"] = 0.008931,
+							["nome"] = "Skybreaker Dreadblade",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Gargoyle"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["total"] = 0,
+									}, -- [1]
+									[69911] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Spire Gargoyle"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 32,
+										["MISS"] = 2,
+										["id"] = 69911,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["total"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663892,
+							["damage_taken"] = 0.008931,
+							["start_time"] = 1702663807,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [21]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.008752,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.008752,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-36982-0000FC957E",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["[*] Explosion"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.008752,
+							["end_time"] = 1702663807,
+							["nome"] = "Kor'kron Rocketeer",
+							["aID"] = "36982",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69679] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69679,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 14792.008752,
+							["start_time"] = 1702663807,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [22]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.006531,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.006531,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37117-00007C9675",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["[*] Explosion"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.006531,
+							["end_time"] = 1702663807,
+							["nome"] = "Kor'kron Battle-Mage",
+							["aID"] = "37117",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69705] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69705,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 7407.006531,
+							["start_time"] = 1702663807,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [23]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.005287,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.005287,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-36968-00037C957E",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["[*] Explosion"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.005287,
+							["end_time"] = 1702663807,
+							["nome"] = "Kor'kron Axethrower",
+							["aID"] = "36968",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[70161] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skalesbruh"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 70161,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663806,
+							["damage_taken"] = 6332.005287,
+							["start_time"] = 1702663807,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [24]
+						{
+							["flag_original"] = 4369,
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["total_without_pet"] = 0.00427,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.00427,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Vehicle-0-3882-631-14405-36838-00007C957E",
+							["aID"] = "",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Orgrim's Hammer"] = 0,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.00427,
+							["end_time"] = 1702663807,
+							["nome"] = "Alliance Gunship Cannon <Skalesbruh>",
+							["ownerName"] = "Skalesbruh",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69400] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Orgrim's Hammer"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69400,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663796,
+							["damage_taken"] = 0.00427,
+							["start_time"] = 1702663806,
+							["delay"] = 1702663796,
+							["last_dps"] = 0,
+						}, -- [25]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.004062,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.004062,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Vehicle-0-3882-631-14405-36838-00007C957E",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Orgrim's Hammer"] = 0,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "",
+							["end_time"] = 1702663807,
+							["totalabsorbed"] = 0.004062,
+							["nome"] = "Alliance Gunship Cannon",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[69400] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Orgrim's Hammer"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 69400,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 1,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663796,
+							["damage_taken"] = 0.004062,
+							["start_time"] = 1702663806,
+							["delay"] = 1702663796,
+							["last_dps"] = 0,
+						}, -- [26]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.002264,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.002264,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37545-0001FC95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Skybreaker Protector"] = true,
+								["Skybreaker Summoner"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.002264,
+							["end_time"] = 1702663807,
+							["nome"] = "Spire Minion",
+							["aID"] = "37545",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Protector"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 5,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["total"] = 0,
+									}, -- [1]
+									[70396] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Protector"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 70396,
+										["r_dmg"] = 0,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663895,
+							["damage_taken"] = 966.002264,
+							["start_time"] = 1702663807,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [27]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.001742,
+							["last_dps_realtime"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001742,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37215-00007C957E",
+							["damage_from"] = {
+								["Alliance Gunship Cannon"] = true,
+								["Alliance Gunship Cannon <Skalesbruh>"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["aID"] = "37215",
+							["end_time"] = 1702663807,
+							["totalabsorbed"] = 0.001742,
+							["nome"] = "Orgrim's Hammer",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 0.001742,
+							["start_time"] = 1702663807,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [28]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["total_without_pet"] = 0.001063,
+							["last_dps_realtime"] = 0,
+							["monster"] = true,
+							["total"] = 0.001063,
+							["friendlyfire"] = {
+							},
+							["total_extra"] = 0,
+							["serial"] = "Creature-0-3882-631-14405-37546-00007C95F8",
+							["on_hold"] = false,
+							["damage_from"] = {
+								["Kor'kron Stalker"] = true,
+								["Kor'kron Reaver"] = true,
+							},
+							["targets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["totalabsorbed"] = 0.001063,
+							["end_time"] = 1702663807,
+							["nome"] = "Frenzied Abomination",
+							["aID"] = "37546",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Protector"] = 0,
+											["Skybreaker Hierophant"] = 0,
+											["Kor'kron Vanquisher"] = 0,
+										},
+										["n_total"] = 0,
+										["DODGE"] = 3,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["MISS"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["a_amt"] = 0,
+									}, -- [1]
+									[70191] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+											["Skybreaker Protector"] = 0,
+											["Kor'kron Stalker"] = 0,
+											["Kor'kron Vanquisher"] = 0,
+											["Kor'kron Reaver"] = 0,
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 0,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 70191,
+										["r_dmg"] = 0,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["PARRY"] = 3,
+										["c_min"] = 0,
+										["successful_casted"] = 4,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+									[70371] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
+										["b_dmg"] = 0,
+										["targets"] = {
+										},
+										["n_total"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 70371,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["c_total"] = 0,
+										["n_amt"] = 0,
+										["n_max"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1702663896,
+							["damage_taken"] = 149403.001063,
+							["start_time"] = 1702663807,
+							["delay"] = 0,
+							["last_dps"] = 0,
+						}, -- [29]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.003414,
+							["total_without_pet"] = 0.003414,
+							["monster"] = true,
+							["total"] = 0.003414,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[69925] = 645,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37149-00007C95F8",
+							["totalabsorb"] = 0.003414,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.003414,
+							["healing_taken"] = 0.003414,
+							["last_event"] = 1702663805,
+							["aID"] = "37149",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Necrolyte",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 645,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.003414,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.007929,
+							["total_without_pet"] = 0.007929,
+							["monster"] = true,
+							["total"] = 0.007929,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[69963] = 33177,
+								[71139] = 17116,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37034-00007C95F8",
+							["totalabsorb"] = 0.007929,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.007929,
+							["healing_taken"] = 0.007929,
+							["last_event"] = 1702663806,
+							["aID"] = "37034",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Templar",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 50293,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.007929,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.002859,
+							["total_without_pet"] = 0.002859,
+							["monster"] = true,
+							["total"] = 0.002859,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37146-00007C95F9",
+							["totalabsorb"] = 0.002859,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.002859,
+							["healing_taken"] = 0.002859,
+							["last_event"] = 0,
+							["aID"] = "37146",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Sniper",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.002859,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.003082,
+							["total_without_pet"] = 0.003082,
+							["monster"] = true,
+							["total"] = 0.003082,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37029-00007C95F9",
+							["totalabsorb"] = 0.003082,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.003082,
+							["healing_taken"] = 0.003082,
+							["last_event"] = 0,
+							["aID"] = "37029",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Reaver",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.003082,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.006128,
+							["total_without_pet"] = 0.006128,
+							["monster"] = true,
+							["total"] = 0.006128,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37028-00007C95F9",
+							["totalabsorb"] = 0.006128,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.006128,
+							["healing_taken"] = 0.006128,
+							["last_event"] = 0,
+							["aID"] = "37028",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Stalker",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.006128,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.002886,
+							["total_without_pet"] = 0.002886,
+							["monster"] = true,
+							["total"] = 0.002886,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[69925] = 170,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37032-00007C95F9",
+							["totalabsorb"] = 0.002886,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.002886,
+							["healing_taken"] = 0.002886,
+							["last_event"] = 1702663796,
+							["aID"] = "37032",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Defender",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 170,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.002886,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [6]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.008285,
+							["total_without_pet"] = 0.008285,
+							["monster"] = true,
+							["total"] = 0.008285,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[69925] = 709,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37035-00007C95F9",
+							["totalabsorb"] = 0.008285,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.008285,
+							["healing_taken"] = 0.008285,
+							["last_event"] = 1702663804,
+							["aID"] = "37035",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Vanquisher",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 709,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.008285,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [7]
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.004432,
+							["total_without_pet"] = 31001.004432,
+							["total"] = 31001.004432,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37027-0000FC95F8",
+							["totalabsorb"] = 0.004432,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Skybreaker Vindicator"] = 14572,
+								["Skybreaker Sorcerer"] = 4283,
+								["Skybreaker Summoner"] = 10029,
+								["Skybreaker Hierophant"] = 2117,
+							},
+							["totalover_without_pet"] = 0.004432,
+							["healing_taken"] = 2117.004432,
+							["start_time"] = 1702663796,
+							["healing_from"] = {
+								["Skybreaker Hierophant"] = true,
+							},
+							["end_time"] = 1702663807,
+							["last_event"] = 1702663807,
+							["nome"] = "Skybreaker Hierophant",
+							["spells"] = {
+								["_ActorTable"] = {
+									[69882] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1235,
+										["targets"] = {
+											["Skybreaker Hierophant"] = 2117,
+											["Skybreaker Sorcerer"] = 1764,
+										},
+										["n_total"] = 3881,
+										["n_min"] = 441,
+										["counter"] = 7,
+										["overheal"] = 0,
+										["total"] = 3881,
+										["spellschool"] = 8,
+										["id"] = 69882,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 7,
+										["absorbed"] = 0,
+									},
+									[69898] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 813,
+										["targets"] = {
+											["Skybreaker Summoner"] = 2493,
+											["Skybreaker Sorcerer"] = 2519,
+										},
+										["n_total"] = 5012,
+										["n_min"] = 523,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 5012,
+										["spellschool"] = 8,
+										["id"] = 69898,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 8,
+										["absorbed"] = 0,
+									},
+									[69899] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 7608,
+										["targets"] = {
+											["Skybreaker Vindicator"] = 14572,
+											["Skybreaker Summoner"] = 7536,
+										},
+										["n_total"] = 22108,
+										["n_min"] = 6964,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 22108,
+										["spellschool"] = 8,
+										["id"] = 69899,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37027",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.004432,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [8]
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.007317,
+							["total_without_pet"] = 0.007317,
+							["total"] = 0.007317,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37026-00007C95F8",
+							["totalabsorb"] = 0.007317,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.007317,
+							["healing_taken"] = 4283.007317,
+							["start_time"] = 1702663807,
+							["healing_from"] = {
+								["Skybreaker Hierophant"] = true,
+							},
+							["end_time"] = 1702663807,
+							["last_event"] = 0,
+							["nome"] = "Skybreaker Sorcerer",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37026",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.007317,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [9]
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.006349,
+							["total_without_pet"] = 659.006349,
+							["total"] = 659.006349,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+							["totalabsorb"] = 0.006349,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Skybreaker Summoner"] = 659,
+							},
+							["totalover_without_pet"] = 0.006349,
+							["healing_taken"] = 17443.006349,
+							["start_time"] = 1702663799,
+							["healing_from"] = {
+								["Skybreaker Luminary"] = true,
+								["Skybreaker Summoner"] = true,
+								["Skybreaker Hierophant"] = true,
+							},
+							["end_time"] = 1702663807,
+							["last_event"] = 1702663806,
+							["nome"] = "Skybreaker Summoner",
+							["spells"] = {
+								["_ActorTable"] = {
+									[69925] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 270,
+										["targets"] = {
+											["Skybreaker Summoner"] = 659,
+										},
+										["n_total"] = 659,
+										["n_min"] = 178,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 659,
+										["spellschool"] = 8,
+										["id"] = 69925,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37148",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.006349,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.001804,
+							["total_without_pet"] = 0.001804,
+							["monster"] = true,
+							["total"] = 0.001804,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[69882] = 3087,
+								[69898] = 3418,
+								[69899] = 22628,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37030-0000FC95F9",
+							["totalabsorb"] = 0.001804,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.001804,
+							["healing_taken"] = 0.001804,
+							["last_event"] = 1702663807,
+							["aID"] = "37030",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Primalist",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 29133,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.001804,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [11]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.008626,
+							["total_without_pet"] = 0.008626,
+							["monster"] = true,
+							["total"] = 0.008626,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+								[69958] = 12674,
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37031-00007C95F9",
+							["totalabsorb"] = 0.008626,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.008626,
+							["healing_taken"] = 0.008626,
+							["last_event"] = 1702663806,
+							["aID"] = "37031",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Oracle",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 12674,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.008626,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [12]
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.005683,
+							["total_without_pet"] = 6755.005682999999,
+							["total"] = 6755.005682999999,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37016-00007C95F8",
+							["totalabsorb"] = 0.005683,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Skybreaker Summoner"] = 6755,
+							},
+							["totalover_without_pet"] = 0.005683,
+							["healing_taken"] = 0.005683,
+							["start_time"] = 1702663799,
+							["healing_from"] = {
+							},
+							["end_time"] = 1702663807,
+							["last_event"] = 1702663804,
+							["nome"] = "Skybreaker Luminary",
+							["spells"] = {
+								["_ActorTable"] = {
+									[69958] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3457,
+										["targets"] = {
+											["Skybreaker Summoner"] = 6755,
+										},
+										["n_total"] = 6755,
+										["n_min"] = 3298,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 6755,
+										["spellschool"] = 8,
+										["id"] = 69958,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_max"] = 0,
+										["c_total"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37016",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.005683,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [13]
+						{
+							["flag_original"] = 2584,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.001256,
+							["total_without_pet"] = 0.001256,
+							["total"] = 0.001256,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37003-00007C95F8",
+							["totalabsorb"] = 0.001256,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.001256,
+							["healing_taken"] = 14572.001256,
+							["start_time"] = 1702663807,
+							["healing_from"] = {
+								["Skybreaker Hierophant"] = true,
+							},
+							["end_time"] = 1702663807,
+							["last_event"] = 0,
+							["nome"] = "Skybreaker Vindicator",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["aID"] = "37003",
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.001256,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [14]
+						{
+							["flag_original"] = 2632,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.00434,
+							["total_without_pet"] = 0.00434,
+							["monster"] = true,
+							["total"] = 0.00434,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3882-631-14405-37033-0000FC95F9",
+							["totalabsorb"] = 0.00434,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00434,
+							["healing_taken"] = 0.00434,
+							["last_event"] = 0,
+							["aID"] = "37033",
+							["end_time"] = 1702663807,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kor'kron Invoker",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["start_time"] = 1702663807,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.00434,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [15]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime"] = 33,
+							["classe"] = "EVOKER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[73828] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 73828,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225788] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[397734] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 397734,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["boss_fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 1467,
+							["grupo"] = true,
+							["nome"] = "Skalesbruh",
+							["tipo"] = 4,
+							["aID"] = "60-0F3969A1",
+							["serial"] = "Player-60-0F3969A1",
+							["last_event"] = 1702663807,
+						}, -- [1]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37026",
+							["nome"] = "Skybreaker Sorcerer",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37026-00007C95F8",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Templar",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37034-00007C95F9",
+							["aID"] = "37034",
+						}, -- [3]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37004",
+							["nome"] = "Skybreaker Dreadblade",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37004-00007C95F8",
+							["last_event"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Reaver",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37029-00007C95F9",
+							["aID"] = "37029",
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Spire Gargoyle",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37544-0001FC95F8",
+							["aID"] = "37544",
+						}, -- [6]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37148",
+							["nome"] = "Skybreaker Summoner",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+							["last_event"] = 0,
+						}, -- [7]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "36998",
+							["nome"] = "Skybreaker Protector",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-36998-0000FC95F8",
+							["last_event"] = 0,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Invoker",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37033-00007C95F9",
+							["aID"] = "37033",
+						}, -- [9]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Oracle",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37031-00007C95F9",
+							["aID"] = "37031",
+						}, -- [10]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Vanquisher",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37035-00007C95F9",
+							["aID"] = "37035",
+						}, -- [11]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37144",
+							["nome"] = "Skybreaker Marksman",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37144-00007C95F8",
+							["last_event"] = 0,
+						}, -- [12]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Stalker",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37028-00007C95F9",
+							["aID"] = "37028",
+						}, -- [13]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Sniper",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37146-0000FC95F9",
+							["aID"] = "37146",
+						}, -- [14]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Necrolyte",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37149-0000FC95F9",
+							["aID"] = "37149",
+						}, -- [15]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Primalist",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37030-0000FC95F9",
+							["aID"] = "37030",
+						}, -- [16]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Spire Minion",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37545-0001FC95F8",
+							["aID"] = "37545",
+						}, -- [17]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37027",
+							["nome"] = "Skybreaker Hierophant",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37027-00007C95F8",
+							["last_event"] = 0,
+						}, -- [18]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Defender",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37032-00007C95F9",
+							["aID"] = "37032",
+						}, -- [19]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37017",
+							["nome"] = "Skybreaker Assassin",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37017-00007C95F8",
+							["last_event"] = 0,
+						}, -- [20]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Spire Frostwyrm",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37230-00007C95F8",
+							["aID"] = "37230",
+						}, -- [21]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37016",
+							["nome"] = "Skybreaker Luminary",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37016-00007C95F8",
+							["last_event"] = 0,
+						}, -- [22]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Frenzied Abomination",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37546-0000FC95F8",
+							["aID"] = "37546",
+						}, -- [23]
+						{
+							["flag_original"] = 2584,
+							["pets"] = {
+							},
+							["aID"] = "37003",
+							["nome"] = "Skybreaker Vindicator",
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["serial"] = "Creature-0-3882-631-14405-37003-00007C95F8",
+							["last_event"] = 0,
+						}, -- [24]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Battle-Mage",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-37117-00007C9675",
+							["aID"] = "37117",
+						}, -- [25]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Axethrower",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-36968-00037C957E",
+							["aID"] = "36968",
+						}, -- [26]
+						{
+							["flag_original"] = 2632,
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["nome"] = "Kor'kron Rocketeer",
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3882-631-14405-36982-00007C957E",
+							["aID"] = "36982",
+						}, -- [27]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Skalesbruh"] = "Player-60-0F3969A1",
+				},
+				["raid_roster_indexed"] = {
+					"Skalesbruh", -- [1]
+				},
+				["CombatStartedAt"] = 178305.103,
+				["tempo_start"] = 1702663796,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["bossIcon"] = "",
+				["bossTimers"] = {
+					{
+						"bw", -- [1]
+						12.17699999999604, -- [2]
+						"warmup", -- [3]
+						"Deathbringer Saurfang", -- [4]
+						48, -- [5]
+						"Interface\\Icons\\achievement_boss_saurfang", -- [6]
+					}, -- [1]
+					{
+						"bw", -- [1]
+						12.17699999999604, -- [2]
+						"berserk", -- [3]
+						"Berserk", -- [4]
+						360, -- [5]
+						136224, -- [6]
+					}, -- [2]
+					{
+						"bw", -- [1]
+						12.17699999999604, -- [2]
+						"adds", -- [3]
+						"Blood Beasts", -- [4]
+						40, -- [5]
+						252272, -- [6]
+					}, -- [3]
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					1501970, -- [1]
+					38415, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					91166, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["amountCasts"] = {
+					["Kor'kron Sniper"] = {
+						["Explosive Shot"] = 2,
+						["Shoot"] = 3,
+						["Arcane Shot"] = 1,
+					},
+					["Kor'kron Necrolyte"] = {
+						["Incinerate"] = 3,
+						["Shadow Bolt"] = 6,
+					},
+					["Skybreaker Marksman"] = {
+						["Shoot"] = 2,
+						["Explosive Shot"] = 2,
+					},
+					["Kor'kron Stalker"] = {
+						["Sinister Strike"] = 5,
+					},
+					["Kor'kron Templar"] = {
+						["Smite"] = 2,
+						["Greater Heal"] = 10,
+					},
+					["Skybreaker Assassin"] = {
+						["Sinister Strike"] = 2,
+					},
+					["Spire Frostwyrm"] = {
+						["Blizzard"] = 1,
+					},
+					["Skybreaker Sorcerer"] = {
+						["Frostfire Bolt"] = 4,
+					},
+					["Kor'kron Defender"] = {
+						["Spell Reflect"] = 1,
+						["Thunderclap"] = 1,
+						["Devastate"] = 1,
+					},
+					["Kor'kron Rocketeer"] = {
+						["Rocket Artillery"] = 1,
+					},
+					["Spire Minion"] = {
+						["Ghoul Slash"] = 2,
+					},
+					["Kor'kron Axethrower"] = {
+						["Hurl Axe"] = 1,
+					},
+					["Kor'kron Battle-Mage"] = {
+						["Below Zero"] = 1,
+					},
+					["Kor'kron Reaver"] = {
+						["Icy Touch"] = 6,
+						["Plague Strike"] = 6,
+					},
+					["Skybreaker Hierophant"] = {
+						["Healing Touch"] = 3,
+						["Wrath"] = 2,
+						["Regrowth"] = 1,
+					},
+					["Skybreaker Protector"] = {
+						["Thunderclap"] = 4,
+					},
+					["Kor'kron Primalist"] = {
+						["Healing Touch"] = 3,
+						["Wrath"] = 3,
+					},
+					["Frenzied Abomination"] = {
+						["Enrage"] = 2,
+						["Cleave"] = 4,
+					},
+					["Spire Gargoyle"] = {
+						["Poison Spit"] = 20,
+					},
+					["Skybreaker Dreadblade"] = {
+						["Icy Touch"] = 2,
+						["Plague Strike"] = 2,
+					},
+					["Skybreaker Summoner"] = {
+						["Curse of Doom"] = 6,
+					},
+					["Skalesbruh"] = {
+						["Azure Strike"] = 2,
+						["Glide"] = 1,
+					},
+					["Kor'kron Oracle"] = {
+						["Lightning Bolt"] = 5,
+						["Earth Shield"] = 1,
+						["Healing Wave"] = 5,
+					},
+					["Kor'kron Vanquisher"] = {
+						["Consecration"] = 1,
+						["Avenger's Shield"] = 1,
+						["Holy Wrath"] = 2,
+					},
+					["Kor'kron Invoker"] = {
+						["Frostfire Bolt"] = 6,
+					},
+					["Skybreaker Vindicator"] = {
+						["Consecration"] = 1,
+						["Avenger's Shield"] = 1,
+						["Holy Wrath"] = 1,
+					},
+				},
+				["instance_type"] = "raid",
+				["data_fim"] = "13:10:08",
+				["pvp"] = true,
+				["bIsClosed"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Icecrown Gunship Battle",
+				["trinketProcs"] = {
+				},
+				["TotalElapsedCombatTime"] = 178229.711,
+				["CombatEndedAt"] = 178229.711,
+				["aura_timeline"] = {
+				},
+				["data_inicio"] = "13:09:56",
+				["end_time"] = 178214.293,
+				["combat_id"] = 3,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["is_boss"] = {
+					["diff_string"] = "25 Player (Heroic)",
+					["index"] = 1,
+					["zone"] = "Icecrown Citadel",
+					["encounter"] = "Icecrown Gunship Battle",
+					["mapid"] = 631,
+					["try_number"] = 1,
+					["name"] = "Icecrown Gunship Battle",
+					["diff"] = 6,
+					["ej_instance_id"] = 758,
+					["id"] = 1099,
+					["unixtime"] = 1702663796,
+					["killed"] = true,
+				},
+				["player_last_events"] = {
+					["Skalesbruh"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							4, -- [3]
+							1702663898.52, -- [4]
+							71448, -- [5]
+							"Deathbringer Saurfang", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 2,
+					},
+				},
+				["combat_counter"] = 12,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Skalesbruh"] = 91166.003494,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 178202.116,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Kor'kron Reaver"] = 2,
+				},
+			}, -- [4]
+		},
+	},
+	["ocd_tracker"] = {
+		["show_title"] = true,
+		["current_cooldowns"] = {
+		},
+		["lines_per_column"] = 12,
+		["group_frames"] = true,
+		["frames"] = {
+			["defensive-raid"] = {
+			},
+			["main"] = {
+			},
+			["ofensive"] = {
+			},
+			["defensive-target"] = {
+			},
+			["utility"] = {
+			},
+			["defensive-personal"] = {
+			},
+		},
+		["show_options"] = false,
+		["own_frame"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = false,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+		["width"] = 120,
+		["framme_locked"] = false,
+		["cooldowns"] = {
+		},
+		["height"] = 18,
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["enabled"] = false,
+		["filters"] = {
+			["itemutil"] = false,
+			["itempower"] = false,
+			["defensive-target"] = false,
+			["itemheal"] = false,
+			["defensive-personal"] = false,
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["crowdcontrol"] = false,
+			["utility"] = false,
+		},
+	},
+	["last_version"] = "10.2.0 12097",
+	["player_stats"] = {
+	},
+	["force_font_outline"] = "",
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[3] = 2,
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -478.4990348815918,
+					["x"] = 649.498779296875,
+					["w"] = 205.0004730224609,
+					["h"] = 121.0000152587891,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				1, -- [1]
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -478.4990348815918,
+					["x"] = 854.499267578125,
+					["w"] = 205.0004730224609,
+					["h"] = 121.0000152587891,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 631,
+	["data_harvest_for_charsts"] = {
+		["players"] = {
+			{
+				["playerKey"] = "total",
+				["combatObjectContainer"] = 1,
+				["name"] = "Damage of Each Individual Player",
+				["playerOnly"] = true,
+			}, -- [1]
+		},
+		["totals"] = {
+			{
+				["combatObjectSubTableKey"] = 1,
+				["name"] = "Damage of All Player Combined",
+				["combatObjectSubTableName"] = "totals",
+			}, -- [1]
+		},
+	},
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Luckyone 2.48",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["last_realversion"] = 155,
+	["combat_log"] = {
+		["inverse_deathlog_overalldata"] = false,
+		["evoker_calc_damage"] = false,
+		["track_hunter_frenzy"] = false,
+		["merge_critical_heals"] = false,
+		["inverse_deathlog_raid"] = false,
+		["merge_gemstones_1007"] = false,
+		["evoker_show_realtimedps"] = false,
+		["inverse_deathlog_mplus"] = false,
+	},
+	["last_encounter"] = "The Lich King",
+	["mythic_plus_log"] = {
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["on_death_menu"] = false,
+	["data_harvested_for_charts"] = {
+	},
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["combat_counter"] = 41,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["disable_gouge"] = false,
+		},
+		["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+			["enabled"] = true,
+			["author"] = "Terciob",
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Terciob",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["last_boss"] = false,
+			["captures"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["timeline_cutoff_delete_time"] = 3,
+			["last_player"] = false,
+			["endurance_threshold"] = 3,
+			["max_deaths_for_timeline"] = 5,
+			["last_encounter_hash"] = false,
+			["max_deaths_for_current"] = 20,
+			["timeline_cutoff_time"] = 3,
+			["last_segment"] = false,
+			["show_icon"] = 1,
+			["InstalledAt"] = 1702663448,
+			["max_segments_for_current"] = 2,
+			["showing_type"] = 4,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = true,
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["author"] = "Terciob",
+			["main_frame_size"] = {
+				300, -- [1]
+				500.0000915527344, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = true,
+			},
+			["main_frame_locked"] = false,
+			["arrow_anchor_x"] = 0,
+			["font_size"] = 10,
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["arrow_anchor_y"] = 0,
+			["use_spark"] = true,
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 0.000457763671875,
+				["x"] = 3.0517578125e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["y"] = 0.00042724609375,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["last_instance_time"] = 1702663551,
+	["combat_id"] = 11,
+	["savedStyles"] = {
+	},
+	["character_data"] = {
+		["logons"] = 2,
+	},
+	["last_day"] = "15",
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1300,
+					["totalabsorbed"] = 0.036469,
+					["pets"] = {
+						"Alliance Gunship Cannon <Skalesbruh>", -- [1]
+					},
+					["classe"] = "EVOKER",
+					["total_without_pet"] = 22421590.036469,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 22421590.036469,
+					["spec"] = 1467,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Player-60-0F3969A1",
+					["damage_from"] = {
+						["Putricide's Trap"] = true,
+						["The Lich King"] = true,
+						["Flesh-eating Insect"] = true,
+						["Frostwarden Handler"] = true,
+					},
+					["targets"] = {
+						["Flesh-eating Insect"] = 81360,
+						["Kor'kron Reaver"] = 91166,
+						["Plagued Insect"] = 610,
+						["Orgrim's Hammer"] = 0,
+						["The Lich King"] = 15805539,
+						["Plagued Zombie <Precious>"] = 162790,
+						["Professor Putricide"] = 1843866,
+						["Vengeful Fleshreaper"] = 406996,
+						["Frostwarden Handler"] = 1220998,
+						["Frostwing Whelp"] = 1383766,
+						["Precious"] = 1424499,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["end_time"] = 1702663808,
+					["on_hold"] = false,
+					["aID"] = "60-0F3969A1",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Frostwarden Handler"] = 382918,
+								},
+								["n_total"] = 382918,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 382918,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 2,
+								["n_max"] = 195393,
+								["r_amt"] = 0,
+							}, -- [1]
+							[362969] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Precious"] = 1424499,
+									["Flesh-eating Insect"] = 63054,
+									["Vengeful Fleshreaper"] = 406996,
+									["Kor'kron Reaver"] = 91166,
+									["Plagued Insect"] = 610,
+									["Frostwing Whelp"] = 40699,
+									["The Lich King"] = 7127952,
+									["Plagued Zombie <Precious>"] = 162790,
+								},
+								["n_total"] = 9129740,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 57,
+								["total"] = 9317766,
+								["c_max"] = 101749,
+								["id"] = 362969,
+								["r_dmg"] = 0,
+								["spellschool"] = 80,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 188026,
+								["n_amt"] = 49,
+								["n_max"] = 1418309,
+								["r_amt"] = 0,
+							},
+							[356995] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Professor Putricide"] = 1843866,
+									["Flesh-eating Insect"] = 2034,
+									["The Lich King"] = 8388199,
+								},
+								["n_total"] = 10234099,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 10234099,
+								["c_max"] = 0,
+								["id"] = 356995,
+								["r_dmg"] = 0,
+								["spellschool"] = 80,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 10,
+								["n_max"] = 1843866,
+								["r_amt"] = 0,
+							},
+							[357209] = {
+								["e_dmg"] = {
+									16272, -- [1]
+									[3] = 2181147,
+								},
+								["b_amt"] = 0,
+								["e_amt"] = 2,
+								["g_amt"] = 0,
+								["n_max"] = 422974,
+								["targets"] = {
+									["Frostwing Whelp"] = 1343067,
+									["Flesh-eating Insect"] = 16272,
+									["Frostwarden Handler"] = 838080,
+								},
+								["n_total"] = 1993924,
+								["b_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 43,
+								["r_amt"] = 0,
+								["total"] = 2197419,
+								["c_max"] = 40699,
+								["c_amt"] = 5,
+								["id"] = 357209,
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 203495,
+								["n_amt"] = 38,
+								["e_total"] = 4,
+								["e_lvl"] = {
+									1, -- [1]
+									[3] = 1,
+								},
+							},
+							[377420] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["The Lich King"] = 849,
+								},
+								["n_total"] = 849,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 849,
+								["c_max"] = 0,
+								["id"] = 377420,
+								["r_dmg"] = 0,
+								["spellschool"] = 64,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 4,
+								["n_max"] = 213,
+								["r_amt"] = 0,
+							},
+							[377551] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["The Lich King"] = 288539,
+								},
+								["n_total"] = 288539,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 288539,
+								["c_max"] = 0,
+								["id"] = 377551,
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 288539,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["tipo"] = 1,
+					["nome"] = "Skalesbruh",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 1187.036469,
+					["start_time"] = 1702663718,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 4369,
+					["pets"] = {
+					},
+					["classe"] = "PET",
+					["total_without_pet"] = 0.011907,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.011907,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Vehicle-0-3882-631-14405-36838-00007C957E",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Orgrim's Hammer"] = 0,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.011907,
+					["nome"] = "Alliance Gunship Cannon <Skalesbruh>",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69400] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Orgrim's Hammer"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69400,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.011907,
+					["start_time"] = 1702663804,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.008975,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.008975,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37215-00007C957E",
+					["damage_from"] = {
+						["Alliance Gunship Cannon"] = true,
+						["Alliance Gunship Cannon <Skalesbruh>"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "37215",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.008975,
+					["nome"] = "Orgrim's Hammer",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.008975,
+					["start_time"] = 1702663805,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 10291.009425,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 10291.009425,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+					["damage_from"] = {
+						["Kor'kron Templar"] = true,
+						["Kor'kron Vanquisher"] = true,
+						["Spire Gargoyle"] = true,
+						["Kor'kron Invoker"] = true,
+					},
+					["targets"] = {
+						["Spire Minion"] = 110,
+						["Kor'kron Necrolyte"] = 2007,
+						["Spire Gargoyle"] = 2314,
+						["Kor'kron Invoker"] = 2007,
+						["Kor'kron Vanquisher"] = 1846,
+						["Kor'kron Templar"] = 2007,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "37148",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.009425,
+					["nome"] = "Skybreaker Summoner",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Spire Gargoyle"] = 2314,
+									["Kor'kron Vanquisher"] = 1846,
+								},
+								["n_total"] = 4160,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 4160,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 7,
+								["n_max"] = 653,
+								["r_amt"] = 0,
+							}, -- [1]
+							[69969] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Spire Minion"] = 110,
+									["Kor'kron Necrolyte"] = 2007,
+									["Kor'kron Invoker"] = 2007,
+									["Kor'kron Templar"] = 2007,
+								},
+								["n_total"] = 6131,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 6131,
+								["c_max"] = 0,
+								["id"] = 69969,
+								["r_dmg"] = 0,
+								["spellschool"] = 32,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 4,
+								["n_max"] = 2007,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 24428.009425,
+					["start_time"] = 1702663794,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [4]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 39549.006144,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 39549.006144,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37544-0001FC95F8",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Summoner"] = true,
+					},
+					["targets"] = {
+						["Kor'kron Templar"] = 12397,
+						["Kor'kron Necrolyte"] = 7432,
+						["Skybreaker Summoner"] = 17169,
+						["Kor'kron Oracle"] = 875,
+						["Skybreaker Hierophant"] = 1676,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.006144,
+					["end_time"] = 1702663808,
+					["nome"] = "Spire Gargoyle",
+					["aID"] = "37544",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[70189] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Templar"] = 12397,
+									["Kor'kron Necrolyte"] = 7432,
+									["Skybreaker Summoner"] = 17169,
+									["Kor'kron Oracle"] = 875,
+									["Skybreaker Hierophant"] = 1676,
+								},
+								["n_total"] = 39549,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 25,
+								["total"] = 39549,
+								["c_max"] = 0,
+								["id"] = 70189,
+								["r_dmg"] = 0,
+								["spellschool"] = 8,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 20,
+								["c_total"] = 0,
+								["n_amt"] = 25,
+								["n_max"] = 2570,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 2314.006144,
+					["start_time"] = 1702663794,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 1051.00632,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 1051.00632,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37034-00007C95F8",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Protector"] = true,
+						["Skybreaker Summoner"] = true,
+						["Spire Gargoyle"] = true,
+						["Skybreaker Hierophant"] = true,
+					},
+					["targets"] = {
+						["Skybreaker Summoner"] = 1051,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.00632,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Templar",
+					["aID"] = "37034",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69963] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69963,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 10,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[69967] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Summoner"] = 1051,
+								},
+								["n_total"] = 1051,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 1051,
+								["c_max"] = 0,
+								["id"] = 69967,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 1051,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 16427.00632,
+					["start_time"] = 1702663796,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [6]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 46063.007103,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 46063.007103,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37028-00007C95F9",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Vindicator"] = true,
+					},
+					["targets"] = {
+						["Skybreaker Vindicator"] = 26406,
+						["Frenzied Abomination"] = 19657,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.007103,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Stalker",
+					["aID"] = "37028",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Vindicator"] = 26406,
+									["Frenzied Abomination"] = 19657,
+								},
+								["n_total"] = 46063,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 23,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["MISS"] = 3,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 19,
+								["n_max"] = 3965,
+								["total"] = 46063,
+							}, -- [1]
+							[69920] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69920,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 5,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 4533.007103,
+					["start_time"] = 1702663794,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [7]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 12951.006519,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 12951.006519,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37003-00007C95F8",
+					["damage_from"] = {
+						["Kor'kron Stalker"] = true,
+						["Kor'kron Defender"] = true,
+						["Kor'kron Reaver"] = true,
+					},
+					["targets"] = {
+						["Kor'kron Stalker"] = 4533,
+						["Kor'kron Defender"] = 4238,
+						["Kor'kron Reaver"] = 4180,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "37003",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.006519000000000001,
+					["nome"] = "Skybreaker Vindicator",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Reaver"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["a_amt"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[69927] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Stalker"] = 1315,
+									["Kor'kron Defender"] = 917,
+									["Kor'kron Reaver"] = 870,
+								},
+								["n_total"] = 3102,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 3102,
+								["c_max"] = 0,
+								["id"] = 69927,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 3,
+								["n_max"] = 1315,
+								["r_amt"] = 0,
+							},
+							[69934] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Stalker"] = 650,
+									["Kor'kron Defender"] = 753,
+									["Kor'kron Reaver"] = 742,
+								},
+								["n_total"] = 2145,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 2145,
+								["c_max"] = 0,
+								["id"] = 69934,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 3,
+								["n_max"] = 753,
+								["r_amt"] = 0,
+							},
+							[69930] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Stalker"] = 2568,
+									["Kor'kron Defender"] = 2568,
+									["Kor'kron Reaver"] = 2568,
+								},
+								["n_total"] = 7704,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 7704,
+								["c_max"] = 0,
+								["id"] = 69930,
+								["r_dmg"] = 0,
+								["spellschool"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 12,
+								["n_max"] = 642,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 51104.006519,
+					["start_time"] = 1702663794,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [8]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 34980.005766,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 34980.005766,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37029-0000FC95F9",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Vindicator"] = true,
+						["Skalesbruh"] = true,
+						["Skybreaker Assassin"] = true,
+					},
+					["targets"] = {
+						["Skybreaker Vindicator"] = 21460,
+						["Frenzied Abomination"] = 13520,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.005766,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Reaver",
+					["aID"] = "37029",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Vindicator"] = 19099,
+									["Frenzied Abomination"] = 13520,
+									["Skybreaker Assassin"] = 0,
+								},
+								["n_total"] = 26320,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 13,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["MISS"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 6299,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 6299,
+								["n_amt"] = 10,
+								["n_max"] = 3648,
+								["total"] = 32619,
+							}, -- [1]
+							[69912] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69912,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 6,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[69916] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69916,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 6,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[69911] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Frenzied Abomination"] = 0,
+									["Skybreaker Vindicator"] = 1561,
+								},
+								["n_total"] = 1561,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 1561,
+								["c_max"] = 0,
+								["a_amt"] = 0,
+								["id"] = 69911,
+								["r_dmg"] = 0,
+								["spellschool"] = 32,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 4,
+								["n_max"] = 400,
+								["r_amt"] = 0,
+							},
+							[69917] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Vindicator"] = 800,
+								},
+								["n_total"] = 800,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 800,
+								["c_max"] = 0,
+								["id"] = 69917,
+								["r_dmg"] = 0,
+								["spellschool"] = 16,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 2,
+								["n_max"] = 415,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 106731.005766,
+					["start_time"] = 1702663794,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [9]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 4871.00713,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 4871.00713,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37149-00007C95F8",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Protector"] = true,
+						["Spire Gargoyle"] = true,
+						["Skybreaker Summoner"] = true,
+					},
+					["targets"] = {
+						["Spire Frostwyrm"] = 2839,
+						["Skybreaker Protector"] = 2032,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.007129999999999999,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Necrolyte",
+					["aID"] = "37149",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Spire Frostwyrm"] = 2839,
+									["Skybreaker Protector"] = 2032,
+								},
+								["n_total"] = 4871,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 4871,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 6,
+								["n_max"] = 1099,
+								["r_amt"] = 0,
+							}, -- [1]
+							[69972] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69972,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 6,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[69973] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69973,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[1604] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Spire Frostwyrm"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["IMMUNE"] = 1,
+								["id"] = 1604,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 10362.00713,
+					["start_time"] = 1702663796,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [10]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 11385.009247,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 11385.009247,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37017-00007C95F8",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Kor'kron Reaver"] = 11385,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "37017",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.009247,
+					["nome"] = "Skybreaker Assassin",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Reaver"] = 8996,
+								},
+								["n_total"] = 8996,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 8996,
+								["c_max"] = 0,
+								["MISS"] = 2,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 6,
+								["n_max"] = 2121,
+								["r_amt"] = 0,
+							}, -- [1]
+							[69920] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Reaver"] = 2389,
+								},
+								["n_total"] = 2389,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 2389,
+								["c_max"] = 0,
+								["id"] = 69920,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 2,
+								["n_max"] = 1368,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.009247,
+					["start_time"] = 1702663794,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [11]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 21068.011999,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 21068.011999,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37032-0000FC95F9",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Vindicator"] = true,
+						["Spire Frostwyrm"] = true,
+					},
+					["targets"] = {
+						["Spire Frostwyrm"] = 16055,
+						["Skybreaker Sorcerer"] = 898,
+						["Skybreaker Hierophant"] = 877,
+						["Skybreaker Vindicator"] = 3238,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.011999,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Defender",
+					["aID"] = "37032",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Spire Frostwyrm"] = 16055,
+									["Skybreaker Vindicator"] = 2224,
+								},
+								["n_total"] = 12953,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 18279,
+								["c_max"] = 5326,
+								["MISS"] = 2,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 5326,
+								["n_amt"] = 5,
+								["n_max"] = 2769,
+								["r_amt"] = 0,
+							}, -- [1]
+							[69901] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69901,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[69965] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Hierophant"] = 877,
+									["Skybreaker Sorcerer"] = 898,
+								},
+								["n_total"] = 1775,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 1775,
+								["c_max"] = 0,
+								["id"] = 69965,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 2,
+								["n_max"] = 898,
+								["r_amt"] = 0,
+							},
+							[69902] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Vindicator"] = 1014,
+								},
+								["n_total"] = 1014,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 1014,
+								["c_max"] = 0,
+								["id"] = 69902,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 1014,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 9378.011999,
+					["start_time"] = 1702663796,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [12]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 1945.010594,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 1945.010594,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37033-0000FC95F9",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Summoner"] = true,
+						["Skybreaker Protector"] = true,
+					},
+					["targets"] = {
+						["Skybreaker Summoner"] = 1945,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.010594,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Invoker",
+					["aID"] = "37033",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69869] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Summoner"] = 1945,
+								},
+								["n_total"] = 1945,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 1945,
+								["c_max"] = 0,
+								["id"] = 69869,
+								["r_dmg"] = 0,
+								["spellschool"] = 20,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 6,
+								["c_total"] = 0,
+								["n_amt"] = 5,
+								["n_max"] = 926,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 2754.010594,
+					["start_time"] = 1702663794,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [13]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 4263.007816,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 4263.007816,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37035-00007C95F8",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Summoner"] = true,
+					},
+					["targets"] = {
+						["Skybreaker Summoner"] = 4263,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.007816,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Vanquisher",
+					["aID"] = "37035",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69930] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Summoner"] = 3210,
+								},
+								["n_total"] = 3210,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 3210,
+								["c_max"] = 0,
+								["id"] = 69930,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 5,
+								["n_max"] = 642,
+								["r_amt"] = 0,
+							},
+							[69934] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Summoner"] = 875,
+								},
+								["n_total"] = 875,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 875,
+								["c_max"] = 0,
+								["id"] = 69934,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 875,
+								["r_amt"] = 0,
+							},
+							[69927] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Spire Minion"] = 0,
+									["Frenzied Abomination"] = 0,
+									["Skybreaker Summoner"] = 178,
+								},
+								["n_total"] = 178,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["IMMUNE"] = 1,
+								["r_amt"] = 0,
+								["spellschool"] = 2,
+								["DODGE"] = 1,
+								["id"] = 69927,
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 178,
+								["total"] = 178,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 1846.007816,
+					["start_time"] = 1702663796,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [14]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.009937999999999999,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.009937999999999999,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Vehicle-0-3882-631-14405-36838-00007C957E",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Orgrim's Hammer"] = 0,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.009937999999999999,
+					["nome"] = "Alliance Gunship Cannon",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69400] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Orgrim's Hammer"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69400,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.009937999999999999,
+					["start_time"] = 1702663804,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [15]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.002111,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.002111,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37546-00007C95F8",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Kor'kron Reaver"] = true,
+						["Kor'kron Stalker"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.002111,
+					["end_time"] = 1702663808,
+					["nome"] = "Frenzied Abomination",
+					["aID"] = "37546",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Protector"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["a_amt"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[70191] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Protector"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 70191,
+								["r_dmg"] = 0,
+								["a_amt"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 4,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[70371] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 70371,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 33177.002111,
+					["start_time"] = 1702663805,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [16]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 28531.002486,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 28531.002486,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "",
+					["on_hold"] = false,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Kor'kron Rocketeer"] = 14792,
+						["Kor'kron Axethrower"] = 6332,
+						["Kor'kron Battle-Mage"] = 7407,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.002486,
+					["end_time"] = 1702663808,
+					["nome"] = "[*] Explosion",
+					["aID"] = "",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[70444] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Rocketeer"] = 14792,
+									["Kor'kron Axethrower"] = 6332,
+									["Kor'kron Battle-Mage"] = 7407,
+								},
+								["n_total"] = 28531,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 44,
+								["total"] = 28531,
+								["c_max"] = 0,
+								["id"] = 70444,
+								["r_dmg"] = 0,
+								["spellschool"] = 4,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 44,
+								["n_max"] = 780,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.002486,
+					["start_time"] = 1702663795,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [17]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.01699,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.01699,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-36982-0000FC957E",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["[*] Explosion"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.01699,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Rocketeer",
+					["aID"] = "36982",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69679] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69679,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 14792.01699,
+					["start_time"] = 1702663805,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [18]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.0093,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.0093,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-36968-00037C957E",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["[*] Explosion"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.0093,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Axethrower",
+					["aID"] = "36968",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[70161] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 70161,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 6332.0093,
+					["start_time"] = 1702663805,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [19]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.006203,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.006203,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37545-0001FC95F8",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Protector"] = true,
+						["Skybreaker Summoner"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.006203,
+					["end_time"] = 1702663808,
+					["nome"] = "Spire Minion",
+					["aID"] = "37545",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Protector"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["DODGE"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["total"] = 0,
+							}, -- [1]
+							[70396] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Protector"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 70396,
+								["r_dmg"] = 0,
+								["a_amt"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 966.0062029999999,
+					["start_time"] = 1702663805,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [20]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 3169.003318,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 3169.003318,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37026-00007C95F8",
+					["damage_from"] = {
+						["Kor'kron Defender"] = true,
+					},
+					["targets"] = {
+						["Kor'kron Primalist"] = 3169,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "37026",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.003318,
+					["nome"] = "Skybreaker Sorcerer",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69869] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Primalist"] = 3169,
+								},
+								["n_total"] = 3169,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 3169,
+								["c_max"] = 0,
+								["id"] = 69869,
+								["r_dmg"] = 0,
+								["spellschool"] = 20,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 7,
+								["n_max"] = 1012,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 898.003318,
+					["start_time"] = 1702663795,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [21]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 2206.010028,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 2206.010028,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37030-0000FC95F9",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Sorcerer"] = true,
+					},
+					["targets"] = {
+						["Skybreaker Hierophant"] = 2206,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.010028,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Primalist",
+					["aID"] = "37030",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69899] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69899,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[69968] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Hierophant"] = 2206,
+								},
+								["n_total"] = 2206,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 2206,
+								["c_max"] = 0,
+								["id"] = 69968,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["c_total"] = 0,
+								["n_amt"] = 2,
+								["n_max"] = 1194,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 3169.010028,
+					["start_time"] = 1702663799,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [22]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 4274.009103,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 4274.009103,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-36998-0000FC95F8",
+					["damage_from"] = {
+						["Kor'kron Necrolyte"] = true,
+					},
+					["targets"] = {
+						["Spire Minion"] = 856,
+						["Kor'kron Necrolyte"] = 923,
+						["Kor'kron Oracle"] = 757,
+						["Kor'kron Invoker"] = 747,
+						["Kor'kron Templar"] = 991,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "36998",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.009103,
+					["nome"] = "Skybreaker Protector",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Spire Minion"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 0,
+								["c_max"] = 0,
+								["DODGE"] = 2,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[69965] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Templar"] = 991,
+									["Kor'kron Necrolyte"] = 923,
+									["Kor'kron Oracle"] = 757,
+									["Spire Minion"] = 856,
+									["Frenzied Abomination"] = 0,
+									["Kor'kron Invoker"] = 747,
+								},
+								["n_total"] = 4274,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 4274,
+								["c_max"] = 0,
+								["IMMUNE"] = 2,
+								["id"] = 69965,
+								["r_dmg"] = 0,
+								["spellschool"] = 8,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 5,
+								["n_max"] = 991,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 2032.009103,
+					["start_time"] = 1702663795,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [23]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.007455,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.007455,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37031-00007C95F9",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skybreaker Protector"] = true,
+						["Spire Gargoyle"] = true,
+						["Spire Frostwyrm"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.007455,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Oracle",
+					["aID"] = "37031",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69958] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69958,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 5,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[69926] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69926,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[69970] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69970,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 5,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 6772.007455,
+					["start_time"] = 1702663805,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [24]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 7036.004221,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 7036.004221,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37146-0000FC95F9",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Spire Frostwyrm"] = true,
+					},
+					["targets"] = {
+						["Skybreaker Hierophant"] = 7036,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.004221,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Sniper",
+					["aID"] = "37146",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69975] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Hierophant"] = 4622,
+								},
+								["n_total"] = 4622,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 4622,
+								["c_max"] = 0,
+								["id"] = 69975,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["c_total"] = 0,
+								["n_amt"] = 6,
+								["n_max"] = 816,
+								["r_amt"] = 0,
+							},
+							[69974] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Hierophant"] = 1005,
+								},
+								["n_total"] = 1005,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 1005,
+								["c_max"] = 0,
+								["id"] = 69974,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 1005,
+								["r_amt"] = 0,
+							},
+							[69989] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skybreaker Hierophant"] = 1409,
+								},
+								["n_total"] = 1409,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 1409,
+								["c_max"] = 0,
+								["id"] = 69989,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 1409,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 5140.004221,
+					["start_time"] = 1702663796,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [25]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 15420.016364,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 15420.016364,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37230-00007C95F8",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Kor'kron Defender"] = true,
+						["Kor'kron Necrolyte"] = true,
+					},
+					["targets"] = {
+						["Kor'kron Sniper"] = 5140,
+						["Kor'kron Defender"] = 5140,
+						["Kor'kron Oracle"] = 5140,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.016364,
+					["end_time"] = 1702663808,
+					["nome"] = "Spire Frostwyrm",
+					["aID"] = "37230",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[70362] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Sniper"] = 5140,
+									["Kor'kron Defender"] = 5140,
+									["Kor'kron Oracle"] = 5140,
+								},
+								["n_total"] = 15420,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 15420,
+								["c_max"] = 0,
+								["id"] = 70362,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 12,
+								["n_max"] = 1285,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 18894.016364,
+					["start_time"] = 1702663799,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [26]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 1032.012172,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 1032.012172,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37027-0000FC95F8",
+					["damage_from"] = {
+						["Kor'kron Sniper"] = true,
+						["Kor'kron Defender"] = true,
+						["Spire Gargoyle"] = true,
+						["Kor'kron Primalist"] = true,
+					},
+					["targets"] = {
+						["Kor'kron Templar"] = 1032,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "37027",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.012172,
+					["nome"] = "Skybreaker Hierophant",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69968] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Kor'kron Templar"] = 1032,
+								},
+								["n_total"] = 1032,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 1032,
+								["c_max"] = 0,
+								["id"] = 69968,
+								["r_dmg"] = 0,
+								["spellschool"] = 8,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 1032,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 11795.012172,
+					["start_time"] = 1702663800,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [27]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.016534,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.016534,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37004-00007C95F8",
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "37004",
+					["end_time"] = 1702663808,
+					["totalabsorbed"] = 0.016534,
+					["nome"] = "Skybreaker Dreadblade",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Spire Gargoyle"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["MISS"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["total"] = 0,
+							}, -- [1]
+							[69911] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Spire Gargoyle"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 1,
+								["id"] = 69911,
+								["r_dmg"] = 0,
+								["spellschool"] = 32,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.016534,
+					["start_time"] = 1702663805,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [28]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.014678,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.014678,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37117-00007C9675",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["[*] Explosion"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.014678,
+					["end_time"] = 1702663808,
+					["nome"] = "Kor'kron Battle-Mage",
+					["aID"] = "37117",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							[69705] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 69705,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 7407.014678,
+					["start_time"] = 1702663805,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [29]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+						"Plagued Zombie <Precious>", -- [1]
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.006399999999999999,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.006399999999999999,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37217-00007C957E",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skalesbruh"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.006399999999999999,
+					["fight_component"] = true,
+					["end_time"] = 1702664055,
+					["aID"] = "37217",
+					["nome"] = "Precious",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 1424499.0064,
+					["start_time"] = 1702664052,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [30]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.00768,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.00768,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.00768,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-38104-0001FC9765",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skalesbruh"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["fight_component"] = true,
+					["end_time"] = 1702664055,
+					["aID"] = "38104",
+					["ownerName"] = "Precious",
+					["nome"] = "Plagued Zombie <Precious>",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 8,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["monster"] = true,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 162790.00768,
+					["start_time"] = 1702664052,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [31]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.005619,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.005619,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37038-00037C9760",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skalesbruh"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.005619,
+					["fight_component"] = true,
+					["end_time"] = 1702664055,
+					["aID"] = "37038",
+					["nome"] = "Vengeful Fleshreaper",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["MISS"] = 3,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["DODGE"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["total"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 406996.005619,
+					["start_time"] = 1702664052,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [32]
+				{
+					["flag_original"] = 2600,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.01007,
+					["last_dps_realtime"] = 0,
+					["dps_started"] = false,
+					["total"] = 0.01007,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-38228-00017C957E",
+					["damage_from"] = {
+						["Skalesbruh"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["aID"] = "38228",
+					["fight_component"] = true,
+					["end_time"] = 1702664055,
+					["totalabsorbed"] = 0.01007,
+					["nome"] = "Plagued Insect",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 610.01007,
+					["start_time"] = 1702664052,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [33]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 2.014125,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 2.014125,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37782-0002FC97AA",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skalesbruh"] = true,
+					},
+					["targets"] = {
+						["Skalesbruh"] = 2,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.014125,
+					["fight_component"] = true,
+					["end_time"] = 1702664127,
+					["aID"] = "37782",
+					["nome"] = "Flesh-eating Insect",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["MISS"] = 7,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["DODGE"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["total"] = 0,
+							}, -- [1]
+							[72967] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 2,
+								},
+								["n_total"] = 2,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 2,
+								["c_max"] = 0,
+								["id"] = 72967,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 2,
+								["n_max"] = 1,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 81360.01412499999,
+					["start_time"] = 1702664113,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [34]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 52.019113,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 52.019113,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-38879-00007C957E",
+					["on_hold"] = false,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Skalesbruh"] = 52,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.019113,
+					["fight_component"] = true,
+					["end_time"] = 1702664127,
+					["aID"] = "38879",
+					["nome"] = "Putricide's Trap",
+					["spells"] = {
+						["_ActorTable"] = {
+							[70475] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 52,
+								},
+								["n_total"] = 52,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 32,
+								["total"] = 52,
+								["c_max"] = 0,
+								["id"] = 70475,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 32,
+								["n_max"] = 2,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 0.019113,
+					["start_time"] = 1702664092,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [35]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.006489,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.006489,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Vehicle-0-3882-631-14405-36678-00007C9792",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skalesbruh"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.006489,
+					["fight_component"] = true,
+					["end_time"] = 1702664141,
+					["aID"] = "",
+					["nome"] = "Professor Putricide",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 1843866.006489,
+					["start_time"] = 1702664138,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [36]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 1.004929,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 1.004929,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37531-00007C957E",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skalesbruh"] = true,
+					},
+					["targets"] = {
+						["Skalesbruh"] = 1,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.004928999999999999,
+					["fight_component"] = true,
+					["end_time"] = 1702664390,
+					["aID"] = "37531",
+					["nome"] = "Frostwarden Handler",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 1,
+								},
+								["n_total"] = 1,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 13,
+								["MISS"] = 11,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["DODGE"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 1,
+								["total"] = 1,
+							}, -- [1]
+							[71357] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 71357,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 1220998.004929,
+					["start_time"] = 1702664384,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [37]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 0.009856,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 0.009856,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37532-000E7C957E",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skalesbruh"] = true,
+					},
+					["targets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.009856,
+					["fight_component"] = true,
+					["end_time"] = 1702664390,
+					["aID"] = "37532",
+					["nome"] = "Frostwing Whelp",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 131,
+								["MISS"] = 119,
+								["r_amt"] = 0,
+								["spellschool"] = 1,
+								["DODGE"] = 12,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_max"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["total"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 1383766.009856,
+					["start_time"] = 1702664387,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [38]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["total_without_pet"] = 1132.011949,
+					["last_dps_realtime"] = 0,
+					["monster"] = true,
+					["total"] = 1132.011949,
+					["friendlyfire"] = {
+					},
+					["total_extra"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+					["on_hold"] = false,
+					["damage_from"] = {
+						["Skalesbruh"] = true,
+					},
+					["targets"] = {
+						["Skalesbruh"] = 1132,
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["totalabsorbed"] = 0.011949,
+					["end_time"] = 1702664718,
+					["nome"] = "The Lich King",
+					["aID"] = "36597",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 19,
+								},
+								["n_total"] = 19,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 19,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 2,
+								["n_max"] = 10,
+								["r_amt"] = 0,
+							}, -- [1]
+							[68981] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 68981,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[72350] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 304,
+								},
+								["n_total"] = 304,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 304,
+								["c_max"] = 0,
+								["id"] = 72350,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 1,
+								["n_max"] = 304,
+								["r_amt"] = 0,
+							},
+							[68983] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 794,
+								},
+								["n_total"] = 794,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 120,
+								["total"] = 794,
+								["c_max"] = 0,
+								["id"] = 68983,
+								["r_dmg"] = 0,
+								["spellschool"] = 16,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 120,
+								["n_max"] = 7,
+								["r_amt"] = 0,
+							},
+							[72259] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 72259,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[71769] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 71769,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["n_max"] = 0,
+								["r_amt"] = 0,
+							},
+							[72133] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["b_dmg"] = 0,
+								["targets"] = {
+									["Skalesbruh"] = 15,
+								},
+								["n_total"] = 15,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 15,
+								["c_max"] = 0,
+								["id"] = 72133,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 4,
+								["c_total"] = 0,
+								["n_amt"] = 9,
+								["n_max"] = 3,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 15805539.011949,
+					["start_time"] = 1702664642,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [39]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.0124,
+					["total_without_pet"] = 0.0124,
+					["monster"] = true,
+					["total"] = 0.0124,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+						[69925] = 645,
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37149-00007C95F8",
+					["totalabsorb"] = 0.0124,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.0124,
+					["healing_taken"] = 0.0124,
+					["last_event"] = 0,
+					["aID"] = "37149",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Necrolyte",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 645,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.0124,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [1]
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.014137,
+					["total_without_pet"] = 0.014137,
+					["monster"] = true,
+					["total"] = 0.014137,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+						[69963] = 33177,
+						[71139] = 17116,
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37034-00007C95F8",
+					["totalabsorb"] = 0.014137,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.014137,
+					["healing_taken"] = 0.014137,
+					["last_event"] = 0,
+					["aID"] = "37034",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Templar",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 50293,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.014137,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [2]
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.006862999999999999,
+					["total_without_pet"] = 0.006862999999999999,
+					["monster"] = true,
+					["total"] = 0.006862999999999999,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37146-00007C95F9",
+					["totalabsorb"] = 0.006862999999999999,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.006862999999999999,
+					["healing_taken"] = 0.006862999999999999,
+					["last_event"] = 0,
+					["aID"] = "37146",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Sniper",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.006862999999999999,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [3]
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.005806,
+					["total_without_pet"] = 0.005806,
+					["monster"] = true,
+					["total"] = 0.005806,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37029-00007C95F9",
+					["totalabsorb"] = 0.005806,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.005806,
+					["healing_taken"] = 0.005806,
+					["last_event"] = 0,
+					["aID"] = "37029",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Reaver",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.005806,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [4]
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.010352,
+					["total_without_pet"] = 0.010352,
+					["monster"] = true,
+					["total"] = 0.010352,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37028-00007C95F9",
+					["totalabsorb"] = 0.010352,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.010352,
+					["healing_taken"] = 0.010352,
+					["last_event"] = 0,
+					["aID"] = "37028",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Stalker",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.010352,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [5]
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.011808,
+					["total_without_pet"] = 0.011808,
+					["monster"] = true,
+					["total"] = 0.011808,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+						[69925] = 170,
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37032-00007C95F9",
+					["totalabsorb"] = 0.011808,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.011808,
+					["healing_taken"] = 0.011808,
+					["last_event"] = 0,
+					["aID"] = "37032",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Defender",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 170,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.011808,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [6]
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.011724,
+					["total_without_pet"] = 0.011724,
+					["monster"] = true,
+					["total"] = 0.011724,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+						[69925] = 709,
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37035-00007C95F9",
+					["totalabsorb"] = 0.011724,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.011724,
+					["healing_taken"] = 0.011724,
+					["last_event"] = 0,
+					["aID"] = "37035",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Vanquisher",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 709,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.011724,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [7]
+				{
+					["flag_original"] = 2584,
+					["targets_overheal"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.006427,
+					["total_without_pet"] = 31001.006427,
+					["total"] = 31001.006427,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37027-0000FC95F8",
+					["totalabsorb"] = 0.006427,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Skybreaker Vindicator"] = 14572,
+						["Skybreaker Sorcerer"] = 4283,
+						["Skybreaker Summoner"] = 10029,
+						["Skybreaker Hierophant"] = 2117,
+					},
+					["totalover_without_pet"] = 0.006427,
+					["healing_taken"] = 2117.006427,
+					["start_time"] = 1702663794,
+					["healing_from"] = {
+						["Skybreaker Hierophant"] = true,
+					},
+					["end_time"] = 1702663808,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Hierophant",
+					["spells"] = {
+						["_ActorTable"] = {
+							[69882] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 1235,
+								["targets"] = {
+									["Skybreaker Hierophant"] = 2117,
+									["Skybreaker Sorcerer"] = 1764,
+								},
+								["n_total"] = 3881,
+								["n_min"] = 0,
+								["counter"] = 7,
+								["overheal"] = 0,
+								["total"] = 3881,
+								["spellschool"] = 8,
+								["id"] = 69882,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_max"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 7,
+								["absorbed"] = 0,
+							},
+							[69898] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 813,
+								["targets"] = {
+									["Skybreaker Summoner"] = 2493,
+									["Skybreaker Sorcerer"] = 2519,
+								},
+								["n_total"] = 5012,
+								["n_min"] = 0,
+								["counter"] = 8,
+								["overheal"] = 0,
+								["total"] = 5012,
+								["spellschool"] = 8,
+								["id"] = 69898,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_max"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 8,
+								["absorbed"] = 0,
+							},
+							[69899] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 7608,
+								["targets"] = {
+									["Skybreaker Vindicator"] = 14572,
+									["Skybreaker Summoner"] = 7536,
+								},
+								["n_total"] = 22108,
+								["n_min"] = 0,
+								["counter"] = 3,
+								["overheal"] = 0,
+								["total"] = 22108,
+								["spellschool"] = 8,
+								["id"] = 69899,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_max"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 3,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["aID"] = "37027",
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.006427,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [8]
+				{
+					["flag_original"] = 2584,
+					["targets_overheal"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.009906,
+					["total_without_pet"] = 0.009906,
+					["total"] = 0.009906,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37026-00007C95F8",
+					["totalabsorb"] = 0.009906,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.009906,
+					["healing_taken"] = 4283.009905999999,
+					["start_time"] = 1702663805,
+					["healing_from"] = {
+						["Skybreaker Hierophant"] = true,
+					},
+					["end_time"] = 1702663808,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Sorcerer",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["aID"] = "37026",
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.009906,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [9]
+				{
+					["flag_original"] = 2584,
+					["targets_overheal"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.010317,
+					["total_without_pet"] = 659.010317,
+					["total"] = 659.010317,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+					["totalabsorb"] = 0.010317,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Skybreaker Summoner"] = 659,
+					},
+					["totalover_without_pet"] = 0.010317,
+					["healing_taken"] = 17443.010317,
+					["start_time"] = 1702663797,
+					["healing_from"] = {
+						["Skybreaker Luminary"] = true,
+						["Skybreaker Summoner"] = true,
+						["Skybreaker Hierophant"] = true,
+					},
+					["end_time"] = 1702663808,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Summoner",
+					["spells"] = {
+						["_ActorTable"] = {
+							[69925] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 270,
+								["targets"] = {
+									["Skybreaker Summoner"] = 659,
+								},
+								["n_total"] = 659,
+								["n_min"] = 0,
+								["counter"] = 3,
+								["overheal"] = 0,
+								["total"] = 659,
+								["spellschool"] = 8,
+								["id"] = 69925,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_max"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 3,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["aID"] = "37148",
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.010317,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [10]
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.005588,
+					["total_without_pet"] = 0.005588,
+					["monster"] = true,
+					["total"] = 0.005588,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+						[69882] = 3087,
+						[69898] = 3418,
+						[69899] = 22628,
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37030-0000FC95F9",
+					["totalabsorb"] = 0.005588,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.005588,
+					["healing_taken"] = 0.005588,
+					["last_event"] = 0,
+					["aID"] = "37030",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Primalist",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 29133,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.005588,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [11]
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.015894,
+					["total_without_pet"] = 0.015894,
+					["monster"] = true,
+					["total"] = 0.015894,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+						[69958] = 12674,
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37031-00007C95F9",
+					["totalabsorb"] = 0.015894,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.015894,
+					["healing_taken"] = 0.015894,
+					["last_event"] = 0,
+					["aID"] = "37031",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Oracle",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 12674,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.015894,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [12]
+				{
+					["flag_original"] = 2584,
+					["targets_overheal"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.012213,
+					["total_without_pet"] = 6755.012212999999,
+					["total"] = 6755.012212999999,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37016-00007C95F8",
+					["totalabsorb"] = 0.012213,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Skybreaker Summoner"] = 6755,
+					},
+					["totalover_without_pet"] = 0.012213,
+					["healing_taken"] = 0.012213,
+					["start_time"] = 1702663797,
+					["healing_from"] = {
+					},
+					["end_time"] = 1702663808,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Luminary",
+					["spells"] = {
+						["_ActorTable"] = {
+							[69958] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 3457,
+								["targets"] = {
+									["Skybreaker Summoner"] = 6755,
+								},
+								["n_total"] = 6755,
+								["n_min"] = 0,
+								["counter"] = 2,
+								["overheal"] = 0,
+								["total"] = 6755,
+								["spellschool"] = 8,
+								["id"] = 69958,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_max"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 2,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["aID"] = "37016",
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.012213,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [13]
+				{
+					["flag_original"] = 2584,
+					["targets_overheal"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.010233,
+					["total_without_pet"] = 0.010233,
+					["total"] = 0.010233,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37003-00007C95F8",
+					["totalabsorb"] = 0.010233,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.010233,
+					["healing_taken"] = 14572.010233,
+					["start_time"] = 1702663805,
+					["healing_from"] = {
+						["Skybreaker Hierophant"] = true,
+					},
+					["end_time"] = 1702663808,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Vindicator",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["aID"] = "37003",
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.010233,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [14]
+				{
+					["flag_original"] = 2632,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.008403,
+					["total_without_pet"] = 0.008403,
+					["monster"] = true,
+					["total"] = 0.008403,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-37033-0000FC95F9",
+					["totalabsorb"] = 0.008403,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.008403,
+					["healing_taken"] = 0.008403,
+					["last_event"] = 0,
+					["aID"] = "37033",
+					["end_time"] = 1702663808,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Kor'kron Invoker",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702663805,
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.008403,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [15]
+				{
+					["flag_original"] = 68168,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "UNKNOW",
+					["totalover"] = 0.01001,
+					["total_without_pet"] = 0.01001,
+					["monster"] = true,
+					["total"] = 0.01001,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+						[72350] = 752645,
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+					["totalabsorb"] = 0.01001,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.01001,
+					["healing_taken"] = 0.01001,
+					["last_event"] = 0,
+					["aID"] = "36597",
+					["end_time"] = 1702664718,
+					["targets_overheal"] = {
+					},
+					["nome"] = "The Lich King",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["start_time"] = 1702664715,
+					["heal_enemy_amt"] = 752645,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.01001,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [16]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[356995] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 4,
+								["id"] = 356995,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[377420] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 377420,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[370898] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 370898,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["pets"] = {
+					},
+					["classe"] = "EVOKER",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[381748] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 381748,
+								["uptime"] = 236,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[225788] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 225788,
+								["uptime"] = 247,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[359618] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 359618,
+								["uptime"] = 22,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[358733] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 358733,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[377544] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 377544,
+								["uptime"] = 45,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[397734] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 397734,
+								["uptime"] = 247,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[73828] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 73828,
+								["uptime"] = 247,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime"] = 18,
+					["boss_fight_component"] = true,
+					["spec"] = 1467,
+					["grupo"] = true,
+					["buff_uptime"] = 1044,
+					["aID"] = "60-0F3969A1",
+					["nome"] = "Skalesbruh",
+					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
+					["buff_uptime_targets"] = {
+					},
+					["serial"] = "Player-60-0F3969A1",
+					["tipo"] = 4,
+				}, -- [1]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["aID"] = "37026",
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Sorcerer",
+					["serial"] = "Creature-0-3882-631-14405-37026-00007C95F8",
+					["classe"] = "UNKNOW",
+				}, -- [2]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37034",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Templar",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37034-00007C95F9",
+					["classe"] = "UNKNOW",
+				}, -- [3]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["aID"] = "37004",
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Dreadblade",
+					["serial"] = "Creature-0-3882-631-14405-37004-00007C95F8",
+					["classe"] = "UNKNOW",
+				}, -- [4]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37029",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Reaver",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37029-00007C95F9",
+					["classe"] = "UNKNOW",
+				}, -- [5]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37544",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Spire Gargoyle",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37544-0001FC95F8",
+					["classe"] = "UNKNOW",
+				}, -- [6]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["aID"] = "37148",
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Summoner",
+					["serial"] = "Creature-0-3882-631-14405-37148-00007C95F8",
+					["classe"] = "UNKNOW",
+				}, -- [7]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["aID"] = "36998",
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Protector",
+					["serial"] = "Creature-0-3882-631-14405-36998-0000FC95F8",
+					["classe"] = "UNKNOW",
+				}, -- [8]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37033",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Invoker",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37033-00007C95F9",
+					["classe"] = "UNKNOW",
+				}, -- [9]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37031",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Oracle",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37031-00007C95F9",
+					["classe"] = "UNKNOW",
+				}, -- [10]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37035",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Vanquisher",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37035-00007C95F9",
+					["classe"] = "UNKNOW",
+				}, -- [11]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["aID"] = "37144",
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Marksman",
+					["serial"] = "Creature-0-3882-631-14405-37144-00007C95F8",
+					["classe"] = "UNKNOW",
+				}, -- [12]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37028",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Stalker",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37028-00007C95F9",
+					["classe"] = "UNKNOW",
+				}, -- [13]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37146",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Sniper",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37146-0000FC95F9",
+					["classe"] = "UNKNOW",
+				}, -- [14]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37149",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Necrolyte",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37149-0000FC95F9",
+					["classe"] = "UNKNOW",
+				}, -- [15]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37030",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Primalist",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37030-0000FC95F9",
+					["classe"] = "UNKNOW",
+				}, -- [16]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37545",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Spire Minion",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37545-0001FC95F8",
+					["classe"] = "UNKNOW",
+				}, -- [17]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["aID"] = "37027",
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Hierophant",
+					["serial"] = "Creature-0-3882-631-14405-37027-00007C95F8",
+					["classe"] = "UNKNOW",
+				}, -- [18]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37032",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Defender",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37032-00007C95F9",
+					["classe"] = "UNKNOW",
+				}, -- [19]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["aID"] = "37017",
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Assassin",
+					["serial"] = "Creature-0-3882-631-14405-37017-00007C95F8",
+					["classe"] = "UNKNOW",
+				}, -- [20]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37230",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Spire Frostwyrm",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37230-00007C95F8",
+					["classe"] = "UNKNOW",
+				}, -- [21]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["aID"] = "37016",
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Luminary",
+					["serial"] = "Creature-0-3882-631-14405-37016-00007C95F8",
+					["classe"] = "UNKNOW",
+				}, -- [22]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37546",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Frenzied Abomination",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37546-0000FC95F8",
+					["classe"] = "UNKNOW",
+				}, -- [23]
+				{
+					["flag_original"] = 2584,
+					["pets"] = {
+					},
+					["aID"] = "37003",
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Skybreaker Vindicator",
+					["serial"] = "Creature-0-3882-631-14405-37003-00007C95F8",
+					["classe"] = "UNKNOW",
+				}, -- [24]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "37117",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Battle-Mage",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-37117-00007C9675",
+					["classe"] = "UNKNOW",
+				}, -- [25]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "36968",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Axethrower",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-36968-00037C957E",
+					["classe"] = "UNKNOW",
+				}, -- [26]
+				{
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["aID"] = "36982",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "Kor'kron Rocketeer",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-36982-00007C957E",
+					["classe"] = "UNKNOW",
+				}, -- [27]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["nome"] = "Frostwarden Handler",
+					["fight_component"] = true,
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3882-631-14405-37531-0000FC957E",
+					["aID"] = "37531",
+				}, -- [28]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["aID"] = "36597",
+					["monster"] = true,
+					["boss_fight_component"] = true,
+					["nome"] = "The Lich King",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+					["classe"] = "UNKNOW",
+				}, -- [29]
+				{
+					["flag_original"] = 68168,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 9,
+					},
+					["pets"] = {
+					},
+					["aID"] = "36597",
+					["boss_debuff"] = true,
+					["damage_spellid"] = 72133,
+					["monster"] = true,
+					["debuff_uptime"] = 8,
+					["spellschool"] = 32,
+					["nome"] = "Pain and Suffering",
+					["classe"] = "UNKNOW",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["damage_twin"] = "The Lich King",
+					["debuff_uptime_targets"] = {
+						["Skalesbruh"] = {
+							["uptime"] = 8,
+							["appliedamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["refreshamt"] = 0,
+						},
+					},
+					["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+					["tipo"] = 4,
+				}, -- [30]
+				{
+					["flag_original"] = 68168,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 9,
+					},
+					["pets"] = {
+					},
+					["aID"] = "36597",
+					["boss_debuff"] = true,
+					["damage_spellid"] = 72350,
+					["monster"] = true,
+					["debuff_uptime"] = 2,
+					["spellschool"] = 32,
+					["nome"] = "Fury of Frostmourne",
+					["classe"] = "UNKNOW",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["damage_twin"] = "The Lich King",
+					["debuff_uptime_targets"] = {
+						["Skalesbruh"] = {
+							["uptime"] = 2,
+							["appliedamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["refreshamt"] = 0,
+						},
+					},
+					["serial"] = "Creature-0-3882-631-14405-36597-00007C957F",
+					["tipo"] = 4,
+				}, -- [31]
+				{
+					["flag_original"] = 2632,
+					["serial"] = "Creature-0-3882-631-14405-37126-00007C957E",
+					["pets"] = {
+					},
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["tipo"] = 4,
+					["monster"] = true,
+					["aID"] = "37126",
+					["nome"] = "Sister Svalna",
+					["last_event"] = 0,
+				}, -- [32]
+				{
+					["flag_original"] = 2632,
+					["serial"] = "Creature-0-3882-631-14405-38125-0000FC957E",
+					["pets"] = {
+					},
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["tipo"] = 4,
+					["monster"] = true,
+					["aID"] = "38125",
+					["nome"] = "Ymirjar Deathbringer",
+					["last_event"] = 0,
+				}, -- [33]
+				{
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["boss_fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["tipo"] = 4,
+					["serial"] = "Vehicle-0-3882-631-14405-37813-00007C957E",
+					["monster"] = true,
+					["aID"] = "",
+					["nome"] = "Deathbringer Saurfang",
+					["last_event"] = 0,
+				}, -- [34]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1702663583,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["bossTimers"] = {
+		},
+		["combat_counter"] = 6,
+		["totals"] = {
+			22672862.214885, -- [1]
+			38415.082635, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["amountCasts"] = {
+			["Kor'kron Sniper"] = {
+				["Shoot"] = 3,
+				["Explosive Shot"] = 2,
+				["Arcane Shot"] = 1,
+			},
+			["Kor'kron Necrolyte"] = {
+				["Incinerate"] = 3,
+				["Shadow Bolt"] = 6,
+			},
+			["Skybreaker Marksman"] = {
+				["Shoot"] = 2,
+				["Explosive Shot"] = 2,
+			},
+			["Kor'kron Stalker"] = {
+				["Sinister Strike"] = 5,
+			},
+			["Frostwarden Handler"] = {
+				["Order Whelp"] = 2,
+			},
+			["Kor'kron Templar"] = {
+				["Greater Heal"] = 10,
+				["Smite"] = 2,
+			},
+			["Kor'kron Rocketeer"] = {
+				["Rocket Artillery"] = 1,
+			},
+			["Kor'kron Invoker"] = {
+				["Frostfire Bolt"] = 6,
+			},
+			["Skybreaker Assassin"] = {
+				["Sinister Strike"] = 2,
+			},
+			["Spire Frostwyrm"] = {
+				["Blizzard"] = 1,
+			},
+			["Skalesbruh"] = {
+				["Red Magic Infusion"] = 1,
+				["Glide"] = 6,
+				["Azure Strike"] = 30,
+				["Disintegrate"] = 4,
+			},
+			["Kor'kron Defender"] = {
+				["Spell Reflect"] = 1,
+				["Thunderclap"] = 1,
+				["Devastate"] = 1,
+			},
+			["Skybreaker Sorcerer"] = {
+				["Frostfire Bolt"] = 4,
+			},
+			["Spire Minion"] = {
+				["Ghoul Slash"] = 2,
+			},
+			["Kor'kron Oracle"] = {
+				["Lightning Bolt"] = 5,
+				["Earth Shield"] = 1,
+				["Healing Wave"] = 5,
+			},
+			["Kor'kron Battle-Mage"] = {
+				["Below Zero"] = 1,
+			},
+			["Kor'kron Reaver"] = {
+				["Icy Touch"] = 6,
+				["Plague Strike"] = 6,
+			},
+			["Skybreaker Protector"] = {
+				["Thunderclap"] = 4,
+			},
+			["Skybreaker Summoner"] = {
+				["Curse of Doom"] = 6,
+			},
+			["The Lich King"] = {
+				["Raise Dead"] = 1,
+				["Remorseless Winter"] = 2,
+				["Fury of Frostmourne"] = 1,
+				["Pain and Suffering"] = 4,
+			},
+			["Kor'kron Vanquisher"] = {
+				["Consecration"] = 1,
+				["Avenger's Shield"] = 1,
+				["Holy Wrath"] = 2,
+			},
+			["Kor'kron Primalist"] = {
+				["Healing Touch"] = 3,
+				["Wrath"] = 3,
+			},
+			["Skybreaker Dreadblade"] = {
+				["Icy Touch"] = 2,
+				["Plague Strike"] = 2,
+			},
+			["Spire Gargoyle"] = {
+				["Poison Spit"] = 20,
+			},
+			["Frenzied Abomination"] = {
+				["Enrage"] = 2,
+				["Cleave"] = 4,
+			},
+			["Skybreaker Luminary"] = {
+				["Healing Wave"] = 2,
+			},
+			["Skybreaker Hierophant"] = {
+				["Healing Touch"] = 3,
+				["Wrath"] = 2,
+				["Regrowth"] = 1,
+			},
+			["Kor'kron Axethrower"] = {
+				["Hurl Axe"] = 1,
+			},
+			["Skybreaker Vindicator"] = {
+				["Consecration"] = 1,
+				["Avenger's Shield"] = 1,
+				["Holy Wrath"] = 1,
+			},
+		},
+		["end_time"] = 179124.265,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["totals_grupo"] = {
+			22421590.03151, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["data_inicio"] = "13:09:56",
+		["frags"] = {
+		},
+		["spells_cast_timeline"] = {
+		},
+		["data_fim"] = "13:25:18",
+		["overall_enemy_name"] = "-- x -- x --",
+		["segments_added"] = {
+			{
+				["elapsed"] = 167.0620000000054,
+				["type"] = 8,
+				["name"] = "The Lich King",
+				["clock"] = "13:22:33",
+			}, -- [1]
+			{
+				["elapsed"] = 18.82400000002235,
+				["type"] = 7,
+				["name"] = "Trash Cleanup",
+				["clock"] = "13:19:31",
+			}, -- [2]
+			{
+				["elapsed"] = 13.3520000000135,
+				["type"] = 7,
+				["name"] = "Trash Cleanup",
+				["clock"] = "13:15:27",
+			}, -- [3]
+			{
+				["elapsed"] = 18.59400000001187,
+				["type"] = 7,
+				["name"] = "Trash Cleanup",
+				["clock"] = "13:15:08",
+			}, -- [4]
+			{
+				["elapsed"] = 19.04800000000978,
+				["type"] = 7,
+				["name"] = "Trash Cleanup",
+				["clock"] = "13:13:55",
+			}, -- [5]
+			{
+				["elapsed"] = 12.17699999999604,
+				["type"] = 8,
+				["name"] = "Icecrown Gunship Battle",
+				["clock"] = "13:09:56",
+			}, -- [6]
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 178875.208,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["trinketProcs"] = {
+		},
+	},
+	["ignore_nicktag"] = false,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1703959438,
+		["last_version"] = 16,
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["cached_roles"] = {
+	},
+	["cached_specs"] = {
+		["Player-60-0F3969A1"] = 1467,
+	},
+}

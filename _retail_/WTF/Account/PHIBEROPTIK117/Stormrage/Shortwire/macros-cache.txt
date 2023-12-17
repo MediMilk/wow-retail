@@ -1,0 +1,15 @@
+VER 3 0100000000000025 "Buffs" "451167"
+/castsequence reset=3 Flametongue Weapon(Weapon Imbue), Lightning Shield
+END
+VER 3 0100000000000027 "EQ" "134400"
+#showtooltip
+/cast [@cursor] Earthquake
+END
+VER 3 0100000000000028 "LMT" "134400"
+#showtooltip
+/cast [@cursor] Liquid Magma Totem
+END
+VER 3 0100000000000026 "WRT" "134400"
+#showtooltip
+/cast [@cursor] Wind Rush Totem
+END

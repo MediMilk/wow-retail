@@ -1,0 +1,28 @@
+VER 3 0100000000000004 "Charge" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover] !Charge
+END
+VER 3 0100000000000001 "Leap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] !Heroic Leap
+END
+VER 3 0100000000000005 "Ravager" "134400"
+#showtooltip
+/cast [@cursor] Ravager
+END
+VER 3 0100000000000007 "Shield Charge" "134400"
+#showtooltip
+/cast [@mouseover] Shield Charge
+END
+VER 3 0100000000000006 "Stance" "134400"
+#showtooltip
+/cast [stance:2]!Defensive STance;!Battle Stance
+END
+VER 3 0100000000000003 "Throw" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@target] !Heroic Throw
+END
+VER 3 0100000000000008 "Wrecking Throw" "134400"
+#show
+/cast [@target] !Wrecking Throw
+END

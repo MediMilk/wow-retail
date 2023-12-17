@@ -1,0 +1,50 @@
+VER 3 0100000000000012 "BOP" "134400"
+#show
+/stopcasting
+/cast [@mouseover] Blessing of Protection
+END
+VER 3 0100000000000013 "Brez" "134400"
+#show
+/cast [@mouseover] Intercession
+END
+VER 3 010000000000000B "Divine Shield" "INV_MISC_QUESTIONMARK"
+#show
+/stopcasting
+/cast !Divine Shield
+END
+VER 3 0100000000000011 "Flash Heal" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover] Flash of Light
+END
+VER 3 010000000000000E "Freedom" "INV_MISC_QUESTIONMARK"
+#show
+/stopcasting
+/cast [@mouseover] Blessing of Freedom
+END
+VER 3 0100000000000015 "HS" "134400"
+#showtooltip
+/cast [@mouseover] Holy Shock
+END
+VER 3 0100000000000009 "LoH Mouseover" "INV_MISC_QUESTIONMARK"
+#show
+/stopcasting
+/cast [@mouseover] Lay on Hands
+END
+VER 3 010000000000000A "LoH Player" "INV_MISC_QUESTIONMARK"
+#show
+/stopcasting
+/cast [@player] Lay on Hands
+END
+VER 3 0100000000000005 "Res" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@mouseover] Redemption
+END
+VER 3 0100000000000004 "WOG" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@player] Word of Glory
+END
+VER 3 010000000000000F "Zoomer" "INV_MISC_QUESTIONMARK"
+#show
+/stopcasting
+/cast Divine Steed
+END

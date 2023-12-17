@@ -1,0 +1,31 @@
+VER 3 0100000000000001 "Cancel Form" "132171"
+#showtooltip
+/stopcasting
+/cancelform
+END
+VER 3 0100000000000006 "Interrupt" "134400"
+#showtooltip
+/cast [@target] !Skull Bash
+END
+VER 3 0100000000000005 "Ironfur" "134400"
+#showtooltip
+/stopcasting
+/cast !Ironfur
+END
+VER 3 0100000000000009 "Moonfire" "134400"
+#showtooltip
+/cast [@target] Moonfire
+END
+VER 3 0100000000000002 "MOTW" "134400"
+#showtooltip
+/cast [@player] Mark of the Wild
+END
+VER 3 0100000000000004 "Skin" "134400"
+#showtooltip
+/stopcasting
+/cast !Barkskin
+END
+VER 3 0100000000000003 "Vortex" "134400"
+#show
+/cast [@cursor] !Ursol's Vortex
+END

@@ -1,0 +1,12 @@
+VER 3 0100000000000004 "Gateway" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@cursor] !Demonic Gateway
+END
+VER 3 0100000000000002 "Shadowfury" "INV_MISC_QUESTIONMARK"
+#show
+/cast [@cursor] !Shadowfury
+END
+VER 3 0100000000000007 "Vile Taint" "134400"
+#show
+/cast [@cursor] !Vile Taint
+END

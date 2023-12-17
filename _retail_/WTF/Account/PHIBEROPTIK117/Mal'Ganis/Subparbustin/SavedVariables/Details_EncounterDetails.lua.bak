@@ -1,0 +1,721 @@
+
+EncounterDetailsDB = {
+	["chartData"] = {
+		nil, -- [1]
+		nil, -- [2]
+		nil, -- [3]
+		nil, -- [4]
+		nil, -- [5]
+		nil, -- [6]
+		{
+			["Raid Damage Done"] = {
+				1017496, -- [1]
+				0, -- [2]
+				["max_value"] = 1017496,
+				["__time"] = 1702587276,
+			},
+		}, -- [7]
+		{
+			["Raid Damage Done"] = {
+				936095, -- [1]
+				0, -- [2]
+				569797, -- [3]
+				203499, -- [4]
+				["max_value"] = 936095,
+				["__time"] = 1702587287,
+			},
+		}, -- [8]
+		{
+			["Raid Damage Done"] = {
+				976795, -- [1]
+				203499, -- [2]
+				["max_value"] = 976795,
+				["__time"] = 1702587290,
+			},
+		}, -- [9]
+		{
+			["Raid Damage Done"] = {
+				366298, -- [1]
+				366298, -- [2]
+				366298, -- [3]
+				203499, -- [4]
+				203499, -- [5]
+				["max_value"] = 366298,
+				["__time"] = 1702587300,
+			},
+		}, -- [10]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702587305,
+			},
+		}, -- [11]
+		{
+			["Raid Damage Done"] = {
+				3907199, -- [1]
+				["max_value"] = 3907199,
+				["__time"] = 1702588478,
+			},
+		}, -- [12]
+		{
+			["Raid Damage Done"] = {
+				0, -- [1]
+				["__time"] = 1702588608,
+			},
+		}, -- [13]
+		{
+			["Raid Damage Done"] = {
+				0, -- [1]
+				["__time"] = 1702588609,
+			},
+		}, -- [14]
+		{
+			["Raid Damage Done"] = {
+				2411284, -- [1]
+				2454054, -- [2]
+				["max_value"] = 2454054,
+				["__time"] = 1702588789,
+			},
+		}, -- [15]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702588857,
+			},
+		}, -- [16]
+		{
+			["Raid Damage Done"] = {
+				915749, -- [1]
+				["max_value"] = 915749,
+				["__time"] = 1702588865,
+			},
+		}, -- [17]
+		{
+			["Raid Damage Done"] = {
+				1526248, -- [1]
+				0, -- [2]
+				132274, -- [3]
+				["max_value"] = 1526248,
+				["__time"] = 1702588870,
+			},
+		}, -- [18]
+		{
+			["Raid Damage Done"] = {
+				5127357, -- [1]
+				0, -- [2]
+				2479680, -- [3]
+				0, -- [4]
+				["max_value"] = 5127357,
+				["__time"] = 1702588886,
+			},
+		}, -- [19]
+		{
+			["Raid Damage Done"] = {
+				1556773, -- [1]
+				["max_value"] = 1556773,
+				["__time"] = 1702588914,
+			},
+		}, -- [20]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702588918,
+			},
+		}, -- [21]
+		{
+			["Raid Damage Done"] = {
+				2649093, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				["max_value"] = 2649093,
+				["__time"] = 1702588936,
+			},
+		}, -- [22]
+		{
+			["Raid Damage Done"] = {
+				203498, -- [1]
+				["max_value"] = 203498,
+				["__time"] = 1702588954,
+			},
+		}, -- [23]
+		{
+			["Raid Damage Done"] = {
+				132274, -- [1]
+				["max_value"] = 132274,
+				["__time"] = 1702588958,
+			},
+		}, -- [24]
+		{
+			["Raid Damage Done"] = {
+				610, -- [1]
+				["max_value"] = 610,
+				["__time"] = 1702588983,
+			},
+		}, -- [25]
+		{
+			["Raid Damage Done"] = {
+				4068, -- [1]
+				["max_value"] = 4068,
+				["__time"] = 1702589002,
+			},
+		}, -- [26]
+		{
+			["Raid Damage Done"] = {
+				14238, -- [1]
+				10170, -- [2]
+				["max_value"] = 14238,
+				["__time"] = 1702589017,
+			},
+		}, -- [27]
+		{
+			["Raid Damage Done"] = {
+				8136, -- [1]
+				["max_value"] = 8136,
+				["__time"] = 1702589019,
+			},
+		}, -- [28]
+		{
+			["Raid Damage Done"] = {
+				6102, -- [1]
+				10170, -- [2]
+				["max_value"] = 10170,
+				["__time"] = 1702589021,
+			},
+		}, -- [29]
+		{
+			["Raid Damage Done"] = {
+				8136, -- [1]
+				4068, -- [2]
+				0, -- [3]
+				8136, -- [4]
+				12204, -- [5]
+				["max_value"] = 12204,
+				["__time"] = 1702589028,
+			},
+		}, -- [30]
+		{
+			["Raid Damage Done"] = {
+				8136, -- [1]
+				6102, -- [2]
+				["max_value"] = 8136,
+				["__time"] = 1702589032,
+			},
+		}, -- [31]
+		{
+			["Raid Damage Done"] = {
+				20340, -- [1]
+				["max_value"] = 20340,
+				["__time"] = 1702589038,
+			},
+		}, -- [32]
+		{
+			["Raid Damage Done"] = {
+				10170, -- [1]
+				8136, -- [2]
+				4068, -- [3]
+				2034, -- [4]
+				8136, -- [5]
+				["max_value"] = 10170,
+				["__time"] = 1702589043,
+			},
+		}, -- [33]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702589043,
+			},
+		}, -- [34]
+		{
+			["Raid Damage Done"] = {
+				12204, -- [1]
+				16272, -- [2]
+				10170, -- [3]
+				["max_value"] = 16272,
+				["__time"] = 1702589069,
+			},
+		}, -- [35]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702589072,
+			},
+		}, -- [36]
+		{
+			["Raid Damage Done"] = {
+				6102, -- [1]
+				["max_value"] = 6102,
+				["__time"] = 1702589074,
+			},
+		}, -- [37]
+		{
+			["Raid Damage Done"] = {
+				976802, -- [1]
+				["max_value"] = 976802,
+				["__time"] = 1702589126,
+			},
+		}, -- [38]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702589143,
+			},
+		}, -- [39]
+		{
+			["Raid Damage Done"] = {
+				2918695, -- [1]
+				0, -- [2]
+				["max_value"] = 2918695,
+				["__time"] = 1702589168,
+			},
+		}, -- [40]
+		{
+			["Raid Damage Done"] = {
+				846557, -- [1]
+				0, -- [2]
+				0, -- [3]
+				["max_value"] = 846557,
+				["__time"] = 1702589190,
+			},
+		}, -- [41]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702589205,
+			},
+		}, -- [42]
+		{
+			["Raid Damage Done"] = {
+				4932288, -- [1]
+				2591864, -- [2]
+				["max_value"] = 4932288,
+				["__time"] = 1702589214,
+			},
+		}, -- [43]
+		{
+			["Raid Damage Done"] = {
+				4, -- [1]
+				["max_value"] = 4,
+				["__time"] = 1702589243,
+			},
+		}, -- [44]
+		{
+			["Raid Damage Done"] = {
+				4, -- [1]
+				["max_value"] = 4,
+				["__time"] = 1702589248,
+			},
+		}, -- [45]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702589264,
+			},
+		}, -- [46]
+		{
+			["Raid Damage Done"] = {
+				227926, -- [1]
+				284899, -- [2]
+				["max_value"] = 284899,
+				["__time"] = 1702589267,
+			},
+		}, -- [47]
+		{
+			["Raid Damage Done"] = {
+				227919, -- [1]
+				["max_value"] = 227919,
+				["__time"] = 1702589270,
+			},
+		}, -- [48]
+		{
+			["Raid Damage Done"] = {
+				1119244, -- [1]
+				["max_value"] = 1119244,
+				["__time"] = 1702589273,
+			},
+		}, -- [49]
+		{
+			["Raid Damage Done"] = {
+				1139594, -- [1]
+				305249, -- [2]
+				["max_value"] = 1139594,
+				["__time"] = 1702589277,
+			},
+		}, -- [50]
+		{
+			["Raid Damage Done"] = {
+				651205, -- [1]
+				["max_value"] = 651205,
+				["__time"] = 1702589279,
+			},
+		}, -- [51]
+		{
+			["Raid Damage Done"] = {
+				1220999, -- [1]
+				["max_value"] = 1220999,
+				["__time"] = 1702589307,
+			},
+		}, -- [52]
+	},
+	["encounter_spells"] = {
+		[70395] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Spire Minion",
+		},
+		[69958] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Luminary",
+		},
+		[69899] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Hierophant",
+		},
+		[69970] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Luminary",
+		},
+		[69911] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Dreadblade",
+		},
+		[57807] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Skybreaker Protector",
+		},
+		[70116] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Spire Frostwyrm",
+		},
+		[72219] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Festergut",
+		},
+		[70396] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spire Minion",
+		},
+		[69963] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Vicar",
+		},
+		[69967] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Vicar",
+		},
+		[69912] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Dreadblade",
+		},
+		[69916] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Dreadblade",
+		},
+		[69920] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Assassin",
+		},
+		[69869] = {
+			["school"] = 20,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Sorcerer",
+		},
+		[70444] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[70952] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prince Valanar",
+		},
+		[70460] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Frost Freeze Trap",
+		},
+		[69901] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Protector",
+		},
+		[69968] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Hierophant",
+		},
+		[67767] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ebon Champion",
+		},
+		[69917] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Dreadblade",
+		},
+		[70362] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Spire Frostwyrm",
+		},
+		[69925] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Assassin",
+		},
+		[70189] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spire Gargoyle",
+		},
+		[69882] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Hierophant",
+		},
+		[69634] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Muradin Bronzebeard",
+		},
+		[71465] = {
+			["school"] = 66,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sister Svalna",
+		},
+		[70985] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Blood-Queen Lana'thel",
+		},
+		[69898] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Hierophant",
+		},
+		[69902] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Protector",
+		},
+		[69969] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Skybreaker Summoner",
+		},
+		[69973] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Summoner",
+		},
+		[73001] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prince Keleseth",
+		},
+		[71405] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prince Keleseth",
+		},
+		[72737] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Deathbringer Saurfang",
+		},
+		[69926] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Skybreaker Luminary",
+		},
+		[69930] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Vindicator",
+		},
+		[1604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Skybreaker Protector",
+		},
+		[69974] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Marksman",
+		},
+		[71139] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Vicar",
+		},
+		[101406] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Deathbringer Saurfang",
+		},
+		[69975] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Marksman",
+		},
+		[69972] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Summoner",
+		},
+	},
+	["emotes"] = {
+		{
+			{
+				0.1450000000040745, -- [1]
+				"You have made an... unwise... decision.", -- [2]
+				"Blood-Queen Lana'thel", -- [3]
+				7, -- [4]
+			}, -- [1]
+			["boss"] = "Queen Lana'thel",
+		}, -- [1]
+		{
+			["boss"] = "Blood Council",
+		}, -- [2]
+		{
+			["boss"] = "Professor Putricide",
+		}, -- [3]
+	},
+}

@@ -1,0 +1,21 @@
+VER 3 0100000000000007 "Curse" "134400"
+#show
+/cast [@mouseover] Remove Curse
+END
+VER 3 0100000000000006 "Flamestrike" "134400"
+#show
+/cast [@cursor] Flamestrike
+END
+VER 3 0100000000000005 "Meteor" "134400"
+#show
+/cast [@cursor] Meteor
+END
+VER 3 0100000000000004 "Pyroblyat" "134400"
+#show
+/stopcasting
+/cast [@target] Pyroblast
+END
+VER 3 0100000000000003 "Slowfall" "134400"
+#show
+/cast [@player] Slow Fall
+END

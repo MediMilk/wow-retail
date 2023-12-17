@@ -1,0 +1,10 @@
+
+LootLogDb = {
+	["profileKeys"] = {
+		["Medimilk - Mal'Ganis"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

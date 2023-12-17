@@ -1,0 +1,1088 @@
+
+EncounterDetailsDB = {
+	["chartData"] = {
+		nil, -- [1]
+		nil, -- [2]
+		nil, -- [3]
+		nil, -- [4]
+		nil, -- [5]
+		nil, -- [6]
+		nil, -- [7]
+		nil, -- [8]
+		{
+			["Raid Damage Done"] = {
+				230659, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				508748, -- [29]
+				0, -- [30]
+				254374, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				569797, -- [41]
+				203503, -- [42]
+				0, -- [43]
+				203499, -- [44]
+				203499, -- [45]
+				["max_value"] = 569797,
+				["__time"] = 1702568593,
+			},
+		}, -- [9]
+		{
+			["Raid Damage Done"] = {
+				732600, -- [1]
+				366298, -- [2]
+				0, -- [3]
+				203499, -- [4]
+				0, -- [5]
+				0, -- [6]
+				203499, -- [7]
+				["max_value"] = 732600,
+				["__time"] = 1702568606,
+			},
+		}, -- [10]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702568612,
+			},
+		}, -- [11]
+		{
+			["Raid Damage Done"] = {
+				3907199, -- [1]
+				["max_value"] = 3907199,
+				["__time"] = 1702568657,
+			},
+		}, -- [12]
+		{
+			["Raid Damage Done"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				44976, -- [5]
+				85930, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				["max_value"] = 85930,
+				["__time"] = 1702568826,
+			},
+		}, -- [13]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702568968,
+			},
+		}, -- [14]
+		{
+			["Raid Damage Done"] = {
+				1424499, -- [1]
+				["max_value"] = 1424499,
+				["__time"] = 1702569048,
+			},
+		}, -- [15]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702569062,
+			},
+		}, -- [16]
+		{
+			["Raid Damage Done"] = {
+				1556774, -- [1]
+				["max_value"] = 1556774,
+				["__time"] = 1702569092,
+			},
+		}, -- [17]
+		{
+			["Raid Damage Done"] = {
+				844517, -- [1]
+				["max_value"] = 844517,
+				["__time"] = 1702569099,
+			},
+		}, -- [18]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702569121,
+			},
+		}, -- [19]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702569127,
+			},
+		}, -- [20]
+		{
+			["Raid Damage Done"] = {
+				915749, -- [1]
+				["max_value"] = 915749,
+				["__time"] = 1702569177,
+			},
+		}, -- [21]
+		{
+			["Raid Damage Done"] = {
+				4068, -- [1]
+				["max_value"] = 4068,
+				["__time"] = 1702569190,
+			},
+		}, -- [22]
+		{
+			["Raid Damage Done"] = {
+				16272, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				24408, -- [5]
+				14238, -- [6]
+				["max_value"] = 24408,
+				["__time"] = 1702569209,
+			},
+		}, -- [23]
+		{
+			["Raid Damage Done"] = {
+				20340, -- [1]
+				2034, -- [2]
+				20340, -- [3]
+				8136, -- [4]
+				12204, -- [5]
+				10170, -- [6]
+				10170, -- [7]
+				["max_value"] = 20340,
+				["__time"] = 1702569217,
+			},
+		}, -- [24]
+		{
+			["Raid Damage Done"] = {
+				12204, -- [1]
+				10170, -- [2]
+				["max_value"] = 12204,
+				["__time"] = 1702569220,
+			},
+		}, -- [25]
+		{
+			["Raid Damage Done"] = {
+				14238, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				8137, -- [5]
+				0, -- [6]
+				10170, -- [7]
+				34578, -- [8]
+				["max_value"] = 34578,
+				["__time"] = 1702569230,
+			},
+		}, -- [26]
+		{
+			["Raid Damage Done"] = {
+				6102, -- [1]
+				2034, -- [2]
+				0, -- [3]
+				["max_value"] = 6102,
+				["__time"] = 1702569234,
+			},
+		}, -- [27]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702569243,
+			},
+		}, -- [28]
+		{
+			["Raid Damage Done"] = {
+				781436, -- [1]
+				0, -- [2]
+				["max_value"] = 781436,
+				["__time"] = 1702569313,
+			},
+		}, -- [29]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702569356,
+			},
+		}, -- [30]
+		{
+			["Raid Damage Done"] = {
+				195359, -- [1]
+				0, -- [2]
+				1025635, -- [3]
+				["max_value"] = 1025635,
+				["__time"] = 1702569377,
+			},
+		}, -- [31]
+		{
+			["Raid Damage Done"] = {
+				1302360, -- [1]
+				41, -- [2]
+				["max_value"] = 1302360,
+				["__time"] = 1702569396,
+			},
+		}, -- [32]
+		{
+			["Raid Damage Done"] = {
+				10139969, -- [1]
+				["max_value"] = 10139969,
+				["__time"] = 1702569402,
+			},
+		}, -- [33]
+		{
+			["Raid Damage Done"] = {
+				1139594, -- [1]
+				305249, -- [2]
+				["max_value"] = 1139594,
+				["__time"] = 1702569453,
+			},
+		}, -- [34]
+		{
+			["Raid Damage Done"] = {
+				7, -- [1]
+				284899, -- [2]
+				0, -- [3]
+				227919, -- [4]
+				["max_value"] = 284899,
+				["__time"] = 1702569461,
+			},
+		}, -- [35]
+		{
+			["Raid Damage Done"] = {
+				763121, -- [1]
+				0, -- [2]
+				["max_value"] = 763121,
+				["__time"] = 1702569467,
+			},
+		}, -- [36]
+		{
+			["Raid Damage Done"] = {
+				227919, -- [1]
+				0, -- [2]
+				284899, -- [3]
+				["max_value"] = 284899,
+				["__time"] = 1702569473,
+			},
+		}, -- [37]
+		{
+			["Raid Damage Done"] = {
+				1088720, -- [1]
+				356123, -- [2]
+				["max_value"] = 1088720,
+				["__time"] = 1702569479,
+			},
+		}, -- [38]
+		{
+			["Raid Damage Done"] = {
+				325599, -- [1]
+				0, -- [2]
+				["max_value"] = 325599,
+				["__time"] = 1702569481,
+			},
+		}, -- [39]
+		{
+			["Raid Damage Done"] = {
+				2441998, -- [1]
+				["max_value"] = 2441998,
+				["__time"] = 1702569503,
+			},
+		}, -- [40]
+		{
+			["Raid Damage Done"] = {
+				651196, -- [1]
+				122099, -- [2]
+				0, -- [3]
+				122099, -- [4]
+				0, -- [5]
+				128202, -- [6]
+				12208, -- [7]
+				["max_value"] = 651196,
+				["__time"] = 1702569597,
+			},
+		}, -- [41]
+		{
+			["Raid Damage Done"] = {
+				12208, -- [1]
+				["max_value"] = 12208,
+				["__time"] = 1702569599,
+			},
+		}, -- [42]
+		{
+			["Raid Damage Done"] = {
+				828235, -- [1]
+				152623, -- [2]
+				0, -- [3]
+				["max_value"] = 828235,
+				["__time"] = 1702569612,
+			},
+		}, -- [43]
+		{
+			["Raid Damage Done"] = {
+				488397, -- [1]
+				175007, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				286926, -- [8]
+				0, -- [9]
+				128203, -- [10]
+				128202, -- [11]
+				0, -- [12]
+				262510, -- [13]
+				0, -- [14]
+				24416, -- [15]
+				["max_value"] = 488397,
+				["__time"] = 1702569637,
+			},
+		}, -- [44]
+		{
+			["Raid Damage Done"] = {
+				6104, -- [1]
+				["max_value"] = 6104,
+				["__time"] = 1702569639,
+			},
+		}, -- [45]
+		{
+			["Raid Damage Done"] = {
+				610499, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				610499, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				["max_value"] = 610499,
+				["__time"] = 1702569663,
+			},
+		}, -- [46]
+		{
+			["Raid Damage Done"] = {
+				1119249, -- [1]
+				0, -- [2]
+				1119249, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				["max_value"] = 1119249,
+				["__time"] = 1702569681,
+			},
+		}, -- [47]
+		{
+			["Raid Damage Done"] = {
+				["__time"] = 1702569694,
+			},
+		}, -- [48]
+		{
+			["Raid Damage Done"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				15052895, -- [4]
+				0, -- [5]
+				-1, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				0, -- [29]
+				0, -- [30]
+				0, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				0, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				0, -- [45]
+				0, -- [46]
+				0, -- [47]
+				0, -- [48]
+				0, -- [49]
+				0, -- [50]
+				0, -- [51]
+				0, -- [52]
+				0, -- [53]
+				0, -- [54]
+				0, -- [55]
+				0, -- [56]
+				0, -- [57]
+				0, -- [58]
+				0, -- [59]
+				0, -- [60]
+				0, -- [61]
+				0, -- [62]
+				0, -- [63]
+				0, -- [64]
+				0, -- [65]
+				0, -- [66]
+				0, -- [67]
+				0, -- [68]
+				0, -- [69]
+				0, -- [70]
+				0, -- [71]
+				0, -- [72]
+				0, -- [73]
+				0, -- [74]
+				0, -- [75]
+				0, -- [76]
+				0, -- [77]
+				0, -- [78]
+				0, -- [79]
+				0, -- [80]
+				0, -- [81]
+				0, -- [82]
+				0, -- [83]
+				0, -- [84]
+				0, -- [85]
+				0, -- [86]
+				0, -- [87]
+				0, -- [88]
+				0, -- [89]
+				0, -- [90]
+				0, -- [91]
+				0, -- [92]
+				0, -- [93]
+				0, -- [94]
+				0, -- [95]
+				0, -- [96]
+				0, -- [97]
+				0, -- [98]
+				0, -- [99]
+				0, -- [100]
+				0, -- [101]
+				0, -- [102]
+				0, -- [103]
+				0, -- [104]
+				0, -- [105]
+				0, -- [106]
+				0, -- [107]
+				0, -- [108]
+				0, -- [109]
+				0, -- [110]
+				0, -- [111]
+				0, -- [112]
+				0, -- [113]
+				0, -- [114]
+				0, -- [115]
+				0, -- [116]
+				0, -- [117]
+				0, -- [118]
+				0, -- [119]
+				0, -- [120]
+				0, -- [121]
+				0, -- [122]
+				0, -- [123]
+				0, -- [124]
+				0, -- [125]
+				0, -- [126]
+				0, -- [127]
+				0, -- [128]
+				0, -- [129]
+				0, -- [130]
+				0, -- [131]
+				0, -- [132]
+				0, -- [133]
+				0, -- [134]
+				0, -- [135]
+				0, -- [136]
+				0, -- [137]
+				0, -- [138]
+				0, -- [139]
+				0, -- [140]
+				0, -- [141]
+				752645, -- [142]
+				0, -- [143]
+				0, -- [144]
+				0, -- [145]
+				0, -- [146]
+				0, -- [147]
+				0, -- [148]
+				0, -- [149]
+				0, -- [150]
+				0, -- [151]
+				["max_value"] = 15052895,
+				["__time"] = 1702569956,
+			},
+		}, -- [49]
+	},
+	["encounter_spells"] = {
+		[70395] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Spire Minion",
+		},
+		[69958] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Luminary",
+		},
+		[69899] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Hierophant",
+		},
+		[69970] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Luminary",
+		},
+		[69911] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Dreadblade",
+		},
+		[57807] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Skybreaker Protector",
+		},
+		[69927] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Skybreaker Vindicator",
+		},
+		[71254] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Lady Deathwhisper",
+		},
+		[70191] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Frenzied Abomination",
+		},
+		[70396] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spire Minion",
+		},
+		[69963] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Vicar",
+		},
+		[69967] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Vicar",
+		},
+		[69975] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Marksman",
+		},
+		[69916] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Dreadblade",
+		},
+		[69920] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Assassin",
+		},
+		[71769] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Lich King",
+		},
+		[69869] = {
+			["school"] = 20,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Sorcerer",
+		},
+		[70084] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sindragosa",
+		},
+		[70444] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[71204] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lady Deathwhisper",
+		},
+		[70361] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Spire Frostwyrm",
+		},
+		[70109] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sindragosa",
+		},
+		[72350] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Lich King",
+		},
+		[70952] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prince Valanar",
+		},
+		[69901] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Protector",
+		},
+		[69968] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Hierophant",
+		},
+		[69972] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Summoner",
+		},
+		[71614] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Lich King",
+		},
+		[69917] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Dreadblade",
+		},
+		[70362] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spire Frostwyrm",
+		},
+		[69925] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Vindicator",
+		},
+		[72737] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Deathbringer Saurfang",
+		},
+		[101406] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Deathbringer Saurfang",
+		},
+		[70189] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spire Gargoyle",
+		},
+		[69679] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Mortar Soldier",
+		},
+		[69882] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Hierophant",
+		},
+		[71335] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Rifleman",
+		},
+		[70116] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spire Frostwyrm",
+		},
+		[69705] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Sorcerer",
+		},
+		[69898] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Hierophant",
+		},
+		[69965] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Protector",
+		},
+		[69969] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Summoner",
+		},
+		[70162] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Rifleman",
+		},
+		[73001] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prince Keleseth",
+		},
+		[69926] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Skybreaker Luminary",
+		},
+		[69973] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Summoner",
+		},
+		[69989] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skybreaker Marksman",
+		},
+		[69930] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Vindicator",
+		},
+		[69934] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Vindicator",
+		},
+		[1604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Skybreaker Assassin",
+		},
+		[71139] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Skybreaker Vicar",
+		},
+		[69974] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skybreaker Marksman",
+		},
+		[69902] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Protector",
+		},
+		[69912] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skybreaker Dreadblade",
+		},
+	},
+	["emotes"] = {
+		{
+			{
+				8.305000000007567, -- [1]
+				"No questions remain unanswered. No doubts linger. You ARE Azeroth's greatest champions. You overcame every challenge I laid before you. My mightiest servants have fallen before your relentless onslaught... your unbridled fury... ", -- [2]
+				"The Lich King", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				39.79499999999825, -- [1]
+				"Is it truly righteousness that drives you? I wonder...", -- [2]
+				"The Lich King", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				49.61300000001211, -- [1]
+				"You trained them well, Fordring. You delivered the greatest fighting force this world has ever known... right into my hands - exactly as I intended! You shall be rewarded for your unwitting sacrifice.", -- [2]
+				"The Lich King", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				77.55400000000373, -- [1]
+				"Watch now as I raise them from the dead to become masters of the Scourge. They will shroud this world in chaos and destruction. Azeroth's fall will come at their hands -- and you will be the first to die.", -- [2]
+				"The Lich King", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				105.9570000000094, -- [1]
+				"I delight in the irony.", -- [2]
+				"The Lich King", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				113.291000000012, -- [1]
+				"LIGHT GRANT ME ONE FINAL BLESSING! GIVE ME THE STRENGTH... TO SHATTER THESE BONDS!", -- [2]
+				"Highlord Tirion Fordring", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				133.9410000000062, -- [1]
+				"Impossible...", -- [2]
+				"The Lich King", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				140.8290000000125, -- [1]
+				"No more, Arthas! No more lives will be consumed by your hatred!", -- [2]
+				"Highlord Tirion Fordring", -- [3]
+				7, -- [4]
+			}, -- [8]
+			["boss"] = "The Lich King",
+		}, -- [1]
+		{
+			["boss"] = "Sindragosa",
+		}, -- [2]
+		{
+			{
+				0.1889999999984866, -- [1]
+				"You have made an... unwise... decision.", -- [2]
+				"Blood-Queen Lana'thel", -- [3]
+				7, -- [4]
+			}, -- [1]
+			["boss"] = "Queen Lana'thel",
+		}, -- [3]
+	},
+}
