@@ -86,21 +86,21 @@ BigWigs3DB = {
 					["spacing"] = 3,
 					["fontSizeNameplate"] = 10,
 					["interceptKey"] = "SHIFT",
-					["emphasizeMove"] = false,
+					["nameplateHeight"] = 14,
 					["BigWigsEmphasizeAnchor_height"] = 15.99998760223389,
 					["nameplateAlpha"] = 1,
-					["texture"] = "Minimalist",
+					["emphasizeTime"] = 8,
 					["BigWigsEmphasizeAnchor_width"] = 221.0000305175781,
 					["fontName"] = "Expressway",
 					["BigWigsAnchor_height"] = 15.99998760223389,
-					["barStyle"] = "ElvUI",
-					["fontSizeEmph"] = 11,
-					["visibleBarLimitEmph"] = 4,
-					["BigWigsEmphasizeAnchor_x"] = 866.088996666258,
 					["outline"] = "OUTLINE",
-					["emphasizeTime"] = 8,
+					["BigWigsEmphasizeAnchor_x"] = 866.088996666258,
+					["visibleBarLimitEmph"] = 4,
+					["fontSizeEmph"] = 11,
+					["barStyle"] = "ElvUI",
+					["texture"] = "Minimalist",
 					["emphasizeMultiplier"] = 1,
-					["nameplateHeight"] = 14,
+					["emphasizeMove"] = false,
 				},
 				["Luckyone Main 2.48"] = {
 					["outline"] = "OUTLINE",
@@ -113,21 +113,21 @@ BigWigs3DB = {
 					["spacing"] = 3,
 					["fontSizeNameplate"] = 10,
 					["interceptKey"] = "SHIFT",
-					["nameplateHeight"] = 14,
+					["emphasizeMove"] = false,
 					["BigWigsEmphasizeAnchor_height"] = 15.99998760223389,
 					["emphasizeTime"] = 8,
-					["emphasizeRestart"] = false,
+					["barStyle"] = "ElvUI",
 					["BigWigsEmphasizeAnchor_width"] = 221.0000152587891,
 					["fontName"] = "Expressway",
 					["BigWigsAnchor_height"] = 15.99998760223389,
-					["texture"] = "Minimalist",
-					["BigWigsEmphasizeAnchor_y"] = 178.0001345184974,
-					["visibleBarLimitEmph"] = 4,
-					["BigWigsEmphasizeAnchor_x"] = 598,
 					["fontSizeEmph"] = 11,
-					["barStyle"] = "ElvUI",
+					["BigWigsEmphasizeAnchor_x"] = 598,
+					["visibleBarLimitEmph"] = 4,
+					["BigWigsEmphasizeAnchor_y"] = 178.0001345184974,
+					["texture"] = "Minimalist",
+					["emphasizeRestart"] = false,
 					["emphasizeMultiplier"] = 1,
-					["emphasizeMove"] = false,
+					["nameplateHeight"] = 14,
 				},
 				["Default"] = {
 					["BigWigsAnchor_width"] = 219.9995269775391,
@@ -150,17 +150,73 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
 				["Luckyone Main 2.48"] = {
-					["disabled"] = true,
+					["posx"] = 962.8443809535747,
+					["posy"] = 72.42229450539753,
 				},
 				["Luckyone Healing 2.48"] = {
-					["disabled"] = true,
+					["posx"] = 962.8443809535747,
+					["posy"] = 72.42229450539753,
 				},
 			},
 		},
 		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Luckyone Main 2.48"] = {
+					["posx"] = 296,
+					["fontSize"] = 18,
+					["fontName"] = "Expressway",
+					["width"] = 150.0000915527344,
+					["objects"] = {
+						["title"] = false,
+						["close"] = false,
+						["ability"] = false,
+						["tooltip"] = false,
+						["sound"] = false,
+					},
+					["posy"] = 87,
+					["lock"] = true,
+					["height"] = 119.9999694824219,
+					["font"] = "Friz Quadrata TT",
+				},
+				["Luckyone Healing 2.48"] = {
+					["posx"] = 296,
+					["fontSize"] = 18,
+					["fontName"] = "Expressway",
+					["width"] = 150.0000915527344,
+					["objects"] = {
+						["title"] = false,
+						["close"] = false,
+						["ability"] = false,
+						["tooltip"] = false,
+						["sound"] = false,
+					},
+					["posy"] = 87,
+					["lock"] = true,
+					["height"] = 119.9999694824219,
+					["font"] = "Friz Quadrata TT",
+				},
+			},
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+			["profiles"] = {
+				["Luckyone Main 2.48"] = {
+					["exitCombatOther"] = 3,
+					["disabled"] = false,
+					["modeOther"] = 2,
+				},
+				["Luckyone Healing 2.48"] = {
+					["exitCombatOther"] = 3,
+					["disabled"] = false,
+					["modeOther"] = 2,
+				},
+			},
+		},
+		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -208,69 +264,13 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 			["profiles"] = {
 				["Luckyone Main 2.48"] = {
-					["exitCombatOther"] = 3,
-					["disabled"] = false,
-					["modeOther"] = 2,
+					["disabled"] = true,
 				},
 				["Luckyone Healing 2.48"] = {
-					["exitCombatOther"] = 3,
-					["disabled"] = false,
-					["modeOther"] = 2,
-				},
-			},
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Luckyone Main 2.48"] = {
-					["posx"] = 296,
-					["fontSize"] = 18,
-					["fontName"] = "Expressway",
-					["width"] = 150.0000915527344,
-					["objects"] = {
-						["title"] = false,
-						["close"] = false,
-						["ability"] = false,
-						["tooltip"] = false,
-						["sound"] = false,
-					},
-					["posy"] = 87,
-					["lock"] = true,
-					["height"] = 119.9999694824219,
-					["font"] = "Friz Quadrata TT",
-				},
-				["Luckyone Healing 2.48"] = {
-					["posx"] = 296,
-					["fontSize"] = 18,
-					["fontName"] = "Expressway",
-					["width"] = 150.0000915527344,
-					["objects"] = {
-						["title"] = false,
-						["close"] = false,
-						["ability"] = false,
-						["tooltip"] = false,
-						["sound"] = false,
-					},
-					["posy"] = 87,
-					["lock"] = true,
-					["height"] = 119.9999694824219,
-					["font"] = "Friz Quadrata TT",
-				},
-			},
-		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Luckyone Main 2.48"] = {
-					["posx"] = 962.8443809535747,
-					["posy"] = 72.42229450539753,
-				},
-				["Luckyone Healing 2.48"] = {
-					["posx"] = 962.8443809535747,
-					["posy"] = 72.42229450539753,
+					["disabled"] = true,
 				},
 			},
 		},
@@ -313,6 +313,24 @@ BigWigs3DB = {
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Subparbear - Mal'Ganis"] = "Default",
+		["Healingood - Mal'Ganis"] = "Luckyone Healing 2.48",
+		["Skalesbruh - Stormrage"] = "Default",
+		["Moosterious - Mal'Ganis"] = "Default",
+		["Subpardragon - Mal'Ganis"] = "Default",
+		["Bighealnrg - Stormrage"] = "Default",
+		["Medimilk - Mal'Ganis"] = "Luckyone Main 2.48",
+		["Chugmonk - Stormrage"] = "Luckyone Main 2.48",
+		["Subparlite - Mal'Ganis"] = "Default",
+		["Subparsham - Mal'Ganis"] = "Default",
+		["Eyefeldown - Stormrage"] = "Default",
+		["Calumnia - Mal'Ganis"] = "Default",
+		["Subpararmy - Mal'Ganis"] = "Default",
+		["Shortwire - Stormrage"] = "Default",
+		["Subparbustin - Mal'Ganis"] = "Default",
+		["Lildotnrg - Stormrage"] = "Default",
+	},
 	["global"] = {
 		["watchedMovies"] = {
 			[1003] = true,
@@ -320,34 +338,16 @@ BigWigs3DB = {
 			[16] = true,
 		},
 	},
-	["profileKeys"] = {
-		["Subparbear - Mal'Ganis"] = "Default",
-		["Lildotnrg - Stormrage"] = "Default",
-		["Skalesbruh - Stormrage"] = "Default",
-		["Subparbustin - Mal'Ganis"] = "Default",
-		["Shortwire - Stormrage"] = "Default",
-		["Bighealnrg - Stormrage"] = "Default",
-		["Medimilk - Mal'Ganis"] = "Luckyone Main 2.48",
-		["Chugmonk - Stormrage"] = "Luckyone Main 2.48",
-		["Subparlite - Mal'Ganis"] = "Default",
-		["Eyefeldown - Stormrage"] = "Default",
-		["Calumnia - Mal'Ganis"] = "Default",
-		["Subparsham - Mal'Ganis"] = "Default",
-		["Subpararmy - Mal'Ganis"] = "Default",
-		["Subpardragon - Mal'Ganis"] = "Default",
-		["Moosterious - Mal'Ganis"] = "Default",
-		["Healingood - Mal'Ganis"] = "Luckyone Healing 2.48",
-	},
 	["profiles"] = {
 		["Luckyone Healing 2.48"] = {
 			["showZoneMessages"] = false,
-			["fakeDBMVersion"] = true,
 			["flash"] = false,
+			["fakeDBMVersion"] = true,
 		},
 		["Luckyone Main 2.48"] = {
 			["showZoneMessages"] = false,
-			["fakeDBMVersion"] = true,
 			["flash"] = false,
+			["fakeDBMVersion"] = true,
 		},
 		["Default"] = {
 		},
@@ -374,13 +374,13 @@ BigWigsStatsDB = {
 				["wipes"] = 14,
 				["best"] = 367.3249999999971,
 			},
-			["normal"] = {
-				["best"] = 180.6110000000044,
-				["kills"] = 2,
-			},
 			["heroic"] = {
 				["best"] = 178.9410000000207,
 				["kills"] = 1,
+			},
+			["normal"] = {
+				["best"] = 180.6110000000044,
+				["kills"] = 2,
 			},
 		},
 		[2555] = {
@@ -420,13 +420,13 @@ BigWigsStatsDB = {
 				["wipes"] = 1,
 				["best"] = 353.6460000000079,
 			},
-			["normal"] = {
-				["best"] = 141.6340000000055,
-				["kills"] = 2,
-			},
 			["heroic"] = {
 				["best"] = 140.9279999999853,
 				["kills"] = 1,
+			},
+			["normal"] = {
+				["best"] = 141.6340000000055,
+				["kills"] = 2,
 			},
 		},
 		[2557] = {
@@ -435,14 +435,14 @@ BigWigsStatsDB = {
 				["best"] = 103.2760000000053,
 				["wipes"] = 1,
 			},
+			["heroic"] = {
+				["best"] = 142.6459999999788,
+				["kills"] = 1,
+			},
 			["mythic"] = {
 				["kills"] = 1,
 				["wipes"] = 8,
 				["best"] = 301.0200000000041,
-			},
-			["heroic"] = {
-				["best"] = 142.6459999999788,
-				["kills"] = 1,
 			},
 		},
 		[2565] = {

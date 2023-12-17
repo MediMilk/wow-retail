@@ -50,12 +50,15 @@ PremadeGroupsFilterState = {
 	["c114f5"] = {
 		["enabled"] = true,
 	},
+	["c9f8"] = {
+		["enabled"] = true,
+	},
 	["c3f5"] = {
 		["enabled"] = true,
 		["raid"] = {
 			["difficulty"] = {
-				["val"] = 1,
 				["act"] = true,
+				["val"] = 1,
 			},
 			["heals"] = {
 				["max"] = "",
@@ -67,7 +70,7 @@ PremadeGroupsFilterState = {
 				["min"] = "",
 				["act"] = false,
 			},
-			["defeated"] = {
+			["members"] = {
 				["max"] = "",
 				["min"] = "",
 				["act"] = false,
@@ -77,15 +80,12 @@ PremadeGroupsFilterState = {
 				["min"] = "",
 				["act"] = false,
 			},
-			["members"] = {
+			["defeated"] = {
 				["max"] = "",
 				["min"] = "",
 				["act"] = false,
 			},
 			["expression"] = "",
 		},
-	},
-	["c9f8"] = {
-		["enabled"] = true,
 	},
 }

@@ -10,9 +10,9 @@ HandyNotesDB = {
 		["Subpardragon - Mal'Ganis"] = "Subpardragon - Mal'Ganis",
 		["Healingood - Mal'Ganis"] = "Healingood - Mal'Ganis",
 		["Subparbear - Mal'Ganis"] = "Subparbear - Mal'Ganis",
-		["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
-		["Skalesbruh - Stormrage"] = "Skalesbruh - Stormrage",
-		["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+		["Incoherentsc - Mal'Ganis"] = "Incoherentsc - Mal'Ganis",
+		["Icctwo - Stormrage"] = "Icctwo - Stormrage",
+		["Moosterious - Mal'Ganis"] = "Moosterious - Mal'Ganis",
 		["Wowguildmsg - Tichondrius"] = "Wowguildmsg - Tichondrius",
 		["Chugmonk - Stormrage"] = "Chugmonk - Stormrage",
 		["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
@@ -22,9 +22,9 @@ HandyNotesDB = {
 		["Calumnia - Mal'Ganis"] = "Calumnia - Mal'Ganis",
 		["Wowguildmsg - Khaz'goroth"] = "Wowguildmsg - Khaz'goroth",
 		["Subpararmy - Mal'Ganis"] = "Subpararmy - Mal'Ganis",
-		["Moosterious - Mal'Ganis"] = "Moosterious - Mal'Ganis",
-		["Icctwo - Stormrage"] = "Icctwo - Stormrage",
-		["Incoherentsc - Mal'Ganis"] = "Incoherentsc - Mal'Ganis",
+		["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+		["Skalesbruh - Stormrage"] = "Skalesbruh - Stormrage",
+		["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
 	},
 	["profiles"] = {
 		["Subparsham - Mal'Ganis"] = {
@@ -45,11 +45,11 @@ HandyNotesDB = {
 		},
 		["Subparbear - Mal'Ganis"] = {
 		},
-		["Lildotnrg - Stormrage"] = {
+		["Incoherentsc - Mal'Ganis"] = {
 		},
-		["Skalesbruh - Stormrage"] = {
+		["Icctwo - Stormrage"] = {
 		},
-		["Shortwire - Stormrage"] = {
+		["Moosterious - Mal'Ganis"] = {
 		},
 		["Wowguildmsg - Tichondrius"] = {
 		},
@@ -69,11 +69,11 @@ HandyNotesDB = {
 		},
 		["Subpararmy - Mal'Ganis"] = {
 		},
-		["Moosterious - Mal'Ganis"] = {
+		["Shortwire - Stormrage"] = {
 		},
-		["Icctwo - Stormrage"] = {
+		["Skalesbruh - Stormrage"] = {
 		},
-		["Incoherentsc - Mal'Ganis"] = {
+		["Lildotnrg - Stormrage"] = {
 		},
 	},
 }
@@ -88,9 +88,9 @@ HandyNotes_HandyNotesDB = {
 		["Subpardragon - Mal'Ganis"] = "Subpardragon - Mal'Ganis",
 		["Healingood - Mal'Ganis"] = "Healingood - Mal'Ganis",
 		["Subparbear - Mal'Ganis"] = "Subparbear - Mal'Ganis",
-		["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
-		["Skalesbruh - Stormrage"] = "Skalesbruh - Stormrage",
-		["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+		["Incoherentsc - Mal'Ganis"] = "Incoherentsc - Mal'Ganis",
+		["Icctwo - Stormrage"] = "Icctwo - Stormrage",
+		["Moosterious - Mal'Ganis"] = "Moosterious - Mal'Ganis",
 		["Wowguildmsg - Tichondrius"] = "Wowguildmsg - Tichondrius",
 		["Chugmonk - Stormrage"] = "Chugmonk - Stormrage",
 		["Medimilk - Mal'Ganis"] = "Medimilk - Mal'Ganis",
@@ -100,9 +100,9 @@ HandyNotes_HandyNotesDB = {
 		["Calumnia - Mal'Ganis"] = "Calumnia - Mal'Ganis",
 		["Wowguildmsg - Khaz'goroth"] = "Wowguildmsg - Khaz'goroth",
 		["Subpararmy - Mal'Ganis"] = "Subpararmy - Mal'Ganis",
-		["Moosterious - Mal'Ganis"] = "Moosterious - Mal'Ganis",
-		["Icctwo - Stormrage"] = "Icctwo - Stormrage",
-		["Incoherentsc - Mal'Ganis"] = "Incoherentsc - Mal'Ganis",
+		["Shortwire - Stormrage"] = "Shortwire - Stormrage",
+		["Skalesbruh - Stormrage"] = "Skalesbruh - Stormrage",
+		["Lildotnrg - Stormrage"] = "Lildotnrg - Stormrage",
 	},
 	["profiles"] = {
 		["Subparsham - Mal'Ganis"] = {
@@ -123,11 +123,11 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Subparbear - Mal'Ganis"] = {
 		},
-		["Lildotnrg - Stormrage"] = {
+		["Incoherentsc - Mal'Ganis"] = {
 		},
-		["Skalesbruh - Stormrage"] = {
+		["Icctwo - Stormrage"] = {
 		},
-		["Shortwire - Stormrage"] = {
+		["Moosterious - Mal'Ganis"] = {
 		},
 		["Wowguildmsg - Tichondrius"] = {
 		},
@@ -147,11 +147,11 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Subpararmy - Mal'Ganis"] = {
 		},
-		["Moosterious - Mal'Ganis"] = {
+		["Shortwire - Stormrage"] = {
 		},
-		["Icctwo - Stormrage"] = {
+		["Skalesbruh - Stormrage"] = {
 		},
-		["Incoherentsc - Mal'Ganis"] = {
+		["Lildotnrg - Stormrage"] = {
 		},
 	},
 }

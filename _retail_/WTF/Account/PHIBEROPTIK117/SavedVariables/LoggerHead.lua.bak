@@ -10,9 +10,9 @@ LoggerHeadDB = {
 		["Subpardragon - Mal'Ganis"] = "Default",
 		["Healingood - Mal'Ganis"] = "Default",
 		["Subparbear - Mal'Ganis"] = "Default",
-		["Incoherentsc - Mal'Ganis"] = "Default",
-		["Icctwo - Stormrage"] = "Default",
-		["Moosterious - Mal'Ganis"] = "Default",
+		["Lildotnrg - Stormrage"] = "Default",
+		["Skalesbruh - Stormrage"] = "Default",
+		["Shortwire - Stormrage"] = "Default",
 		["Wowguildmsg - Tichondrius"] = "Default",
 		["Chugmonk - Stormrage"] = "Default",
 		["Medimilk - Mal'Ganis"] = "Default",
@@ -22,20 +22,13 @@ LoggerHeadDB = {
 		["Calumnia - Mal'Ganis"] = "Default",
 		["Wowguildmsg - Khaz'goroth"] = "Default",
 		["Subpararmy - Mal'Ganis"] = "Default",
-		["Shortwire - Stormrage"] = "Default",
-		["Skalesbruh - Stormrage"] = "Default",
-		["Lildotnrg - Stormrage"] = "Default",
+		["Moosterious - Mal'Ganis"] = "Default",
+		["Icctwo - Stormrage"] = "Default",
+		["Incoherentsc - Mal'Ganis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["log"] = {
-				["party"] = {
-					["The Everbloom"] = {
-						[8] = true,
-						[2] = false,
-						[23] = true,
-					},
-				},
 				["raid"] = {
 					["Amirdrassil, the Dream's Hope"] = {
 						[14] = true,
@@ -44,6 +37,13 @@ LoggerHeadDB = {
 					},
 					["Icecrown Citadel"] = {
 						[6] = false,
+					},
+				},
+				["party"] = {
+					["The Everbloom"] = {
+						[8] = true,
+						[2] = false,
+						[23] = true,
 					},
 				},
 			},

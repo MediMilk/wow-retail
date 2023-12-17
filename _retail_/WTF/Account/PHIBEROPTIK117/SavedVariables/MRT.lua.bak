@@ -15,47 +15,21 @@ VMRT = {
 		["Eyefeldown-Stormrage"] = "default",
 		["Healingood-Mal'Ganis"] = "default",
 		["Lildotnrg-Stormrage"] = "default",
-		["Subparlite-Mal'Ganis"] = "default",
+		["Subparbear-Mal'Ganis"] = "default",
 		["Wowguildmsg-Zul'jin"] = "default",
 		["Calumnia-Mal'Ganis"] = "default",
 		["Incoherentsc-Mal'Ganis"] = "default",
 		["Subparsham-Mal'Ganis"] = "default",
-		["Subpardragon-Mal'Ganis"] = "default",
-		["Shortwire-Stormrage"] = "default",
-		["Icctwo-Stormrage"] = "default",
-		["Moosterious-Mal'Ganis"] = "default",
-		["Chugmonk-Stormrage"] = "default",
-		["Skalesbruh-Stormrage"] = "default",
 		["Bighealnrg-Stormrage"] = "default",
-		["Subparbear-Mal'Ganis"] = "default",
+		["Skalesbruh-Stormrage"] = "default",
+		["Icctwo-Stormrage"] = "default",
+		["Chugmonk-Stormrage"] = "default",
+		["Moosterious-Mal'Ganis"] = "default",
+		["Shortwire-Stormrage"] = "default",
+		["Subpardragon-Mal'Ganis"] = "default",
+		["Subparlite-Mal'Ganis"] = "default",
 	},
 	["Encounter"] = {
-		["names"] = {
-			[2677] = "Fyrakk the Blazing",
-			[2786] = "Tindral Sageswift, Seer of the Flame",
-			[2728] = "Council of Dreams",
-			[1106] = "The Lich King",
-			[1757] = "Ancient Protectors",
-			[1756] = "Yalnu",
-			[2731] = "Larodar, Keeper of the Flame",
-			[1103] = "Queen Lana'thel",
-			[2709] = "Igira the Cruel",
-			[1746] = "Witherbark",
-			[1101] = "Lord Marrowgar",
-			[1095] = "Blood Council",
-			[1096] = "Deathbringer Saurfang",
-			[1097] = "Festergut",
-			[1751] = "Archmage Sol",
-			[1099] = "Icecrown Gunship Battle",
-			[1100] = "Lady Deathwhisper",
-			[2820] = "Gnarlroot",
-			[1102] = "Professor Putricide",
-			[2824] = "Smolderon",
-			[1104] = "Rotface",
-			[1105] = "Sindragosa",
-			[2737] = "Volcoross",
-			[2708] = "Nymue, Weaver of the Cycle",
-		},
 		["list"] = {
 			["Subparlite"] = {
 				"^1101^6^1702568612^0^1^25^384.12^", -- [1]
@@ -225,59 +199,57 @@ VMRT = {
 				"^1751^8^1702608390^104^1^5^479.65^Mowk", -- [73]
 				"^1756^8^1702608547^173^1^5^479.65^", -- [74]
 			},
-			["Chugmonk"] = {
-				"^1101^6^1702616534^0^1^25^447.12^", -- [1]
-				"^1100^6^1702616577^1^1^25^447.12^", -- [2]
-				"^1099^6^1702616721^12^1^25^447.12^", -- [3]
-				"^1096^6^1702616949^4^1^25^447.12^", -- [4]
-				"^1097^6^1702617050^0^1^25^447.12^", -- [5]
-				"^1104^6^1702617101^0^1^25^447.12^", -- [6]
-				"^1102^6^1702617223^0^1^25^447.12^", -- [7]
-				"^1095^6^1702617373^2^1^25^447.12^", -- [8]
-				"^1103^6^1702617453^0^1^25^447.12^", -- [9]
-				"^1105^6^1702617745^5^1^25^447.12^", -- [10]
-				"^1106^6^1702617867^157^1^25^447.12^", -- [11]
+			["Subpararmy"] = {
+				"^1101^6^1702601022^3^1^25^269.75^", -- [1]
+				"^1100^6^1702601468^1^1^25^269.75^", -- [2]
+				"^1099^6^1702601753^13^0^25^233.25^", -- [3]
+				"^1096^6^1702601936^3^1^25^233.25^", -- [4]
+				"^1104^6^1702602046^4^1^25^233.25^", -- [5]
+				"^1097^6^1702602149^7^1^25^233.25^", -- [6]
+				"^1102^6^1702602240^4^1^25^233.25^", -- [7]
+				"^1095^6^1702602366^2^1^25^233.25^", -- [8]
+				"^1103^6^1702602418^8^1^25^233.25^", -- [9]
+				"^1105^6^1702602819^4^1^25^233.25^", -- [10]
+				"^1106^6^1702602937^173^1^25^233.25^", -- [11]
 			},
 			["Icctwo"] = {
 			},
-			["Skalesbruh"] = {
-				"^1101^6^1702663620^2^1^25^226.50^", -- [1]
-				"^1100^6^1702663668^4^1^25^226.50^", -- [2]
-				"^1099^6^1702663796^12^1^25^226.50^", -- [3]
-				"^1096^6^1702663899^8^1^25^226.50^", -- [4]
-				"^1097^6^1702664000^3^1^25^226.50^", -- [5]
-				"^1104^6^1702664060^3^1^25^226.50^", -- [6]
-				"^1102^6^1702664141^2^1^25^226.50^", -- [7]
-				"^1095^6^1702664268^4^1^25^226.50^", -- [8]
-				"^1103^6^1702664320^6^1^25^226.50^", -- [9]
-				"^1105^6^1702664437^5^1^25^226.50^", -- [10]
-				"^1106^6^1702664551^167^1^25^226.50^", -- [11]
+			["Calumnia"] = {
+				"^1101^6^1702532168^0^1^25^446.69^", -- [1]
+				"^1100^6^1702532219^2^1^25^446.69^", -- [2]
+				"^1099^6^1702532359^3^0^25^446.69^", -- [3]
+				"^1096^6^1702532560^1^1^25^446.69^", -- [4]
+				"^1097^6^1702532661^0^1^25^446.69^", -- [5]
+				"^1104^6^1702532709^0^1^25^446.69^", -- [6]
+				"^1102^6^1702532779^0^1^25^446.69^", -- [7]
+				"^1095^6^1702532961^1^1^25^446.69^", -- [8]
+				"^1103^6^1702533007^0^1^25^446.69^", -- [9]
+				"^1105^6^1702533315^0^1^25^446.69^", -- [10]
+				"^1106^6^1702533427^182^1^25^446.69^", -- [11]
 			},
-			["Subpardragon"] = {
-				"^1101^6^1702582034^1^1^25^394.25^", -- [1]
-				"^1100^6^1702582073^1^1^25^394.25^", -- [2]
-				"^1099^6^1702582207^12^1^25^394.25^", -- [3]
-				"^1096^6^1702582360^3^1^25^394.25^", -- [4]
-				"^1097^6^1702582448^2^1^25^394.25^", -- [5]
-				"^1104^6^1702582501^0^1^25^394.25^", -- [6]
-				"^1102^6^1702582615^1^1^25^394.25^", -- [7]
-				"^1095^6^1702582733^3^1^25^394.25^", -- [8]
-				"^1103^6^1702582793^1^1^25^394.25^", -- [9]
-				"^1105^6^1702582890^1^1^25^394.25^", -- [10]
-				"^1106^6^1702582998^156^1^25^394.25^", -- [11]
+			["Subparbear"] = {
+				"^1101^6^1702583434^1^1^25^303.38^", -- [1]
+				"^1100^6^1702583461^1^1^25^303.38^", -- [2]
+				"^1099^6^1702583584^1^0^25^303.38^", -- [3]
+				"^1096^6^1702583750^7^1^25^303.38^", -- [4]
+				"^1097^6^1702583840^1^1^25^303.38^", -- [5]
+				"^1104^6^1702583874^6^1^25^303.38^", -- [6]
+				"^1102^6^1702583960^1^1^25^303.38^", -- [7]
+				"^1095^6^1702584050^9^1^25^303.38^", -- [8]
+				"^1103^6^1702584104^1^1^25^303.38^", -- [9]
+				"^1105^6^1702584387^2^1^25^303.38^", -- [10]
+				"^1106^6^1702584490^155^1^25^303.38^", -- [11]
 			},
-			["Lildotnrg"] = {
-				"^1101^6^1702614497^1^1^25^389.38^", -- [1]
-				"^1100^6^1702614553^5^1^25^389.38^", -- [2]
-				"^1099^6^1702614673^15^1^25^389.38^", -- [3]
-				"^1096^6^1702614781^2^1^25^389.38^", -- [4]
-				"^1097^6^1702614873^3^1^25^389.38^", -- [5]
-				"^1104^6^1702614912^2^1^25^389.38^", -- [6]
-				"^1102^6^1702615001^3^1^25^389.38^", -- [7]
-				"^1095^6^1702615203^5^1^25^389.38^", -- [8]
-				"^1103^6^1702615279^2^1^25^389.38^", -- [9]
-				"^1105^6^1702615621^6^1^25^389.38^", -- [10]
-				"^1106^6^1702616173^155^1^25^389.38^", -- [11]
+			["Shortwire"] = {
+				"^1101^6^1702603809^0^1^25^445.06^", -- [1]
+				"^1100^6^1702603866^3^1^25^445.06^", -- [2]
+				"^1099^6^1702604006^12^1^25^445.06^", -- [3]
+				"^1096^6^1702604156^1^1^25^445.06^", -- [4]
+				"^1097^6^1702604280^2^1^25^445.06^", -- [5]
+				"^1104^6^1702604321^1^1^25^445.06^", -- [6]
+				"^1102^6^1702604396^0^1^25^445.06^", -- [7]
+				"^1095^6^1702604530^0^1^25^445.06^", -- [8]
+				"^1103^6^1702604567^1^1^25^445.06^", -- [9]
 			},
 			["Wowguildrect"] = {
 			},
@@ -296,58 +268,86 @@ VMRT = {
 			},
 			["Wowguildrecr"] = {
 			},
-			["Shortwire"] = {
-				"^1101^6^1702603809^0^1^25^445.06^", -- [1]
-				"^1100^6^1702603866^3^1^25^445.06^", -- [2]
-				"^1099^6^1702604006^12^1^25^445.06^", -- [3]
-				"^1096^6^1702604156^1^1^25^445.06^", -- [4]
-				"^1097^6^1702604280^2^1^25^445.06^", -- [5]
-				"^1104^6^1702604321^1^1^25^445.06^", -- [6]
-				"^1102^6^1702604396^0^1^25^445.06^", -- [7]
-				"^1095^6^1702604530^0^1^25^445.06^", -- [8]
-				"^1103^6^1702604567^1^1^25^445.06^", -- [9]
+			["Lildotnrg"] = {
+				"^1101^6^1702614497^1^1^25^389.38^", -- [1]
+				"^1100^6^1702614553^5^1^25^389.38^", -- [2]
+				"^1099^6^1702614673^15^1^25^389.38^", -- [3]
+				"^1096^6^1702614781^2^1^25^389.38^", -- [4]
+				"^1097^6^1702614873^3^1^25^389.38^", -- [5]
+				"^1104^6^1702614912^2^1^25^389.38^", -- [6]
+				"^1102^6^1702615001^3^1^25^389.38^", -- [7]
+				"^1095^6^1702615203^5^1^25^389.38^", -- [8]
+				"^1103^6^1702615279^2^1^25^389.38^", -- [9]
+				"^1105^6^1702615621^6^1^25^389.38^", -- [10]
+				"^1106^6^1702616173^155^1^25^389.38^", -- [11]
 			},
-			["Subparbear"] = {
-				"^1101^6^1702583434^1^1^25^303.38^", -- [1]
-				"^1100^6^1702583461^1^1^25^303.38^", -- [2]
-				"^1099^6^1702583584^1^0^25^303.38^", -- [3]
-				"^1096^6^1702583750^7^1^25^303.38^", -- [4]
-				"^1097^6^1702583840^1^1^25^303.38^", -- [5]
-				"^1104^6^1702583874^6^1^25^303.38^", -- [6]
-				"^1102^6^1702583960^1^1^25^303.38^", -- [7]
-				"^1095^6^1702584050^9^1^25^303.38^", -- [8]
-				"^1103^6^1702584104^1^1^25^303.38^", -- [9]
-				"^1105^6^1702584387^2^1^25^303.38^", -- [10]
-				"^1106^6^1702584490^155^1^25^303.38^", -- [11]
+			["Subpardragon"] = {
+				"^1101^6^1702582034^1^1^25^394.25^", -- [1]
+				"^1100^6^1702582073^1^1^25^394.25^", -- [2]
+				"^1099^6^1702582207^12^1^25^394.25^", -- [3]
+				"^1096^6^1702582360^3^1^25^394.25^", -- [4]
+				"^1097^6^1702582448^2^1^25^394.25^", -- [5]
+				"^1104^6^1702582501^0^1^25^394.25^", -- [6]
+				"^1102^6^1702582615^1^1^25^394.25^", -- [7]
+				"^1095^6^1702582733^3^1^25^394.25^", -- [8]
+				"^1103^6^1702582793^1^1^25^394.25^", -- [9]
+				"^1105^6^1702582890^1^1^25^394.25^", -- [10]
+				"^1106^6^1702582998^156^1^25^394.25^", -- [11]
 			},
-			["Calumnia"] = {
-				"^1101^6^1702532168^0^1^25^446.69^", -- [1]
-				"^1100^6^1702532219^2^1^25^446.69^", -- [2]
-				"^1099^6^1702532359^3^0^25^446.69^", -- [3]
-				"^1096^6^1702532560^1^1^25^446.69^", -- [4]
-				"^1097^6^1702532661^0^1^25^446.69^", -- [5]
-				"^1104^6^1702532709^0^1^25^446.69^", -- [6]
-				"^1102^6^1702532779^0^1^25^446.69^", -- [7]
-				"^1095^6^1702532961^1^1^25^446.69^", -- [8]
-				"^1103^6^1702533007^0^1^25^446.69^", -- [9]
-				"^1105^6^1702533315^0^1^25^446.69^", -- [10]
-				"^1106^6^1702533427^182^1^25^446.69^", -- [11]
+			["Skalesbruh"] = {
+				"^1101^6^1702663620^2^1^25^226.50^", -- [1]
+				"^1100^6^1702663668^4^1^25^226.50^", -- [2]
+				"^1099^6^1702663796^12^1^25^226.50^", -- [3]
+				"^1096^6^1702663899^8^1^25^226.50^", -- [4]
+				"^1097^6^1702664000^3^1^25^226.50^", -- [5]
+				"^1104^6^1702664060^3^1^25^226.50^", -- [6]
+				"^1102^6^1702664141^2^1^25^226.50^", -- [7]
+				"^1095^6^1702664268^4^1^25^226.50^", -- [8]
+				"^1103^6^1702664320^6^1^25^226.50^", -- [9]
+				"^1105^6^1702664437^5^1^25^226.50^", -- [10]
+				"^1106^6^1702664551^167^1^25^226.50^", -- [11]
 			},
 			["Wowguildmsg"] = {
 			},
-			["Subpararmy"] = {
-				"^1101^6^1702601022^3^1^25^269.75^", -- [1]
-				"^1100^6^1702601468^1^1^25^269.75^", -- [2]
-				"^1099^6^1702601753^13^0^25^233.25^", -- [3]
-				"^1096^6^1702601936^3^1^25^233.25^", -- [4]
-				"^1104^6^1702602046^4^1^25^233.25^", -- [5]
-				"^1097^6^1702602149^7^1^25^233.25^", -- [6]
-				"^1102^6^1702602240^4^1^25^233.25^", -- [7]
-				"^1095^6^1702602366^2^1^25^233.25^", -- [8]
-				"^1103^6^1702602418^8^1^25^233.25^", -- [9]
-				"^1105^6^1702602819^4^1^25^233.25^", -- [10]
-				"^1106^6^1702602937^173^1^25^233.25^", -- [11]
+			["Chugmonk"] = {
+				"^1101^6^1702616534^0^1^25^447.12^", -- [1]
+				"^1100^6^1702616577^1^1^25^447.12^", -- [2]
+				"^1099^6^1702616721^12^1^25^447.12^", -- [3]
+				"^1096^6^1702616949^4^1^25^447.12^", -- [4]
+				"^1097^6^1702617050^0^1^25^447.12^", -- [5]
+				"^1104^6^1702617101^0^1^25^447.12^", -- [6]
+				"^1102^6^1702617223^0^1^25^447.12^", -- [7]
+				"^1095^6^1702617373^2^1^25^447.12^", -- [8]
+				"^1103^6^1702617453^0^1^25^447.12^", -- [9]
+				"^1105^6^1702617745^5^1^25^447.12^", -- [10]
+				"^1106^6^1702617867^157^1^25^447.12^", -- [11]
 			},
+		},
+		["names"] = {
+			[2677] = "Fyrakk the Blazing",
+			[2786] = "Tindral Sageswift, Seer of the Flame",
+			[2728] = "Council of Dreams",
+			[2708] = "Nymue, Weaver of the Cycle",
+			[2737] = "Volcoross",
+			[1105] = "Sindragosa",
+			[1103] = "Queen Lana'thel",
+			[2824] = "Smolderon",
+			[2709] = "Igira the Cruel",
+			[1095] = "Blood Council",
+			[2820] = "Gnarlroot",
+			[1746] = "Witherbark",
+			[1096] = "Deathbringer Saurfang",
+			[1097] = "Festergut",
+			[1100] = "Lady Deathwhisper",
+			[1099] = "Icecrown Gunship Battle",
+			[1751] = "Archmage Sol",
+			[1101] = "Lord Marrowgar",
+			[1102] = "Professor Putricide",
+			[2731] = "Larodar, Keeper of the Flame",
+			[1104] = "Rotface",
+			[1756] = "Yalnu",
+			[1106] = "The Lich King",
+			[1757] = "Ancient Protectors",
 		},
 	},
 	["Marks"] = {
@@ -357,8 +357,7 @@ VMRT = {
 	["ExCD2"] = {
 		["upd4525"] = true,
 		["enabled"] = true,
-		["userDB"] = {
-		},
+		["NoRaid"] = true,
 		["gnGUIDs"] = {
 			["Mowk"] = 64,
 			["Subparlite"] = 70,
@@ -369,58 +368,59 @@ VMRT = {
 			["Thesleepypan"] = 253,
 			["Buzzlý"] = 102,
 			["Wowguildrecr"] = 1451,
-			["Medimilk"] = 253,
+			["Medimilk"] = 254,
 			["Buzzly"] = 577,
 			["Icctwo"] = 1467,
-			["Wreckshop"] = 253,
 			["Quitollis"] = 577,
+			["Wreckshop"] = 253,
 			["Swõlè"] = 256,
-			["Rïddarï-Stormrage"] = 250,
+			["Beestboy"] = 103,
 			["Wowguildrect"] = 1451,
 			["Eyefeldown"] = 577,
-			["Quitolliser"] = 577,
+			["Pogrunnerup"] = 577,
 			["Lildotnrg"] = 265,
-			["Sleepyslock"] = 267,
-			["Beestboy"] = 103,
+			["Shortwire"] = 262,
+			["Luhgon"] = 1473,
+			["Monvis"] = 258,
 			["Hydroxcide"] = 266,
-			["Chugmonk"] = 268,
-			["Subpardragon"] = 1467,
+			["Sÿs"] = 253,
 			["Swòle"] = 250,
-			["Subparbear"] = 103,
+			["Sritneybears"] = 250,
 			["Paladonna"] = 70,
 			["Keranna"] = 1468,
 			["Bighealnrg"] = 257,
-			["Badoomp"] = 71,
-			["Swôle"] = 263,
 			["Keramist"] = 270,
+			["Swôle"] = 263,
+			["Badoomp"] = 71,
 			["Flexander-Stormrage"] = 102,
-			["Mundanemagic"] = 63,
+			["Moosterious"] = 260,
 			["Thotti"] = 64,
-			["Incoherentsc"] = 1453,
 			["Skalesbruh"] = 1467,
+			["Incoherentsc"] = 1453,
 			["Subparsham"] = 263,
 			["Healingood"] = 105,
-			["Calumnia"] = 73,
+			["Devastor"] = 66,
 			["Natrone"] = 264,
 			["Dragokhan"] = 1473,
-			["Devastor"] = 66,
+			["Calumnia"] = 73,
 			["Perlyta"] = 270,
-			["Moosterious"] = 260,
+			["Mundanemagic"] = 63,
 			["Rajamatic"] = 71,
-			["Sritneybears"] = 250,
-			["Sÿs"] = 253,
-			["Monvis"] = 258,
-			["Luhgon"] = 1473,
-			["Shortwire"] = 262,
-			["Pogrunnerup"] = 577,
+			["Subparbear"] = 103,
+			["Subpardragon"] = 1467,
+			["Chugmonk"] = 268,
+			["Rïddarï-Stormrage"] = 250,
+			["Sleepyslock"] = 267,
+			["Quitolliser"] = 577,
 			["Yundaya"] = 254,
 			["Wowguildmsg"] = 1453,
 			["Subpararmy"] = 251,
 		},
-		["Left"] = 2.999807834625244,
-		["NoRaid"] = true,
 		["CDECol"] = {
 		},
+		["userDB"] = {
+		},
+		["Left"] = 2.999807834625244,
 		["upd4380"] = true,
 		["Top"] = 536.2496337890625,
 		["Save"] = {
@@ -439,13 +439,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [1]
 			{
 				["enabled"] = true,
@@ -454,13 +454,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [2]
 			{
 				["enabled"] = true,
@@ -469,13 +469,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [3]
 			{
 				["frameGeneral"] = true,
@@ -483,13 +483,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [4]
 			{
 				["frameGeneral"] = true,
@@ -497,13 +497,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [5]
 			{
 				["frameGeneral"] = true,
@@ -511,13 +511,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [6]
 			{
 				["frameGeneral"] = true,
@@ -525,13 +525,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [7]
 			{
 				["frameGeneral"] = true,
@@ -539,13 +539,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [8]
 			{
 				["frameGeneral"] = true,
@@ -553,13 +553,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [9]
 			{
 				["frameGeneral"] = true,
@@ -567,22 +567,22 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [10]
 			{
-				["fontShadow"] = false,
-				["visibilityGeneral"] = true,
-				["iconGray"] = true,
+				["blacklistGeneral"] = true,
 				["frameAnchorBottom"] = true,
+				["iconGray"] = true,
+				["visibilityGeneral"] = true,
 				["fontOutline"] = true,
 				["textureAnimation"] = true,
-				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [11]
 		},
 		["Priority"] = {
@@ -591,15 +591,15 @@ VMRT = {
 			[51052] = true,
 			[62618] = true,
 			[740] = true,
-			[98008] = true,
+			[31821] = true,
 			[115310] = true,
-			[196718] = true,
+			[64843] = true,
 			[97462] = true,
 			[106898] = true,
-			[265202] = true,
 			[108280] = true,
-			[64843] = true,
-			[31821] = true,
+			[265202] = true,
+			[196718] = true,
+			[98008] = true,
 		},
 		["OptFav"] = {
 		},
@@ -618,86 +618,34 @@ VMRT = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeLowIlvl"] = true,
+		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeNoValorUpgrade"] = false,
 	},
-	["Note"] = {
-		["BlackNames"] = {
-			"CDs", -- [1]
-			"CDs", -- [2]
-			"CDs", -- [3]
-			"CDs", -- [4]
-			"CDs", -- [5]
-			"CDs", -- [6]
-			"CDs", -- [7]
-			"CDs", -- [8]
-			"CDs", -- [9]
+	["InviteTool"] = {
+		["AutoInvAccept"] = true,
+		["Words"] = "inv",
+		["AutoPromote"] = true,
+		["InvByChat"] = true,
+		["RaidDiff"] = 15,
+		["PromoteRank"] = 1,
+		["Ranks"] = {
+			true, -- [1]
+			true, -- [2]
+			true, -- [3]
+			true, -- [4]
+			true, -- [5]
+			true, -- [6]
+			true, -- [7]
 		},
-		["FontSize"] = 12,
-		["AutoLoad"] = {
-			2820, -- [1]
-			2709, -- [2]
-			2737, -- [3]
-			2731, -- [4]
-			2728, -- [5]
-			2708, -- [6]
-			2824, -- [7]
-			2786, -- [8]
-			2677, -- [9]
-		},
-		["Left"] = 6.750012397766113,
-		["1Left"] = 399.5001831054688,
-		["PersonalWidth"] = 199.9999084472656,
-		["SelfText"] = "{time:00:04} -  {spell:359844} - Call of the Wild\n{time:00:08} -  {spell:321530} - Blood Shed\n{time:00:11} -  {spell:375891} - Death Chakram\n{time:00:56} -  {spell:375891} - Death Chakram\n{time:01:09} -  {spell:321530} - Blood Shed\n{time:01:41} -  {spell:375891} - Death Chakram\n{time:02:44} -  {spell:359844} - Call of the Wild\n{time:02:48} -  {spell:321530} - Blood Shed\n{time:02:53} -  {spell:375891} - Death Chakram\n{time:03:39} -  {spell:375891} - Death Chakram\n{time:03:48} -  {spell:321530} - Blood Shed\n{time:04:24} -  {spell:375891} - Death Chakram\n{time:04:49} -  {spell:321530} - Blood Shed\n{time:05:13} -  {spell:375891} - Death Chakram\n{time:05:37} -  {spell:359844} - Call of the Wild\n{time:06:05} -  {spell:321530} - Blood Shed\n{time:06:07} -  {spell:375891} - Death Chakram\n{time:06:53} -  {spell:375891} - Death Chakram\n{time:07:38} -  {spell:359844} - Call of the Wild\n{time:07:39} -  {spell:321530} - Blood Shed\n{time:07:44} -  {spell:375891} - Death Chakram\n{time:08:29} -  {spell:375891} - Death Chakram\n{time:08:39} -  {spell:321530} - Blood Shed\n{time:09:16} -  {spell:375891} - Death Chakram\n{time:09:52} -  {spell:359844} - Call of the Wild\n{time:09:57} -  {spell:321530} - Blood Shed\n{time:10:04} -  {spell:375891} - Death Chakram",
-		["Fix"] = true,
-		["Text1"] = "{time:00:09}{spell:414888} ||cffFFC000Spears||r - ||cff00fe97Perlyta||r {spell:322118}  \n{time:01:29,SCS:422776:1}{spell:414888} ||cffFFC000Spears||r - ||cff00fe97Perlyta||r {spell:322118}  ||cff006fdcNatrone||r {spell:16191}  \n{time:01:36,SCS:422776:1}{spell:415624} ||cff8B4513Heal Absorb||r - ||cff00fe97Perlyta||r {spell:115310}  ||cff006fdcNatrone||r {spell:108280}  ||cffc59a6cRajamatic||r {spell:97462}  ||cfff38bb9Scumratt||r {spell:31821}  \n{time:01:46,SCS:422776:1}{spell:418533} ||cff0000FFFrontal Soak||r - ||cffa22fc8Pogrunnerup||r {spell:196718}  \n{time:02:11,SCS:422776:1}{spell:415624} ||cff8B4513Heal Absorb||r - ||cff33937fKeranna||r {spell:363534}  ||cff006fdcNatrone||r {spell:114049}  ||cffc59a6cBadoomp||r {spell:97462}  \n{time:02:18,SCS:422776:1}{spell:418533} ||cff0000FFFrontal Soak||r - ||cffa22fc8Quitollis||r {spell:196718}  \n{time:02:38,SCS:422776:1}{spell:414888} ||cffFFC000Spears||r - ||cff00fe97Perlyta||r {spell:322118}  \n{time:04:05,SCS:422776:2}{spell:416048} ||cff0000FFFrontal Soak||r - ||cff006fdcNatrone||r {spell:98008}  ||cff33937fKeranna||r {spell:359816}  ||cffa22fc8Mittens||r {spell:196718}  \n{time:04:37,SCS:422776:2}{spell:416048} ||cff0000FFFrontal Soak||r - ||cff00fe97Perlyta||r {spell:115310}  ||cff006fdcNatrone||r {spell:108280}  ||cffc59a6cRajamatic||r {spell:97462}  ||cfff38bb9Scumratt||r {spell:31821}  \n",
-		["OptionsFormatting"] = true,
-		["1Width"] = 352.2500305175781,
-		["OnlyPromoted"] = true,
-		["LastUpdateName"] = "Devastor-Mal'Ganis",
-		["TimerPassedHide"] = true,
-		["BlackLastUpdateName"] = {
-			"Medimilk-Mal'Ganis", -- [1]
-			"Medimilk-Mal'Ganis", -- [2]
-			"Medimilk-Mal'Ganis", -- [3]
-			"Medimilk-Mal'Ganis", -- [4]
-			"Medimilk-Mal'Ganis", -- [5]
-			"Medimilk-Mal'Ganis", -- [6]
-			"Medimilk-Mal'Ganis", -- [7]
-			"Medimilk-Mal'Ganis", -- [8]
-			"Medimilk-Mal'Ganis", -- [9]
-		},
-		["LastUpdateTime"] = 1702523448,
-		["Width"] = 409.0000305175781,
-		["Top"] = 1070.249633789063,
-		["1Top"] = 891.4999389648438,
-		["BlackLastUpdateTime"] = {
-			1702518732, -- [1]
-			1702518946, -- [2]
-			1702519036, -- [3]
-			1702519082, -- [4]
-			1702519123, -- [5]
-			1702519165, -- [6]
-			1702519199, -- [7]
-			1702519230, -- [8]
-			1702519301, -- [9]
-		},
-		["Black"] = {
-			"{time:00:03} -  {spell:375891} Death Chakram\n{time:00:46} -  {spell:359844} Call of the Wild\n{time:00:48} -  {spell:375891} Death Chakram\n{time:01:34} -  {spell:375891} Death Chakram\n{time:02:19} -  {spell:375891} Death Chakram\n{time:03:13} -  {spell:375891} Death Chakram\n{time:03:15} -  {spell:359844} Call of the Wild", -- [1]
-			"{time:00:02} -  {spell:359844} - Call of the Wild\n{time:00:03} -  {spell:375891} - Death Chakram\n{time:00:50} -  {spell:375891} - Death Chakram\n{time:01:36} -  {spell:375891} - Death Chakram\n{time:02:04} -  {spell:359844} - Call of the Wild\n{time:02:27} -  {spell:375891} - Death Chakram\n{time:03:14} -  {spell:375891} - Death Chakram\n{time:04:01} -  {spell:375891} - Death Chakram\n{time:04:22} -  {spell:359844} - Call of the Wild\n{time:04:48} -  {spell:375891} - Death Chakram", -- [2]
-			"{time:00:03} -  {spell:359844} - Call of the Wild\n{time:00:07} -  {spell:321530} - Blood Shed\n{time:00:10} -  {spell:375891} - Death Chakram\n{time:00:56} -  {spell:375891} - Death Chakram\n{time:01:10} -  {spell:321530} - Blood Shed\n{time:01:42} -  {spell:375891} - Death Chakram\n{time:02:06} -  {spell:359844} - Call of the Wild\n{time:02:12} -  {spell:321530} - Blood Shed\n{time:02:30} -  {spell:375891} - Death Chakram\n{time:03:21} -  {spell:321530} - Blood Shed\n{time:03:23} -  {spell:375891} - Death Chakram\n{time:04:07} -  {spell:359844} - Call of the Wild\n{time:04:15} -  {spell:375891} - Death Chakram\n{time:04:22} -  {spell:321530} - Blood Shed", -- [3]
-			"{time:00:03} -  {spell:359844} - Call of the Wild\n{time:00:08} -  {spell:375891} - Death Chakram\n{time:00:54} -  {spell:375891} - Death Chakram\n{time:01:33} -  {spell:375891} - Death Chakram\n{time:01:55} -  {spell:359844} - Call of the Wild\n{time:02:18} -  {spell:375891} - Death Chakram\n{time:03:07} -  {spell:375891} - Death Chakram\n{time:04:05} -  {spell:359844} - Call of the Wild\n{time:04:09} -  {spell:375891} - Death Chakram\n{time:04:54} -  {spell:375891} - Death Chakram", -- [4]
-			"{time:00:04} -  {spell:359844} - Call of the Wild\n{time:00:07} -  {spell:375891} - Death Chakram\n{time:01:21} -  {spell:375891} - Death Chakram\n{time:02:07} -  {spell:359844} - Call of the Wild\n{time:02:17} -  {spell:375891} - Death Chakram\n{time:03:03} -  {spell:375891} - Death Chakram\n{time:03:48} -  {spell:375891} - Death Chakram\n{time:04:13} -  {spell:359844} - Call of the Wild\n{time:04:53} -  {spell:375891} - Death Chakram", -- [5]
-			"{time:00:01} -  {spell:359844} - Call of the Wild\n{time:00:04} -  {spell:375891} - Death Chakram\n{time:00:05} -  {spell:321530} - Blood Shed\n{time:00:50} -  {spell:375891} - Death Chakram\n{time:01:21} -  {spell:321530} - Blood Shed\n{time:01:26} -  {spell:375891} - Death Chakram\n{time:02:03} -  {spell:359844} - Call of the Wild\n{time:02:15} -  {spell:375891} - Death Chakram\n{time:02:22} -  {spell:321530} - Blood Shed\n{time:03:05} -  {spell:375891} - Death Chakram\n{time:03:31} -  {spell:321530} - Blood Shed\n{time:04:06} -  {spell:359844} - Call of the Wild\n{time:04:08} -  {spell:375891} - Death Chakram\n{time:04:33} -  {spell:321530} - Blood Shed\n{time:04:53} -  {spell:375891} - Death Chakram\n{time:05:38} -  {spell:321530} - Blood Shed\n{time:05:39} -  {spell:375891} - Death Chakram\n{time:06:11} -  {spell:359844} - Call of the Wild\n{time:06:24} -  {spell:375891} - Death Chakram\n{time:06:39} -  {spell:321530} - Blood Shed", -- [6]
-			"{time:00:02} -  {spell:359844} - Call of the Wild\n{time:00:04} -  {spell:321530} - Blood Shed\n{time:00:09} -  {spell:375891} - Death Chakram\n{time:00:54} -  {spell:375891} - Death Chakram\n{time:01:13} -  {spell:321530} - Blood Shed\n{time:01:39} -  {spell:375891} - Death Chakram\n{time:02:04} -  {spell:359844} - Call of the Wild\n{time:02:15} -  {spell:321530} - Blood Shed\n{time:02:28} -  {spell:375891} - Death Chakram\n{time:03:14} -  {spell:375891} - Death Chakram\n{time:03:16} -  {spell:321530} - Blood Shed\n{time:03:59} -  {spell:375891} - Death Chakram\n{time:04:28} -  {spell:359844} - Call of the Wild\n{time:04:29} -  {spell:321530} - Blood Shed\n{time:04:44} -  {spell:375891} - Death Chakram\n{time:05:30} -  {spell:321530} - Blood Shed\n{time:05:32} -  {spell:375891} - Death Chakram\n{time:06:18} -  {spell:375891} - Death Chakram\n{time:06:28} -  {spell:359844} - Call of the Wild\n{time:06:32} -  {spell:321530} - Blood Shed", -- [7]
-			"{time:00:03} -  {spell:359844} - Call of the Wild\n{time:00:06} -  {spell:375891} - Death Chakram\n{time:00:57} -  {spell:375891} - Death Chakram\n{time:02:04} -  {spell:359844} - Call of the Wild\n{time:02:07} -  {spell:375891} - Death Chakram\n{time:02:56} -  {spell:375891} - Death Chakram\n{time:03:44} -  {spell:375891} - Death Chakram\n{time:04:20} -  {spell:359844} - Call of the Wild\n{time:04:29} -  {spell:375891} - Death Chakram\n{time:05:15} -  {spell:375891} - Death Chakram\n{time:06:03} -  {spell:375891} - Death Chakram\n{time:06:21} -  {spell:359844} - Call of the Wild\n{time:07:02} -  {spell:375891} - Death Chakram", -- [8]
-			"{time:00:04} -  {spell:359844} - Call of the Wild\n{time:00:08} -  {spell:321530} - Blood Shed\n{time:00:11} -  {spell:375891} - Death Chakram\n{time:00:56} -  {spell:375891} - Death Chakram\n{time:01:09} -  {spell:321530} - Blood Shed\n{time:01:41} -  {spell:375891} - Death Chakram\n{time:02:44} -  {spell:359844} - Call of the Wild\n{time:02:48} -  {spell:321530} - Blood Shed\n{time:02:53} -  {spell:375891} - Death Chakram\n{time:03:39} -  {spell:375891} - Death Chakram\n{time:03:48} -  {spell:321530} - Blood Shed\n{time:04:24} -  {spell:375891} - Death Chakram\n{time:04:49} -  {spell:321530} - Blood Shed\n{time:05:13} -  {spell:375891} - Death Chakram\n{time:05:37} -  {spell:359844} - Call of the Wild\n{time:06:05} -  {spell:321530} - Blood Shed\n{time:06:07} -  {spell:375891} - Death Chakram\n{time:06:53} -  {spell:375891} - Death Chakram\n{time:07:38} -  {spell:359844} - Call of the Wild\n{time:07:39} -  {spell:321530} - Blood Shed\n{time:07:44} -  {spell:375891} - Death Chakram\n{time:08:29} -  {spell:375891} - Death Chakram\n{time:08:39} -  {spell:321530} - Blood Shed\n{time:09:16} -  {spell:375891} - Death Chakram\n{time:09:52} -  {spell:359844} - Call of the Wild\n{time:09:57} -  {spell:321530} - Blood Shed\n{time:10:04} -  {spell:375891} - Death Chakram", -- [9]
-		},
-		["Height"] = 154.0000152587891,
-		["1Height"] = 129.2499847412109,
-		["Strata"] = "HIGH",
-		["PersonalHeight"] = 99.99999237060547,
+		["AutoRaidDiff"] = true,
+		["InvByChatSay"] = true,
+		["LootThreshold"] = 2,
+		["MasterLooters"] = "",
+		["LootMethod"] = "group",
+		["PromoteNames"] = "Devastor Mittàns",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
 	},
 	["Timers"] = {
 		["specTimes"] = {
@@ -732,75 +680,44 @@ VMRT = {
 			[103] = 10,
 			[72] = 10,
 			[104] = 10,
-			[252] = 10,
-			[73] = 10,
-			[254] = 10,
-			[105] = 10,
-			[256] = 10,
-			[577] = 10,
-			[581] = 10,
 			[1473] = 10,
+			[73] = 10,
+			[581] = 10,
+			[105] = 10,
+			[577] = 10,
+			[256] = 10,
+			[254] = 10,
+			[252] = 10,
 		},
 		["Type"] = 2,
-		["timeToKillAnalyze"] = 15,
 		["Strata"] = "HIGH",
+		["timeToKillAnalyze"] = 15,
 	},
 	["WhoPulled"] = {
 	},
 	["Addon"] = {
 		["Version"] = 4810,
 		["Scale"] = 1,
-		["Timer"] = 0.1,
-		["PreVersion"] = 4810,
 		["IconMiniMapHide"] = true,
+		["PreVersion"] = 4810,
+		["Timer"] = 0.1,
 	},
 	["RaidCheck"] = {
 		["FlaskExp"] = 1,
-		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckFrameOnlyRL"] = true,
 		["BuffsCheck"] = true,
 		["ReadyCheckFrame"] = true,
-		["ReadyCheckTop"] = 870.9999389648438,
-		["ReadyCheckLeft"] = 1369.749755859375,
+		["ReadyCheckFrameTimerFade"] = 4,
 		["WeaponEnch"] = {
-			["Healingood-Mal'Ganis"] = 194820,
 			["Medimilk-Mal'Ganis"] = 198162,
+			["Healingood-Mal'Ganis"] = 194820,
 		},
-		["ReadyCheckFrameOnlyRL"] = true,
+		["ReadyCheckLeft"] = 1369.749755859375,
+		["ReadyCheckTop"] = 870.9999389648438,
+	},
+	["Profiles"] = {
 	},
 	["LootHistory"] = {
-		["instanceNames"] = {
-			[1279] = "The Everbloom",
-			[2548] = "Emerald Dream",
-			[2549] = "Amirdrassil, the Dream's Hope",
-			[631] = "Icecrown Citadel",
-			[2444] = "Dragon Isles",
-		},
-		["bossNames"] = {
-			[2677] = "Fyrakk the Blazing",
-			[2786] = "Tindral Sageswift, Seer of the Flame",
-			[2728] = "Council of Dreams",
-			[1106] = "The Lich King",
-			[1757] = "Ancient Protectors",
-			[1756] = "Yalnu",
-			[2731] = "Larodar, Keeper of the Flame",
-			[1103] = "Queen Lana'thel",
-			[2709] = "Igira the Cruel",
-			[1746] = "Witherbark",
-			[1101] = "Lord Marrowgar",
-			[1095] = "Blood Council",
-			[1096] = "Deathbringer Saurfang",
-			[1097] = "Festergut",
-			[1751] = "Archmage Sol",
-			[1099] = "Icecrown Gunship Battle",
-			[1100] = "Lady Deathwhisper",
-			[2820] = "Gnarlroot",
-			[1102] = "Professor Putricide",
-			[2824] = "Smolderon",
-			[1104] = "Rotface",
-			[1105] = "Sindragosa",
-			[2737] = "Volcoross",
-			[2708] = "Nymue, Weaver of the Cycle",
-		},
 		["list"] = {
 			"1702432918#2820#0#0#Mowk#8#1#item:207794::::::::70:253::5:5:6652:7980:9568:1498:8767::::::", -- [1]
 			"1702432918#2820#0#0##0#1#item:207153::::::::70:253::5:6:6652:9508:7980:9568:1498:8767::::::", -- [2]
@@ -1531,13 +1448,38 @@ VMRT = {
 			"1702696756#2677#0#0#Healingood#11#1#item:210947::::::::70:105::3:3:7979:1494:8767::::::", -- [727]
 			"1702696761#2677#2549#14#Healingood#11#1#item:208396::::::::70:105:::::::::", -- [728]
 		},
-	},
-	["BossWatcher"] = {
-		["optionsDamageGraph"] = true,
-		["fightsNum"] = 2,
-		["optionsPositionsDist"] = true,
-		["optionsHealingGraph"] = true,
-		["trackingDamageSpells"] = {
+		["bossNames"] = {
+			[2677] = "Fyrakk the Blazing",
+			[2786] = "Tindral Sageswift, Seer of the Flame",
+			[2728] = "Council of Dreams",
+			[2708] = "Nymue, Weaver of the Cycle",
+			[2737] = "Volcoross",
+			[1105] = "Sindragosa",
+			[1103] = "Queen Lana'thel",
+			[2824] = "Smolderon",
+			[2709] = "Igira the Cruel",
+			[1095] = "Blood Council",
+			[2820] = "Gnarlroot",
+			[1746] = "Witherbark",
+			[1096] = "Deathbringer Saurfang",
+			[1097] = "Festergut",
+			[1100] = "Lady Deathwhisper",
+			[1099] = "Icecrown Gunship Battle",
+			[1751] = "Archmage Sol",
+			[1101] = "Lord Marrowgar",
+			[1102] = "Professor Putricide",
+			[2731] = "Larodar, Keeper of the Flame",
+			[1104] = "Rotface",
+			[1756] = "Yalnu",
+			[1106] = "The Lich King",
+			[1757] = "Ancient Protectors",
+		},
+		["instanceNames"] = {
+			[1279] = "The Everbloom",
+			[2548] = "Emerald Dream",
+			[2549] = "Amirdrassil, the Dream's Hope",
+			[631] = "Icecrown Citadel",
+			[2444] = "Dragon Isles",
 		},
 	},
 	["Profile"] = "default",
@@ -1574,14 +1516,19 @@ VMRT = {
 			}, -- [1]
 		},
 	},
-	["Profiles"] = {
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["fightsNum"] = 2,
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
 	},
 	["Logging"] = {
 	},
 	["MarksBar"] = {
 		["pulltimer"] = 10,
 		["pulltimer_right"] = 10,
-		["Strata"] = "HIGH",
 		["Show"] = {
 			true, -- [1]
 			true, -- [2]
@@ -1589,6 +1536,7 @@ VMRT = {
 			true, -- [4]
 			true, -- [5]
 		},
+		["Strata"] = "HIGH",
 	},
 	["VisNote"] = {
 		["data"] = {
@@ -1599,29 +1547,81 @@ VMRT = {
 		["sync_data"] = {
 		},
 	},
-	["InviteTool"] = {
-		["AutoInvAccept"] = true,
-		["Words"] = "inv",
-		["AutoPromote"] = true,
-		["InvByChat"] = true,
-		["RaidDiff"] = 15,
-		["PromoteRank"] = 1,
-		["Ranks"] = {
-			true, -- [1]
-			true, -- [2]
-			true, -- [3]
-			true, -- [4]
-			true, -- [5]
-			true, -- [6]
-			true, -- [7]
+	["Note"] = {
+		["BlackNames"] = {
+			"CDs", -- [1]
+			"CDs", -- [2]
+			"CDs", -- [3]
+			"CDs", -- [4]
+			"CDs", -- [5]
+			"CDs", -- [6]
+			"CDs", -- [7]
+			"CDs", -- [8]
+			"CDs", -- [9]
 		},
-		["AutoRaidDiff"] = true,
-		["InvByChatSay"] = true,
-		["LootThreshold"] = 2,
-		["MasterLooters"] = "",
-		["LootMethod"] = "group",
-		["PromoteNames"] = "Devastor Mittàns",
-		["OnlyGuild"] = true,
-		["Rank"] = 1,
+		["FontSize"] = 12,
+		["AutoLoad"] = {
+			2820, -- [1]
+			2709, -- [2]
+			2737, -- [3]
+			2731, -- [4]
+			2728, -- [5]
+			2708, -- [6]
+			2824, -- [7]
+			2786, -- [8]
+			2677, -- [9]
+		},
+		["Left"] = 6.750012397766113,
+		["1Left"] = 399.5001831054688,
+		["PersonalWidth"] = 199.9999084472656,
+		["SelfText"] = "{time:00:04} -  {spell:359844} - Call of the Wild\n{time:00:08} -  {spell:321530} - Blood Shed\n{time:00:11} -  {spell:375891} - Death Chakram\n{time:00:56} -  {spell:375891} - Death Chakram\n{time:01:09} -  {spell:321530} - Blood Shed\n{time:01:41} -  {spell:375891} - Death Chakram\n{time:02:44} -  {spell:359844} - Call of the Wild\n{time:02:48} -  {spell:321530} - Blood Shed\n{time:02:53} -  {spell:375891} - Death Chakram\n{time:03:39} -  {spell:375891} - Death Chakram\n{time:03:48} -  {spell:321530} - Blood Shed\n{time:04:24} -  {spell:375891} - Death Chakram\n{time:04:49} -  {spell:321530} - Blood Shed\n{time:05:13} -  {spell:375891} - Death Chakram\n{time:05:37} -  {spell:359844} - Call of the Wild\n{time:06:05} -  {spell:321530} - Blood Shed\n{time:06:07} -  {spell:375891} - Death Chakram\n{time:06:53} -  {spell:375891} - Death Chakram\n{time:07:38} -  {spell:359844} - Call of the Wild\n{time:07:39} -  {spell:321530} - Blood Shed\n{time:07:44} -  {spell:375891} - Death Chakram\n{time:08:29} -  {spell:375891} - Death Chakram\n{time:08:39} -  {spell:321530} - Blood Shed\n{time:09:16} -  {spell:375891} - Death Chakram\n{time:09:52} -  {spell:359844} - Call of the Wild\n{time:09:57} -  {spell:321530} - Blood Shed\n{time:10:04} -  {spell:375891} - Death Chakram",
+		["Fix"] = true,
+		["Text1"] = "{time:00:09}{spell:414888} ||cffFFC000Spears||r - ||cff00fe97Perlyta||r {spell:322118}  \n{time:01:29,SCS:422776:1}{spell:414888} ||cffFFC000Spears||r - ||cff00fe97Perlyta||r {spell:322118}  ||cff006fdcNatrone||r {spell:16191}  \n{time:01:36,SCS:422776:1}{spell:415624} ||cff8B4513Heal Absorb||r - ||cff00fe97Perlyta||r {spell:115310}  ||cff006fdcNatrone||r {spell:108280}  ||cffc59a6cRajamatic||r {spell:97462}  ||cfff38bb9Scumratt||r {spell:31821}  \n{time:01:46,SCS:422776:1}{spell:418533} ||cff0000FFFrontal Soak||r - ||cffa22fc8Pogrunnerup||r {spell:196718}  \n{time:02:11,SCS:422776:1}{spell:415624} ||cff8B4513Heal Absorb||r - ||cff33937fKeranna||r {spell:363534}  ||cff006fdcNatrone||r {spell:114049}  ||cffc59a6cBadoomp||r {spell:97462}  \n{time:02:18,SCS:422776:1}{spell:418533} ||cff0000FFFrontal Soak||r - ||cffa22fc8Quitollis||r {spell:196718}  \n{time:02:38,SCS:422776:1}{spell:414888} ||cffFFC000Spears||r - ||cff00fe97Perlyta||r {spell:322118}  \n{time:04:05,SCS:422776:2}{spell:416048} ||cff0000FFFrontal Soak||r - ||cff006fdcNatrone||r {spell:98008}  ||cff33937fKeranna||r {spell:359816}  ||cffa22fc8Mittens||r {spell:196718}  \n{time:04:37,SCS:422776:2}{spell:416048} ||cff0000FFFrontal Soak||r - ||cff00fe97Perlyta||r {spell:115310}  ||cff006fdcNatrone||r {spell:108280}  ||cffc59a6cRajamatic||r {spell:97462}  ||cfff38bb9Scumratt||r {spell:31821}  \n",
+		["OptionsFormatting"] = true,
+		["1Width"] = 352.2500305175781,
+		["PersonalHeight"] = 99.99999237060547,
+		["LastUpdateName"] = "Devastor-Mal'Ganis",
+		["Strata"] = "HIGH",
+		["Top"] = 1070.249633789063,
+		["TimerPassedHide"] = true,
+		["Width"] = 409.0000305175781,
+		["BlackLastUpdateName"] = {
+			"Medimilk-Mal'Ganis", -- [1]
+			"Medimilk-Mal'Ganis", -- [2]
+			"Medimilk-Mal'Ganis", -- [3]
+			"Medimilk-Mal'Ganis", -- [4]
+			"Medimilk-Mal'Ganis", -- [5]
+			"Medimilk-Mal'Ganis", -- [6]
+			"Medimilk-Mal'Ganis", -- [7]
+			"Medimilk-Mal'Ganis", -- [8]
+			"Medimilk-Mal'Ganis", -- [9]
+		},
+		["Height"] = 154.0000152587891,
+		["BlackLastUpdateTime"] = {
+			1702518732, -- [1]
+			1702518946, -- [2]
+			1702519036, -- [3]
+			1702519082, -- [4]
+			1702519123, -- [5]
+			1702519165, -- [6]
+			1702519199, -- [7]
+			1702519230, -- [8]
+			1702519301, -- [9]
+		},
+		["Black"] = {
+			"{time:00:03} -  {spell:375891} Death Chakram\n{time:00:46} -  {spell:359844} Call of the Wild\n{time:00:48} -  {spell:375891} Death Chakram\n{time:01:34} -  {spell:375891} Death Chakram\n{time:02:19} -  {spell:375891} Death Chakram\n{time:03:13} -  {spell:375891} Death Chakram\n{time:03:15} -  {spell:359844} Call of the Wild", -- [1]
+			"{time:00:02} -  {spell:359844} - Call of the Wild\n{time:00:03} -  {spell:375891} - Death Chakram\n{time:00:50} -  {spell:375891} - Death Chakram\n{time:01:36} -  {spell:375891} - Death Chakram\n{time:02:04} -  {spell:359844} - Call of the Wild\n{time:02:27} -  {spell:375891} - Death Chakram\n{time:03:14} -  {spell:375891} - Death Chakram\n{time:04:01} -  {spell:375891} - Death Chakram\n{time:04:22} -  {spell:359844} - Call of the Wild\n{time:04:48} -  {spell:375891} - Death Chakram", -- [2]
+			"{time:00:03} -  {spell:359844} - Call of the Wild\n{time:00:07} -  {spell:321530} - Blood Shed\n{time:00:10} -  {spell:375891} - Death Chakram\n{time:00:56} -  {spell:375891} - Death Chakram\n{time:01:10} -  {spell:321530} - Blood Shed\n{time:01:42} -  {spell:375891} - Death Chakram\n{time:02:06} -  {spell:359844} - Call of the Wild\n{time:02:12} -  {spell:321530} - Blood Shed\n{time:02:30} -  {spell:375891} - Death Chakram\n{time:03:21} -  {spell:321530} - Blood Shed\n{time:03:23} -  {spell:375891} - Death Chakram\n{time:04:07} -  {spell:359844} - Call of the Wild\n{time:04:15} -  {spell:375891} - Death Chakram\n{time:04:22} -  {spell:321530} - Blood Shed", -- [3]
+			"{time:00:03} -  {spell:359844} - Call of the Wild\n{time:00:08} -  {spell:375891} - Death Chakram\n{time:00:54} -  {spell:375891} - Death Chakram\n{time:01:33} -  {spell:375891} - Death Chakram\n{time:01:55} -  {spell:359844} - Call of the Wild\n{time:02:18} -  {spell:375891} - Death Chakram\n{time:03:07} -  {spell:375891} - Death Chakram\n{time:04:05} -  {spell:359844} - Call of the Wild\n{time:04:09} -  {spell:375891} - Death Chakram\n{time:04:54} -  {spell:375891} - Death Chakram", -- [4]
+			"{time:00:04} -  {spell:359844} - Call of the Wild\n{time:00:07} -  {spell:375891} - Death Chakram\n{time:01:21} -  {spell:375891} - Death Chakram\n{time:02:07} -  {spell:359844} - Call of the Wild\n{time:02:17} -  {spell:375891} - Death Chakram\n{time:03:03} -  {spell:375891} - Death Chakram\n{time:03:48} -  {spell:375891} - Death Chakram\n{time:04:13} -  {spell:359844} - Call of the Wild\n{time:04:53} -  {spell:375891} - Death Chakram", -- [5]
+			"{time:00:01} -  {spell:359844} - Call of the Wild\n{time:00:04} -  {spell:375891} - Death Chakram\n{time:00:05} -  {spell:321530} - Blood Shed\n{time:00:50} -  {spell:375891} - Death Chakram\n{time:01:21} -  {spell:321530} - Blood Shed\n{time:01:26} -  {spell:375891} - Death Chakram\n{time:02:03} -  {spell:359844} - Call of the Wild\n{time:02:15} -  {spell:375891} - Death Chakram\n{time:02:22} -  {spell:321530} - Blood Shed\n{time:03:05} -  {spell:375891} - Death Chakram\n{time:03:31} -  {spell:321530} - Blood Shed\n{time:04:06} -  {spell:359844} - Call of the Wild\n{time:04:08} -  {spell:375891} - Death Chakram\n{time:04:33} -  {spell:321530} - Blood Shed\n{time:04:53} -  {spell:375891} - Death Chakram\n{time:05:38} -  {spell:321530} - Blood Shed\n{time:05:39} -  {spell:375891} - Death Chakram\n{time:06:11} -  {spell:359844} - Call of the Wild\n{time:06:24} -  {spell:375891} - Death Chakram\n{time:06:39} -  {spell:321530} - Blood Shed", -- [6]
+			"{time:00:02} -  {spell:359844} - Call of the Wild\n{time:00:04} -  {spell:321530} - Blood Shed\n{time:00:09} -  {spell:375891} - Death Chakram\n{time:00:54} -  {spell:375891} - Death Chakram\n{time:01:13} -  {spell:321530} - Blood Shed\n{time:01:39} -  {spell:375891} - Death Chakram\n{time:02:04} -  {spell:359844} - Call of the Wild\n{time:02:15} -  {spell:321530} - Blood Shed\n{time:02:28} -  {spell:375891} - Death Chakram\n{time:03:14} -  {spell:375891} - Death Chakram\n{time:03:16} -  {spell:321530} - Blood Shed\n{time:03:59} -  {spell:375891} - Death Chakram\n{time:04:28} -  {spell:359844} - Call of the Wild\n{time:04:29} -  {spell:321530} - Blood Shed\n{time:04:44} -  {spell:375891} - Death Chakram\n{time:05:30} -  {spell:321530} - Blood Shed\n{time:05:32} -  {spell:375891} - Death Chakram\n{time:06:18} -  {spell:375891} - Death Chakram\n{time:06:28} -  {spell:359844} - Call of the Wild\n{time:06:32} -  {spell:321530} - Blood Shed", -- [7]
+			"{time:00:03} -  {spell:359844} - Call of the Wild\n{time:00:06} -  {spell:375891} - Death Chakram\n{time:00:57} -  {spell:375891} - Death Chakram\n{time:02:04} -  {spell:359844} - Call of the Wild\n{time:02:07} -  {spell:375891} - Death Chakram\n{time:02:56} -  {spell:375891} - Death Chakram\n{time:03:44} -  {spell:375891} - Death Chakram\n{time:04:20} -  {spell:359844} - Call of the Wild\n{time:04:29} -  {spell:375891} - Death Chakram\n{time:05:15} -  {spell:375891} - Death Chakram\n{time:06:03} -  {spell:375891} - Death Chakram\n{time:06:21} -  {spell:359844} - Call of the Wild\n{time:07:02} -  {spell:375891} - Death Chakram", -- [8]
+			"{time:00:04} -  {spell:359844} - Call of the Wild\n{time:00:08} -  {spell:321530} - Blood Shed\n{time:00:11} -  {spell:375891} - Death Chakram\n{time:00:56} -  {spell:375891} - Death Chakram\n{time:01:09} -  {spell:321530} - Blood Shed\n{time:01:41} -  {spell:375891} - Death Chakram\n{time:02:44} -  {spell:359844} - Call of the Wild\n{time:02:48} -  {spell:321530} - Blood Shed\n{time:02:53} -  {spell:375891} - Death Chakram\n{time:03:39} -  {spell:375891} - Death Chakram\n{time:03:48} -  {spell:321530} - Blood Shed\n{time:04:24} -  {spell:375891} - Death Chakram\n{time:04:49} -  {spell:321530} - Blood Shed\n{time:05:13} -  {spell:375891} - Death Chakram\n{time:05:37} -  {spell:359844} - Call of the Wild\n{time:06:05} -  {spell:321530} - Blood Shed\n{time:06:07} -  {spell:375891} - Death Chakram\n{time:06:53} -  {spell:375891} - Death Chakram\n{time:07:38} -  {spell:359844} - Call of the Wild\n{time:07:39} -  {spell:321530} - Blood Shed\n{time:07:44} -  {spell:375891} - Death Chakram\n{time:08:29} -  {spell:375891} - Death Chakram\n{time:08:39} -  {spell:321530} - Blood Shed\n{time:09:16} -  {spell:375891} - Death Chakram\n{time:09:52} -  {spell:359844} - Call of the Wild\n{time:09:57} -  {spell:321530} - Blood Shed\n{time:10:04} -  {spell:375891} - Death Chakram", -- [9]
+		},
+		["1Top"] = 891.4999389648438,
+		["1Height"] = 129.2499847412109,
+		["LastUpdateTime"] = 1702523448,
+		["OnlyPromoted"] = true,
 	},
 }

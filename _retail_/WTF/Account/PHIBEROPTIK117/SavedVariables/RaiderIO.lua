@@ -8,10 +8,6 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Medimilk-malganis"
 RaiderIO_MissingCharacters = {
-	["us-Keldris-malganis"] = true,
-	["us-Naturemommy-malganis"] = true,
-	["us-Kisme-malganis"] = true,
-	["us-Draxiom-malganis"] = true,
 }
 RaiderIO_MissingServers = {
 }

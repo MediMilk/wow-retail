@@ -13,13 +13,16 @@ _retail_/Data.old/
 _retail_/Logs.old/
 _retail_/Screenshots.old/
 _retail_/Utils.old/
-
-# _retail_/ Junk WoW Files
 _retail_/dbghelp.dll
 _retail_/.favlorinfo
 _retail_/.curseclient
+_retail_/.flavor.info
+_retail_/d3d12.dll
+_retail_/dxilconv7.dll
 _retail_/WoW.mfil
 _retail_/GFSDK_Aftermath_Lib.x64.dll
+_retail_/Fonts
+_retail_/GPUCache
 
 # Junk WoW Files
 Data/

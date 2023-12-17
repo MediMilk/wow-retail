@@ -1069,10 +1069,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Witherbark",
 		},
-		[420410] = {
+		[421703] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Volcoross",
 		},
@@ -1092,15 +1095,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Defender",
 		},
-		[428082] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[427197] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archmage Sol",
+			["source"] = "Volcoross",
 		},
 		[421333] = {
 			["school"] = 4,
@@ -1125,19 +1125,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Larodar, Keeper of the Flame",
 		},
-		[421570] = {
+		[101406] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Aerwynn",
+			["source"] = "Deathbringer Saurfang",
 		},
-		[422067] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[422578] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Smolderon",
 		},
@@ -1184,12 +1183,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Larodar, Keeper of the Flame",
 		},
-		[421939] = {
-			["school"] = 4,
+		[422961] = {
+			["school"] = 36,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Tindral Sageswift",
+			["source"] = "Igira the Cruel",
 		},
 		[427201] = {
 			["school"] = 1,
@@ -1199,6 +1200,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volcoross",
 		},
+		[427459] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Earthshaper Telu",
+		},
 		[428746] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1207,14 +1215,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Lady Baihu",
-		},
-		[422614] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Larodar, Keeper of the Flame",
 		},
 		[418654] = {
 			["school"] = 1,
@@ -1336,17 +1336,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Larodar, Keeper of the Flame",
 		},
-		[69882] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[70362] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kor'kron Primalist",
+			["source"] = "Spire Frostwyrm",
 		},
 		[424662] = {
 			["school"] = 4,
@@ -1372,13 +1370,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smolderon",
 		},
-		[327942] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[31707] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Windfury Totem",
+			["source"] = "Water Elemental",
 		},
 		[418531] = {
 			["school"] = 36,
@@ -1388,21 +1385,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Igira the Cruel",
 		},
-		[429607] = {
-			["school"] = 36,
+		[70109] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Igira the Cruel",
-		},
-		[428963] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Burning Colossus",
+			["source"] = "Sindragosa",
+		},
+		[421298] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Aerwynn",
 		},
 		[421470] = {
 			["school"] = 4,
@@ -1462,14 +1461,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
-		[425002] = {
-			["school"] = 36,
-			["type"] = "DEBUFF",
+		[69970] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gnarlroot",
+			["source"] = "Kor'kron Oracle",
 		},
 		[428084] = {
 			["school"] = 16,
@@ -1496,21 +1495,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tainted Treant",
 		},
-		[423108] = {
+		[69974] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Igira the Cruel",
-		},
-		[69972] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kor'kron Necrolyte",
+			["source"] = "Kor'kron Sniper",
+		},
+		[423264] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tindral Sageswift",
 		},
 		[421090] = {
 			["school"] = 1,
@@ -1519,29 +1517,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gnarlroot",
 		},
-		[417003] = {
-			["school"] = 36,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Igira the Cruel",
-		},
-		[418154] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Aerwynn",
-		},
-		[164275] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Witherbark",
-		},
 		[164556] = {
 			["school"] = 1,
 			["token"] = {
@@ -1549,21 +1524,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unchecked Growth",
 		},
-		[164302] = {
-			["school"] = 1,
+		[173563] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Feral Lasher",
+		},
+		[426150] = {
+			["school"] = 36,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Igira the Cruel",
+		},
+		[417003] = {
+			["school"] = 36,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Igira the Cruel",
+		},
+		[427863] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unchecked Growth",
+			["source"] = "Archmage Sol",
 		},
-		[425821] = {
+		[423266] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tainted Treant",
+			["source"] = "Tindral Sageswift",
 		},
 		[421986] = {
 			["school"] = 36,
@@ -1583,12 +1581,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
-		[173563] = {
-			["school"] = 8,
+		[418154] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Feral Lasher",
+			["source"] = "Aerwynn",
 		},
 		[421859] = {
 			["school"] = 1,
@@ -1598,14 +1596,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smolderon",
 		},
-		[419123] = {
-			["school"] = 36,
+		[427299] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Larodar, Keeper of the Flame",
 		},
 		[418538] = {
 			["school"] = 4,
@@ -1635,19 +1633,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Urctos",
 		},
-		[431314] = {
-			["school"] = 4,
+		[164302] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Larodar, Keeper of the Flame",
+			["source"] = "Unchecked Growth",
 		},
-		[423266] = {
+		[425821] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tindral Sageswift",
+			["source"] = "Tainted Treant",
 		},
 		[417772] = {
 			["school"] = 4,
@@ -1673,19 +1673,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Larodar, Keeper of the Flame",
 		},
-		[429782] = {
+		[421942] = {
 			["school"] = 36,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Fyrakk",
 		},
-		[416056] = {
-			["school"] = 36,
+		[224125] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Spirit Wolf",
 		},
 		[430677] = {
 			["school"] = 4,
@@ -1719,20 +1720,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archmage Sol",
 		},
-		[421421] = {
-			["school"] = 36,
+		[69969] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kor'kron Necrolyte",
+		},
+		[420950] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gnarlroot",
-		},
-		[421972] = {
-			["school"] = 36,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Gnarlroot",
+			["source"] = "Smolderon",
 		},
 		[420714] = {
 			["school"] = 8,
@@ -1779,13 +1781,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archmage Sol",
 		},
-		[394976] = {
-			["school"] = 32,
+		[419504] = {
+			["school"] = 36,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Void Lasher",
 		},
 		[426209] = {
 			["school"] = 4,
@@ -1803,23 +1805,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Igira the Cruel",
 		},
-		[427999] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Smolderon",
-		},
-		[421675] = {
-			["school"] = 1,
+		[166477] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Volcoross",
+			["source"] = "Archmage Sol",
+		},
+		[423719] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Larodar, Keeper of the Flame",
 		},
 		[419056] = {
 			["school"] = 4,
@@ -1835,20 +1835,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volcoross",
 		},
-		[166477] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[427999] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Archmage Sol",
-		},
-		[423656] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Tindral Sageswift",
+			["source"] = "Smolderon",
 		},
 		[429277] = {
 			["school"] = 1,
@@ -1858,13 +1852,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Igira the Cruel",
 		},
+		[423656] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tindral Sageswift",
+		},
 		[90361] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
 				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Sleepybird",
 		},
@@ -1876,13 +1877,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nymue",
 		},
-		[71614] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[104318] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Lich King",
+			["source"] = "Wild Imp",
 		},
 		[421613] = {
 			["school"] = 4,
@@ -1898,12 +1898,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Larodar, Keeper of the Flame",
 		},
-		[425957] = {
-			["school"] = 36,
+		[71614] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gnarlroot",
+			["source"] = "The Lich King",
 		},
 		[425574] = {
 			["school"] = 4,
@@ -1913,15 +1914,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smolderon",
 		},
-		[419144] = {
-			["school"] = 1,
+		[71769] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "The Lich King",
 		},
 		[410225] = {
 			["school"] = 36,
@@ -2028,12 +2028,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nymue",
 		},
-		[423717] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[417585] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Larodar, Keeper of the Flame",
 		},
 		[420979] = {
 			["school"] = 1,
@@ -2043,12 +2043,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Urctos",
 		},
-		[70396] = {
-			["school"] = 1,
+		[423649] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Spire Minion",
+			["source"] = "Tindral Sageswift",
 		},
 		[425039] = {
 			["school"] = 8,
@@ -2064,6 +2064,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
+		[169613] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Yalnu",
+		},
 		[413443] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -2072,13 +2080,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Nymue",
-		},
-		[169930] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Flourishing Ancient",
 		},
 		[72350] = {
 			["school"] = 32,
@@ -2102,30 +2103,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Screaming Soul",
 		},
-		[414342] = {
-			["school"] = 36,
+		[422518] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Fyrakk",
 		},
-		[70084] = {
+		[427498] = {
 			["school"] = 16,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sindragosa",
+			["source"] = "Life Warden Gola",
 		},
-		[421368] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[427500] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nymue",
+			["source"] = "Life Warden Gola",
 		},
 		[430052] = {
 			["school"] = 36,
@@ -2134,13 +2137,10 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Screaming Soul",
 		},
-		[422518] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[429672] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Fyrakk",
 		},
@@ -2152,12 +2152,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gnarlroot",
 		},
-		[423715] = {
-			["school"] = 36,
+		[417583] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Larodar, Keeper of the Flame",
 		},
 		[164438] = {
 			["school"] = 1,
@@ -2174,21 +2176,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Igira the Cruel",
 		},
-		[69989] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Kor'kron Sniper",
-		},
-		[420859] = {
+		[421501] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Aerwynn",
+			["source"] = "Pip",
+		},
+		[426991] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Spore Image",
 		},
 		[420856] = {
 			["school"] = 8,
@@ -2207,11 +2210,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Burning Colossus",
 		},
-		[423670] = {
-			["school"] = 8,
+		[420604] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Urctos",
 		},
 		[164886] = {
 			["school"] = 8,
@@ -2221,39 +2226,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dreadpetal",
 		},
-		[427500] = {
-			["school"] = 16,
+		[421368] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Nymue",
+		},
+		[414342] = {
+			["school"] = 36,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Life Warden Gola",
+			["source"] = "Igira the Cruel",
 		},
-		[428139] = {
-			["school"] = 64,
+		[428823] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Archmage Sol",
+			["source"] = "Yalnu",
 		},
-		[168082] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[415624] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Life Warden Gola",
-		},
-		[69925] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Kor'kron Templar",
+			["source"] = "Igira the Cruel",
 		},
 		[420858] = {
 			["school"] = 8,
@@ -2271,13 +2274,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
-		[421501] = {
-			["school"] = 8,
+		[181113] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Pip",
+			["source"] = "Flourishing Ancient",
 		},
 		[427885] = {
 			["school"] = 64,
@@ -2288,14 +2290,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archmage Sol",
 		},
-		[426991] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[70084] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Spore Image",
+			["source"] = "Sindragosa",
 		},
 		[70116] = {
 			["school"] = 16,
@@ -2304,13 +2306,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spire Frostwyrm",
 		},
-		[420604] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[423670] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Urctos",
 		},
 		[417666] = {
 			["school"] = 1,
@@ -2322,28 +2322,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fiery Treant",
 		},
-		[428951] = {
+		[424352] = {
+			["school"] = 36,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Gnarlroot",
+		},
+		[416048] = {
 			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Igira the Cruel",
+		},
+		[422052] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Flourishing Ancient",
-		},
-		[422691] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Smolderon",
-		},
-		[428695] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Tindral Sageswift",
+			["source"] = "Urctos",
 		},
 		[417667] = {
 			["school"] = 1,
@@ -2354,43 +2356,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fiery Treant",
 		},
-		[414770] = {
-			["school"] = 36,
-			["type"] = "DEBUFF",
+		[69967] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Blistering Spear",
-		},
-		[422522] = {
-			["school"] = 36,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Kor'kron Templar",
 		},
-		[427928] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[168082] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Tindral Sageswift",
-		},
-		[415624] = {
-			["school"] = 36,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Life Warden Gola",
 		},
-		[181113] = {
+		[73001] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Flourishing Ancient",
+			["source"] = "Prince Keleseth",
+		},
+		[69925] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Kor'kron Templar",
 		},
 		[422523] = {
 			["school"] = 36,
@@ -2399,13 +2398,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Burning Colossus",
 		},
-		[425820] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[69989] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tainted Treant",
+			["source"] = "Kor'kron Sniper",
+		},
+		[426147] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Nymue",
 		},
 		[69920] = {
 			["school"] = 1,
@@ -2415,19 +2423,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skybreaker Assassin",
 		},
-		[422524] = {
-			["school"] = 36,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Fyrakk",
-		},
 		[71139] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Kor'kron Templar",
+		},
+		[422524] = {
+			["school"] = 36,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fyrakk",
 		},
 		[428273] = {
 			["school"] = 1,
@@ -2446,14 +2454,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tainted Lasher",
 		},
-		[427721] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[414425] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Nymue",
+			["source"] = "Igira the Cruel",
 		},
 		[421671] = {
 			["school"] = 4,
@@ -2470,14 +2477,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Larodar, Keeper of the Flame",
 		},
-		[428948] = {
+		[69679] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Flourishing Ancient",
+			["source"] = "Kor'kron Rocketeer",
 		},
 		[427508] = {
 			["school"] = 8,
@@ -2493,14 +2499,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smolderon",
 		},
-		[69958] = {
-			["school"] = 8,
+		[417633] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Kor'kron Oracle",
+			["source"] = "Larodar, Keeper of the Flame",
 		},
 		[69926] = {
 			["school"] = 8,
@@ -2511,23 +2517,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Oracle",
 		},
-		[427509] = {
-			["school"] = 16,
+		[69958] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Kor'kron Oracle",
+		},
+		[72737] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Earthshaper Telu",
-		},
-		[428886] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
+			["source"] = "Deathbringer Saurfang",
 		},
 		[205196] = {
 			["school"] = 32,
@@ -2560,12 +2566,12 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[30153] = {
+		[419591] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Felguard",
+			["source"] = "Future Self",
 		},
 		[421762] = {
 			["school"] = 1,
@@ -2574,12 +2580,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aerwynn",
 		},
-		[426775] = {
-			["school"] = 8,
+		[70541] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nymue",
+			["source"] = "The Lich King",
 		},
 		[426106] = {
 			["school"] = 36,
@@ -2589,12 +2599,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gnarlroot",
 		},
-		[419591] = {
+		[30153] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Future Self",
+			["source"] = "Felguard",
+		},
+		[428397] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Burning Colossus",
 		},
 		[177731] = {
 			["school"] = 16,
@@ -2604,19 +2622,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Enchanted Waters",
 		},
-		[427512] = {
-			["school"] = 8,
+		[69927] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Dulhu",
-		},
-		[418187] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Aerwynn",
+			["source"] = "Kor'kron Vanquisher",
 		},
 		[421636] = {
 			["school"] = 8,
@@ -2627,14 +2640,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
-		[69927] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[418187] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kor'kron Vanquisher",
+			["source"] = "Aerwynn",
 		},
 		[427513] = {
 			["school"] = 8,
@@ -2659,12 +2670,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gnarlroot",
 		},
-		[424347] = {
-			["school"] = 36,
+		[69934] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Kor'kron Vanquisher",
 		},
 		[420422] = {
 			["school"] = 36,
@@ -2675,13 +2686,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[425819] = {
-			["school"] = 1,
+		[419061] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tainted Treant",
+			["source"] = "Fyrakk",
 		},
 		[417039] = {
 			["school"] = 1,
@@ -2715,6 +2725,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
+		[422115] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tindral Sageswift",
+		},
 		[427899] = {
 			["school"] = 4,
 			["type"] = "BUFF",
@@ -2723,13 +2742,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Archmage Sol",
-		},
-		[421767] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Aerwynn",
 		},
 		[417807] = {
 			["school"] = 36,
@@ -2748,13 +2760,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
-		[425345] = {
-			["school"] = 36,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Fyrakk",
-		},
 		[415636] = {
 			["school"] = 36,
 			["token"] = {
@@ -2762,15 +2767,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Igira the Cruel",
 		},
-		[423265] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[425345] = {
+			["school"] = 36,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Fyrakk",
+		},
+		[415623] = {
+			["school"] = 36,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tindral Sageswift",
+			["source"] = "Igira the Cruel",
 		},
 		[424579] = {
 			["school"] = 4,
@@ -2780,15 +2790,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
-		[69705] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[421898] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kor'kron Battle-Mage",
+			["source"] = "Gnarlroot",
 		},
 		[420236] = {
 			["school"] = 72,
@@ -2805,6 +2813,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Enchanted Waters",
 		},
+		[424581] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tindral Sageswift",
+		},
+		[70189] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spire Gargoyle",
+		},
+		[420237] = {
+			["school"] = 72,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tindral Sageswift",
+		},
+		[69705] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kor'kron Battle-Mage",
+		},
 		[422026] = {
 			["school"] = 36,
 			["type"] = "DEBUFF",
@@ -2816,38 +2861,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Gnarlroot",
-		},
-		[427922] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Archmage Sol",
-		},
-		[420237] = {
-			["school"] = 72,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Tindral Sageswift",
-		},
-		[421898] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Gnarlroot",
-		},
-		[424581] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tindral Sageswift",
 		},
 		[421643] = {
 			["school"] = 1,
@@ -2871,13 +2884,12 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[428177] = {
+		[417446] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archmage Sol",
+			["source"] = "Fyrakk",
 		},
 		[429973] = {
 			["school"] = 4,
@@ -2894,27 +2906,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[417445] = {
-			["school"] = 36,
+		[422137] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Fyrakk",
 		},
-		[201633] = {
-			["school"] = 2,
+		[422172] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Earthen Wall Totem",
+			["source"] = "Smolderon",
 		},
-		[418978] = {
-			["school"] = 36,
+		[421022] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Urctos",
 		},
 		[420240] = {
 			["school"] = 4,
@@ -2948,14 +2963,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Baihu",
 		},
-		[426387] = {
+		[70444] = {
 			["school"] = 4,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Scorching Roots",
 		},
 		[423118] = {
 			["school"] = 1,
@@ -2972,19 +2984,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[421021] = {
-			["school"] = 1,
+		[69869] = {
+			["school"] = 20,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Urctos",
-		},
-		[428036] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Smolderon",
+			["source"] = "Kor'kron Invoker",
 		},
 		[424970] = {
 			["school"] = 36,
@@ -2994,6 +3002,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Gnarlroot",
+		},
+		[425481] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Fyrakk",
 		},
 		[168092] = {
 			["school"] = 16,
@@ -3021,12 +3036,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prince Valanar",
 		},
-		[425481] = {
+		[428036] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Smolderon",
 		},
 		[414367] = {
 			["school"] = 36,
@@ -3037,14 +3052,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Igira the Cruel",
 		},
-		[414888] = {
+		[430053] = {
 			["school"] = 36,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Screaming Soul",
 		},
 		[421777] = {
 			["school"] = 1,
@@ -3053,13 +3067,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pip",
 		},
-		[421020] = {
-			["school"] = 1,
+		[417443] = {
+			["school"] = 36,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Urctos",
+			["source"] = "Fyrakk",
+		},
+		[417630] = {
+			["school"] = 36,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Fyrakk",
 		},
 		[426249] = {
 			["school"] = 4,
@@ -3068,15 +3089,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Larodar, Keeper of the Flame",
-		},
-		[169179] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Yalnu",
 		},
 		[421778] = {
 			["school"] = 8,
@@ -3095,37 +3107,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smolderon",
 		},
-		[421969] = {
-			["school"] = 4,
+		[423705] = {
+			["school"] = 36,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Smolderon",
+			["source"] = "Fyrakk",
 		},
-		[429785] = {
-			["school"] = 8,
+		[420933] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Volcoross",
+		},
+		[422935] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fyrakk",
+		},
+		[429956] = {
+			["school"] = 36,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Nymue",
-		},
-		[59638] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mirror Image",
-		},
-		[428137] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Volcoross",
+			["source"] = "Fyrakk",
 		},
 		[421013] = {
 			["school"] = 1,
@@ -3162,31 +3177,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Templar",
 		},
-		[418591] = {
+		[426256] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Pip",
+			["source"] = "Larodar, Keeper of the Flame",
 		},
-		[422023] = {
-			["school"] = 36,
+		[69930] = {
+			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gnarlroot",
+			["source"] = "Kor'kron Vanquisher",
 		},
-		[419343] = {
-			["school"] = 4,
+		[426056] = {
+			["school"] = 36,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Larodar, Keeper of the Flame",
+			["source"] = "Igira the Cruel",
 		},
 		[421398] = {
 			["school"] = 68,
@@ -3196,14 +3213,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
-		[420251] = {
-			["school"] = 1,
+		[71465] = {
+			["school"] = 66,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Sister Svalna",
 		},
 		[418588] = {
 			["school"] = 1,
@@ -3215,8 +3232,8 @@ EncounterDetailsDB = {
 		[98021] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Spirit Link Totem",
 		},
@@ -3228,21 +3245,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Raptor",
 		},
-		[422776] = {
-			["school"] = 36,
+		[412761] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Igira the Cruel",
-		},
-		[270481] = {
-			["school"] = 36,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Demonic Tyrant",
+			["source"] = "Fyrakk",
 		},
 		[421515] = {
 			["school"] = 4,
@@ -3251,13 +3260,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smolderon",
 		},
-		[412761] = {
-			["school"] = 1,
+		[270481] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Demonic Tyrant",
+		},
+		[422776] = {
+			["school"] = 36,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Igira the Cruel",
 		},
 		[422039] = {
 			["school"] = 36,
@@ -3276,77 +3293,72 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smolderon",
 		},
-		[71465] = {
-			["school"] = 66,
+		[420251] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sister Svalna",
-		},
-		[426056] = {
-			["school"] = 36,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Igira the Cruel",
 		},
-		[69930] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[419343] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Kor'kron Vanquisher",
-		},
-		[426256] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Larodar, Keeper of the Flame",
 		},
-		[429956] = {
+		[422023] = {
 			["school"] = 36,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Fyrakk",
-		},
-		[422935] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Gnarlroot",
 		},
-		[420933] = {
+		[418591] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Volcoross",
+			["source"] = "Pip",
 		},
-		[423705] = {
-			["school"] = 36,
+		[428137] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Volcoross",
+		},
+		[59638] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mirror Image",
+		},
+		[429785] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Nymue",
+		},
+		[421969] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Smolderon",
 		},
 		[418720] = {
 			["school"] = 8,
@@ -3356,28 +3368,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pip",
 		},
-		[417630] = {
-			["school"] = 36,
+		[169179] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Yalnu",
 		},
-		[417443] = {
+		[414888] = {
 			["school"] = 36,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Igira the Cruel",
 		},
-		[430053] = {
-			["school"] = 36,
-			["type"] = "BUFF",
+		[421020] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Screaming Soul",
+			["source"] = "Urctos",
 		},
 		[427919] = {
 			["school"] = 4,
@@ -3395,15 +3410,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[69869] = {
-			["school"] = 20,
+		[421021] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kor'kron Invoker",
+			["source"] = "Urctos",
 		},
 		[69901] = {
 			["school"] = 1,
@@ -3414,11 +3426,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Defender",
 		},
-		[70444] = {
+		[426387] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+			["source"] = "Scorching Roots",
 		},
 		[69965] = {
 			["school"] = 8,
@@ -3428,28 +3443,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Defender",
 		},
-		[421022] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[417445] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Urctos",
+			["source"] = "Fyrakk",
 		},
-		[422172] = {
-			["school"] = 1,
+		[201633] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Smolderon",
+			["source"] = "Earthen Wall Totem",
 		},
-		[422137] = {
-			["school"] = 1,
+		[418978] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Fyrakk",
 		},
@@ -3461,12 +3473,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[417446] = {
+		[428177] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Archmage Sol",
 		},
 		[423195] = {
 			["school"] = 8,
@@ -3477,15 +3490,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nymue",
 		},
-		[70189] = {
-			["school"] = 8,
+		[427922] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Spire Gargoyle",
+			["source"] = "Archmage Sol",
 		},
 		[421407] = {
 			["school"] = 4,
@@ -3508,13 +3518,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pip",
 		},
-		[415623] = {
-			["school"] = 36,
-			["type"] = "DEBUFF",
+		[423265] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Tindral Sageswift",
 		},
 		[426390] = {
 			["school"] = 8,
@@ -3525,21 +3537,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aerwynn",
 		},
-		[422115] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tindral Sageswift",
-		},
-		[419061] = {
-			["school"] = 36,
+		[421767] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Aerwynn",
+		},
+		[425819] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Tainted Treant",
 		},
 		[69902] = {
 			["school"] = 1,
@@ -3548,12 +3559,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Defender",
 		},
-		[69934] = {
-			["school"] = 2,
+		[424347] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kor'kron Vanquisher",
+			["source"] = "Igira the Cruel",
 		},
 		[426519] = {
 			["school"] = 8,
@@ -3563,24 +3574,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nymue",
 		},
-		[428397] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[427512] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Burning Colossus",
-		},
-		[70541] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Lich King",
+			["source"] = "Dulhu",
+		},
+		[426775] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Nymue",
 		},
 		[425370] = {
 			["school"] = 8,
@@ -3589,23 +3595,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cycle Warden",
 		},
-		[72737] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[428886] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Deathbringer Saurfang",
 		},
-		[417633] = {
-			["school"] = 1,
+		[427509] = {
+			["school"] = 16,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Larodar, Keeper of the Flame",
+			["source"] = "Earthshaper Telu",
 		},
 		[424221] = {
 			["school"] = 4,
@@ -3614,13 +3620,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volcoross",
 		},
-		[69679] = {
+		[428948] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kor'kron Rocketeer",
+			["source"] = "Flourishing Ancient",
 		},
 		[421922] = {
 			["school"] = 1,
@@ -3630,13 +3637,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[414425] = {
-			["school"] = 36,
+		[427721] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Nymue",
 		},
 		[424222] = {
 			["school"] = 1,
@@ -3660,13 +3668,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[426147] = {
+		[425820] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Nymue",
+			["source"] = "Tainted Treant",
 		},
 		[424734] = {
 			["school"] = 36,
@@ -3676,46 +3684,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gnarlroot",
 		},
-		[73001] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Prince Keleseth",
-		},
-		[69967] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Kor'kron Templar",
-		},
-		[422052] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Urctos",
-		},
-		[416048] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Igira the Cruel",
-		},
-		[424352] = {
-			["school"] = 36,
-			["type"] = "BUFF",
+		[427928] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gnarlroot",
+			["source"] = "Tindral Sageswift",
+		},
+		[414770] = {
+			["school"] = 36,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Blistering Spear",
+		},
+		[428695] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Tindral Sageswift",
+		},
+		[422691] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Smolderon",
+		},
+		[428951] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Flourishing Ancient",
 		},
 		[426524] = {
 			["school"] = 1,
@@ -3733,13 +3739,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tainted Lasher",
 		},
-		[428823] = {
-			["school"] = 1,
+		[422522] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Yalnu",
+			["source"] = "Fyrakk",
 		},
 		[70191] = {
 			["school"] = 1,
@@ -3764,21 +3769,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[417583] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Larodar, Keeper of the Flame",
-		},
-		[429672] = {
+		[423715] = {
 			["school"] = 36,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fyrakk",
+			["source"] = "Igira the Cruel",
+		},
+		[428139] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archmage Sol",
 		},
 		[168040] = {
 			["school"] = 8,
@@ -3789,15 +3793,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Earthshaper Telu",
 		},
-		[427498] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[420859] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Life Warden Gola",
+			["source"] = "Aerwynn",
 		},
 		[421672] = {
 			["school"] = 1,
@@ -3809,13 +3810,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volcoross",
 		},
-		[169613] = {
-			["school"] = 8,
+		[169930] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Yalnu",
+			["source"] = "Flourishing Ancient",
 		},
 		[69968] = {
 			["school"] = 8,
@@ -3825,19 +3825,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Primalist",
 		},
-		[423649] = {
-			["school"] = 4,
+		[70396] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tindral Sageswift",
+			["source"] = "Spire Minion",
 		},
-		[417585] = {
-			["school"] = 4,
+		[423717] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Larodar, Keeper of the Flame",
 		},
 		[422823] = {
 			["school"] = 4,
@@ -3870,21 +3870,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volcoross",
 		},
-		[71769] = {
-			["school"] = 32,
+		[419144] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "The Lich King",
+			["source"] = "Fyrakk",
 		},
-		[104318] = {
-			["school"] = 4,
+		[425957] = {
+			["school"] = 36,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Wild Imp",
+			["source"] = "Gnarlroot",
 		},
 		[420525] = {
 			["school"] = 1,
@@ -3896,13 +3897,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Urctos",
 		},
-		[423719] = {
+		[421675] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Larodar, Keeper of the Flame",
+			["source"] = "Volcoross",
 		},
 		[421292] = {
 			["school"] = 8,
@@ -3923,13 +3925,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blistering Spear",
 		},
-		[419504] = {
-			["school"] = 36,
+		[394976] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+			["source"] = "Void Lasher",
 		},
 		[423720] = {
 			["school"] = 36,
@@ -3938,21 +3940,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[420950] = {
-			["school"] = 4,
+		[421972] = {
+			["school"] = 36,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gnarlroot",
+		},
+		[421421] = {
+			["school"] = 36,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Smolderon",
-		},
-		[69969] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Kor'kron Necrolyte",
+			["source"] = "Gnarlroot",
 		},
 		[421038] = {
 			["school"] = 36,
@@ -3962,15 +3963,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gnarlroot",
 		},
-		[224125] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[416056] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Spirit Wolf",
+			["source"] = "Igira the Cruel",
 		},
-		[421942] = {
+		[429782] = {
 			["school"] = 36,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
@@ -3994,14 +3994,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fyrakk",
 		},
-		[427299] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[419123] = {
+			["school"] = 36,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Larodar, Keeper of the Flame",
+			["source"] = "Fyrakk",
 		},
 		[429982] = {
 			["school"] = 1,
@@ -4011,23 +4011,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gnarlroot",
 		},
-		[427863] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[431314] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Larodar, Keeper of the Flame",
+		},
+		[164275] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archmage Sol",
-		},
-		[426150] = {
-			["school"] = 36,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Igira the Cruel",
+			["source"] = "Witherbark",
 		},
 		[224126] = {
 			["school"] = 16,
@@ -4045,20 +4043,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nymue",
 		},
-		[423264] = {
-			["school"] = 4,
+		[69972] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Tindral Sageswift",
-		},
-		[69974] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kor'kron Sniper",
+			["source"] = "Kor'kron Necrolyte",
+		},
+		[423108] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Igira the Cruel",
 		},
 		[428834] = {
 			["school"] = 8,
@@ -4074,14 +4073,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Burning Colossus",
 		},
-		[69970] = {
-			["school"] = 8,
+		[425002] = {
+			["school"] = 36,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Kor'kron Oracle",
+			["source"] = "Gnarlroot",
 		},
 		[420531] = {
 			["school"] = 1,
@@ -4098,40 +4097,41 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spirit Wolf",
 		},
-		[421298] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[428963] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Burning Colossus",
+		},
+		[429607] = {
+			["school"] = 36,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Aerwynn",
+			["source"] = "Igira the Cruel",
 		},
-		[70109] = {
+		[327942] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Windfury Totem",
+		},
+		[69882] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sindragosa",
-		},
-		[31707] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Water Elemental",
-		},
-		[70362] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
+				["SPELL_HEAL"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Spire Frostwyrm",
+			["source"] = "Kor'kron Primalist",
 		},
 		[428964] = {
 			["school"] = 36,
@@ -4155,12 +4155,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smolderon",
 		},
-		[427459] = {
-			["school"] = 8,
+		[422614] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Earthshaper Telu",
+			["source"] = "Larodar, Keeper of the Flame",
 		},
 		[424366] = {
 			["school"] = 36,
@@ -4169,36 +4170,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gnarlroot",
 		},
-		[422961] = {
-			["school"] = 36,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Igira the Cruel",
-		},
-		[422578] = {
+		[421939] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tindral Sageswift",
+		},
+		[422067] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Smolderon",
 		},
-		[101406] = {
+		[421570] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Deathbringer Saurfang",
+			["source"] = "Aerwynn",
 		},
-		[427197] = {
-			["school"] = 4,
+		[428082] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Volcoross",
+			["source"] = "Archmage Sol",
 		},
 		[424495] = {
 			["school"] = 4,
@@ -4209,13 +4212,10 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tindral Sageswift",
 		},
-		[421703] = {
+		[420410] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Volcoross",
 		},

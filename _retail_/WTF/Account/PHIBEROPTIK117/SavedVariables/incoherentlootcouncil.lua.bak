@@ -1,6 +1,6 @@
 
 ILC_CONFIG = {
-	["debug"] = true,
+	["debug"] = false,
 	["buttons"] = {
 		{
 			"Mainspec", -- [1]
