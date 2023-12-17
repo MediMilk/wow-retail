@@ -39,3 +39,6 @@ _retail_/BlizzardError.exe
 *.zip
 *.7z
 *.gz
+
+# Git Files
+UploadUI.sh
