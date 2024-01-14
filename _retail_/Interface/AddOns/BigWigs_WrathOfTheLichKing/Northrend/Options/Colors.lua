@@ -1,7 +1,8 @@
 
 BigWigs:AddColors("Archavon the Stone Watcher", {
 	[58663] = {"green","yellow"},
-	[58965] = {"blue","red"},
+	[58678] = {"blue","red"},
+	[58965] = "blue",
 	["charge"] = {"blue","yellow"},
 })
 
@@ -27,10 +28,14 @@ BigWigs:AddColors("Sartharion", {
 })
 
 BigWigs:AddColors("Halion", {
-	[74562] = "blue",
-	[74648] = {"blue","orange","red"},
+	[74525] = "orange",
+	[74562] = {"blue","yellow"},
+	[74648] = {"blue","red"},
 	[74769] = "red",
-	[74792] = "blue",
+	[74792] = {"blue","yellow"},
+	[74806] = "orange",
+	[74826] = "cyan",
+	["stages"] = "cyan",
 })
 
 BigWigs:AddColors("Emalon the Storm Watcher", {
@@ -52,8 +57,9 @@ BigWigs:AddColors("Toravon the Ice Watcher", {
 })
 
 BigWigs:AddColors("Onyxia", {
-	[17086] = "orange",
+	[17086] = "red",
+	[18392] = "blue",
 	[18431] = "yellow",
-	[18435] = "red",
-	["phase"] = "green",
+	[18435] = "orange",
+	["stages"] = "cyan",
 })

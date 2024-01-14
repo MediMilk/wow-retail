@@ -157,6 +157,9 @@ end
 -- Feasting Skyscreamer
 
 function mod:TerrifyingScreech(args)
+	if self:Friendly(args.sourceFlags) then -- these NPCs can be mind-controlled by Priests
+		return
+	end
 	self:Message(args.spellId, "orange", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "warning", "interrupt")
 end
@@ -195,9 +198,19 @@ end
 
 -- Zanchuli Witch-Doctor
 
-function mod:UnstableHex(args)
-	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
-	self:PlaySound(args.spellId, "warning")
+do
+	local prev = 0
+	function mod:UnstableHex(args)
+		if self:Friendly(args.sourceFlags) then -- these NPCs can be mind-controlled by Priests
+			return
+		end
+		local t = args.time
+		if t - prev > 1.5 then
+			prev = t
+			self:Message(args.spellId, "red", CL.casting:format(args.spellName))
+			self:PlaySound(args.spellId, "warning")
+		end
+	end
 end
 
 do
@@ -239,6 +252,9 @@ end
 do
 	local prev = 0
 	function mod:MercilessAssault(args)
+		if self:Friendly(args.sourceFlags) then -- these NPCs can be mind-controlled by Priests
+			return
+		end
 		local t = args.time
 		if t - prev > 1.5 then
 			prev = t
@@ -251,6 +267,9 @@ end
 -- Gilded Priestess
 
 function mod:Transfusion(args)
+	if self:Friendly(args.sourceFlags) then -- these NPCs can be mind-controlled by Priests
+		return
+	end
 	self:Message(args.spellId, "yellow", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "alert", "interrupt")
 end
@@ -268,7 +287,8 @@ do
 	local prev = 0
 	function mod:VenomfangStrikeApplied(args)
 		local t = args.time
-		if t - prev > 2 and (self:Me(args.destGUID) or self:Dispeller("poison", nil, args.spellId)) then
+		-- don't alert if a NPC is debuffed (usually by a mind-controlled mob)
+		if t - prev > 2 and (self:Me(args.destGUID) or (self:Player(args.destFlags) and self:Dispeller("poison", nil, args.spellId))) then
 			prev = t
 			self:StackMessage(args.spellId, "orange", args.destName, args.amount, 1)
 			self:PlaySound(args.spellId, "info", nil, args.destName)

@@ -18,10 +18,11 @@ BigWigs:AddSounds("Sartharion", {
 })
 
 BigWigs:AddSounds("Halion", {
-	[74562] = "info",
-	[74648] = "long",
+	[74562] = "warning",
+	[74648] = {"long","underyou"},
 	[74769] = "alert",
-	[74792] = "info",
+	[74792] = "warning",
+	["stages"] = {"info","warning"},
 })
 
 BigWigs:AddSounds("Emalon the Storm Watcher", {
@@ -35,6 +36,9 @@ BigWigs:AddSounds("Toravon the Ice Watcher", {
 })
 
 BigWigs:AddSounds("Onyxia", {
-	[17086] = "alarm",
+	[17086] = "warning",
+	[18392] = "alarm",
+	[18431] = "info",
 	[18435] = "alert",
+	["stages"] = "long",
 })

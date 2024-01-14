@@ -36,11 +36,13 @@ function mod:GetOptions()
 		-- Focusing Iris
 		{260805, "ICON"}, -- Focusing Iris
 		260773, -- Dire Ritual
-	}, {
+	},{
 		[260741] = -17738, -- Sister Briar
 		[260703] = -17739, -- Sister Malady
 		[260907] = -17740, -- Sister Solena
 		[260805] = 260805, -- Focusing Iris
+	},{
+		[260703] = CL.mark, -- Unstable Runic Mark (Mark)
 	}
 end
 
@@ -104,14 +106,14 @@ end
 -- Sister Malady (Stage 2)
 
 function mod:UnstableRunicMark(args)
-	self:Message(args.spellId, "orange")
+	self:Message(args.spellId, "orange", CL.marks)
 	self:PlaySound(args.spellId, "alarm")
-	self:CDBar(args.spellId, 12.1)
+	self:CDBar(args.spellId, 12.1, CL.marks)
 end
 
 function mod:UnstableRunicMarkApplied(args)
 	if self:Me(args.destGUID) then
-		self:Say(args.spellId, nil, nil, "Unstable Runic Mark")
+		self:Say(args.spellId, CL.mark, nil, "Mark")
 		self:SayCountdown(args.spellId, 6)
 	end
 end
@@ -137,7 +139,7 @@ function mod:AuraOfDread(args)
 end
 
 function mod:SisterMaladyDeath(args)
-	self:StopBar(260703) -- Unstable Runic Mark
+	self:StopBar(CL.marks) -- Unstable Runic Mark
 end
 
 -- Sister Solena (Stage 1)
@@ -178,7 +180,7 @@ function mod:ClaimTheIris(args)
 	-- stop and start boss ability timers
 	local mobId = self:MobId(bossWithIris)
 	if mobId == 131825 then -- Sister Briar
-		self:StopBar(260703) -- Unstable Runic Mark
+		self:StopBar(CL.marks) -- Unstable Runic Mark
 		self:StopBar(260907) -- Soul Manipulation
 		self:SetStage(3)
 		self:CDBar(260741, 7.3) -- Jagged Nettles
@@ -186,10 +188,10 @@ function mod:ClaimTheIris(args)
 		self:StopBar(260741) -- Jagged Nettles
 		self:StopBar(260907) -- Soul Manipulation
 		self:SetStage(2)
-		self:CDBar(260703, 7.7) -- Unstable Runic Mark
+		self:CDBar(260703, 7.7, CL.marks) -- Unstable Runic Mark
 	else -- 131824, Sister Solena
 		self:StopBar(260741) -- Jagged Nettles
-		self:StopBar(260703) -- Unstable Runic Mark
+		self:StopBar(CL.marks) -- Unstable Runic Mark
 		self:SetStage(1)
 		if not self:Solo() then
 			-- won't be cast if solo

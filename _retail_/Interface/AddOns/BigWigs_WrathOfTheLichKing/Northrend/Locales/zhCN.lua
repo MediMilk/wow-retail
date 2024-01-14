@@ -1,17 +1,11 @@
 local L = BigWigs:NewBossLocale("Onyxia", "zhCN")
 if not L then return end
 if L then
-	L.phase = "阶段"
-	L.phase_desc = "当阶段转换时发出警报。"
-	L.phase2_message = "即将 第二阶段！"
-	L.phase3_message = "即将 第三阶段！"
+	L.phase1_trigger = "真是走运。通常我必须离开窝才能找到食物"
+	L.phase2_trigger = "这毫无意义的行动让我很厌烦。我会从上空把你们都烧成灰"
+	L.phase3_trigger = "看起来需要再给你一次教训，凡人"
 
-	L.phase1_trigger = "真是走运。通常我必须离开窝才能找到食物。"
-	L.phase2_trigger = "这毫无意义的行动让我很厌烦。我会从上空把你们都烧成灰！"
-	L.phase3_trigger = "看起来需要再给你一次教训，凡人！"
-
-	L.deepbreath_message = "即将 深呼吸！"
-	L.fear_message = "即将 恐惧！"
+	L.deep_breath = "深呼吸"
 end
 
 local L = BigWigs:NewBossLocale("Archavon the Stone Watcher", "zhCN")
@@ -34,21 +28,7 @@ end
 
 L = BigWigs:NewBossLocale("Halion", "zhCN")
 if L then
-	L.engage_trigger = "你们的世界正在灭亡的边缘摇摆"
-
-	L.phase_two_trigger = "暮光的世界将会让你痛不欲生"
-
-	L.twilight_cutter_trigger = "这些环绕的球体散发着黑暗能量"
-	L.twilight_cutter_bar = "<暮光撕裂射线>"
-	L.twilight_cutter_warning = "即将 暮光撕裂射线！"
-
-	L.fire_damage_message = ">你< 炽焰燃烧！"
-	L.fire_message = "炽焰燃烧！"
-	L.shadow_message = "灵魂吞噬！"
-
-	L.meteorstrike_yell = "天空在燃烧"
-	L.meteorstrike_bar = "<流星打击>"
-	L.meteor_warning_message = "即将 流星打击！"
+	L.twilight_cutter_emote_trigger = "黑暗能量" -- 黑暗能量正在这颗旋转的魔球中脉动！
 end
 
 L = BigWigs:NewBossLocale("Koralon the Flame Watcher", "zhCN")

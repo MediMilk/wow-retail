@@ -37,8 +37,8 @@ VMRT = {
 			[1757] = "Ancient Protectors",
 			[1106] = "The Lich King",
 			[1756] = "Yalnu",
-			[2824] = "Smolderon",
 			[2731] = "Larodar, Keeper of the Flame",
+			[1103] = "Queen Lana'thel",
 			[2709] = "Igira the Cruel",
 			[1746] = "Witherbark",
 			[1101] = "Lord Marrowgar",
@@ -50,7 +50,7 @@ VMRT = {
 			[1100] = "Lady Deathwhisper",
 			[2820] = "Gnarlroot",
 			[1102] = "Professor Putricide",
-			[1103] = "Queen Lana'thel",
+			[2824] = "Smolderon",
 			[1104] = "Rotface",
 			[1105] = "Sindragosa",
 			[2737] = "Volcoross",
@@ -364,9 +364,12 @@ VMRT = {
 			["Subparlite"] = 70,
 			["Scumrat-Zul'jin"] = 65,
 			["Swóle"] = 259,
+			["Stankdaddy-Illidan"] = 258,
 			["Subparbustin"] = 64,
 			["Scumratt"] = 65,
+			["Chopschtichs-Kil'jaeden"] = 270,
 			["Thesleepypan"] = 253,
+			["Anrowarr-Tichondrius"] = 71,
 			["Buzzlý"] = 102,
 			["Wowguildrecr"] = 1451,
 			["Medimilk"] = 254,
@@ -375,13 +378,13 @@ VMRT = {
 			["Wreckshop"] = 253,
 			["Quitollis"] = 577,
 			["Swõlè"] = 256,
-			["Luhgon"] = 1473,
+			["Rïddarï-Stormrage"] = 250,
 			["Wowguildrect"] = 1451,
 			["Eyefeldown"] = 577,
 			["Quitolliser"] = 577,
 			["Lildotnrg"] = 265,
 			["Sleepyslock"] = 267,
-			["Rïddarï-Stormrage"] = 250,
+			["Luhgon"] = 1473,
 			["Chugmonk"] = 268,
 			["Hydroxcide"] = 266,
 			["Subpardragon"] = 1467,
@@ -767,50 +770,6 @@ VMRT = {
 		},
 		["ReadyCheckFrameOnlyRL"] = true,
 	},
-	["BossWatcher"] = {
-		["optionsDamageGraph"] = true,
-		["fightsNum"] = 2,
-		["optionsPositionsDist"] = true,
-		["optionsHealingGraph"] = true,
-		["trackingDamageSpells"] = {
-		},
-	},
-	["Profiles"] = {
-	},
-	["Profile"] = "default",
-	["LootLink"] = {
-	},
-	["RaidGroups"] = {
-		["KeepPosInGroup"] = true,
-		["upd4550"] = true,
-		["importType"] = 4,
-		["profiles"] = {
-			{
-				"Buzzly", -- [1]
-				"Rajamatic", -- [2]
-				"Quitollis", -- [3]
-				"Pogrunnerup", -- [4]
-				"Swôle", -- [5]
-				"Devastor", -- [6]
-				"Keranna", -- [7]
-				"Hydroxcide", -- [8]
-				"Badoomp", -- [9]
-				"Mundanemagic", -- [10]
-				"Scumratt", -- [11]
-				"Luhgon", -- [12]
-				"Perlyta", -- [13]
-				"Beestboy", -- [14]
-				"Mittàns", -- [15]
-				"Medimilk", -- [16]
-				"Monvis", -- [17]
-				"Natrone", -- [18]
-				"Sÿs", -- [19]
-				"Mowk", -- [20]
-				["name"] = "Igira",
-				["time"] = 1702523807,
-			}, -- [1]
-		},
-	},
 	["LootHistory"] = {
 		["instanceNames"] = {
 			[1279] = "The Everbloom",
@@ -826,8 +785,8 @@ VMRT = {
 			[1757] = "Ancient Protectors",
 			[1106] = "The Lich King",
 			[1756] = "Yalnu",
-			[2824] = "Smolderon",
 			[2731] = "Larodar, Keeper of the Flame",
+			[1103] = "Queen Lana'thel",
 			[2709] = "Igira the Cruel",
 			[1746] = "Witherbark",
 			[1101] = "Lord Marrowgar",
@@ -839,7 +798,7 @@ VMRT = {
 			[1100] = "Lady Deathwhisper",
 			[2820] = "Gnarlroot",
 			[1102] = "Professor Putricide",
-			[1103] = "Queen Lana'thel",
+			[2824] = "Smolderon",
 			[1104] = "Rotface",
 			[1105] = "Sindragosa",
 			[2737] = "Volcoross",
@@ -1575,6 +1534,50 @@ VMRT = {
 			"1702696756#2677#0#0#Healingood#11#1#item:210947::::::::70:105::3:3:7979:1494:8767::::::", -- [727]
 			"1702696761#2677#2549#14#Healingood#11#1#item:208396::::::::70:105:::::::::", -- [728]
 		},
+	},
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["fightsNum"] = 2,
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["RaidGroups"] = {
+		["KeepPosInGroup"] = true,
+		["upd4550"] = true,
+		["importType"] = 4,
+		["profiles"] = {
+			{
+				"Buzzly", -- [1]
+				"Rajamatic", -- [2]
+				"Quitollis", -- [3]
+				"Pogrunnerup", -- [4]
+				"Swôle", -- [5]
+				"Devastor", -- [6]
+				"Keranna", -- [7]
+				"Hydroxcide", -- [8]
+				"Badoomp", -- [9]
+				"Mundanemagic", -- [10]
+				"Scumratt", -- [11]
+				"Luhgon", -- [12]
+				"Perlyta", -- [13]
+				"Beestboy", -- [14]
+				"Mittàns", -- [15]
+				"Medimilk", -- [16]
+				"Monvis", -- [17]
+				"Natrone", -- [18]
+				"Sÿs", -- [19]
+				"Mowk", -- [20]
+				["name"] = "Igira",
+				["time"] = 1702523807,
+			}, -- [1]
+		},
+	},
+	["Profiles"] = {
 	},
 	["Logging"] = {
 	},

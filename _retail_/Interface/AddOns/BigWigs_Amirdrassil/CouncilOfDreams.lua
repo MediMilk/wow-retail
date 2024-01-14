@@ -15,7 +15,6 @@ mod:SetRespawnTime(30)
 local castingRebirth = false
 local rebirthCount = 1
 local rebirthTimers = {}
-local duckList = {}
 
 local specialCD = mod:LFR() and 74.7 or 56
 local specialChain = { ["urctos"] = "aerwynn", ["aerwynn"] = "pip", ["pip"] = "urctos" }
@@ -47,15 +46,12 @@ if L then
 	L.agonizing_claws_debuff_desc = 421022
 	L.agonizing_claws_debuff_icon = 421022
 
-	L.ultimate_boss = "Ultimate (%s)"
-	L.special_bar = "Ult [%s] (%d)"
-	L.special_mythic_bar = "Ult [%s/%s] (%d)"
+	L.custom_off_combined_full_energy = "Combined Full Energy Bars (Mythic only)"
+	L.custom_off_combined_full_energy_desc = "Combine the bars of the abilities that the bosses use at full energy into one bar, only if they will be cast at the same time."
+
 	L.special_mechanic_bar = "%s [Ult] (%d)"
 
-	L.urctos = mod:SpellName(-27300)
-	L.aerwynn = mod:SpellName(-27301)
-	L.pip = mod:SpellName(-27302)
-
+	L.constricting_thicket = "Vines"
 	L.poisonous_javelin = "Javelin"
 	L.song_of_the_dragon = "Song"
 	L.polymorph_bomb = "Ducks"
@@ -68,8 +64,10 @@ end
 
 function mod:GetOptions()
 	return {
+		-- General
 		{418187, "CASTBAR"}, -- Rebirth
 		-- "berserk",
+		"custom_off_combined_full_energy",
 		-- Urctos
 		420525, -- Blinding Rage
 		425114, -- Ursine Rage
@@ -79,27 +77,28 @@ function mod:GetOptions()
 		-- Aerwynn
 		421292, -- Constricting Thicket
 		420937, -- Relentless Barrage
-		421570, -- Leap
+		{421570, "OFF"}, -- Leap
 		420671, -- Noxious Blossom
 		426390, -- Corrosive Pollen (Damage)
 		{420858, "SAY", "SAY_COUNTDOWN"}, -- Poisonous Javelin
 		-- Pip
-		{421029, "CASTBAR"}, -- Song of the Dragon
+		{421029, "CASTBAR", "ME_ONLY_EMPHASIZE"}, -- Song of the Dragon
 		{421032, "SAY"}, -- Captivating Finale
-		421501, -- Blink
-		{418720, "SAY_COUNTDOWN", "ME_ONLY_EMPHASIZE"}, -- Polymorph Bomb
+		{421501, "OFF"}, -- Blink
+		{418720, "SAY_COUNTDOWN", "ME_ONLY_EMPHASIZE", "PRIVATE"}, -- Polymorph Bomb
 		421024, -- Emerald Winds
 		423551, -- Whimsical Gust (Damage)
 	},{
+		[418187] = "general",
 		[420525] = -27300, -- Urctos
 		[421292] = -27301, -- Aerwynn
 		[421029] = -27302, -- Pip
 	},{
-		[420525] = L.ultimate_boss:format(L.urctos), -- Blinding Rage (Ultimate (Urctos))
+		["custom_off_combined_full_energy"] = CL.plus:format(L.constricting_thicket, L.song_of_the_dragon), -- Vines + Song (Example)
 		[420948] = CL.charge, -- Barreling Charge (Charge)
-		[421292] = L.ultimate_boss:format(L.aerwynn), -- Constricting Thicket (Ultimate (Aerwynn))
+		[421292] = L.constricting_thicket, -- Constricting Thicket (Vines)
 		[420671] = CL.pools, -- Noxious Blossom (Pools)
-		[421029] = L.ultimate_boss:format(L.pip), -- Song of the Dragon (Ultimate (Pip))
+		[421029] = L.song_of_the_dragon, -- Song of the Dragon (Song)
 		[418720] = L.polymorph_bomb, -- Polymorph Bomb (Ducks)
 		[421024] = CL.pushback, -- Emerald Winds (Pushback)
 	}
@@ -107,10 +106,6 @@ end
 
 function mod:OnBossEnable()
 	self:RegisterMessage("BigWigs_EncounterEnd") -- stop skipped cast bars immediately on wipe
-	if not self:LFR() then
-		self:RegisterWhisperEmoteComms("RaidBossWhisperSync")
-	end
-	self:RegisterEvent("CHAT_MSG_RAID_BOSS_WHISPER") -- Pre Polymorph Bomb
 
 	-- General
 	self:Log("SPELL_CAST_START", "Rebirth", 418187)
@@ -121,7 +116,6 @@ function mod:OnBossEnable()
 
 	-- Urctos
 	self:Log("SPELL_CAST_START", "BlindingRage", 420525)
-	-- self:Log("SPELL_AURA_REMOVED", "BlindingRageOver", 420525)
 	self:Log("SPELL_CAST_SUCCESS", "UrctosPolyBomb", 418757)
 	self:Log("SPELL_AURA_APPLIED", "UrsineRageApplied", 425114)
 	self:Log("SPELL_CAST_START", "BarrelingCharge", 420947)
@@ -164,7 +158,6 @@ function mod:OnEngage()
 	castingRebirth = false
 	rebirthCount = 1
 	rebirthTimers = {}
-	duckList = {}
 
 	specialCD = self:LFR() and 74.7 or 56
 	activeSpecials = 0
@@ -194,12 +187,15 @@ function mod:OnEngage()
 	-- Urctos
 	self:Bar(421022, self:LFR() and 10.7 or self:Normal() and 8 or 5, CL.count:format(self:SpellName(421022), agonizingClawsCount)) -- Agonizing Claws
 	self:Bar(420948, self:LFR() and 38.7 or self:Normal() and 29 or 13, CL.count:format(CL.charge, barrelingChargeCount)) -- Barreling Charge
-	if self:Mythic() then
-		-- Ult [Urctos/Aerwynn] (%d)
-		self:Bar(420525, specialCD, L.special_mythic_bar:format(L.urctos, L.aerwynn, specialCount)) -- Blinding Rage/Constricting Thicket
+	if self:Mythic() then -- Urctos + Aerwynn
+		if self:GetOption("custom_off_combined_full_energy") then
+			self:Bar(420525, specialCD, CL.count:format(CL.plus:format(self:SpellName(420525), L.constricting_thicket), specialCount)) -- Blinding Rage + Constricting Thicket
+		else
+			self:Bar(420525, specialCD, CL.count:format(self:SpellName(420525), blindingRageCount)) -- Blinding Rage
+			self:Bar(421292, specialCD, CL.count:format(L.constricting_thicket, constrictingThicketCount)) -- Constricting Thicket
+		end
 	else
-		-- Ult [Urctos] (%d)
-		self:Bar(420525, specialCD, L.special_bar:format(L.urctos, blindingRageCount)) -- Blinding Rage
+		self:Bar(420525, specialCD, CL.count:format(self:SpellName(420525), blindingRageCount)) -- Blinding Rage
 	end
 	nextSpecial = GetTime() + specialCD
 	nextSpecialAbility = "urctos"
@@ -214,7 +210,7 @@ function mod:OnEngage()
 	self:Bar(418720, self:LFR() and 46.6 or self:Normal() and 35 or 36, CL.count:format(L.polymorph_bomb, polymorphBombCount)) -- Polymorph Bomb
 	self:Bar(421024, self:Mythic() and 43 or self:LFR() and 60.2 or 45.5, CL.count:format(CL.pushback, emeraldWindsCount)) -- Emerald Winds
 
-	--self:SetPrivateAuraSound(418720, 418589) -- Polymorph Bomb
+	self:SetPrivateAuraSound(418720, 418589) -- Polymorph Bomb (Pre-Bomb)
 end
 
 function mod:BigWigs_EncounterEnd()
@@ -227,23 +223,6 @@ end
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
-
-function mod:RaidBossWhisperSync(msg, player)
-	if msg:find("spell:418720", nil, true) then
-		duckList[#duckList+1] = player
-		self:TargetsMessage(418720, "yellow", duckList, self:Mythic() and 3 or 4, CL.count:format(L.polymorph_bomb_single, polymorphBombCount))
-	end
-end
-
-function mod:CHAT_MSG_RAID_BOSS_WHISPER(_, msg)
-	--|TInterface\\ICONS\\INV_DuckBaby_Mallard.blp:20|t You are targeted for |cFFFF0000|Hspell:418720|h[Polymorph Bomb]|h|r!
-	if msg:find("spell:418720", nil, true) then
-		if self:Solo() or self:LFR() then -- You won't transmit addon comms when solo, and we don't listen to comms on LFR as the debuff can affect 12+ players, so warn here instead
-			self:PersonalMessage(418720, nil, L.polymorph_bomb_single)
-		end
-		self:PlaySound(418720, "warning")
-	end
-end
 
 function mod:SpecialOver()
 	activeSpecials = math.max(activeSpecials - 1, 0)
@@ -270,30 +249,39 @@ function mod:SpecialOver()
 		nextSpecial = GetTime() + specialCD
 		if nextSpecialAbility == "urctos" then
 			nextSpecialAbility = "aerwynn"
-			if self:Mythic() then
-				-- Ult [Aerwynn/Pip] (%d)
-				self:Bar(421292, specialCD, L.special_mythic_bar:format(L.aerwynn, L.pip, specialCount)) -- Constricting Thicket/Song of the Dragon
+			if self:Mythic() then -- Aerwynn + Pip
+				if self:GetOption("custom_off_combined_full_energy") then
+					self:Bar(421292, specialCD, CL.count:format(CL.plus:format(L.constricting_thicket, L.song_of_the_dragon), specialCount)) -- Constricting Thicket + Song of the Dragon
+				else
+					self:Bar(421029, specialCD, CL.count:format(L.song_of_the_dragon, songCount))  -- Song of the Dragon
+					self:Bar(421292, specialCD, CL.count:format(L.constricting_thicket, constrictingThicketCount)) -- Constricting Thicket
+				end
 			else
-				-- Ult [Aerwynn] (%d)
-				self:Bar(421292, specialCD, L.special_bar:format(L.aerwynn, constrictingThicketCount)) -- Constricting Thicket
+				self:Bar(421292, specialCD, CL.count:format(L.constricting_thicket, constrictingThicketCount)) -- Constricting Thicket
 			end
 		elseif nextSpecialAbility == "aerwynn" then
 			nextSpecialAbility = "pip"
-			if self:Mythic() then
-				-- Ult [Pip/Urctos] (%d)
-				self:Bar(421029, specialCD, L.special_mythic_bar:format(L.pip, L.urctos, specialCount)) -- Song of the Dragon/Blinding Rage
+			if self:Mythic() then -- Pip + Urctos
+				if self:GetOption("custom_off_combined_full_energy") then
+					self:Bar(421029, specialCD, CL.count:format(CL.plus:format(L.song_of_the_dragon, self:SpellName(420525)), specialCount)) -- Song of the Dragon + Blinding Rage
+				else
+					self:Bar(421029, specialCD, CL.count:format(L.song_of_the_dragon, songCount))  -- Song of the Dragon
+					self:Bar(420525, specialCD, CL.count:format(self:SpellName(420525), blindingRageCount)) -- Blinding Rage
+				end
 			else
-				-- Ult [Pip] (%d)
-				self:Bar(421029, specialCD, L.special_bar:format(L.pip, constrictingThicketCount))  -- Song of the Dragon
+				self:Bar(421029, specialCD, CL.count:format(L.song_of_the_dragon, songCount)) -- Song of the Dragon
 			end
 		elseif nextSpecialAbility == "pip" then
 			nextSpecialAbility = "urctos"
-			if self:Mythic() then
-				-- Ult [Urctos/Aerwynn] (%d)
-				self:Bar(420525, specialCD, L.special_mythic_bar:format(L.urctos, L.aerwynn, specialCount)) -- Blinding Rage/Constricting Thicket
+			if self:Mythic() then -- Urctos + Aerwynn
+				if self:GetOption("custom_off_combined_full_energy") then
+					self:Bar(420525, specialCD, CL.count:format(CL.plus:format(self:SpellName(420525), L.constricting_thicket), specialCount)) -- Blinding Rage + Constricting Thicket
+				else
+					self:Bar(420525, specialCD, CL.count:format(self:SpellName(420525), blindingRageCount)) -- Blinding Rage
+					self:Bar(421292, specialCD, CL.count:format(L.constricting_thicket, constrictingThicketCount)) -- Constricting Thicket
+				end
 			else
-				-- Ult [Urctos] (%d)
-				self:Bar(420525, specialCD, L.special_bar:format(L.urctos, constrictingThicketCount))   -- Blinding Rage
+				self:Bar(420525, specialCD, CL.count:format(self:SpellName(420525), blindingRageCount)) -- Blinding Rage
 			end
 		end
 	end
@@ -391,7 +379,11 @@ end
 
 -- Urctos
 function mod:BlindingRage(args)
-	self:Message(args.spellId, "orange", CL.count:format(L.ultimate_boss:format(L.urctos), blindingRageCount)) -- Urctos ult
+	self:StopBar(CL.count:format(CL.plus:format(args.spellName, L.constricting_thicket), specialCount)) -- Blinding Rage + Constricting Thicket
+	self:StopBar(CL.count:format(CL.plus:format(L.song_of_the_dragon, self:SpellName(420525)), specialCount)) -- Song of the Dragon + Blinding Rage
+	self:StopBar(CL.count:format(args.spellName, blindingRageCount)) -- Blinding Rage
+
+	self:Message(args.spellId, "orange", CL.count:format(args.spellName, blindingRageCount)) -- Urctos ult
 	self:PlaySound(args.spellId, "alert") -- duck boss
 	blindingRageCount = blindingRageCount + 1
 
@@ -432,10 +424,8 @@ do
 	function mod:BarrelingCharge(args)
 		self:StopBar(L.special_mechanic_bar:format(CL.charge, barrelingChargeCount))
 		self:StopBar(CL.count:format(CL.charge, barrelingChargeCount))
-
 		barrelingChargeCount = barrelingChargeCount + 1
 
-		-- 1 per special
 		if activeSpecials > 0 then -- short recast during specials
 			self:Bar(420948, self:LFR() and 10 or 8, L.special_mechanic_bar:format(CL.charge, barrelingChargeCount))
 		elseif not self:Easy() and nextSpecial - GetTime() > 25 then -- 43s
@@ -511,14 +501,16 @@ end
 
 -- Aerwynn
 function mod:ConstrictingThicket(args)
-	self:Message(args.spellId, "orange", CL.casting:format(CL.count:format(L.ultimate_boss:format(L.aerwynn), constrictingThicketCount))) -- Aerwynn ult
+	self:StopBar(CL.count:format(CL.plus:format(self:SpellName(420525), L.constricting_thicket), specialCount)) -- Blinding Rage + Constricting Thicket
+	self:StopBar(CL.count:format(CL.plus:format(L.constricting_thicket, L.song_of_the_dragon), specialCount)) -- Constricting Thicket + Song of the Dragon
+	self:StopBar(CL.count:format(L.constricting_thicket, constrictingThicketCount)) -- Constricting Thicket
+
+	self:Message(args.spellId, "orange", CL.casting:format(CL.count:format(L.constricting_thicket, constrictingThicketCount))) -- Aerwynn ult
 	self:PlaySound(args.spellId, "alert") -- Interrupt
 	constrictingThicketCount = constrictingThicketCount + 1
 
 	activeSpecials = activeSpecials + 1
-	agonizingClawsCount = 1
-
-	-- self:Bar(420948, (self:Mythic() or self:LFR()) and 4 or 3, L.special_mechanic_bar:format(CL.charge, barrelingChargeCount)) -- Barreling Charge
+	agonizingClawsCount = 1 -- reset on all specials start because Urctos gets weird if interrupted during the Blinding Rage cast
 end
 
 function mod:ConstrictingThicketOver()
@@ -532,24 +524,24 @@ function mod:ConstrictingThicketOver()
 end
 
 function mod:AerwynnBarrelingCharge()
-	self:Message(421292, "green", CL.interrupted:format(L.ultimate_boss:format(L.aerwynn))) -- Aerwynn interrupted
+	self:Message(421292, "green", CL.interrupted:format(L.constricting_thicket)) -- Aerwynn interrupted
 	self:PlaySound(421292, "info")
+end
+
+function mod:ConstrictingThicketApplied(args)
+	if self:Me(args.destGUID) then
+		local amount = args.amount or 1
+		if amount % 4 == 0 then -- 4, 8...
+			self:StackMessage(421292, "blue", args.destName, args.amount, 4)
+			self:PlaySound(421292, "alarm") -- watch movement
+		end
+	end
 end
 
 function mod:RelentlessBarrage(args)
 	self:Message(args.spellId, "red")
 	self:PlaySound(args.spellId, "alarm") -- didn't interrupt
 	-- XXX does Aerwynn still cast her regular abilities?
-end
-
-function mod:ConstrictingThicketApplied(args)
-	if self:Me(args.destGUID) then
-		local amount = args.amount or 1
-		if amount % 4 == 0 then
-			self:StackMessage(421292, "blue", args.destName, args.amount, 4)
-			self:PlaySound(421292, "alarm") -- watch movement
-		end
-	end
 end
 
 function mod:NoxiousBlossom(args)
@@ -613,87 +605,78 @@ function mod:Leap(args)
 	-- self:PlaySound(args.spellId, "info")
 	local cd = self:LFR() and 64.7 or 48.5
 	if nextSpecial - GetTime() > cd then
+		-- Starting bars with a max set which is the same max as the start of :SpecialOver
+		-- This is to avoid the bars from flickering if the boss casts Leap right after a special isntead
 		self:Bar(args.spellId, { cd, self:LFR() and 65.4 or 49 })
 	end
 end
 
 -- Pip
 function mod:SongOfTheDragon(args)
-	self:Message(args.spellId, "orange", CL.count:format(L.ultimate_boss:format(L.pip), songCount)) -- Pip ult
+	self:StopBar(CL.count:format(CL.plus:format(L.constricting_thicket, L.song_of_the_dragon), specialCount)) -- Constricting Thicket + Song of the Dragon
+	self:StopBar(CL.count:format(CL.plus:format(L.song_of_the_dragon, self:SpellName(420525)), specialCount)) -- Song of the Dragon + Blinding Rage
+	self:StopBar(CL.count:format(L.song_of_the_dragon, songCount)) -- Song of the Dragon
+
+	self:Message(args.spellId, "orange", CL.count:format(L.song_of_the_dragon, songCount)) -- Pip ult
 	self:PlaySound(args.spellId, "alert")
-	self:CastBar(args.spellId, self:Mythic() and 14 or 24, L.song_of_the_dragon)
+	self:CastBar(args.spellId, self:Mythic() and 14 or 24, CL.count:format(L.song_of_the_dragon, songCount))
 	songCount = songCount + 1
 
 	activeSpecials = activeSpecials + 1
-	agonizingClawsCount = 1
-
-	-- self:Bar(420671, self:Mythic() and 1 or self:LFR() and 4 or 3, L.special_mechanic_bar:format(args.spellName, noxiousBlossomCount)) -- Noxious Blossom
+	agonizingClawsCount = 1 -- reset on all specials start because Urctos gets weird if interrupted during the Blinding Rage cast
 end
 
-function mod:SongOfTheDragonOver()
-	self:StopBar(CL.cast:format(L.song_of_the_dragon))
+function mod:SongOfTheDragonOver(args)
+	self:StopBar(CL.cast:format(CL.count:format(L.song_of_the_dragon, songCount)))
 
-	self:Message(421292, "green", CL.over:format(L.ultimate_boss:format(L.pip))) -- Pip ult over
-	self:PlaySound(421292, "info")
+	self:Message(args.spellId, "green", CL.over:format(L.song_of_the_dragon)) -- Pip ult over
+	self:PlaySound(args.spellId, "info")
 
 	self:SpecialOver()
 
 	if activeSpecials > 0 and specialChain[nextSpecialAbility] == "urctos" then -- Pip + Urctos
 		self:StopBar(CL.count:format(L.polymorph_bomb, polymorphBombCount)) -- make sure we're not duplicating
-		self:Bar(420948, 2.5, L.special_mechanic_bar:format(L.polymorph_bomb, polymorphBombCount))
+		self:Bar(418720, 2.5, L.special_mechanic_bar:format(L.polymorph_bomb, polymorphBombCount))
 	end
 end
 
 function mod:SongOfTheDragonApplied(args)
 	if self:Me(args.destGUID) then
 		songOnMe = true
+		self:PersonalMessage(421029, nil, L.song_of_the_dragon)
+		self:PlaySound(421029, "warning", nil, args.destName)
 	end
 end
 
-do
-	local captivatingFinaleOnMe = false
-	function mod:SongOfTheDragonRemoved(args)
-		if self:Me(args.destGUID) then
-			songOnMe = false
-			self:SimpleTimer(function() -- don't announce if you got stunned
-				if not captivatingFinaleOnMe then
-					self:Message(421029, "green", CL.removed:format(self:SpellName(421029)))
-					self:PlaySound(421029, "info")
-				end
-			end, 0.5)
-		end
+function mod:SongOfTheDragonRemoved(args)
+	if self:Me(args.destGUID) then
+		self:PersonalMessage(421029, false, CL.removed:format(L.song_of_the_dragon))
+		self:PlaySound(421029, "warning", nil, args.destName)
+		self:SimpleTimer(function() songOnMe = false end, 1) -- Give some time to get out before showing a damage warning
 	end
+end
 
-	function mod:CaptivatingFinaleApplied(args)
-		if self:Me(args.destGUID) then
-			captivatingFinaleOnMe = true
-			self:PersonalMessage(args.spellId)
-			self:PlaySound(args.spellId, "warning")
-			self:Yell(args.spellId, nil, nil, "Captivating Finale") -- Maybe get saved
-		end
+function mod:CaptivatingFinaleApplied(args)
+	if self:Me(args.destGUID) then
+		self:PersonalMessage(args.spellId)
+		self:Yell(args.spellId, nil, nil, "Captivating Finale") -- Maybe get saved
 	end
+end
 
-	function mod:CaptivatingFinaleRemoved(args)
-		if self:Me(args.destGUID) then
-			captivatingFinaleOnMe = false
-			self:Message(args.spellId, "green", CL.removed:format(args.spellName))
-			self:PlaySound(args.spellId, "info")
-		end
+function mod:CaptivatingFinaleRemoved(args)
+	if self:Me(args.destGUID) then
+		self:Message(args.spellId, "green", CL.removed:format(args.spellName))
 	end
 end
 
 function mod:PolymorphBomb()
-	duckList = {}
-
 	local spellName = L.polymorph_bomb
 	self:StopBar(L.special_mechanic_bar:format(spellName, polymorphBombCount))
 	self:StopBar(CL.count:format(spellName, polymorphBombCount))
 
-	if self:LFR() then
-		self:Message(418720, "yellow", CL.count:format(spellName, polymorphBombCount)) -- On non-LFR we use a player message sent from whisper comms
-	end
-	polymorphBombCount = polymorphBombCount + 1
+	self:Message(418720, "yellow", CL.count:format(spellName, polymorphBombCount))
 	self:PlaySound(418720, "alert")
+	polymorphBombCount = polymorphBombCount + 1
 
 	if activeSpecials > 0 then -- short recast during specials (you only get one extra cast?)
 		self:Bar(418720, self:LFR() and 12 or self:Normal() and 9 or 11, L.special_mechanic_bar:format(spellName, polymorphBombCount))

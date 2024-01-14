@@ -1,21 +1,7 @@
 local L = BigWigs:NewBossLocale("Halion", "esMX")
 if not L then return end
 if L then
-	L.engage_trigger = "Vuestro mundo está al borde de la aniquilación."
-
-	L.phase_two_trigger = "En el reino del crepúsculo solo encontraréis sufrimiento. ¡Entrad si os atrevéis!"
-
-	L.twilight_cutter_trigger = "¡Las esferas que orbitan emiten energía oscura!"
-	L.twilight_cutter_bar = "~Rayos Láser"
-	L.twilight_cutter_warning = "¡Lanzando Rayos Láser!"
-
-	L.fire_damage_message = "¡Tus pies están ardiendo!"
-	L.fire_message = "Bomba de Fuego"
-	L.shadow_message = "Bomba de Sombras"
-
-	L.meteorstrike_yell = "¡Los cielos arden!"
-	L.meteorstrike_bar = "Golpe de meteorito"
-	L.meteor_warning_message = "¡Lanzando Golpe de meteorito!"
+	L.twilight_cutter_emote_trigger = "esferas" -- ¡Las esferas que orbitan emiten energía oscura!
 end
 
 L = BigWigs:NewBossLocale("Toravon the Ice Watcher", "esMX")
@@ -109,15 +95,9 @@ end
 
 L = BigWigs:NewBossLocale("Onyxia", "esMX")
 if L then
-	--L.phase = "Phases"
-	--L.phase_desc = "Warn for phase changes."
-	--L.phase2_message = "Phase 2 incoming!"
-	--L.phase3_message = "Phase 3 incoming!"
+	L.phase1_trigger = "Qué casualidad"
+	L.phase2_trigger = "desde arriba"
+	L.phase3_trigger = "Parece ser que van a necesitar otra lección"
 
-	--L.phase1_trigger = "How fortuitous"
-	--L.phase2_trigger = "from above"
-	--L.phase3_trigger = "It seems you'll need another lesson"
-
-	--L.deepbreath_message = "Deep Breath incoming!"
-	--L.fear_message = "Fear incoming!"
+	L.deep_breath = "Aliento profundo"
 end

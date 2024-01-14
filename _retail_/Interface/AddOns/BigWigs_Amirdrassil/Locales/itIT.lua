@@ -33,11 +33,12 @@ L = BigWigs:NewBossLocale("Council of Dreams", "itIT")
 if L then
 	--L.agonizing_claws_debuff = "{421022} (Debuff)"
 
-	--L.ultimate_boss = "Ultimate (%s)"
-	--L.special_bar = "Ult [%s] (%d)"
-	--L.special_mythic_bar = "Ult [%s/%s] (%d)"
+	--L.custom_off_combined_full_energy = "Combined Full Energy Bars (Mythic only)"
+	--L.custom_off_combined_full_energy_desc = "Combine the bars of the abilities that the bosses use at full energy into one bar, only if they will be cast at the same time."
+
 	--L.special_mechanic_bar = "%s [Ult] (%d)"
 
+	--L.constricting_thicket = "Vines"
 	--L.poisonous_javelin = "Javelin"
 	--L.song_of_the_dragon = "Song"
 	--L.polymorph_bomb = "Ducks"
@@ -53,8 +54,11 @@ if L then
 	--L.blazing_coalescence_on_boss_note = "When it's on the boss"
 
 	--L.scorching_roots = "Roots"
-	--L.blazing_thorns = "Dodges"
+	--L.charred_brambles = "Roots Healable"
+	--L.blazing_thorns = "Spiral of Thorns"
 	--L.falling_embers = "Soaks"
+	--L.flash_fire = "Heal Absorbs"
+	--L.flash_fire_single = "Heal Absorb"
 end
 
 L = BigWigs:NewBossLocale("Nymue, Weaver of the Cycle", "itIT")
@@ -78,15 +82,23 @@ L = BigWigs:NewBossLocale("Tindral Sageswift, Seer of the Flame", "itIT")
 if L then
 	--L.seed_soaked = "Seed soaked"
 	--L.all_seeds_soaked = "Seeds done!"
+	--L.failed_seed = "%s soaked an extra seed!"
+
 	--L.blazing_mushroom = "Mushrooms"
 	--L.fiery_growth = "Dispels"
 	--L.mass_entanglement = "Roots"
 	--L.incarnation_moonkin = "Moonkin Form"
 	--L.incarnation_tree_of_flame = "Tree Form"
 	--L.flaming_germination = "Seeds"
-	--L.suppressive_ember = "Heal Absorbs"
 	--L.suppressive_ember_single = "Heal Absorb"
 	--L.flare_bomb = "Feathers"
+	--L.too_close_to_edge = "Too close to the edge"
+	--L.taking_damage_from_edge = "Taking damage from the edge"
+	--L.flying_available = "You can fly now"
+
+	--L.fly_time = "Fly Time"
+	--L.fly_time_desc = "Display a message showing you how long you took to fly over to the other platform in the intermissions."
+	--L.fly_time_msg = "Fly Time: %.2f" -- Fly Time: 32.23
 end
 
 L = BigWigs:NewBossLocale("Fyrakk the Blazing", "itIT")
@@ -95,7 +107,6 @@ if L then
 
 	--L.fyralaths_bite = "Frontal"
 	--L.fyralaths_bite_mythic = "Frontals"
-	--L.fyralaths_mark = "Mark"
 	--L.darkflame_shades = "Shades"
 	--L.darkflame_cleave = "Mythic Soaks"
 
@@ -110,7 +121,7 @@ if L then
 	--L.eternal_firestorm_shortened_bar = "Firestorm [E]" -- E for Eternal
 	--L.eternal_firestorm_message_full = "Firestorm [Eternal]"
 
-	-- L.eternal_firestorm_swirl = "Eternal Firestorm Swirls"
-	-- L.eternal_firestorm_swirl_desc = "Timers for Eternal Firestorm Swirls."
-	-- L.eternal_firestorm_swirl_bartext = "Swirls"
+	--L.eternal_firestorm_swirl = "Eternal Firestorm Swirls"
+	--L.eternal_firestorm_swirl_desc = "Timers for Eternal Firestorm Swirls."
+	--L.eternal_firestorm_swirl_bartext = "Swirls"
 end

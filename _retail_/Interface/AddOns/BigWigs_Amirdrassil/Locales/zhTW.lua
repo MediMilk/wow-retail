@@ -33,11 +33,12 @@ L = BigWigs:NewBossLocale("Council of Dreams", "zhTW")
 if L then
 	L.agonizing_claws_debuff = "{421022}（減益）"
 
-	L.ultimate_boss = "%s大招" -- 滿能量大招 提示，例 正在施放：艾爾玟大招 (1)
-	L.special_bar = "%s滿能 (%d)" -- 滿能量大招 計時條
-	L.special_mythic_bar = "%s+%s滿能 (%d)" -- 傳奇難度 滿能量大招 計時條
+	L.custom_off_combined_full_energy = "合併大招計時器（傳奇限定）"
+	L.custom_off_combined_full_energy_desc = "將同時施放的滿能量大招合併顯示。"
+
 	L.special_mechanic_bar = "%s [斷大招] (%d)" -- 其他boss用來處理大招的常規技能，只在大招期間如此提示 衝鋒 [斷大招] (1) 水池 [斷大招] (2)
 
+	L.constricting_thicket = "藤蔓" -- 束縛、藤蔓
 	L.poisonous_javelin = "標槍" -- 或者中毒/緩速
 	L.song_of_the_dragon = "頌歌"
 	L.polymorph_bomb = "鴨子"
@@ -53,8 +54,11 @@ if L then
 	L.blazing_coalescence_on_boss_note = "在王身上"
 
 	L.scorching_roots = "樹根"
-	L.blazing_thorns = "躲圈"
+	L.charred_brambles = "治療樹根"
+	L.blazing_thorns = "熾炎荊棘"
 	L.falling_embers = "接圈"
+	L.flash_fire = "治療吸收盾"
+	L.flash_fire_single = "治療吸收盾"
 end
 
 L = BigWigs:NewBossLocale("Nymue, Weaver of the Cycle", "zhTW")
@@ -78,15 +82,23 @@ L = BigWigs:NewBossLocale("Tindral Sageswift, Seer of the Flame", "zhTW")
 if L then
 	L.seed_soaked = "踩種子" -- 之後看一下語序
 	L.all_seeds_soaked = "種子踩完了！"
+	L.failed_seed = "%s多踩了一顆種子！"
+
 	L.blazing_mushroom = "蘑菇"
 	L.fiery_growth = "驅散"
 	L.mass_entanglement = "藤蔓"
 	L.incarnation_moonkin = "梟獸型態"
 	L.incarnation_tree_of_flame = "樹人型態"
 	L.flaming_germination = "種子" -- 手冊寫焰種
-	L.suppressive_ember = "治療吸收盾"
 	L.suppressive_ember_single = "治療吸收盾"
 	L.flare_bomb = "羽毛"
+	L.too_close_to_edge = "太靠近邊緣"
+	L.taking_damage_from_edge = "受到邊緣傷害"
+	L.flying_available = "可以飛行"
+
+	--L.fly_time = "Fly Time"
+	--L.fly_time_desc = "Display a message showing you how long you took to fly over to the other platform in the intermissions."
+	--L.fly_time_msg = "Fly Time: %.2f" -- Fly Time: 32.23
 end
 
 L = BigWigs:NewBossLocale("Fyrakk the Blazing", "zhTW")
@@ -95,7 +107,6 @@ if L then
 
 	L.fyralaths_bite = "正面衝擊波"
 	L.fyralaths_bite_mythic = "正面衝擊波"
-	L.fyralaths_mark = "印記"
 	L.darkflame_shades = "影子"
 	L.darkflame_cleave = "分攤"
 
@@ -110,7 +121,7 @@ if L then
 	L.eternal_firestorm_shortened_bar = "永恆火颶"
 	L.eternal_firestorm_message_full = "永恆火颶"
 
-	-- L.eternal_firestorm_swirl = "Eternal Firestorm Swirls"
-	-- L.eternal_firestorm_swirl_desc = "Timers for Eternal Firestorm Swirls."
-	-- L.eternal_firestorm_swirl_bartext = "Swirls"
+	L.eternal_firestorm_swirl = "迴旋火颶"
+	L.eternal_firestorm_swirl_desc = "為永恆火颶產生的迴旋火颶顯示計時器。"
+	L.eternal_firestorm_swirl_bartext = "迴旋火颶"
 end

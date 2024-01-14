@@ -84,21 +84,21 @@ BigWigs3DB = {
 					["nameplateOffsetY"] = 0,
 					["BigWigsAnchor_x"] = 355.8220138243451,
 					["spacing"] = 3,
-					["fontSizeNameplate"] = 10,
-					["interceptKey"] = "SHIFT",
+					["emphasizeTime"] = 8,
+					["barStyle"] = "ElvUI",
 					["nameplateHeight"] = 14,
 					["BigWigsEmphasizeAnchor_height"] = 15.99998760223389,
-					["nameplateAlpha"] = 1,
-					["emphasizeTime"] = 8,
+					["texture"] = "Minimalist",
+					["outline"] = "OUTLINE",
 					["BigWigsEmphasizeAnchor_width"] = 221.0000305175781,
 					["fontName"] = "Expressway",
 					["BigWigsAnchor_height"] = 15.99998760223389,
-					["outline"] = "OUTLINE",
-					["BigWigsEmphasizeAnchor_x"] = 866.088996666258,
+					["interceptKey"] = "SHIFT",
+					["nameplateAlpha"] = 1,
 					["visibleBarLimitEmph"] = 4,
+					["fontSizeNameplate"] = 10,
 					["fontSizeEmph"] = 11,
-					["barStyle"] = "ElvUI",
-					["texture"] = "Minimalist",
+					["BigWigsEmphasizeAnchor_x"] = 866.088996666258,
 					["emphasizeMultiplier"] = 1,
 					["emphasizeMove"] = false,
 				},
@@ -139,6 +139,9 @@ BigWigs3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 			["char"] = {
+				["Shortwire - Stormrage"] = {
+					["enabled"] = false,
+				},
 				["Chugmonk - Stormrage"] = {
 					["enabled"] = false,
 				},
@@ -327,7 +330,7 @@ BigWigs3DB = {
 		["Eyefeldown - Stormrage"] = "Default",
 		["Calumnia - Mal'Ganis"] = "Default",
 		["Subpararmy - Mal'Ganis"] = "Default",
-		["Shortwire - Stormrage"] = "Default",
+		["Shortwire - Stormrage"] = "Luckyone Main 2.48",
 		["Subparbustin - Mal'Ganis"] = "Default",
 		["Lildotnrg - Stormrage"] = "Default",
 	},
@@ -468,4 +471,3 @@ BigWigsStatsDB = {
 		},
 	},
 }
-BigWigsLangFeat = nil

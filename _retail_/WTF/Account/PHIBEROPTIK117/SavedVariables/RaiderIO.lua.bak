@@ -6,12 +6,22 @@ RaiderIO_Config = {
 		["point"] = "TOPLEFT",
 	},
 }
-RaiderIO_LastCharacter = "us-Medimilk-malganis"
+RaiderIO_LastCharacter = "us-Shortwire-stormrage"
 RaiderIO_MissingCharacters = {
-	["us-Keldris-malganis"] = true,
-	["us-Naturemommy-malganis"] = true,
-	["us-Kisme-malganis"] = true,
-	["us-Draxiom-malganis"] = true,
+	["us-Gâsh-dalaran"] = true,
+	["us-Narylka-dalaran"] = true,
+	["us-Thadien-dalaran"] = true,
+	["us-Bignibs-illidan"] = true,
+	["us-Heatdrop-kiljaeden"] = true,
+	["us-Papayalover-area-52"] = true,
+	["us-Methrandìr-dalaran"] = true,
+	["us-Coldatronach-illidan"] = true,
+	["us-Bigstompies-illidan"] = true,
+	["us-Etose-dalaran"] = true,
+	["us-Augnar-dalaran"] = true,
+	["us-Emrilïa-tichondrius"] = true,
+	["us-Grickle-dalaran"] = true,
+	["us-Grimbair-emerald-dream"] = true,
 }
 RaiderIO_MissingServers = {
 }

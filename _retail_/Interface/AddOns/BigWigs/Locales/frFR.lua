@@ -9,11 +9,13 @@ L.altpower_desc = "Affiche la fenêtre de ressource alternative, qui montre la q
 L.infobox = "Boîte d'information"
 L.infobox_desc = "Affiche une boîte d'information concernant la rencontre."
 L.stages = "Phases"
-L.stages_desc = "Active les fonctions relatives aux différentes phases/étapes du boss telles que la proximité, les barres, etc."
+L.stages_desc = "Active les fonctions relatives aux différentes phases lors d'un combat de boss tels quel les avertissements de changement de phase, les bars de durée de phase, etc."
 L.warmup = "Préparation"
 L.warmup_desc = "Temps avant que le combat face au boss ne commence."
 L.proximity = "Affichage de proximité"
 L.proximity_desc = "Affiche la fenêtre de proximité quand cela est approprié pour cette rencontre, indiquant la liste des joueurs qui se trouvent trop près de vous."
+L.adds = "Adds"
+L.adds_desc = "Active les fonctions relatives aux adds qui apparaissent durant le combat de boss."
 
 L.already_registered = "|cffff0000ATTENTION :|r |cff00ff00%s|r (|cffffff00%s|r) existe déjà en tant que module dans BigWigs, mais quelque chose essaye de l'enregistrer à nouveau. Cela signifie souvent que vous avez deux copies de ce module dans votre répertoire AddOns suite à une mauvaise mise à jour d'un gestionnaire d'addons. Il est recommandé de supprimer tous les répertoires de BigWigs et de le réinstaller complètement."
 L.testNameplate = "Cible détectée, création d'une barre d'info de test par dessus la barre d'info de la cible. |cFF33FF99Cette fonctionnalité est rarement utilisée : elle se présente habituellement sous la forme d'une seule barre, et est nécessaire pour le bon suivi des temps de recharge lors des combats face à plusieurs monstres qui utilisent le même sort.|r"
@@ -55,6 +57,7 @@ L.alternativeName = "%s (|cFF436EEE%s|r)"
 --	"Shadowlands", -- Shadowlands
 --	"Dragonflight", -- Dragonflight
 --}
+--L.currentSeason = "Current Season"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "Attention (Algalon)"
@@ -66,7 +69,7 @@ L.spell_under_you = "BigWigs : sort en dessous de vous"
 
 -- Options.lua
 L.options = "Options"
---L.optionsKey = "Key: %s" -- The key that messages/bars/options use
+--L.optionsKey = "ID: %s" -- The ID that messages/bars/options use
 L.raidBosses = "Boss de raid"
 L.dungeonBosses = "Boss de donjon"
 L.introduction = "Bienvenue sur BigWigs, votre compagnon des rencontres de boss. Attachez votre ceinture, gavez-vous de cacahouètes et profitez du voyage. Il ne fera pas de mal à vos enfants, mais vous aidera à préparer cette nouvelle rencontre de boss pour votre groupe de raid."

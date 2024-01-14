@@ -86,7 +86,7 @@ function mod:JaggedKnife(args)
 end
 
 function mod:MindControl(args)
-	local icon = CombatLog_String_GetIcon(args.destRaidFlags)
+	local icon = self:GetIconTexture(self:GetIcon(args.destRaidFlags))
 	if icon == "" then icon = nil end
 	understudyIcons[args.destGUID] = icon
 	activeUnderstudy = args.destGUID
@@ -95,7 +95,7 @@ end
 function mod:MindExhaustion(args)
 	local icon = understudyIcons[args.destGUID]
 	if icon then -- Not much of a point if they aren't marked
-		self:StartBar(29051, 60, icon .. args.spellName)
+		self:Bar(29051, 60, icon .. args.spellName)
 	end
 end
 

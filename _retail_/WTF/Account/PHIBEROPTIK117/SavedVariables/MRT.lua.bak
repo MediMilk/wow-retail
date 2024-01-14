@@ -330,8 +330,8 @@ VMRT = {
 			[2708] = "Nymue, Weaver of the Cycle",
 			[2737] = "Volcoross",
 			[1105] = "Sindragosa",
-			[1103] = "Queen Lana'thel",
 			[2824] = "Smolderon",
+			[2731] = "Larodar, Keeper of the Flame",
 			[2709] = "Igira the Cruel",
 			[1095] = "Blood Council",
 			[2820] = "Gnarlroot",
@@ -343,7 +343,7 @@ VMRT = {
 			[1751] = "Archmage Sol",
 			[1101] = "Lord Marrowgar",
 			[1102] = "Professor Putricide",
-			[2731] = "Larodar, Keeper of the Flame",
+			[1103] = "Queen Lana'thel",
 			[1104] = "Rotface",
 			[1756] = "Yalnu",
 			[1106] = "The Lich King",
@@ -363,6 +363,7 @@ VMRT = {
 			["Subparlite"] = 70,
 			["Scumrat-Zul'jin"] = 65,
 			["Swóle"] = 259,
+			["Stankdaddy-Illidan"] = 258,
 			["Subparbustin"] = 64,
 			["Scumratt"] = 65,
 			["Thesleepypan"] = 253,
@@ -380,7 +381,7 @@ VMRT = {
 			["Pogrunnerup"] = 577,
 			["Lildotnrg"] = 265,
 			["Shortwire"] = 262,
-			["Luhgon"] = 1473,
+			["Rïddarï-Stormrage"] = 250,
 			["Monvis"] = 258,
 			["Hydroxcide"] = 266,
 			["Sÿs"] = 253,
@@ -409,7 +410,7 @@ VMRT = {
 			["Subparbear"] = 103,
 			["Subpardragon"] = 1467,
 			["Chugmonk"] = 268,
-			["Rïddarï-Stormrage"] = 250,
+			["Luhgon"] = 1473,
 			["Sleepyslock"] = 267,
 			["Quitolliser"] = 577,
 			["Yundaya"] = 254,
@@ -715,7 +716,49 @@ VMRT = {
 		["ReadyCheckLeft"] = 1369.749755859375,
 		["ReadyCheckTop"] = 870.9999389648438,
 	},
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["fightsNum"] = 2,
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
+	},
 	["Profiles"] = {
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["RaidGroups"] = {
+		["KeepPosInGroup"] = true,
+		["upd4550"] = true,
+		["importType"] = 4,
+		["profiles"] = {
+			{
+				"Buzzly", -- [1]
+				"Rajamatic", -- [2]
+				"Quitollis", -- [3]
+				"Pogrunnerup", -- [4]
+				"Swôle", -- [5]
+				"Devastor", -- [6]
+				"Keranna", -- [7]
+				"Hydroxcide", -- [8]
+				"Badoomp", -- [9]
+				"Mundanemagic", -- [10]
+				"Scumratt", -- [11]
+				"Luhgon", -- [12]
+				"Perlyta", -- [13]
+				"Beestboy", -- [14]
+				"Mittàns", -- [15]
+				"Medimilk", -- [16]
+				"Monvis", -- [17]
+				"Natrone", -- [18]
+				"Sÿs", -- [19]
+				"Mowk", -- [20]
+				["name"] = "Igira",
+				["time"] = 1702523807,
+			}, -- [1]
+		},
 	},
 	["LootHistory"] = {
 		["list"] = {
@@ -1455,8 +1498,8 @@ VMRT = {
 			[2708] = "Nymue, Weaver of the Cycle",
 			[2737] = "Volcoross",
 			[1105] = "Sindragosa",
-			[1103] = "Queen Lana'thel",
 			[2824] = "Smolderon",
+			[2731] = "Larodar, Keeper of the Flame",
 			[2709] = "Igira the Cruel",
 			[1095] = "Blood Council",
 			[2820] = "Gnarlroot",
@@ -1468,7 +1511,7 @@ VMRT = {
 			[1751] = "Archmage Sol",
 			[1101] = "Lord Marrowgar",
 			[1102] = "Professor Putricide",
-			[2731] = "Larodar, Keeper of the Flame",
+			[1103] = "Queen Lana'thel",
 			[1104] = "Rotface",
 			[1756] = "Yalnu",
 			[1106] = "The Lich King",
@@ -1480,48 +1523,6 @@ VMRT = {
 			[2549] = "Amirdrassil, the Dream's Hope",
 			[631] = "Icecrown Citadel",
 			[2444] = "Dragon Isles",
-		},
-	},
-	["Profile"] = "default",
-	["LootLink"] = {
-	},
-	["RaidGroups"] = {
-		["KeepPosInGroup"] = true,
-		["upd4550"] = true,
-		["importType"] = 4,
-		["profiles"] = {
-			{
-				"Buzzly", -- [1]
-				"Rajamatic", -- [2]
-				"Quitollis", -- [3]
-				"Pogrunnerup", -- [4]
-				"Swôle", -- [5]
-				"Devastor", -- [6]
-				"Keranna", -- [7]
-				"Hydroxcide", -- [8]
-				"Badoomp", -- [9]
-				"Mundanemagic", -- [10]
-				"Scumratt", -- [11]
-				"Luhgon", -- [12]
-				"Perlyta", -- [13]
-				"Beestboy", -- [14]
-				"Mittàns", -- [15]
-				"Medimilk", -- [16]
-				"Monvis", -- [17]
-				"Natrone", -- [18]
-				"Sÿs", -- [19]
-				"Mowk", -- [20]
-				["name"] = "Igira",
-				["time"] = 1702523807,
-			}, -- [1]
-		},
-	},
-	["BossWatcher"] = {
-		["optionsDamageGraph"] = true,
-		["fightsNum"] = 2,
-		["optionsPositionsDist"] = true,
-		["optionsHealingGraph"] = true,
-		["trackingDamageSpells"] = {
 		},
 	},
 	["Logging"] = {

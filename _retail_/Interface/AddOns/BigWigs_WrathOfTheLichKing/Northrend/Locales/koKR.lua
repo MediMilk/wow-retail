@@ -1,17 +1,11 @@
 local L = BigWigs:NewBossLocale("Onyxia", "koKR")
 if not L then return end
 if L then
-	L.phase = "단계"
-	L.phase_desc = "단계 변화를 알립니다."
-	L.phase2_message = "곧 2 단계!"
-	L.phase3_message = "곧 3 단계!"
-
 	L.phase1_trigger = "오늘은 운이 아주 좋군."
 	L.phase2_trigger = "쓸데없이 힘을 쓰는 것도 지루하군. 네 녀석들 머리 위에서 모조리 불살라 주마!"
 	L.phase3_trigger = "혼이 더 나야 정신을 차리겠구나!"
 
-	L.deepbreath_message = "곧 깊은 숨결!"
-	L.fear_message = "곧 공포!"
+	L.deep_breath = "깊은 숨결"
 end
 
 L = BigWigs:NewBossLocale("Archavon the Stone Watcher", "koKR")
@@ -105,19 +99,5 @@ end
 
 L = BigWigs:NewBossLocale("Halion", "koKR")
 if L then
-	L.engage_trigger = "너희 세상에 파멸의 바람이 불어온다"
-
-	L.phase_two_trigger = "황혼 세계에서는 고통만이 있으리라"
-
-	L.twilight_cutter_trigger = "주위를 회전하는 구슬들이 고동치며 어둠의 기운을 내뿜습니다"
-	L.twilight_cutter_bar = "~황혼 절단기"
-	L.twilight_cutter_warning = "곧 황혼 절단기"
-
-	L.fire_damage_message = "당신의 발이 불타오르는 중!"
-	L.fire_message = "맹렬한 발화"
-	L.shadow_message = "영혼 소진"
-
-	L.meteorstrike_yell = "하늘이 타오른다!"
-	L.meteorstrike_bar = "유성 충돌"
-	L.meteor_warning_message = "곧 유성 충돌!"
+	L.twilight_cutter_emote_trigger = "주위를 회전하는 구슬들이" -- 주위를 회전하는 구슬들이 고동치며 어둠의 기운을 내뿜습니다!
 end

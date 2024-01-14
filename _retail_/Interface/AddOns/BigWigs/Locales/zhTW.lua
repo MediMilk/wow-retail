@@ -9,11 +9,13 @@ L.altpower_desc = "顯示替代能量視窗，顯示團隊成員的替代能量�
 L.infobox = "訊息盒"
 L.infobox_desc = "顯示當前戰鬥相關的訊息。"
 L.stages = "階段"
-L.stages_desc = "對應首領的不同階段啟用相關功能，如玩家雷達、計時條等。"
+--L.stages_desc = "Enable functions related to the various stages of the boss encounter such as stage change warnings, stage duration timer bars, etc."
 L.warmup = "預備"
 L.warmup_desc = "首領戰鬥之前的預備時間。"
 L.proximity = "玩家雷達"
 L.proximity_desc = "顯示玩家雷達視窗，列出距離你過近的玩家。"
+--L.adds = "Adds"
+--L.adds_desc = "Enable functions related to the various adds that will spawn during the boss encounter."
 
 L.already_registered = "|cffff0000警告：|r |cff00ff00%s|r（|cffffff00%s|r）在 BigWigs 中已經存在，但該模組仍試圖重新註冊。通常來說，這可能是由於更新失敗導致你的插件資料夾中同時存在兩份相同模組的拷貝。建議刪除所有 BigWigs 資料夾並重新安裝。"
 L.testNameplate = "檢測到目標，在目標名條上創建一個測試計時條。 |cFF33FF99這個功能相當少用，並且通常一次只會有一條；通常用於分別監視多個目標的同個技能冷卻。|r"
@@ -55,6 +57,7 @@ L.expansionNames = {
 	"暗影之境", -- Shadowlands
 	"巨龍崛起", -- Dragonflight
 }
+L.currentSeason = "當前賽季"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "當心（艾爾加隆）"
@@ -66,7 +69,7 @@ L.spell_under_you = "BigWigs: 法術在你腳下"
 
 -- Options.lua
 L.options = "選項"
-L.optionsKey = "ID:%s" -- The key that messages/bars/options use
+L.optionsKey = "ID: %s" -- The ID that messages/bars/options use
 L.raidBosses = "團隊首領"
 L.dungeonBosses = "地城首領"
 L.introduction = "歡迎使用 BigWigs 戲弄各個首領。請繫好安全帶，吃吃花生並享受這次旅行。它不會吃了你的孩子，但會協助你的團隊與新的首領進行戰鬥，如同享受饕餮大餐一樣。"

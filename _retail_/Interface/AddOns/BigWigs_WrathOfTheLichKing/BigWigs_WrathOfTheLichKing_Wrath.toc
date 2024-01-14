@@ -25,8 +25,8 @@
 
 ## LoadOnDemand: 1
 ## Dependencies: BigWigs
-## Version: v10.2.0
-## IconTexture: Interface\AddOns\BigWigs\Media\Icons\core-enabled
+## Version: v10.2.3
+## IconTexture: Interface\AddOns\BigWigs\Media\Icons\minimap_raid.tga
 
 ## X-Category: Raid
 ## X-License: All Rights Reserved: You are free to fork and modify on GitHub, please ask us about anything else.

@@ -139,25 +139,13 @@ DetailsTimeLineDB = {
 					"Frenzied Abomination", -- [5]
 				}, -- [5]
 			},
-			[69679] = {
+			[69930] = {
 				{
-					10.41000000000349, -- [1]
-					"Kor'kron Rocketeer", -- [2]
-					69679, -- [3]
+					9.429999999993015, -- [1]
+					"Kor'kron Vanquisher", -- [2]
+					69930, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-				{
-					10.41000000000349, -- [1]
-					"Kor'kron Rocketeer", -- [2]
-					69679, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					10.41000000000349, -- [1]
-					"Kor'kron Rocketeer", -- [2]
-					69679, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
 			},
 			[69916] = {
 				{
@@ -203,11 +191,11 @@ DetailsTimeLineDB = {
 					"Skybreaker Vindicator", -- [5]
 				}, -- [6]
 			},
-			[69930] = {
+			[69901] = {
 				{
-					9.429999999993015, -- [1]
-					"Kor'kron Vanquisher", -- [2]
-					69930, -- [3]
+					7.812999999994645, -- [1]
+					"Kor'kron Defender", -- [2]
+					69901, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -256,13 +244,21 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[69901] = {
+			[69882] = {
 				{
-					7.812999999994645, -- [1]
-					"Kor'kron Defender", -- [2]
-					69901, -- [3]
+					6.978000000002794, -- [1]
+					"Kor'kron Primalist", -- [2]
+					69882, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Kor'kron Defender", -- [5]
 				}, -- [1]
+				{
+					9.820999999996275, -- [1]
+					"Kor'kron Primalist", -- [2]
+					69882, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kor'kron Primalist", -- [5]
+				}, -- [2]
 			},
 			[69926] = {
 				{
@@ -410,6 +406,29 @@ DetailsTimeLineDB = {
 					"Skybreaker Luminary", -- [5]
 				}, -- [2]
 			},
+			[70396] = {
+				{
+					0.286999999996624, -- [1]
+					"Spire Minion", -- [2]
+					70396, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Skybreaker Dreadblade", -- [5]
+				}, -- [1]
+				{
+					1.438999999998487, -- [1]
+					"Spire Minion", -- [2]
+					70396, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Skybreaker Protector", -- [5]
+				}, -- [2]
+				{
+					9.429999999993015, -- [1]
+					"Spire Minion", -- [2]
+					70396, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Skybreaker Dreadblade", -- [5]
+				}, -- [3]
+			},
 			[69927] = {
 				{
 					7.010999999998603, -- [1]
@@ -418,38 +437,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Skybreaker Protector", -- [5]
 				}, -- [1]
-			},
-			[69882] = {
-				{
-					6.978000000002794, -- [1]
-					"Kor'kron Primalist", -- [2]
-					69882, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kor'kron Defender", -- [5]
-				}, -- [1]
-				{
-					9.820999999996275, -- [1]
-					"Kor'kron Primalist", -- [2]
-					69882, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kor'kron Primalist", -- [5]
-				}, -- [2]
-			},
-			[69975] = {
-				{
-					2.955999999991036, -- [1]
-					"Kor'kron Sniper", -- [2]
-					69975, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Skybreaker Hierophant", -- [5]
-				}, -- [1]
-				{
-					9.035999999992782, -- [1]
-					"Kor'kron Sniper", -- [2]
-					69975, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Skybreaker Hierophant", -- [5]
-				}, -- [2]
 			},
 			[70161] = {
 				{
@@ -494,6 +481,57 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Shortwire", -- [5]
 				}, -- [6]
+			},
+			[69958] = {
+				{
+					0.1830000000045402, -- [1]
+					"Kor'kron Oracle", -- [2]
+					69958, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kor'kron Primalist", -- [5]
+				}, -- [1]
+				{
+					0.9989999999961583, -- [1]
+					"Kor'kron Oracle", -- [2]
+					69958, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kor'kron Necrolyte", -- [5]
+				}, -- [2]
+				{
+					1.80800000000454, -- [1]
+					"Kor'kron Oracle", -- [2]
+					69958, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kor'kron Necrolyte", -- [5]
+				}, -- [3]
+				{
+					5.877999999996973, -- [1]
+					"Kor'kron Oracle", -- [2]
+					69958, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kor'kron Invoker", -- [5]
+				}, -- [4]
+				{
+					6.273000000001048, -- [1]
+					"Kor'kron Oracle", -- [2]
+					69958, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kor'kron Sniper", -- [5]
+				}, -- [5]
+				{
+					7.88300000000163, -- [1]
+					"Kor'kron Oracle", -- [2]
+					69958, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kor'kron Necrolyte", -- [5]
+				}, -- [6]
+				{
+					10.74300000000221, -- [1]
+					"Kor'kron Oracle", -- [2]
+					69958, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kor'kron Templar", -- [5]
+				}, -- [7]
 			},
 			[71339] = {
 				{
@@ -655,28 +693,21 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [20]
 			},
-			[70396] = {
+			[69975] = {
 				{
-					0.286999999996624, -- [1]
-					"Spire Minion", -- [2]
-					70396, -- [3]
+					2.955999999991036, -- [1]
+					"Kor'kron Sniper", -- [2]
+					69975, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Skybreaker Dreadblade", -- [5]
+					"Skybreaker Hierophant", -- [5]
 				}, -- [1]
 				{
-					1.438999999998487, -- [1]
-					"Spire Minion", -- [2]
-					70396, -- [3]
+					9.035999999992782, -- [1]
+					"Kor'kron Sniper", -- [2]
+					69975, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Skybreaker Protector", -- [5]
+					"Skybreaker Hierophant", -- [5]
 				}, -- [2]
-				{
-					9.429999999993015, -- [1]
-					"Spire Minion", -- [2]
-					70396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Skybreaker Dreadblade", -- [5]
-				}, -- [3]
 			},
 			[69974] = {
 				{
@@ -701,56 +732,25 @@ DetailsTimeLineDB = {
 					"Skybreaker Hierophant", -- [5]
 				}, -- [3]
 			},
-			[69958] = {
+			[69679] = {
 				{
-					0.1830000000045402, -- [1]
-					"Kor'kron Oracle", -- [2]
-					69958, -- [3]
+					10.41000000000349, -- [1]
+					"Kor'kron Rocketeer", -- [2]
+					69679, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Kor'kron Primalist", -- [5]
 				}, -- [1]
 				{
-					0.9989999999961583, -- [1]
-					"Kor'kron Oracle", -- [2]
-					69958, -- [3]
+					10.41000000000349, -- [1]
+					"Kor'kron Rocketeer", -- [2]
+					69679, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Kor'kron Necrolyte", -- [5]
 				}, -- [2]
 				{
-					1.80800000000454, -- [1]
-					"Kor'kron Oracle", -- [2]
-					69958, -- [3]
+					10.41000000000349, -- [1]
+					"Kor'kron Rocketeer", -- [2]
+					69679, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Kor'kron Necrolyte", -- [5]
 				}, -- [3]
-				{
-					5.877999999996973, -- [1]
-					"Kor'kron Oracle", -- [2]
-					69958, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kor'kron Invoker", -- [5]
-				}, -- [4]
-				{
-					6.273000000001048, -- [1]
-					"Kor'kron Oracle", -- [2]
-					69958, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kor'kron Sniper", -- [5]
-				}, -- [5]
-				{
-					7.88300000000163, -- [1]
-					"Kor'kron Oracle", -- [2]
-					69958, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kor'kron Necrolyte", -- [5]
-				}, -- [6]
-				{
-					10.74300000000221, -- [1]
-					"Kor'kron Oracle", -- [2]
-					69958, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kor'kron Templar", -- [5]
-				}, -- [7]
 			},
 			[69898] = {
 				{
@@ -814,6 +814,20 @@ DetailsTimeLineDB = {
 					"Spire Frostwyrm", -- [5]
 				}, -- [1]
 			},
+			[69934] = {
+				{
+					1.737999999997555, -- [1]
+					"Kor'kron Vanquisher", -- [2]
+					69934, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					11.4429999999993, -- [1]
+					"Kor'kron Vanquisher", -- [2]
+					69934, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
 			[70191] = {
 				{
 					0.2669999999925494, -- [1]
@@ -843,20 +857,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Skybreaker Protector", -- [5]
 				}, -- [4]
-			},
-			[69934] = {
-				{
-					1.737999999997555, -- [1]
-					"Kor'kron Vanquisher", -- [2]
-					69934, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					11.4429999999993, -- [1]
-					"Kor'kron Vanquisher", -- [2]
-					69934, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
 			},
 		}, -- [1]
 	},

@@ -9,11 +9,13 @@ L.altpower_desc = "Mostra la finestra del Potere Alternativo, che mostra l'ammon
 L.infobox = "Riquadro informazioni"
 L.infobox_desc = "Mostra un riquadro con informazioni sul combattimento."
 L.stages = "Fasi"
-L.stages_desc = "Abilita funzioni relative alle varie fasi del boss come la prossimità, le barre, ecc."
+--L.stages_desc = "Enable functions related to the various stages of the boss encounter such as stage change warnings, stage duration timer bars, etc."
 L.warmup = "Pre-ingaggio"
 L.warmup_desc = "Conto alla rovescia per l'inizio del combattimento con il boss."
 L.proximity = "Monitor di Prossimità"
 L.proximity_desc = "Visualizza il monitor di prossimità al momento opportuno durante il combattimento, con i giocatori che stanno troppo vicino a te."
+--L.adds = "Adds"
+--L.adds_desc = "Enable functions related to the various adds that will spawn during the boss encounter."
 
 L.already_registered = "|cffff0000ATTENZIONE:|r |cff00ff00%s|r (|cffffff00%s|r) esiste già come modulo di BigWigs, ma qualcosa sta cercando di caricarlo di nuovo. Questo solitamente significa che hai due copie di questo modulo nella cartella addons a causa di qualche aggiornamento sbagliato. È consigliabile reinstallare BigWigs cancellando tutte le cartelle BigWigs."
 L.testNameplate = "Bersaglio rilevato, creo una barra di test sulla barra del bersaglio. |cFF33FF99Questa funzione è usata raramente, di solito è solo una barra, e serve per tracciare i tempi di recupero mentre si combattono più boss/add che lanciano la stessa magia.|r"
@@ -55,6 +57,7 @@ L.alternativeName = "%s (|cFF436EEE%s|r)"
 --	"Shadowlands", -- Shadowlands
 --	"Dragonflight", -- Dragonflight
 --}
+--L.currentSeason = "Current Season"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "Attenti! (Algalon)"
@@ -66,7 +69,7 @@ L.spell_under_you = "BigWigs: Abilità sotto di te"
 
 -- Options.lua
 L.options = "Opzioni"
---L.optionsKey = "Key: %s" -- The key that messages/bars/options use
+--L.optionsKey = "ID: %s" -- The ID that messages/bars/options use
 L.raidBosses = "Boss delle Incursioni"
 L.dungeonBosses = "Boss delle Spedizioni"
 L.introduction = "Benvenuto in BigWigs, dove imposti i combattimenti dei boss. Allacciati le cinture, Prendi le patatine e goditi il viaggio. Non mangia i tuoi bambini, ma ti aiuta a preparare i nuovi boss in modo completo per le tue incursioni."

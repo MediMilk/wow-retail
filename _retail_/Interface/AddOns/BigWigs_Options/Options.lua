@@ -320,6 +320,23 @@ do
 	f:SetScript("OnEvent", Initialize)
 end
 
+local spellDescriptionUpdater = CreateFrame("Frame")
+local visibleSpellDescriptionWidgets = {}
+spellDescriptionUpdater:SetScript("OnEvent", function(_, _, spellId)
+	local scrollFrame = nil
+	for widget, widgetSpellId in next, visibleSpellDescriptionWidgets do
+		if spellId == widgetSpellId then
+			scrollFrame = widget:GetUserData("scrollFrame")
+			local module, bossOption = widget:GetUserData("module"), widget:GetUserData("option")
+			local _, _, desc = BigWigs:GetBossOptionDetails(module, bossOption)
+			widget:SetDescription(desc)
+		end
+	end
+	if scrollFrame then
+		scrollFrame:PerformLayout()
+	end
+end)
+
 function options:Open()
 	if not configFrame then
 		options:OpenConfig()
@@ -400,6 +417,7 @@ local function masterOptionToggled(self, event, value)
 		if dropdown then
 			local scrollFrame = self:GetUserData("scrollFrame")
 			local bossOption = self:GetUserData("option")
+			visibleSpellDescriptionWidgets = {}
 			scrollFrame:ReleaseChildren()
 			scrollFrame:AddChildren(getAdvancedToggleOption(scrollFrame, dropdown, module, bossOption))
 			scrollFrame:PerformLayout()
@@ -577,6 +595,7 @@ end
 local function advancedTabSelect(widget, callback, tab)
 	if widget:GetUserData("tab") == tab then return end
 	widget:SetUserData("tab", tab)
+	visibleSpellDescriptionWidgets = {}
 	widget:PauseLayout()
 	widget:ReleaseChildren()
 	local module = widget:GetUserData("module")
@@ -716,42 +735,8 @@ function getAdvancedToggleOption(scrollFrame, dropdown, module, bossOption)
 	return unpack(widgets)
 end
 
-local spellUpdater = CreateFrame("Frame")
-local needsUpdate, needsLayout = {}, {}
-
-local function RefreshOnUpdate(self)
-	local scrollFrame = nil
-	for widget in next, needsLayout do
-		needsLayout[widget] = nil
-		scrollFrame = widget:GetUserData("scrollFrame")
-		local module, bossOption = widget:GetUserData("module"), widget:GetUserData("option")
-		local _, _, desc = BigWigs:GetBossOptionDetails(module, bossOption)
-		widget:SetDescription(desc)
-	end
-	if scrollFrame then
-		scrollFrame:PerformLayout()
-	end
-	self:SetScript("OnUpdate", nil)
-end
-
-spellUpdater:SetScript("OnEvent", function(self, event, spellId, success)
-	if success and needsUpdate[spellId] then
-		needsLayout[needsUpdate[spellId]] = true
-		local desc = GetSpellDescription(spellId)
-		self:SetScript("OnUpdate", RefreshOnUpdate)
-	end
-	needsUpdate[spellId] = nil
-end)
-spellUpdater:RegisterEvent("SPELL_DATA_LOAD_RESULT")
-
-local function clearPendingUpdates()
-	spellUpdater:SetScript("OnUpdate", nil)
-	needsUpdate = {}
-	needsLayout = {}
-end
-
 local function buttonClicked(widget)
-	clearPendingUpdates()
+	visibleSpellDescriptionWidgets = {}
 	-- save scroll bar position
 	toggleOptionsStatusTable.restore_scrollvalue = toggleOptionsStatusTable.scrollvalue
 	toggleOptionsStatusTable.restore_offset = toggleOptionsStatusTable.offset
@@ -852,9 +837,8 @@ local function getDefaultToggleOption(scrollFrame, dropdown, module, bossOption)
 			spellId = description
 		end
 	end
-	if spellId and not C_Spell.IsSpellDataCached(spellId) then
-		needsUpdate[spellId] = check
-		C_Spell.RequestLoadSpellData(spellId)
+	if spellId then
+		visibleSpellDescriptionWidgets[check] = spellId
 	end
 
 	if type(dbKey) == "string" and dbKey:find("^custom_") then
@@ -978,12 +962,12 @@ do
 			if type(o) == "number" then
 				if o > 0 then
 					local spellLink = GetSpellLink(o)
-					if not spellLink then
+					if type(spellLink) == "string" and spellLink:find("Hspell", nil, true) then
+						link = spellLink -- Use Blizz link if valid...
+					else -- ...or make our own
 						local spellName = GetSpellInfo(o)
 						link = ("\124cff71d5ff\124Hspell:%d:0\124h[%s]\124h\124r"):format(o, spellName)
 						--BigWigs:Error(("Failed to fetch the link for spell id %d, tell the authors."):format(o))
-					else
-						link = spellLink
 					end
 				else
 					local tbl = C_EncounterJournal_GetSectionInfo(-o)
@@ -1027,7 +1011,7 @@ local function SecondsToTime(time)
 end
 
 local function populateToggleOptions(widget, module)
-	clearPendingUpdates()
+	visibleSpellDescriptionWidgets = {}
 	local scrollFrame = widget:GetUserData("parent")
 	scrollFrame:ReleaseChildren()
 	scrollFrame:PauseLayout()
@@ -1280,6 +1264,7 @@ do
 	end
 
 	local function onTreeGroupSelected(widget, event, value)
+		visibleSpellDescriptionWidgets = {}
 		widget:ReleaseChildren()
 		local zoneId = value:match("\001(-?%d+)$")
 		local bigwigsContent = value:match("(BigWigs_%a+)$")
@@ -1312,7 +1297,9 @@ do
 				end
 			end
 		elseif value:match("^LittleWigs_") then -- All LittleWigs content addons, all come from 1 zip
-			if value == loader.currentExpansion.littlewigsName and loader.isRetail then value = "LittleWigs" end
+			if loader.isRetail and (value == loader.currentExpansion.littlewigsName or value == loader.currentExpansion.littlewigsDefault) then
+				value = "LittleWigs"
+			end
 			local addonState = loader:GetAddOnState(value)
 			local string = addonState == "MISSING" and L.missingAddOn or addonState == "DISABLED" and L.disabledAddOn
 			if not loader.usingLittleWigsRepo and string then
@@ -1344,7 +1331,20 @@ do
 		end
 	end
 
+	local function addModuleToOptions(zoneAddon, treeTbl, addonNameToHeader, value, zoneName)
+		local parent = zoneAddon and addonNameToHeader[zoneAddon] -- Get expansion number for this zone
+		local treeParent = treeTbl[parent] -- Grab appropriate expansion name
+		if treeParent and treeParent.enabled then -- third-party plugins can add empty zones if you don't have the expansion addon enabled
+			if not treeParent.children then treeParent.children = {} end -- Create sub menu table
+			tinsert(treeParent.children, { -- Add new instance/zone sub menu
+				value = value,
+				text = zoneName,
+			})
+		end
+	end
+
 	local function onTabGroupSelected(widget, event, value)
+		visibleSpellDescriptionWidgets = {}
 		widget:ReleaseChildren()
 
 		if value == "options" then
@@ -1376,7 +1376,7 @@ do
 					addonNameToHeader[value] = i
 				end
 			elseif value == "littlewigs" then
-				defaultHeader = loader.currentExpansion.littlewigsName
+				defaultHeader = loader.currentExpansion.littlewigsDefault
 				for i = 1, #expansionHeader do
 					local value = "LittleWigs_" .. expansionHeader[i]
 					treeTbl[i] = {
@@ -1385,6 +1385,15 @@ do
 						enabled = true,
 					}
 					addonNameToHeader[value] = i
+				end
+				-- add default LittleWigs to options if it doesn't match the current expansion's LittleWigs
+				if loader.currentExpansion.littlewigsName ~= loader.currentExpansion.littlewigsDefault then
+					treeTbl[#treeTbl + 1] = {
+						text = L.currentSeason,
+						value = defaultHeader,
+						enabled = true,
+					}
+					addonNameToHeader[defaultHeader] = #treeTbl
 				end
 			end
 
@@ -1436,14 +1445,14 @@ do
 						id = entry
 					end
 
-					local parent = loader.zoneTbl[id] and addonNameToHeader[loader.zoneTbl[id]] -- Get expansion number for this zone
-					local treeParent = treeTbl[parent] -- Grab appropriate expansion name
-					if treeParent and treeParent.enabled then -- third-party plugins can add empty zones if you don't have the expansion addon enabled
-						if not treeParent.children then treeParent.children = {} end -- Create sub menu table
-						tinsert(treeParent.children, { -- Add new instance/zone sub menu
-							value = name or id,
-							text = zoneName,
-						})
+					-- add zones to options
+					local zoneAddon = loader.zoneTbl[id]
+					if type(zoneAddon) == "table" then
+						for j = 1, #zoneAddon do
+							addModuleToOptions(zoneAddon[j], treeTbl, addonNameToHeader, name or id, zoneName)
+						end
+					else
+						addModuleToOptions(zoneAddon, treeTbl, addonNameToHeader, name or id, zoneName)
 					end
 				end
 			end
@@ -1458,12 +1467,17 @@ do
 
 			-- Do we have content for the zone we're in? Then open straight to that zone.
 			local _, instanceType, _, _, _, _, _, id = loader.GetInstanceInfo()
-			local parent = loader.zoneTbl[id] and addonNameToHeader[loader.zoneTbl[id]]
+			local zoneAddon = loader.zoneTbl[id]
+			if type(zoneAddon) == "table" then
+				-- on Retail default to Current Season, on Classic default to the expansion addon
+				zoneAddon = loader.isRetail and zoneAddon[#zoneAddon] or zoneAddon[1]
+			end
+			local parent = zoneAddon and addonNameToHeader[zoneAddon]
 			if instanceType == "none" then
 				local mapId = GetBestMapForUnit("player")
 				if mapId then
 					id = loader.zoneTblWorld[-mapId]
-					parent = loader.zoneTbl[id] and addonNameToHeader[loader.zoneTbl[id]]
+					parent = zoneAddon and addonNameToHeader[zoneAddon]
 				end
 			end
 
@@ -1481,6 +1495,7 @@ do
 
 	function options:OpenConfig()
 		playerName = UnitName("player")
+		spellDescriptionUpdater:RegisterEvent("SPELL_TEXT_UPDATE")
 
 		local bw = AceGUI:Create("Frame")
 		configFrame = bw
@@ -1491,6 +1506,9 @@ do
 		bw:EnableResize(false)
 		bw:SetLayout("Flow")
 		bw:SetCallback("OnClose", function(widget)
+			visibleSpellDescriptionWidgets = {}
+			spellDescriptionUpdater:UnregisterEvent("SPELL_TEXT_UPDATE")
+			widget:ReleaseChildren()
 			AceGUI:Release(widget)
 			statusTable = {}
 			isPluginOpen = nil

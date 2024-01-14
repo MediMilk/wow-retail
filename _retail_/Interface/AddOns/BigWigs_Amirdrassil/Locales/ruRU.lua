@@ -33,11 +33,12 @@ L = BigWigs:NewBossLocale("Council of Dreams", "ruRU")
 if L then
 	L.agonizing_claws_debuff = "{421022} (Дебафф)"
 
-	L.ultimate_boss = "Ульта (%s)"
-	L.special_bar = "Ульта [%s] (%d)"
-	L.special_mythic_bar = "Ульта [%s/%s] (%d)"
+	L.custom_off_combined_full_energy = "Объединённые полоски максимальной энергии (Мифический режим)"
+	L.custom_off_combined_full_energy_desc = "Объединяет полоски способностей боссов, что бы показывалась только одна полоска для обоих способностей."
+
 	L.special_mechanic_bar = "%s [Ульта] (%d)"
 
+	L.constricting_thicket = "Лозы"
 	L.poisonous_javelin = "Отравленное копьё"
 	L.song_of_the_dragon = "Песня"
 	L.polymorph_bomb = "Утки"
@@ -53,8 +54,11 @@ if L then
 	L.blazing_coalescence_on_boss_note = "Когда на боссе"
 
 	L.scorching_roots = "Корень"
+	L.charred_brambles = "Корень хилить"
 	L.blazing_thorns = "Спирали"
 	L.falling_embers = "Соки"
+	L.flash_fire = "Абсорб"
+	L.flash_fire_single = "Абсорб"
 end
 
 L = BigWigs:NewBossLocale("Nymue, Weaver of the Cycle", "ruRU")
@@ -78,15 +82,23 @@ L = BigWigs:NewBossLocale("Tindral Sageswift, Seer of the Flame", "ruRU")
 if L then
 	L.seed_soaked = "Семечко засокано"
 	L.all_seeds_soaked = "Семечки кончились!"
+	L.failed_seed = "%s засокал лишнее семечко!"
+
 	L.blazing_mushroom = "Грибы"
 	L.fiery_growth = "Диспеллы"
 	L.mass_entanglement = "Корни"
 	L.incarnation_moonkin = "Совиная форма "
 	L.incarnation_tree_of_flame = "Древоформа"
 	L.flaming_germination = "Семена"
-	L.suppressive_ember = "Абсорб"
 	L.suppressive_ember_single = "Абсорб"
 	L.flare_bomb = "Перья"
+	L.too_close_to_edge = "Слишком близко к краю"
+	L.taking_damage_from_edge = "Получаешь урон от края платформы"
+	L.flying_available = "Можешь лететь"
+
+	L.fly_time = "Полёт"
+	L.fly_time_desc = "Показывает сообщение с длительностью полёта между платформами на переходке."
+	L.fly_time_msg = "Время полёта: %.2f" -- Fly Time: 32.23
 end
 
 L = BigWigs:NewBossLocale("Fyrakk the Blazing", "ruRU")
@@ -95,7 +107,6 @@ if L then
 
 	L.fyralaths_bite = "Фронтал"
 	L.fyralaths_bite_mythic = "Фронталы"
-	L.fyralaths_mark = "Метка"
 	L.darkflame_shades = "Тени"
 	L.darkflame_cleave = "Соаки"
 

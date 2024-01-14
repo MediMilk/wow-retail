@@ -19,7 +19,7 @@ end
 L = BigWigs:NewBossLocale("Volcoross", "zhCN")
 if L then
 	L.custom_off_all_scorchtail_crash = "团长模式"
-	L.custom_off_all_scorchtail_crash_desc = "显示全部焦尾碾压的计时器和信息，而不是仅显示你的一面。"
+	L.custom_off_all_scorchtail_crash_desc = "显示全部焦尾碾压的计时器和信息，而不是仅显示你所在的半场。"
 
 	L.flood_of_the_firelands = "分摊"
 	L.flood_of_the_firelands_single_wait = "等待" -- Wait 3, Wait 2, Wait 1 countdown before soak debuff is applied
@@ -33,11 +33,12 @@ L = BigWigs:NewBossLocale("Council of Dreams", "zhCN")
 if L then
 	L.agonizing_claws_debuff = "{421022} (减益)"
 
-	L.ultimate_boss = "满能量 (%s)"
-	L.special_bar = "满能 [%s] (%d)"
-	L.special_mythic_bar = "满能 [%s/%s] (%d)"
-	L.special_mechanic_bar = "%s [满能] (%d)"
+	L.custom_off_combined_full_energy = "合并满能量条（仅限史诗）"
+	L.custom_off_combined_full_energy_desc = "将首领在满能量的状态下使用的能量条合并成一个，但前提是这些能量条必须是同时施放。"
 
+	L.special_mechanic_bar = "%s [断绝招] (%d)"
+
+	L.constricting_thicket = "藤蔓"
 	L.poisonous_javelin = "标枪"
 	L.song_of_the_dragon = "歌谣"
 	L.polymorph_bomb = "鸭子"
@@ -53,8 +54,11 @@ if L then
 	L.blazing_coalescence_on_boss_note = "首领获得时"
 
 	L.scorching_roots = "树根"
-	L.blazing_thorns = "躲圈"
+	L.charred_brambles = "治疗树根"
+	L.blazing_thorns = "耀焰荆棘" --还是预警技能名称吧螺旋喷发或者螺旋荆棘害怕误导。
 	L.falling_embers = "接圈"
+	L.flash_fire = "治疗吸收盾"
+	L.flash_fire_single = "治疗吸收盾"
 end
 
 L = BigWigs:NewBossLocale("Nymue, Weaver of the Cycle", "zhCN")
@@ -78,15 +82,23 @@ L = BigWigs:NewBossLocale("Tindral Sageswift, Seer of the Flame", "zhCN")
 if L then
 	L.seed_soaked = "烈焰之种"
 	L.all_seeds_soaked = "踩种子完毕!"
+	L.failed_seed = "%s 多踩了一粒种子!"
+
 	L.blazing_mushroom = "蘑菇"
 	L.fiery_growth = "炽热驱散" --炽热增生驱散后脚下大圈
 	L.mass_entanglement = "藤蔓"
 	L.incarnation_moonkin = "枭兽形态"
 	L.incarnation_tree_of_flame = "树人形态"
 	L.flaming_germination = "种子"
-	L.suppressive_ember = "治疗吸收盾"
 	L.suppressive_ember_single = "治疗吸收盾"
 	L.flare_bomb = "羽毛"
+	L.too_close_to_edge = "太靠近边缘"
+	L.taking_damage_from_edge = "在边缘受到伤害"
+	L.flying_available = "你现在可以起飞"
+
+	L.fly_time = "飞行用时"
+	L.fly_time_desc = "显示你在阶段转换期间到达另一个平台的飞行用时。"
+	L.fly_time_msg = "飞行用时: %.2f" -- Fly Time: 32.23
 end
 
 L = BigWigs:NewBossLocale("Fyrakk the Blazing", "zhCN")
@@ -95,7 +107,6 @@ if L then
 
 	L.fyralaths_bite = "正面"
 	L.fyralaths_bite_mythic = "正面"
-	L.fyralaths_mark = "印记"
 	L.darkflame_shades = "影子"
 	L.darkflame_cleave = "分摊[史诗]"
 

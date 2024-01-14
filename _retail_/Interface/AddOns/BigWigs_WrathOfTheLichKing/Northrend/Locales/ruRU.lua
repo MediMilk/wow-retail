@@ -1,17 +1,11 @@
 local L = BigWigs:NewBossLocale("Onyxia", "ruRU")
 if not L then return end
 if L then
-	L.phase = "Фазы"
-	L.phase_desc = "Сообщать о смене фаз."
-	L.phase2_message = "Фаза 2 - Ониксия взлетает!"
-	L.phase3_message = "Фаза 3 - Ониксия приземляется!"
-
 	L.phase1_trigger = "Вот это сюрприз."
 	L.phase2_trigger = "Эта бессмысленная возня вгоняет меня в тоску. Я сожгу вас всех!"
 	L.phase3_trigger = "Похоже, вам требуется преподать еще один урок, смертные!"
 
-	L.deepbreath_message = "Огненное дыхание!"
-	L.fear_message = "Страх через 1.5 сек!"
+	L.deep_breath = "Глубокий вдох"
 end
 
 L = BigWigs:NewBossLocale("Archavon the Stone Watcher", "ruRU")
@@ -105,19 +99,5 @@ end
 
 L = BigWigs:NewBossLocale("Halion", "ruRU")
 if L then
-	L.engage_trigger = "Этот мир вот-вот соскользнет в бездну. Вам выпала честь узреть начало эры РАЗРУШЕНИЯ!"
-
-	L.phase_two_trigger = "В мире сумерек вы найдете лишь страдания! Входите, если посмеете!"
-
-	L.twilight_cutter_trigger = "Во вращающихся сферах пульсирует темная энергия!"
-	L.twilight_cutter_bar = "~Лезвие сумерок"
-	L.twilight_cutter_warning = "Скоро Лезвие сумерок"
-
-	--L.fire_damage_message = "Your feet are burning!"
-	L.fire_message = "Огненная бомба"
-	L.shadow_message = "Пожирающая бомба"
-
-	--L.meteorstrike_yell = "The heavens burn!"
-	L.meteorstrike_bar = "Падение метеора"
-	--L.meteor_warning_message = "Meteor incoming!"
+	L.twilight_cutter_emote_trigger = "сферах" -- Во вращающихся сферах пульсирует темная энергия!
 end

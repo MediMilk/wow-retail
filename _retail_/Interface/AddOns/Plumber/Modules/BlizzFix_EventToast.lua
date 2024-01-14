@@ -29,6 +29,7 @@ Module:Hide();
 local function CloseActiveToasts()
     if BlizzardFrame.CloseActiveToasts then
         BlizzardFrame:CloseActiveToasts();
+        BlizzardFrame:Hide();
     end
 end
 
@@ -252,6 +253,8 @@ do
         name = L["ModuleName BlizzFixEventToast"],
         description = L["ModuleDescription BlizzFixEventToast"],
         toggleFunc = EnableModule,
+        categoryID = 1,
+        uiOrder = 2,
     };
 
     addon.ControlCenter:AddModule(moduleData);

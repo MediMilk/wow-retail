@@ -33,11 +33,12 @@ L = BigWigs:NewBossLocale("Council of Dreams", "deDE")
 if L then
 	L.agonizing_claws_debuff = "{421022} (Debuff)"
 
-	L.ultimate_boss = "Ultimate (%s)"
-	L.special_bar = "Ult [%s] (%d)"
-	L.special_mythic_bar = "Ult [%s/%s] (%d)"
+	L.custom_off_combined_full_energy = "Gemeinsame Leisten bei voller Energie (nur Mythisch)"
+	L.custom_off_combined_full_energy_desc = "Bündelt die Leisten der Fähigkeiten bei voller Energie in einer Leiste, wenn diese zur gleichen Zeit auftreten."
+
 	L.special_mechanic_bar = "%s [Ult] (%d)"
 
+	L.constricting_thicket = "Ranken"
 	L.poisonous_javelin = "Wurfspeer"
 	L.song_of_the_dragon = "Lied"
 	L.polymorph_bomb = "Enten"
@@ -53,8 +54,11 @@ if L then
 	L.blazing_coalescence_on_boss_note = "Wenn es auf dem Boss ist"
 
 	L.scorching_roots = "Wurzeln"
-	L.blazing_thorns = "Ausweichen"
+	L.charred_brambles = "Wurzeln heilbar"
+	L.blazing_thorns = "Dornenspirale"
 	L.falling_embers = "Soaks"
+	L.flash_fire = "Heilungen absorbiert"
+	L.flash_fire_single = "Heilung absorbiert"
 end
 
 L = BigWigs:NewBossLocale("Nymue, Weaver of the Cycle", "deDE")
@@ -79,6 +83,7 @@ if L then
 
 	L.seed_soaked = "Samen gesoaked"
 	L.all_seeds_soaked = "Samen fertig!"
+	L.failed_seed = "%s ist auf einen weiteren Samen getreten!"
 
 	L.blazing_mushroom = "Pilze"
 	L.fiery_growth = "Dispels"
@@ -86,9 +91,15 @@ if L then
 	L.incarnation_moonkin = "Mondkingestalt"
 	L.incarnation_tree_of_flame = "Treantgestalt"
 	L.flaming_germination = "Samen"
-	L.suppressive_ember = "Heilungen absorbiert"
 	L.suppressive_ember_single = "Heilung absorbiert"
 	L.flare_bomb = "Federn"
+	L.too_close_to_edge = "Zu nah am Rand"
+	L.taking_damage_from_edge = "Du kriegst Schaden vom Rand"
+	L.flying_available = "Du kannst jetzt fliegen"
+
+	L.fly_time = "Flugdauer"
+	L.fly_time_desc = "Zeigt eine Nachricht mit der Dauer des Fluges von einer Plattform zur nächsten in den Zwischenphasen an."
+	L.fly_time_msg = "Flugdauer: %.2f" -- Fly Time: 32.23
 end
 
 L = BigWigs:NewBossLocale("Fyrakk the Blazing", "deDE")
@@ -97,7 +108,6 @@ if L then
 
 	L.fyralaths_bite = "Frontal"
 	L.fyralaths_bite_mythic = "Frontals"
-	L.fyralaths_mark = "Mal"
 	L.darkflame_shades = "Schemen"
 	L.darkflame_cleave = "Mythische Soaks"
 

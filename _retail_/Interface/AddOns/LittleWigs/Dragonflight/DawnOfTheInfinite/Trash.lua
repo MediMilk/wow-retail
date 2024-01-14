@@ -80,6 +80,14 @@ if L then
 
 	L.custom_on_rift_autotalk = "Autotalk"
 	L.custom_on_rift_autotalk_desc = "Instantly start channeling to open the Temporal Rift."
+	L.custom_on_rift_autotalk_icon = "ui_chat"
+	L.rift_opening = CL.casting:format(mod:SpellName(416882)) -- Open Rift
+	L.rift_opened = "Temporal Rift Opened"
+	L.rift_stability = "Rift Stability"
+	L.rift_stability_desc = "Show an alert when the Temporal Rift has been opened."
+	L.rift_stability_icon = 416882
+
+	L.manifested_timeways_warmup_trigger = "Even the Aspect of Time cannot be allowed to disrupt the timeways!"
 end
 
 --------------------------------------------------------------------------------
@@ -90,6 +98,7 @@ function mod:GetOptions()
 	return {
 		-- General
 		"custom_on_rift_autotalk",
+		"rift_stability",
 
 		------ Galakrond's Fall ------
 		-- Infinite Chronoweaver
@@ -109,7 +118,7 @@ function mod:GetOptions()
 		413529, -- Untwist
 		{413544, "DISPEL"}, -- Bloom
 		-- Infinite Infiltrator
-		413621, -- Timeless Curse
+		{413621, "DISPEL"}, -- Timeless Curse
 		413622, -- Infinite Fury
 		-- Risen Dragon
 		412806, -- Blight Spew
@@ -143,8 +152,8 @@ function mod:GetOptions()
 		419516, -- Chronal Eruption
 		419511, -- Temporal Link
 		-- Horde Destroyer
+		{407205, "SAY"}, -- Volatile Mortar
 		407535, -- Deploy Goblin Sappers
-		407205, -- Volatile Mortar
 		-- Alliance Destroyer
 		418684, -- Deploy Dwarven Bombers
 		-- Horde Farseer
@@ -186,7 +195,7 @@ function mod:GetOptions()
 		[411300] = L.timelost_waveshaper,
 		[412156] = L.timelost_aerobot,
 		[419516] = L.chronaxie,
-		[407535] = L.horde_destroyer,
+		[407205] = L.horde_destroyer,
 		[418684] = L.alliance_destroyer,
 		[407891] = L.horde_farseer,
 		[417011] = L.paladin_of_the_silver_hand,
@@ -198,9 +207,14 @@ end
 function mod:OnBossEnable()
 	-- Warmups
 	self:RegisterEvent("CHAT_MSG_MONSTER_YELL")
+	self:Log("SPELL_CAST_SUCCESS", "BattleSenses", 419609)
+	self:Log("SPELL_CAST_SUCCESS", "ThirstForBlood", 419602)
 
 	-- Autotalk
 	self:RegisterEvent("GOSSIP_SHOW")
+
+	-- Rift Stability
+	self:RegisterWidgetEvent(5021, "RiftStability", true)
 
 	------ Galakrond's Fall ------
 
@@ -230,6 +244,7 @@ function mod:OnBossEnable()
 
 	-- Infinite Infiltrator
 	self:Log("SPELL_CAST_SUCCESS", "TimelessCurse", 413621)
+	self:Log("SPELL_AURA_APPLIED", "TimelessCurseApplied", 413618)
 	self:Log("SPELL_CAST_START", "InfiniteFury", 413622)
 
 	-- Risen Dragon
@@ -284,12 +299,13 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "ChronalEruptionApplied", 419517)
 	self:Log("SPELL_CAST_START", "TemporalLink", 419511)
 
-	-- Horde Destroyer
+	-- Horde Destroyer / Alliance Destroyer
+	self:Log("SPELL_CAST_SUCCESS", "VolatileMortar", 407205)
+	self:Log("SPELL_AURA_APPLIED", "VolatileMortarApplied", 407205)
 	self:Log("SPELL_CAST_START", "DeployGoblinSappers", 407535)
-	self:Log("SPELL_CAST_START", "VolatileMortar", 407205)
-
-	-- Alliance Destroyer
 	self:Log("SPELL_CAST_START", "DeployDwarvenBombers", 418684)
+	self:Death("HordeDestroyerDeath", 203861)
+	self:Death("AllianceDestroyerDeath", 208208)
 
 	-- Horde Farseer
 	self:Log("SPELL_CAST_START", "HealingWave", 407891)
@@ -324,6 +340,31 @@ function mod:CHAT_MSG_MONSTER_YELL(_, msg)
 			iridikronModule:Enable()
 			iridikronModule:Warmup()
 		end
+	elseif msg == L.manifested_timeways_warmup_trigger then
+		-- Manifested Timeways warmup
+		local manifestedTimewaysModule = BigWigs:GetBossModule("Manifested Timeways", true)
+		if manifestedTimewaysModule then
+			manifestedTimewaysModule:Enable()
+			manifestedTimewaysModule:Warmup()
+		end
+	end
+end
+
+function mod:BattleSenses(args)
+	-- Time-Lost Battlefield (Anduin Lothar version) warmup
+	local timelostBattlefieldModule = BigWigs:GetBossModule("Time-Lost Battlefield", true)
+	if timelostBattlefieldModule then
+		timelostBattlefieldModule:Enable()
+		timelostBattlefieldModule:WarmupAnduinLothar()
+	end
+end
+
+function mod:ThirstForBlood(args)
+	-- Time-Lost Battlefield (Grommash Hellscream version) warmup
+	local timelostBattlefieldModule = BigWigs:GetBossModule("Time-Lost Battlefield", true)
+	if timelostBattlefieldModule then
+		timelostBattlefieldModule:Enable()
+		timelostBattlefieldModule:WarmupGrommashHellscream()
 	end
 end
 
@@ -338,11 +379,40 @@ function mod:GOSSIP_SHOW(event)
 	end
 end
 
+-- Rift Stability
+
+do
+	local prev = 0
+	function mod:RiftStability(_, _, info)
+		-- [UPDATE_UI_WIDGET] widgetID:5021, widgetType:2, barValue:100
+		local barValue = info.barValue
+		-- shownState will only be 1 if you are at the Rift, so don't check it here - we
+		-- want to alert even if the player is not at the Rift.
+		if barValue == 3 and prev ~= 3 then
+			-- first tick of progress will always be 3. throttle because it could become
+			-- visible or hide at 3 if the player moves into or out of range.
+			prev = barValue
+			self:Message("rift_stability", "green", L.rift_opening, L.rift_stability_icon)
+			self:PlaySound("rift_stability", "info")
+		elseif barValue == 100 and prev ~= 100 then
+			-- throttle because the bar will hide at 100 for any player already through.
+			prev = barValue
+			self:Message("rift_stability", "green", L.rift_opened, L.rift_stability_icon)
+			self:PlaySound("rift_stability", "info")
+		else
+			prev = barValue
+		end
+	end
+end
+
 ------ Galakrond's Fall ------
 
 -- Infinite Chronoweaver
 
 function mod:Chronomelt(args)
+	if self:Friendly(args.sourceFlags) then -- these NPCs can be mind-controlled by Priests
+		return
+	end
 	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "alert")
 	--self:NameplateCDBar(args.spellId, 15.8, args.sourceGUID)
@@ -451,10 +521,23 @@ end
 
 -- Infinite Infiltrator
 
-function mod:TimelessCurse(args)
-	self:Message(args.spellId, "orange")
-	self:PlaySound(args.spellId, "alarm")
-	--self:NameplateCDBar(args.spellId, 20.6, args.sourceGUID)
+do
+	local playerList = {}
+
+	function mod:TimelessCurse(args)
+		playerList = {}
+		self:Message(args.spellId, "orange")
+		self:PlaySound(args.spellId, "alarm")
+		--self:NameplateCDBar(args.spellId, 20.6, args.sourceGUID)
+	end
+
+	function mod:TimelessCurseApplied(args)
+		if self:Dispeller("curse", nil, 413621) then
+			playerList[#playerList + 1] = args.destName
+			self:PlaySound(413621, "info", nil, playerList)
+			self:TargetsMessage(413621, "red", playerList, 5)
+		end
+	end
 end
 
 function mod:InfiniteFury(args)
@@ -476,6 +559,8 @@ end
 do
 	local prev = 0
 	function mod:Stonebolt(args)
+		-- these can be mind controlled but Stonebolt can only be cast on players,
+		-- so don't filter the alert
 		local t = args.time
 		if t - prev > 1.5 then
 			prev = t
@@ -490,6 +575,9 @@ end
 -- Infinite Twilight Magus
 
 function mod:CorrodingVolley(args)
+	if self:Friendly(args.sourceFlags) then -- these NPCs can be mind-controlled by Priests
+		return
+	end
 	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "alert")
 	--self:NameplateCDBar(args.spellId, 7.3, args.sourceGUID)
@@ -647,12 +735,18 @@ end
 -- Time-Lost Waveshaper
 
 function mod:FishBoltVolley(args)
+	if self:Friendly(args.sourceFlags) then -- these NPCs can be mind-controlled by Priests
+		return
+	end
 	self:Message(args.spellId, "yellow", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "alert")
 	--self:NameplateCDBar(args.spellId, 13.3, args.sourceGUID)
 end
 
 function mod:BubblyBarrage(args)
+	if self:Friendly(args.sourceFlags) then -- these NPCs can be mind-controlled by Priests
+		return
+	end
 	self:Message(args.spellId, "red")
 	self:PlaySound(args.spellId, "long")
 	--self:NameplateCDBar(args.spellId, 20.6, args.sourceGUID)
@@ -694,26 +788,71 @@ function mod:TemporalLink(args)
 	-- TODO unknown CD
 end
 
--- Horde Destroyer
+-- Horde Destroyer / Alliance Destroyer
 
-function mod:DeployGoblinSappers(args)
-	self:Message(args.spellId, "cyan")
-	self:PlaySound(args.spellId, "info")
-	--self:NameplateCDBar(args.spellId, 26.7, args.sourceGUID)
-end
+do
+	-- timer used to clean up bars in case of a wipe
+	local timer
 
-function mod:VolatileMortar(args)
-	self:Message(args.spellId, "orange")
-	self:PlaySound(args.spellId, "alarm")
-	--self:NameplateCDBar(args.spellId, 17.0, args.sourceGUID)
-end
+	function mod:VolatileMortar(args)
+		if timer then
+			self:CancelTimer(timer)
+		end
+		self:CDBar(args.spellId, 19.4)
+		if self:MobId(args.sourceGUID) == 203861 then -- Horde Destroyer
+			timer = self:ScheduleTimer("HordeDestroyerDeath", 30)
+		else -- Alliance Destroyer
+			timer = self:ScheduleTimer("AllianceDestroyerDeath", 30)
+		end
+	end
 
--- Alliance Destroyer
+	function mod:VolatileMortarApplied(args)
+		self:TargetMessage(args.spellId, "orange", args.destName)
+		if self:Me(args.destGUID) then
+			self:PlaySound(args.spellId, "warning", nil, args.destName)
+			self:Say(args.spellId, nil, nil, "Volatile Mortar")
+		else
+			self:PlaySound(args.spellId, "alarm", nil, args.destName)
+		end
+	end
 
-function mod:DeployDwarvenBombers(args)
-	self:Message(args.spellId, "cyan")
-	self:PlaySound(args.spellId, "info")
-	--self:NameplateCDBar(args.spellId, 26.7, args.sourceGUID)
+	function mod:DeployGoblinSappers(args)
+		if timer then
+			self:CancelTimer(timer)
+		end
+		self:Message(args.spellId, "cyan")
+		self:PlaySound(args.spellId, "info")
+		self:CDBar(args.spellId, 26.3)
+		timer = self:ScheduleTimer("HordeDestroyerDeath", 30)
+	end
+
+	function mod:DeployDwarvenBombers(args)
+		if timer then
+			self:CancelTimer(timer)
+		end
+		self:Message(args.spellId, "cyan")
+		self:PlaySound(args.spellId, "info")
+		self:CDBar(args.spellId, 26.3)
+		timer = self:ScheduleTimer("AllianceDestroyerDeath", 30)
+	end
+
+	function mod:HordeDestroyerDeath()
+		if timer then
+			self:CancelTimer(timer)
+			timer = nil
+		end
+		self:StopBar(407535) -- Deploy Goblin Sappers
+		self:StopBar(407205) -- Volatile Mortar
+	end
+
+	function mod:AllianceDestroyerDeath()
+		if timer then
+			self:CancelTimer(timer)
+			timer = nil
+		end
+		self:StopBar(418684) -- Deploy Dwarven Bombers
+		self:StopBar(407205) -- Volatile Mortar
+	end
 end
 
 -- Horde Farseer

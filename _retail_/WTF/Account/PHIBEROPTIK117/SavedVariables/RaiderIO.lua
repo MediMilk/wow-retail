@@ -6,8 +6,11 @@ RaiderIO_Config = {
 		["point"] = "TOPLEFT",
 	},
 }
-RaiderIO_LastCharacter = "us-Medimilk-malganis"
+RaiderIO_LastCharacter = "us-Shortwire-stormrage"
 RaiderIO_MissingCharacters = {
+	["us-Optimistic-illidan"] = true,
+	["us-Lazziar-illidan"] = true,
+	["us-Heatdrop-kiljaeden"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -68,13 +68,14 @@ BigWigs:AddSounds("The Infinite Dragonflight", {
 	[416139] = "alarm",
 	[416152] = "info",
 	[416264] = "long",
+	[417413] = "underyou",
 	["stages"] = "info",
 })
 
 BigWigs:AddSounds("Dawn of the Infinite Trash", {
 	[407124] = "alert",
 	[407125] = "alarm",
-	[407205] = "alarm",
+	[407205] = {"alarm","warning"},
 	[407535] = "info",
 	[407891] = "warning",
 	[407906] = "underyou",
@@ -97,7 +98,7 @@ BigWigs:AddSounds("Dawn of the Infinite Trash", {
 	[413529] = "alarm",
 	[413544] = "alert",
 	[413607] = "alert",
-	[413621] = "alarm",
+	[413621] = {"alarm","info"},
 	[413622] = "long",
 	[415437] = "alert",
 	[415769] = "alert",
@@ -111,4 +112,5 @@ BigWigs:AddSounds("Dawn of the Infinite Trash", {
 	[419351] = "alarm",
 	[419511] = "alert",
 	[419516] = {"alarm","alert"},
+	["rift_stability"] = "info",
 })

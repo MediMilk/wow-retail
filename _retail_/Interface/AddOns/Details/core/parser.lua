@@ -190,9 +190,9 @@
 		---@field key7 number
 
 		local augmentation_aura_list = {
-			[395152] = true,
+			[395152] = true,--ebon might (evoker 10.1.5) 395296 = the evoker buff on it self
 			[413984] = true,
-			[410089] = true,
+			[410089] = true,--prescience (evoker 10.1.5)
 			[409560] = true,
 			[360827] = true,
 			[410263] = true,
@@ -221,6 +221,8 @@
 			ss = {},
 			infernobless = {},
 		}
+
+		Details.augmentation_cache = augmentation_cache
 
 		Details222.SpecHelpers[1473].augmentation_cache = augmentation_cache
 
@@ -331,7 +333,7 @@
 		}
 
 	else --retail
-		override_spellId = {
+		override_spellId = { --~merge
 			[184707] = 218617, --warrior rampage
 			[184709] = 218617, --warrior rampage
 			[201364] = 218617, --warrior rampage
@@ -371,6 +373,8 @@
 			[280720] = 282449, --rogue Secret Technique
 			[280719] = 282449, --rogue Secret Technique
 			[27576] = 5374, --rogue mutilate
+			[385897] = 8676, --rogue Ambush
+			[430023] = 8676, --rogue Ambush
 
 			[233496] = 233490, --warlock Unstable Affliction
 			[233497] = 233490, --warlock Unstable Affliction
@@ -392,6 +396,10 @@
 			[228361] = 228360, --shadow priest void erruption
 
 			[401422] = 401428, --vessel of searing shadow (trinket)
+
+			[417134] = 414532, --rage of Fyr'alath
+			[413584] = 414532,
+			[424094] = 414532,
 		}
 
 		--all totem
@@ -1328,19 +1336,21 @@
 						end
 
 						--> calculate tier and ilevel bonuses; this values could be cached at the start of the combat
-							local bHasFourPieces = gearCache[evokerSourceSerial] and gearCache[evokerSourceSerial].tierAmount >= 4
-							local tierPieceMultiplier = bHasFourPieces and 1.08 or 1
+							--local bHasFourPieces = gearCache[evokerSourceSerial] and gearCache[evokerSourceSerial].tierAmount >= 4
+							local tierPieceMultiplier = 1 --bHasFourPieces and 1.08 or 1
 							local evokerItemLevel = gearCache[evokerSourceSerial] and gearCache[evokerSourceSerial].ilevel or 400
 							evokerItemLevel = max(evokerItemLevel, 400)
-							local itemLevelMultiplier = 1 + ((evokerItemLevel - 400) * 0.01)
+							local itemLevelMultiplier = 1 + ((evokerItemLevel - 400) * 0.006)
 
 						local predictedAmount = 0
 						if (Details.zone_type == "raid") then --0x410b
 							predictedAmount = amount * (0.06947705 * tierPieceMultiplier * itemLevelMultiplier)
 						else
-							predictedAmount = amount * (0.08416225 * tierPieceMultiplier * itemLevelMultiplier)
+							predictedAmount = amount * (0.07590444 * tierPieceMultiplier * itemLevelMultiplier)
 						end
 
+						--local damageSpellName = GetSpellInfo(spellId)
+						--print("EbonMight Cache:", Details.augmentation_cache, evokerSourceSerial, floor(amount), floor(predictedAmount), floor(predictedAmount/amount*100) .. "%", damageSpellName)
 						evokerActor.total_extra = evokerActor.total_extra + predictedAmount
 						augmentedSpell.total = augmentedSpell.total + predictedAmount
 						augmentedSpell.targets[sourceName] = (augmentedSpell.targets[sourceName] or 0) + predictedAmount
@@ -5324,17 +5334,6 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			Details:Msg("(debug) |cFFFFFF00ENCOUNTER_START|r event triggered.")
 		end
 
-		if (not isWOTLK) then
-			C_Timer.After(1, function()
-				if (Details.show_warning_id1) then
-					if (Details.show_warning_id1_amount < 2) then
-						Details.show_warning_id1_amount = Details.show_warning_id1_amount + 1
-						--Details:Msg("|cFFFFFF00you might find differences on damage done, this is due to a bug in the game client, nothing related to Details! itself (" .. Details.show_warning_id1_amount .. " / 10).")
-					end
-				end
-			end)
-		end
-
 		Details222.Perf.WindowUpdate = 0
 		Details222.Perf.WindowUpdateC = true
 
@@ -5349,7 +5348,15 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		end
 
 		local encounterID, encounterName, difficultyID, raidSize = select(1, ...)
-		local zoneName, _, _, _, _, _, _, zoneMapID = GetInstanceInfo()
+		local zoneName, zoneType, _, _, _, _, _, zoneMapID = GetInstanceInfo()
+
+		if (zoneType == "party") then
+			local openRaidLib = LibStub:GetLibrary("LibOpenRaid-1.0", true)
+			if (openRaidLib) then
+				print("sent my keystone to party")
+				openRaidLib.KeystoneInfoManager.SendPlayerKeystoneInfoToParty()
+			end
+		end
 
 		if (Details.InstancesToStoreData[zoneMapID]) then
 			Details.current_exp_raid_encounters[encounterID] = true
@@ -5360,7 +5367,7 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			for i = 1, 5 do
 				local boss = UnitExists("boss" .. i)
 				if (boss) then
-					local targetName = UnitName ("boss" .. i .. "target")
+					local targetName = UnitName("boss" .. i .. "target")
 					if (targetName and type(targetName) == "string") then
 						Details.bossTargetAtPull = targetName
 						break
@@ -5378,15 +5385,14 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		_current_encounter_id = encounterID
 		Details.boss1_health_percent = 1
 
-		local dbm_mod, dbm_time = Details.encounter_table.DBM_Mod, Details.encounter_table.DBM_ModTime
+		local DBM_MOD, DBM_TIME = Details.encounter_table.DBM_Mod, Details.encounter_table.DBM_ModTime
 		Details:Destroy(Details.encounter_table)
 
 		Details.encounter_table.phase = 1
 
 		--store the encounter time inside the encounter table for the encounter plugin
 		Details.encounter_table.start = GetTime()
-		Details.encounter_table ["end"] = nil
---		local encounterID = Details.encounter_table.id
+		Details.encounter_table["end"] = nil
 		Details.encounter_table.id = encounterID
 		Details.encounter_table.name = encounterName
 		Details.encounter_table.diff = difficultyID
@@ -5394,38 +5400,17 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		Details.encounter_table.zone = zoneName
 		Details.encounter_table.mapid = zoneMapID
 
-		if (dbm_mod and dbm_time == time()) then --pode ser time() � usado no start pra saber se foi no mesmo segundo.
-			Details.encounter_table.DBM_Mod = dbm_mod
+		if (DBM_MOD and DBM_TIME == time()) then
+			Details.encounter_table.DBM_Mod = DBM_MOD
 		end
 
-		local encounter_start_table = Details:GetEncounterStartInfo (zoneMapID, encounterID)
-		if (encounter_start_table) then
-			if (encounter_start_table.delay) then
-				if (type(encounter_start_table.delay) == "function") then
-					local delay = encounter_start_table.delay()
-					if (delay) then
-						--_detalhes.encounter_table ["start"] = time() + delay
-						Details.encounter_table ["start"] = GetTime() + delay
-					end
-				else
-					--_detalhes.encounter_table ["start"] = time() + encounter_start_table.delay
-					Details.encounter_table ["start"] = GetTime() + encounter_start_table.delay
-				end
-			end
-			if (encounter_start_table.func) then
-				encounter_start_table:func()
-			end
-		end
-
-		local encounter_table, boss_index = Details:GetBossEncounterDetailsFromEncounterId (zoneMapID, encounterID)
-		if (encounter_table) then
-			Details.encounter_table.index = boss_index
+		local encounterTable, bossIndex = Details:GetBossEncounterDetailsFromEncounterId(zoneMapID, encounterID)
+		if (encounterTable) then
+			Details.encounter_table.index = bossIndex
 		end
 
 		Details:SendEvent("COMBAT_ENCOUNTER_START", nil, ...)
 	end
-
-
 
 	--ENCOUNRTER_END
 	function Details.parser_functions:ENCOUNTER_END(...)
@@ -5435,25 +5420,7 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 
 		Details222.Perf.WindowUpdateC = false
 
-		if (not isWOTLK) then
-			C_Timer.After(1, function()
-				if (Details.show_warning_id1) then
-					if (Details.show_warning_id1_amount < 2) then
-						Details.show_warning_id1_amount = Details.show_warning_id1_amount + 1
-						--Details:Msg("|cFFFFFF00you may find differences on damage done, this is due to a bug in the game client, nothing related to Details! itself (" .. Details.show_warning_id1_amount .. " / 10).")
-					end
-				end
-			end)
-		end
-
 		_current_encounter_id = nil
-
-		local _, instanceType = GetInstanceInfo() --let's make sure it isn't a dungeon
-		if (Details.zone_type == "party" or instanceType == "party") then
-			if (Details.debug) then
-				Details:Msg("(debug) the zone type is 'party', ignoring ENCOUNTER_END.")
-			end
-		end
 
 		local encounterID, encounterName, difficultyID, raidSize, endStatus = select(1, ...)
 
@@ -5470,25 +5437,25 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		end
 
 		Details.latest_ENCOUNTER_END = GetTime()
-		Details.encounter_table ["end"] = GetTime() -- 0.351
-
-		local _, _, _, _, _, _, _, zoneMapID = GetInstanceInfo()
+		Details.encounter_table["end"] = GetTime()
 
 		local bossIcon = Details:GetBossEncounterTexture(encounterName)
 		_current_combat.bossIcon = bossIcon
 
+		_current_combat.EncounterName = encounterName
+
 		if (_in_combat) then
 			if (endStatus == 1) then
 				Details.encounter_table.kill = true
-				Details:SairDoCombate (true, {encounterID, encounterName, difficultyID, raidSize, endStatus}) --killed
+				Details:SairDoCombate(true, {encounterID, encounterName, difficultyID, raidSize, endStatus}) --killed
 			else
 				Details.encounter_table.kill = false
-				Details:SairDoCombate (false, {encounterID, encounterName, difficultyID, raidSize, endStatus}) --wipe
+				Details:SairDoCombate(false, {encounterID, encounterName, difficultyID, raidSize, endStatus}) --wipe
 			end
 		else
 			if ((Details.tabela_vigente:GetEndTime() or 0) + 2 >= Details.encounter_table ["end"]) then
-				Details.tabela_vigente:SetStartTime (Details.encounter_table ["start"])
-				Details.tabela_vigente:SetEndTime (Details.encounter_table ["end"])
+				Details.tabela_vigente:SetStartTime(Details.encounter_table ["start"])
+				Details.tabela_vigente:SetEndTime(Details.encounter_table ["end"])
 				Details:RefreshMainWindow(-1, true)
 			end
 		end
@@ -5769,21 +5736,24 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 	function Details.parser_functions:WORLD_STATE_TIMER_START(...)
 		local zoneName, instanceType, difficultyID, difficultyName, maxPlayers, dynamicDifficulty, isDynamic, instanceMapID, instanceGroupSize = GetInstanceInfo()
 		if (difficultyID == 8) then
-			if (Details222.MythicPlus.CHALLENGE_MODE_START_AT + 10 > GetTime()) then
-				if (not Details222.MythicPlus.WorldStateTimerStartAt) then
-					local payload1, payload2, payload3 = ...
-					payload1 = payload1 or ""
-					payload2 = payload2 or ""
-					payload3 = payload3 or ""
-					Details222.MythicPlus.LogStep("Event: WORLD_STATE_TIMER_START | payload1: " .. payload1 .. " | payload2: " .. payload2 .. " | payload3: " .. payload3)
-					Details:SendEvent("COMBAT_MYTHICDUNGEON_START")
-					Details222.MythicPlus.WorldStateTimerStartAt = time()
+			if (Details222.MythicPlus.CHALLENGE_MODE_START_AT) then --would be nil if a world timer starts before the challenge mode start event
+				--todo: should also check if the mythic+ is active
+				if (Details222.MythicPlus.CHALLENGE_MODE_START_AT + 10 > GetTime()) then
+					if (not Details222.MythicPlus.WorldStateTimerStartAt) then
+						local payload1, payload2, payload3 = ...
+						payload1 = payload1 or ""
+						payload2 = payload2 or ""
+						payload3 = payload3 or ""
+						Details222.MythicPlus.LogStep("Event: WORLD_STATE_TIMER_START | payload1: " .. payload1 .. " | payload2: " .. payload2 .. " | payload3: " .. payload3)
+						Details:SendEvent("COMBAT_MYTHICDUNGEON_START")
+						Details222.MythicPlus.WorldStateTimerStartAt = time()
+					end
 				end
 			end
 		end
 	end
 
-	function Details.parser_functions:CHALLENGE_MODE_START(...)
+	function Details.parser_functions:CHALLENGE_MODE_START(...) --~challenge ~mythic ~m+
 		--send mythic dungeon start event
 		if (Details.debug) then
 		end
@@ -5797,16 +5767,100 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		end
 	end
 
-	function Details.parser_functions:CHALLENGE_MODE_COMPLETED(...)
+	local keystoneLevels = {}
+	Details.KeystoneLevels = keystoneLevels
+	--save the keystone level for each of the 5 party members
+	local saveGroupMembersKeystoneLevel = function()
+		wipe(keystoneLevels)
+		local libOpenRaid = LibStub("LibOpenRaid-1.0", true)
+
+		--print("saveGroupMembersKeystoneLevel() called", libOpenRaid, GetNumGroupMembers()-1)
+
+		for i = 1, GetNumGroupMembers()-1 do
+			local unitId = "party" .. i
+			if (UnitExists(unitId)) then
+				local unitKeystoneInfo = libOpenRaid.GetKeystoneInfo(unitId)
+				--print("unitExists", unitId, unitKeystoneInfo)
+				if (unitKeystoneInfo) then
+					local unitName = Details:GetFullName(unitId)
+					keystoneLevels[unitName] = unitKeystoneInfo.level
+					--print("saved keystone level for", unitName, unitKeystoneInfo.level)
+				end
+			else
+				--print("unit does not exist", unitId)
+			end
+		end
+
+		local unitId = "player"
+		if (UnitExists(unitId)) then
+			local unitKeystoneInfo = libOpenRaid.GetKeystoneInfo(unitId)
+			if (unitKeystoneInfo) then
+				local unitName = Details:GetFullName(unitId)
+				keystoneLevels[unitName] = unitKeystoneInfo.level
+				--print("saved keystone level for", unitName, unitKeystoneInfo.level)
+			end
+		end
+	end
+
+	function Details.parser_functions:CHALLENGE_MODE_COMPLETED(...) --~complete ~finish ~mythic ~m+
 		Details222.MythicPlus.WorldStateTimerEndAt = time()
 
-		local mapChallengeModeID, level, time, onTime, keystoneUpgradeLevels, practiceRun,
-		oldOverallDungeonScore, newOverallDungeonScore, IsMapRecord, IsAffixRecord,
-		PrimaryAffix, isEligibleForScore, members
-		   = C_ChallengeMode.GetCompletionInfo()
+		--wait until the keystone is updated and send it to the party
+		saveGroupMembersKeystoneLevel()
 
-		Details222.MythicPlus.time = math.floor(time / 1000)
-		Details222.MythicPlus.bOnTime = onTime
+		---@type number mapID
+		---@type number level
+		---@type number time
+		---@type boolean onTime
+		---@type number keystoneUpgradeLevels
+		---@type boolean practiceRun
+		---@type number oldDungeonScore
+		---@type number newDungeonScore
+		---@type boolean isMapRecord
+		---@type boolean isAffixRecord
+		---@type number primaryAffix
+		---@type boolean isEligibleForScore
+		---@type table upgradeMembers
+		local mapID, level, time, onTime, keystoneUpgradeLevels, practiceRun, oldDungeonScore, newDungeonScore, isAffixRecord, isMapRecord, primaryAffix, isEligibleForScore, upgradeMembers = C_ChallengeMode.GetCompletionInfo()
+
+		Details222.MythicPlus.MapID = mapID
+		Details222.MythicPlus.Level = level --level of the key just finished
+		Details222.MythicPlus.OnTime = onTime
+		Details222.MythicPlus.KeystoneUpgradeLevels = keystoneUpgradeLevels
+		Details222.MythicPlus.PracticeRun = practiceRun
+		Details222.MythicPlus.OldDungeonScore = oldDungeonScore
+		Details222.MythicPlus.NewDungeonScore = newDungeonScore
+		Details222.MythicPlus.IsAffixRecord = isAffixRecord
+		Details222.MythicPlus.IsMapRecord = isMapRecord
+		Details222.MythicPlus.PrimaryAffix = primaryAffix
+		Details222.MythicPlus.IsEligibleForScore = isEligibleForScore
+		Details222.MythicPlus.UpgradeMembers = upgradeMembers
+
+		local dungeonName, id, timeLimit, texture, backgroundTexture = C_ChallengeMode.GetMapUIInfo(mapID)
+
+		Details222.MythicPlus.DungeonName = dungeonName
+		Details222.MythicPlus.DungeonID = id
+		Details222.MythicPlus.TimeLimit = timeLimit
+		Details222.MythicPlus.Texture = texture
+		Details222.MythicPlus.BackgroundTexture = backgroundTexture
+
+		if (time) then
+        	Details222.MythicPlus.time = math.floor(time / 1000)
+			Details:Msg("run elapsed time:", DetailsFramework:IntegerToTimer(time / 1000))
+		else
+			Details222.MythicPlus.time = 0.1
+		end
+
+		if (level >= 28 or Details.user_is_patreon_supporter) then --debug
+			C_Timer.After(0, function()
+				if (ChallengeModeCompleteBanner) then
+					ChallengeModeCompleteBanner.timeToHold = 0.1
+					--print("ChallengeModeCompleteBanner.timeToHold Existed!")
+				else
+					--print("ChallengeModeCompleteBanner.timeToHold DID NOT Existed!")
+				end
+			end)
+		end
 
 		--send mythic dungeon end event
 		local zoneName, instanceType, difficultyID, difficultyName, maxPlayers, dynamicDifficulty, isDynamic, instanceMapID, instanceGroupSize = GetInstanceInfo()
@@ -6569,7 +6623,7 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		end
 	end
 
-	if(isERA) then
+	if(false and isERA) then
 		eraNamedSpellsToID = {
 		["SPELL_PERIODIC_DAMAGE"] = true,
 		["SPELL_DAMAGE"] = true,
@@ -7269,3 +7323,5 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			end
 		end
 	end
+
+

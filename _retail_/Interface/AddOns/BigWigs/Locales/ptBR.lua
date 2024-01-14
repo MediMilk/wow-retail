@@ -9,11 +9,13 @@ L.altpower_desc = "Mostra a janela alternativa de poder, que mostra o quanto de 
 L.infobox = "Caixa de informações"
 L.infobox_desc = "Exibe uma caixa com informações relacionadas ao encontro."
 L.stages = "Estágios"
-L.stages_desc = "Ativa funções relacionadas a vários estágios/fases do chefe, como proximidade, barras, etc."
+L.stages_desc = "Ativar funções relacionadas às várias fases do encontro com o chefe, como alertas de mudança de fase, barras de temporizador de duração da fase, etc."
 L.warmup = "Preparar"
 L.warmup_desc = "Tempo até o combate com o chefe começar."
 L.proximity = "Exibição de proximidade"
 L.proximity_desc = "Mostra a janela de proximidade quando for apropriada para este encontro, listando os jogadores que estão muito pertos de você."
+L.adds = "Adds"
+L.adds_desc = "Ativar funções relacionadas aos vários adds que aparecerão durante o encontro com o chefe."
 
 L.already_registered = "|cffff0000ATENÇÃO:|r |cff00ff00%s|r (|cffffff00%s|r) já existe como um módulo do BigWigs, mas as vezes ele tenta registra-lo novamente. Isso normalmente significa que você tem duas cópias deste módulo na sua pasta de addOns devido a alguma falha ao atualizar um addOn. É recomendado que você delete todas as pastas do BigWigs existentes e reinstale-o novamente."
 L.testNameplate = "Alvo detectado, criando uma barra de identificação teste sobre a barra de identificação do alvo. |cFF33FF99Essa função é raramente usada, normalmente é somente 1 barra, e é necessária para manter o rastreio de recargas quando lutando com múltiplos chefes/adds que conjuram a mesma magia.|r"
@@ -53,8 +55,9 @@ L.alternativeName = "%s (|cFF436EEE%s|r)"
 --	"Legion", -- Legion
 --	"Battle for Azeroth", -- Battle for Azeroth
 --	"Shadowlands", -- Shadowlands
---	"Revoada Dragônica", -- Dragonflight
+--	"Dragonflight", -- Dragonflight
 --}
+L.currentSeason = "Temporada Atual"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "Cuidado (Algalon)"
@@ -66,9 +69,9 @@ L.spell_under_you = "BigWigs: Feitiço debaixo de você"
 
 -- Options.lua
 L.options = "Opções"
---L.optionsKey = "Key: %s" -- The key that messages/bars/options use
-L.raidBosses = "Chefes de Raid"
-L.dungeonBosses = "Chefes de Masmorras"
+L.optionsKey = "ID: %s" -- The ID that messages/bars/options use
+L.raidBosses = "Chefes de Raide"
+L.dungeonBosses = "Chefes de Masmorra"
 L.introduction = "Bem-vindo ao BigWigs, onde os encontros com chefes vagam. Por favor, aperte seu cinto, prepare um lanchinho e desfrute do passeio. Não iremos acabar com todos os problemas, mas vamos ajudar a se preparar para todos esses novos encontros de chefe como um jantar chique para todo o seu grupo de raide."
 L.toggleAnchorsBtnShow = "Mostrar Âncoras de Movimentação"
 L.toggleAnchorsBtnHide = "Esconder Âncoras de Movimentação"
@@ -94,8 +97,8 @@ L.dbmFaker = "Faz de conta que eu estou usando DBM"
 L.dbmFakerDesc = "Se um usuário do DBM tem uma versão que verifica quem está usando DBM, ele irá vê-lo na lista. Útil para guildas que forçam usar o DBM."
 L.zoneMessages = "Mostrar mensagens da zona atual"
 L.zoneMessagesDesc = "Desativar isso irá parar de mostrar mensagens quando você entra em uma zona que BigWigs possui contadores, mas você não o instalou. Nós recomendamos que você deixe ligado, pois é a única notificação que você vai receber se nós criarmos contadores para uma nova zona que você ache útil."
---L.englishSayMessages = "English-only say messages"
---L.englishSayMessagesDesc = "All the 'say' and 'yell' messages that you send in chat during a boss encounter will always be in English. Can be useful if you are with a mixed language group of players."
+L.englishSayMessages = "Mensagens de 'Diz' apenas em inglês"
+L.englishSayMessagesDesc = "Todas as mensagens 'Diz' e 'Grita' que você enviar no chat durante um encontro com o chefe serão sempre em inglês. Pode ser útil se você estiver com um grupo de jogadores de idiomas mistos."
 
 L.slashDescTitle = "|cFFFED000Comandos com barra:|r"
 L.slashDescPull = "|cFFFED000/pull:|r Envia uma contagem regressiva do pull para a raide."
@@ -128,12 +131,12 @@ L.PROXIMITY = "Exibição de proximidade"
 L.PROXIMITY_desc = "Habilidades as vezes requerem que vocês se espalhem. A exibição de proximidade será criada especialmente para essa habilidade, assim você pode ver rapidamente se está seguro ou não."
 L.ALTPOWER = "Exibição de poder alternativo"
 L.ALTPOWER_desc = "Alguns encontros usarão a mecânica de poder alternativo em jogadores em seu grupo. A exibição de poder alternativo fornece uma visão geral de quem tem o menor/maior poder, podendo ser útil para táticas ou atribuições específicas."
-L.TANK = "Apenas Tank"
-L.TANK_desc = "Algumas habilidades são importantes apenas para tanks. Se você quiser ver avisos para essa habilidade, independentemente do seu papel, desative esta opção."
-L.HEALER = "Apenas Healer"
-L.HEALER_desc = "Algumas habilidades são importantes apenas para os healers. Se você quiser ver avisos para essa habilidade, independentemente do seu papel, desative esta opção."
-L.TANK_HEALER = "Apenas Tanque e Curandeiros"
-L.TANK_HEALER_desc = "Algumas habilidades são importantes apenas para os tanks e healers. Se você quiser ver avisos para essa habilidade, independentemente do seu papel, desative esta opção."
+L.TANK = "Apenas Tanques"
+L.TANK_desc = "Algumas habilidades são importantes apenas para os tanques. Se você quiser ver avisos para essa habilidade, independentemente do seu papel, desative esta opção."
+L.HEALER = "Apenas Curandeiros"
+L.HEALER_desc = "Algumas habilidades são importantes apenas para os curandeiros. Se você quiser ver avisos para essa habilidade, independentemente do seu papel, desative esta opção."
+L.TANK_HEALER = "Apenas Tanques e Curandeiros"
+L.TANK_HEALER_desc = "Algumas habilidades são importantes apenas para os tanques e curandeiros. Se você quiser ver avisos para essa habilidade, independentemente do seu papel, desative esta opção."
 L.DISPEL = "Apenas Dissipadores"
 L.DISPEL_desc = "Se você quiser ver avisos para essa habilidade, mesmo quando você não pode dissipa-lo, desative esta opção."
 L.VOICE = "Voz"

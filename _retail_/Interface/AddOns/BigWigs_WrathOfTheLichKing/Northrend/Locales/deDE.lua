@@ -1,17 +1,11 @@
 local L = BigWigs:NewBossLocale("Onyxia", "deDE")
 if not L then return end
 if L then
-	L.phase = "Phasen"
-	L.phase_desc = "Warnt, wenn ein Phasenwechsel bevorsteht."
-	L.phase2_message = "Phase 2 - Onyxia hebt ab!"
-	L.phase3_message = "Phase 3 - Onyxia landet!"
-
 	L.phase1_trigger = "Was für ein Zufall"
 	L.phase2_trigger = "Diese sinnlose Anstrengung langweilt mich"
 	L.phase3_trigger = "Mir scheint, dass Ihr noch eine Lektion braucht"
 
-	L.deepbreath_message = "Tiefer Atem!"
-	L.fear_message = "Furcht!"
+	L.deep_breath = "Tiefer Atem"
 end
 
 local L = BigWigs:NewBossLocale("Archavon the Stone Watcher", "deDE")
@@ -105,19 +99,5 @@ end
 
 L = BigWigs:NewBossLocale("Halion", "deDE")
 if L then
-	L.engage_trigger = "Eure Welt steht auf Messers Schneide. Ihr ALLE werdet Zeuge des Anbeginns eines neuen Zeitalters der ZERSTÖRUNG!"
-
-	L.phase_two_trigger = "Ihr werdet im Reich des Zwielichts nur Leid finden! Tretet ein, wenn ihr es wagt!"
-
-	L.twilight_cutter_trigger = "Die kreisenden Sphären pulsieren vor dunkler Energie!"
-	L.twilight_cutter_bar = "~Zwielichtschnitter"
-	L.twilight_cutter_warning = "Zwielichtschnitter!"
-
-	L.fire_damage_message = "Deine Füße brennen!"
-	L.fire_message = "Einäscherung"
-	L.shadow_message = "Seelenverzehrung"
-
-	L.meteorstrike_yell = "Die Himmel brennen!"
-	L.meteorstrike_bar = "Meteorschlag"
-	L.meteor_warning_message = "Meteor!"
+	L.twilight_cutter_emote_trigger = "Sphären" -- Die kreisenden Sphären pulsieren vor dunkler Energie!
 end

@@ -164,6 +164,8 @@ L.blockGuildChallenge = "Bloquear ventanas emergentes de hermandad"
 L.blockGuildChallengeDesc = "Los logros de hermandad muestran ventanas emergentes, principalmente cuando un grupo de tu hermandad completa una mazmorra heroica o un desafío.\n\nEstas ventanas pueden cubrir partes críticas de tu interfaz durante un encuentro, así que recomendamos bloquearlas."
 L.blockSpellErrors = "Bloquear mensajes de hechizos fallidos"
 L.blockSpellErrorsDesc = "Mensajes como \"Ese hechizo no está listo todavía\" que normalmente se muestran arriba de la pantalla serán bloqueados."
+L.blockZoneChanges = "Bloquear mensajes de cambio de zona"
+L.blockZoneChangesDesc = "Los mensajes que se muestran en la parte del medio superior de la pantalla cuando cambias de zona como '|cFF33FF99Ventormenta|r' u '|cFF33FF99Orgrimmar|r' serán bloqueados."
 L.audio = "Audio"
 L.music = "Música"
 L.ambience = "Sonido ambiental"
@@ -187,6 +189,13 @@ L.blockTalkingHeadRaids = "Bandas"
 L.blockTalkingHeadTimewalking = "Paseo en el tiempo (mazmorras y bandas)"
 L.blockTalkingHeadScenarios = "Escenarios"
 
+L.redirectPopups = "Redirigir los carteles emergentes a mensajes de BigWigs"
+L.redirectPopupsDesc = "Los carteles emergentes que aparecen el medio de tu pantalla como '|cFF33FF99recompensa de la gran cámara desbloqueada|r' o el cartel que ves al entrar en una mazmorra mítica+ serán bloqueados y en su lugar se mostrarán como mensajes de BigWigs. Estos carteles pueden ser bastante grandes, durar mucho tiempo y bloquear tu capacidad de hacer clic a través de ellos."
+L.redirectPopupsColor = "Color del mensaje redirigido"
+L.blockDungeonPopups = "Bloquear los carteles emergentes de mazmorras"
+L.blockDungeonPopupsDesc = "Los carteles emergentes que aparecen cuando entras a una mazmorras pueden contener texto que es muy largo. Activar esta opcion los bloqueara directamente en vez de ser redigidos a un mensaje de BigWigs."
+L.itemLevel = "Nivel de objeto %d"
+
 L.userNotifySfx = "Los efectos de sonido fueron desactivados por el Bloque de jefe, forzándolos a volver a activarse."
 L.userNotifyMusic = "La música fue desactivada por el Bloque de jefe, forzándola a volver a activarse."
 L.userNotifyAmbience = "Los efectos de ambiente fueron desactivados por el Bloque de jefe, forzándolos a volver a activarse."
@@ -194,7 +203,7 @@ L.userNotifyErrorSpeech = "La voz de error fue desactivada por el Bloque de jefe
 
 L.subzone_grand_bazaar = "Gran Bazar" -- Battle of Dazar'alor raid (Battle for Azeroth)
 L.subzone_port_of_zandalar = "Puerto de Zandalar" -- Battle of Dazar'alor raid (Battle for Azeroth)
---L.subzone_eastern_transept = "Eastern Transept" -- Auchindoun dungeon (Warlords of Draenor)
+L.subzone_eastern_transept = "Transepto oriental" -- Auchindoun dungeon (Warlords of Draenor)
 
 -----------------------------------------------------------------------
 -- Colors.lua

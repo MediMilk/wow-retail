@@ -764,15 +764,19 @@ end
 
 function segmentClass:ResetDataByCombatType(combatType)
 	local bIsException = false
+	local combatTypesInclusion = {}
 
 	if (combatType == "m+overall") then
 		combatType = DETAILS_SEGMENTTYPE_MYTHICDUNGEON_OVERALL
-		bIsException = true
-	elseif (combatType == "generic") then
-		combatType = DETAILS_SEGMENTTYPE_GENERIC
-	end
+		bIsException = true --remove all, except mythic+ overall
 
-	--if true then return end
+	elseif (combatType == "generic") then
+		combatTypesInclusion[DETAILS_SEGMENTTYPE_GENERIC] = true
+		combatTypesInclusion[DETAILS_SEGMENTTYPE_RAID_TRASH] = true
+
+	elseif (combatType == "battleground") then
+		combatTypesInclusion[DETAILS_SEGMENTTYPE_PVP_BATTLEGROUND] = true
+	end
 
 	--destroy the overall combat object
 	segmentClass:ResetOverallData()
@@ -804,7 +808,7 @@ function segmentClass:ResetDataByCombatType(combatType)
 		for i = #segmentsTable, 2, -1 do
 			---@type combat
 			local thisCombatObject = segmentsTable[i]
-			if (thisCombatObject:GetCombatType() == combatType) then
+			if (combatTypesInclusion[thisCombatObject:GetCombatType()]) then
 				---@type boolean, combat|nil
 				local combatObjectRemoved = table.remove(segmentsTable, i)
 				if (combatObjectRemoved and combatObjectRemoved == thisCombatObject) then
@@ -952,7 +956,9 @@ function segmentClass:ResetAllCombatData()
 		end
 		local successful, errortext = pcall(cleargarbage)
 		if (not successful) then
-			Details:Msg("couldn't call collectgarbage()")
+			if (Details.debug) then
+				Details:Msg("couldn't call collectgarbage()")
+			end
 		end
 	else
 		Details.schedule_hard_garbage_collect = true

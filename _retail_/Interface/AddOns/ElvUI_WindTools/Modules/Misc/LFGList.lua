@@ -939,6 +939,30 @@ function LL:InitalizeRightPanel()
     roleAvailable.text:SetText(L["Role Available"])
     roleAvailable.text:SetJustifyH("CENTER")
 
+    -- Need Tank
+    local needTank = CreateFrame("Frame", nil, filters)
+    needTank:SetSize(filters:GetWidth() / 2 - 6, 28)
+    needTank:SetPoint("TOPLEFT", filters, "TOPLEFT", 0, -6 * 8 - 28 * 4 - 32 * 3)
+    needTank:SetTemplate()
+
+    needTank.text = needTank:CreateFontString(nil, "OVERLAY")
+    needTank.text:SetFont(E.media.normFont, 11, "OUTLINE")
+    needTank.text:SetPoint("CENTER", needTank, "CENTER", 0, 0)
+    needTank.text:SetText(L["Has Tank"])
+    needTank.text:SetJustifyH("CENTER")
+
+    -- Need Healer
+    local needHealer = CreateFrame("Frame", nil, filters)
+    needHealer:SetSize(filters:GetWidth() / 2 - 6, 28)
+    needHealer:SetPoint("TOPRIGHT", filters, "TOPRIGHT", 0, -6 * 8 - 28 * 4 - 32 * 3)
+    needHealer:SetTemplate()
+
+    needHealer.text = needHealer:CreateFontString(nil, "OVERLAY")
+    needHealer.text:SetFont(E.media.normFont, 11, "OUTLINE")
+    needHealer.text:SetPoint("CENTER", needHealer, "CENTER", 0, 0)
+    needHealer.text:SetText(L["Has Healer"])
+    needHealer.text:SetJustifyH("CENTER")
+
     roleAvailable:SetScript(
         "OnEnter",
         function(btn)
@@ -975,6 +999,13 @@ function LL:InitalizeRightPanel()
             if button == "LeftButton" then
                 local dfDB = self:GetPlayerDB("dungeonFilter")
                 btn:SetActive(not btn.active)
+                if btn.active then
+                    needTank:SetActive(false)
+                    needHealer:SetActive(false)
+                    dfDB.needTankEnable = false
+                    dfDB.needHealerEnable = false
+                end
+
                 dfDB.roleAvailableEnable = btn.active
                 LL:RefreshSearch()
             end
@@ -982,6 +1013,104 @@ function LL:InitalizeRightPanel()
     )
 
     filters.roleAvailable = roleAvailable
+
+    needTank:SetScript(
+        "OnEnter",
+        function(btn)
+            _G.GameTooltip:SetOwner(btn, "ANCHOR_TOP", 0, 4)
+            _G.GameTooltip:AddLine(F.GetWindStyleText(L["Has Tank"]), 1, 1, 1)
+            _G.GameTooltip:AddLine(
+                format(
+                    "%s %s",
+                    L["Enable this filter will only show the group that have the tank already in party."],
+                    L[
+                        "If you already have a tank in your group and you use the 'Role Available' filter, it won't find any match."
+                    ]
+                ),
+                1,
+                1,
+                1,
+                true
+            )
+            _G.GameTooltip:Show()
+        end
+    )
+
+    needTank:SetScript(
+        "OnLeave",
+        function(btn)
+            _G.GameTooltip:Hide()
+        end
+    )
+
+    addSetActive(needTank)
+
+    needTank:SetScript(
+        "OnMouseDown",
+        function(btn, button)
+            if button == "LeftButton" then
+                local dfDB = self:GetPlayerDB("dungeonFilter")
+                btn:SetActive(not btn.active)
+                if btn.active then
+                    roleAvailable:SetActive(false)
+                    dfDB.roleAvailableEnable = false
+                end
+                dfDB.needTankEnable = btn.active
+                LL:RefreshSearch()
+            end
+        end
+    )
+
+    filters.needTank = needTank
+
+    needHealer:SetScript(
+        "OnEnter",
+        function(btn)
+            _G.GameTooltip:SetOwner(btn, "ANCHOR_TOP", 0, 4)
+            _G.GameTooltip:AddLine(F.GetWindStyleText(L["Has Healer"]), 1, 1, 1)
+            _G.GameTooltip:AddLine(
+                format(
+                    "%s %s",
+                    L["Enable this filter will only show the group that have the healer already in party."],
+                    L[
+                        "If you already have a healer in your group and you use the 'Role Available' filter, it won't find any match."
+                    ]
+                ),
+                1,
+                1,
+                1,
+                true
+            )
+            _G.GameTooltip:Show()
+        end
+    )
+
+    needHealer:SetScript(
+        "OnLeave",
+        function(btn)
+            _G.GameTooltip:Hide()
+        end
+    )
+
+    addSetActive(needHealer)
+
+    needHealer:SetScript(
+        "OnMouseDown",
+        function(btn, button)
+            if button == "LeftButton" then
+                local dfDB = self:GetPlayerDB("dungeonFilter")
+                btn:SetActive(not btn.active)
+                if btn.active then
+                    roleAvailable:SetActive(false)
+                    dfDB.roleAvailableEnable = false
+                end
+                dfDB.needHealerEnable = btn.active
+                LL:RefreshSearch()
+            end
+        end
+    )
+
+    filters.needHealer = needHealer
 
     frame.filters = filters
 
@@ -1323,6 +1452,18 @@ function LL:UpdateRightPanel()
         self.rightPanel.filters.roleAvailable:SetActive(false)
     end
 
+    if dfDB.needTankEnable then
+        self.rightPanel.filters.needTank:SetActive(true)
+    else
+        self.rightPanel.filters.needTank:SetActive(false)
+    end
+
+    if dfDB.needHealerEnable then
+        self.rightPanel.filters.needHealer:SetActive(true)
+    else
+        self.rightPanel.filters.needHealer:SetActive(false)
+    end
+
     self.rightPanel.vaultStatus.update()
     self.rightPanel.vaultStatus:SetActive(false)
 
@@ -1472,6 +1613,32 @@ function LL:ResortSearchResults(results)
                 if roleCache.TANK > 1 or roleCache.HEALER > 1 or roleCache.DAMAGER > 3 then
                     verified = false
                 end
+            end
+
+            if verified and dfDB.needTankEnable then
+                local tankFound = false
+
+                for i = 1, searchResultInfo.numMembers do
+                    local role = C_LFGList_GetSearchResultMemberInfo(resultID, i)
+                    if role == "TANK" then
+                        tankFound = true
+                    end
+                end
+
+                verified = tankFound
+            end
+
+            if verified and dfDB.needHealerEnable then
+                local healerFound = false
+
+                for i = 1, searchResultInfo.numMembers do
+                    local role = C_LFGList_GetSearchResultMemberInfo(resultID, i)
+                    if role == "HEALER" then
+                        healerFound = true
+                    end
+                end
+
+                verified = healerFound
             end
 
             if verified then

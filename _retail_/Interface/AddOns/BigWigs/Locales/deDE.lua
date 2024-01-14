@@ -9,11 +9,13 @@ L.altpower_desc = "Zeigt ein Fenster mit alternativen Energien der einzelnen Gru
 L.infobox = "Informationsbox"
 L.infobox_desc = "Zeigt eine Box mit Informationen zur Bossbegegnung an"
 L.stages = "Phasen"
-L.stages_desc = "Funktionen für bestimmte Phasen von Bossbegegnungen wie Abstandscheck oder Leisten aktivieren."
+L.stages_desc = "Funktionen für bestimmte Phasen von Bossbegegnungen wie Warnungen zum Phasenwechsel, Leisten für die Phasendauer, etc. aktivieren."
 L.warmup = "Bosskampf beginnt"
 L.warmup_desc = "Verbleibende Zeit bis zum Start der Bossbegegnung."
 L.proximity = "Näherungsanzeige"
 L.proximity_desc = "Zeigt, falls für diese Begegnung relevant, das Näherungsfenster an. Es listet alle Spieler auf, die Dir zu nahe stehen."
+L.adds = "Adds"
+L.adds_desc = "Aktiviert Funktionen für die verschiedenen Adds, die während der Bossbegegnung erscheinen."
 
 L.already_registered = "|cffff0000WARNUNG:|r |cff00ff00%s|r (|cffffff00%s|r) existiert bereits als Modul in BigWigs, aber irgend etwas versucht es erneut anzumelden. Dies bedeutet normalerweise, dass Du zwei Kopien des Moduls aufgrund eines Fehlers beim Aktualisieren in Deinem Addon-Ordner hast. Es wird empfohlen, jegliche BigWigs-Ordner zu löschen und dann von Grund auf neu zu installieren."
 L.testNameplate = "Ziel erkannt, erstelle Test Leiste über Namensplakette des Ziels. |cFF33FF99Diese Funktion wird selten genutzt, besteht aus 1 Leiste und wird verwendet, wenn mehrere Bosse/Adds die gleichen Zauber wirken.|r"
@@ -55,6 +57,7 @@ L.alternativeName = "%s (|cFF436EEE%s|r)"
 --	"Schattenlande", -- Shadowlands
 --	"Dragonflight", -- Dragonflight
 --}
+L.currentSeason = "Aktuelle Saison"
 
 -- Media.lua (These are the names of the sounds in the dropdown list in the "sounds" section)
 L.Beware = "Hütet Euch (Algalon)"
@@ -66,7 +69,7 @@ L.spell_under_you = "BigWigs: Zauber unter Dir"
 
 -- Options.lua
 L.options = "Optionen"
-L.optionsKey = "Schlüssel: %s" -- The key that messages/bars/options use
+L.optionsKey = "ID: %s" -- The ID that messages/bars/options use
 L.raidBosses = "Schlachtzugsbosse"
 L.dungeonBosses = "Dungeonbosse"
 L.introduction = "Willkommen bei BigWigs, dort, wo die Bossbegegnungen rumschwirren. Bitte legen Sie Ihren Sicherheitsgurt an, stellen Sie die Rückenlehne gerade und genießen Sie den Flug. Wir werden Ihnen und Ihrer Raidgruppe bei der Begegnung mit Bossen zur Hand gehen und sie Ihnen als 7-Gänge-Menü zubereiten."

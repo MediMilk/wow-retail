@@ -13,8 +13,8 @@
 		local addonName, Details222 = ...
 		local version, build, date, tocversion = GetBuildInfo()
 
-		Details.build_counter = 12097
-		Details.alpha_build_counter = 12097 --if this is higher than the regular counter, use it instead
+		Details.build_counter = 12197
+		Details.alpha_build_counter = 12197 --if this is higher than the regular counter, use it instead
 		Details.dont_open_news = true
 		Details.game_version = version
 		Details.userversion = version .. " " .. Details.build_counter
@@ -125,6 +125,8 @@
 		Details222.CurrentDPS = {
 			Cache = {}
 		}
+		--store all data from the encounter journal
+		Details222.EncounterJournalDump = {}
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --initialization stuff
@@ -141,6 +143,28 @@ do
 	--]=]
 
 	local news = {
+		{"v10.2.0.12188.155", "December 28th, 2023"},
+		"Dreamwalker's Healing Potion now shows in the Healing Potion & Stone custom display.",
+		"Added the 'Remove Battleground Segments' option to the menu that opens when hovering over the erase button.",
+		"Attempt to fix Battleground faction icons, shown on enemy players damage bars.",
+		"API: Actor:GetSpellContainer(containerName) now also accepts dispelwhat, interrupt, interruptwhat, interrupttargets.",
+		"Fixed custom scripts showing the damage text too close to the dps text.",
+		"Fixed Dynamic Overall Data, showing overlapped texts for damage and dps.",
+		"Fixed an error when hovering over some spells in the Auras panel on the Player Breakdown window.",
+		"Fixed the character item level, which was not showing for players that left the party group on the Player Breakdown window.",
+		"Fixed boss images not showing at the segments selection menu.",
+		"Other updates related to encounter journal and mythic+, both under development.",
+		"Update Details! Framework for bug fixes.",
+		"Update lib Open Raid (more cooldowns added).",
+
+		{"v10.2.0.12109.155", "December 14th, 2023"},
+		"Classic now uses the same combat log reader as retail (Flamanis).",
+		"Merged Rage of Fyr'alath spells (equara)",
+		"Added Rogue Ambushes to merged spells (WillowGryph).",
+		"The Remove Common Segments option now also removes segments trash between raid bosses.",
+		"Fixed an issue where auras applied before combat start, such as Power Infusion and Prescience, which are counted towards the target, were not being accounted for.",
+		"Added to Combat Class: classCombat:GetRunTimeNoDefault(). This returns the run time of the Mythic+ if available, nil otherwise.",
+
 		{"v10.2.0.12096.155", "December 1st, 2023"},
 		"Added Mythic+ Overall DPS calculation options: 'Use Total Combat Time' and 'Use Run Time'. These options are available in the Mythic Dungeon section of the options panel. The option 'Use Run Time', takes the player's damage and divide by the total elapsed time of the run.",
 		"Added reset options: 'Remove Common Segments' and 'Reset, but keep Mythic+ Overall Segments'.",

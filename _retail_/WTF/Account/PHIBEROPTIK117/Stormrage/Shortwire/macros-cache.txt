@@ -1,13 +1,50 @@
 VER 3 0100000000000025 "Buffs" "451167"
 /castsequence reset=3 Flametongue Weapon(Weapon Imbue), Lightning Shield
 END
+VER 3 010000000000002D "Cap Totem" "134400"
+#showtooltip
+/cast [@cursor] Capacitor Totem
+END
+VER 3 010000000000002E "EB" "134400"
+#showtooltip
+/cast [@cursor] Earthbind Totem
+END
+VER 3 010000000000002C "EB/ES" "134400"
+#showtooltip
+/cast [known:8042] Earth Shock; [known:117014] Elemental Blast
+END
 VER 3 0100000000000027 "EQ" "134400"
 #showtooltip
 /cast [@cursor] Earthquake
 END
+VER 3 010000000000002F "ES" "134400"
+#showtooltip
+/cast [@mouseover] Earth Shield
+END
+VER 3 0100000000000030 "Get Rid of Pet" "134156"
+/petdismiss
+END
+VER 3 0100000000000031 "Icefury / NS" "134400"
+#showtooltip
+/cast [known:378081] Nature's Swiftness; [known:210714] Icefury
+END
+VER 3 010000000000002A "Interrupt" "134400"
+#showtooltip
+/stopcasting
+/cast Wind Shear
+END
 VER 3 0100000000000028 "LMT" "134400"
 #showtooltip
 /cast [@cursor] Liquid Magma Totem
+END
+VER 3 0100000000000032 "Meatball" "134400"
+#showtooltip
+/cast Lava Burst
+/use 13
+END
+VER 3 0100000000000029 "Water Walk" "134400"
+#showtooltip
+/cast [@mouseover] Water Walking
 END
 VER 3 0100000000000026 "WRT" "134400"
 #showtooltip

@@ -62,6 +62,7 @@ function mod:GetOptions()
 		[425885] = "mythic",
 	},{
 		[421343] = L.brand_of_damnation, -- Brand of Damnation (Tank Soak)
+		[422577] = CL.bomb, -- Searing Aftermath (Bomb)
 		[421969] = CL.tornadoes, -- Flame Waves (Tornadoes)
 		[422691] = L.lava_geysers, -- Lava Geysers (Geysers)
 		[425885] = CL.orbs, -- Seeking Inferno (Orbs)
@@ -186,11 +187,11 @@ end
 
 function mod:SearingAftermathApplied(args)
 	if self:Me(args.destGUID) then
-		self:Say(args.spellId, nil, nil, "Searing Aftermath")
+		self:Say(args.spellId, CL.bomb, nil, "Bomb")
 		self:SayCountdown(args.spellId, 6)
 		self:PlaySound(args.spellId, "warning")
 	end
-	self:TargetBar(args.spellId, 6, args.destName)
+	self:TargetBar(args.spellId, 6, args.destName, CL.bomb)
 end
 
 function mod:SearingAftermathRemoved(args)
@@ -281,16 +282,23 @@ end
 
 do
 	local stacks = 0
-	local scheduled = nil
+	local scheduled = false
 	local function IgnitedEssenceOnMe()
-		scheduled = nil
-		mod:PersonalMessage(421858, false, CL.count_amount:format(mod:SpellName(421858), stacks, 5))
-		mod:PlaySound(421858, "info")
+		if scheduled then
+			scheduled = false
+			mod:PersonalMessage(421858, false, CL.count_amount:format(mod:SpellName(421858), stacks, 5))
+			if stacks == 5 then
+				mod:PlaySound(421858, "info")
+			end
+		end
 	end
 	function mod:IgnitedEssenceApplied(args)
 		if self:Me(args.destGUID) then
 			stacks = args.amount or 1
-			if not scheduled then
+			if stacks == 5 then
+				scheduled = true
+				IgnitedEssenceOnMe()
+			elseif not scheduled then
 				scheduled = true
 				self:SimpleTimer(IgnitedEssenceOnMe, 0.5)
 			end
