@@ -1,5 +1,12 @@
 
 BigWigs3DB = {
+	["global"] = {
+		["watchedMovies"] = {
+			[1003] = true,
+			[-2233] = true,
+			[16] = true,
+		},
+	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 			["profiles"] = {
@@ -10,6 +17,64 @@ BigWigs3DB = {
 				["Luckyone Healing 2.48"] = {
 					["bigwigsMsg"] = true,
 					["blizzMsg"] = false,
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+			["char"] = {
+				["Shortwire - Stormrage"] = {
+					["enabled"] = false,
+				},
+				["Chugmonk - Stormrage"] = {
+					["enabled"] = false,
+				},
+				["Medimilk - Mal'Ganis"] = {
+					["enabled"] = false,
+				},
+				["Healingood - Mal'Ganis"] = {
+					["enabled"] = false,
+				},
+			},
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+			["profiles"] = {
+				["Luckyone Main 2.48"] = {
+					["exitCombatOther"] = 3,
+					["disabled"] = false,
+					["modeOther"] = 2,
+				},
+				["Luckyone Healing 2.48"] = {
+					["exitCombatOther"] = 3,
+					["disabled"] = false,
+					["modeOther"] = 2,
+				},
+			},
+		},
+		["BigWigs_Plugins_Countdown"] = {
+			["profiles"] = {
+				["Luckyone Main 2.48"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 50,
+					["fontName"] = "Expressway",
+					["position"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						-385, -- [4]
+					},
+				},
+				["Luckyone Healing 2.48"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 50,
+					["fontName"] = "Expressway",
+					["position"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						-380, -- [4]
+					},
 				},
 			},
 		},
@@ -51,25 +116,25 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 			["profiles"] = {
 				["Luckyone Main 2.48"] = {
-					["blockTalkingHeads"] = {
-						true, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						true, -- [4]
-					},
+					["disabled"] = true,
 				},
 				["Luckyone Healing 2.48"] = {
-					["blockTalkingHeads"] = {
-						true, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						true, -- [4]
-					},
+					["disabled"] = true,
+				},
+			},
+		},
+		["BigWigs_Plugins_InfoBox"] = {
+			["profiles"] = {
+				["Luckyone Main 2.48"] = {
+					["posx"] = 962.8443809535747,
+					["posy"] = 72.42229450539753,
+				},
+				["Luckyone Healing 2.48"] = {
+					["posx"] = 962.8443809535747,
+					["posy"] = 72.42229450539753,
 				},
 			},
 		},
@@ -91,41 +156,41 @@ BigWigs3DB = {
 					["texture"] = "Minimalist",
 					["outline"] = "OUTLINE",
 					["BigWigsEmphasizeAnchor_width"] = 221.0000305175781,
-					["fontName"] = "Expressway",
+					["BigWigsEmphasizeAnchor_x"] = 866.088996666258,
 					["BigWigsAnchor_height"] = 15.99998760223389,
 					["interceptKey"] = "SHIFT",
 					["nameplateAlpha"] = 1,
 					["visibleBarLimitEmph"] = 4,
 					["fontSizeNameplate"] = 10,
 					["fontSizeEmph"] = 11,
-					["BigWigsEmphasizeAnchor_x"] = 866.088996666258,
+					["fontName"] = "Expressway",
 					["emphasizeMultiplier"] = 1,
 					["emphasizeMove"] = false,
 				},
 				["Luckyone Main 2.48"] = {
 					["outline"] = "OUTLINE",
-					["visibleBarLimit"] = 4,
 					["BigWigsAnchor_width"] = 221.0000152587891,
-					["BigWigsAnchor_y"] = 212.222422673558,
-					["nameplateAlpha"] = 1,
 					["nameplateOffsetY"] = 0,
-					["BigWigsAnchor_x"] = 412.7110342991,
-					["spacing"] = 3,
 					["fontSizeNameplate"] = 10,
 					["interceptKey"] = "SHIFT",
-					["emphasizeMove"] = false,
-					["BigWigsEmphasizeAnchor_height"] = 15.99998760223389,
-					["emphasizeTime"] = 8,
-					["barStyle"] = "ElvUI",
-					["BigWigsEmphasizeAnchor_width"] = 221.0000152587891,
+					["BigWigsEmphasizeAnchor_height"] = 15.99999618530273,
 					["fontName"] = "Expressway",
-					["BigWigsAnchor_height"] = 15.99998760223389,
+					["BigWigsAnchor_height"] = 15.99999618530273,
+					["visibleBarLimitEmph"] = 4,
+					["emphasizeMove"] = false,
+					["visibleBarLimit"] = 4,
+					["BigWigsAnchor_y"] = 212.222422673558,
+					["nameplateAlpha"] = 1,
+					["spacing"] = 3,
+					["texture"] = "Minimalist",
+					["barStyle"] = "ElvUI",
+					["emphasizeTime"] = 8,
 					["fontSizeEmph"] = 11,
 					["BigWigsEmphasizeAnchor_x"] = 598,
-					["visibleBarLimitEmph"] = 4,
 					["BigWigsEmphasizeAnchor_y"] = 178.0001345184974,
-					["texture"] = "Minimalist",
 					["emphasizeRestart"] = false,
+					["BigWigsAnchor_x"] = 412.7110342991,
+					["BigWigsEmphasizeAnchor_width"] = 221.0000152587891,
 					["emphasizeMultiplier"] = 1,
 					["nameplateHeight"] = 14,
 				},
@@ -137,35 +202,31 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["LibDualSpec-1.0"] = {
-			["char"] = {
-				["Shortwire - Stormrage"] = {
-					["enabled"] = false,
-				},
-				["Chugmonk - Stormrage"] = {
-					["enabled"] = false,
-				},
-				["Medimilk - Mal'Ganis"] = {
-					["enabled"] = false,
-				},
-				["Healingood - Mal'Ganis"] = {
-					["enabled"] = false,
-				},
-			},
+		["BigWigs_Bosses_Council of Dreams"] = {
 		},
-		["BigWigs_Plugins_InfoBox"] = {
+		["BigWigs_Bosses_Nymue, Weaver of the Cycle"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_BossBlock"] = {
 			["profiles"] = {
 				["Luckyone Main 2.48"] = {
-					["posx"] = 962.8443809535747,
-					["posy"] = 72.42229450539753,
+					["blockTalkingHeads"] = {
+						true, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						true, -- [4]
+					},
 				},
 				["Luckyone Healing 2.48"] = {
-					["posx"] = 962.8443809535747,
-					["posy"] = 72.42229450539753,
+					["blockTalkingHeads"] = {
+						true, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						true, -- [4]
+					},
 				},
 			},
-		},
-		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -205,22 +266,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_AutoReply"] = {
-			["profiles"] = {
-				["Luckyone Main 2.48"] = {
-					["exitCombatOther"] = 3,
-					["disabled"] = false,
-					["modeOther"] = 2,
-				},
-				["Luckyone Healing 2.48"] = {
-					["exitCombatOther"] = 3,
-					["disabled"] = false,
-					["modeOther"] = 2,
-				},
-			},
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Luckyone Main 2.48"] = {
@@ -228,8 +273,6 @@ BigWigs3DB = {
 					["fontSize"] = 16,
 					["emphFontName"] = "Expressway",
 					["emphFontSize"] = 20,
-					["growUpwards"] = false,
-					["emphOutline"] = "OUTLINE",
 					["emphPosition"] = {
 						"TOP", -- [1]
 						"TOP", -- [2]
@@ -237,6 +280,8 @@ BigWigs3DB = {
 						-465, -- [4]
 					},
 					["fontName"] = "Expressway",
+					["growUpwards"] = false,
+					["emphOutline"] = "OUTLINE",
 					["normalPosition"] = {
 						"CENTER", -- [1]
 						"CENTER", -- [2]
@@ -267,16 +312,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
-			["profiles"] = {
-				["Luckyone Main 2.48"] = {
-					["disabled"] = true,
-				},
-				["Luckyone Healing 2.48"] = {
-					["disabled"] = true,
-				},
-			},
-		},
 		["BigWigs_Plugins_Pull"] = {
 			["profiles"] = {
 				["Luckyone Main 2.48"] = {
@@ -289,57 +324,31 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Countdown"] = {
-			["profiles"] = {
-				["Luckyone Main 2.48"] = {
-					["outline"] = "OUTLINE",
-					["fontSize"] = 50,
-					["fontName"] = "Expressway",
-					["position"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						-385, -- [4]
-					},
-				},
-				["Luckyone Healing 2.48"] = {
-					["outline"] = "OUTLINE",
-					["fontSize"] = 50,
-					["fontName"] = "Expressway",
-					["position"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						-380, -- [4]
-					},
-				},
-			},
+		["BigWigs_Plugins_Wipe"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Subparbear - Mal'Ganis"] = "Default",
 		["Healingood - Mal'Ganis"] = "Luckyone Healing 2.48",
 		["Skalesbruh - Stormrage"] = "Default",
-		["Moosterious - Mal'Ganis"] = "Default",
 		["Subpardragon - Mal'Ganis"] = "Default",
+		["Moosterious - Mal'Ganis"] = "Default",
 		["Bighealnrg - Stormrage"] = "Default",
 		["Medimilk - Mal'Ganis"] = "Luckyone Main 2.48",
 		["Chugmonk - Stormrage"] = "Luckyone Main 2.48",
 		["Subparlite - Mal'Ganis"] = "Default",
 		["Subparsham - Mal'Ganis"] = "Default",
-		["Eyefeldown - Stormrage"] = "Default",
 		["Calumnia - Mal'Ganis"] = "Default",
+		["Eyefeldown - Stormrage"] = "Default",
 		["Subpararmy - Mal'Ganis"] = "Default",
 		["Shortwire - Stormrage"] = "Luckyone Main 2.48",
 		["Subparbustin - Mal'Ganis"] = "Default",
 		["Lildotnrg - Stormrage"] = "Default",
 	},
-	["global"] = {
-		["watchedMovies"] = {
-			[1003] = true,
-			[-2233] = true,
-			[16] = true,
-		},
+	["breakTime"] = {
+		1705200490, -- [1]
+		300, -- [2]
+		"Soulmaw-Dalaran", -- [3]
 	},
 	["profiles"] = {
 		["Luckyone Healing 2.48"] = {
@@ -388,8 +397,9 @@ BigWigsStatsDB = {
 		},
 		[2555] = {
 			["heroic"] = {
+				["kills"] = 2,
 				["best"] = 168.8660000000091,
-				["kills"] = 1,
+				["wipes"] = 6,
 			},
 			["normal"] = {
 				["best"] = 157.8189999999886,
@@ -409,8 +419,9 @@ BigWigsStatsDB = {
 		},
 		[2556] = {
 			["heroic"] = {
-				["best"] = 166.5290000000096,
 				["kills"] = 1,
+				["best"] = 166.5290000000096,
+				["wipes"] = 5,
 			},
 			["normal"] = {
 				["best"] = 197.1050000000105,

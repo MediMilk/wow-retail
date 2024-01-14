@@ -3,6 +3,21 @@ EncounterDetailsDB = {
 	["chartData"] = {
 		[15] = {
 		},
+		[40] = {
+			["Raid Damage Done"] = {
+				132451, -- [1]
+				7817, -- [2]
+				566718, -- [3]
+				377870, -- [4]
+				780281, -- [5]
+				960222, -- [6]
+				406047, -- [7]
+				305200, -- [8]
+				0, -- [9]
+				["max_value"] = 960222,
+				["__time"] = 1705193736,
+			},
+		},
 	},
 	["encounter_spells"] = {
 		[69958] = {
@@ -130,10 +145,10 @@ EncounterDetailsDB = {
 		[69869] = {
 			["school"] = 20,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Kor'kron Invoker",
 		},
@@ -205,10 +220,10 @@ EncounterDetailsDB = {
 		[70189] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Spire Gargoyle",
 		},
@@ -233,20 +248,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Primalist",
 		},
-		[69902] = {
-			["school"] = 1,
+		[69965] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Kor'kron Defender",
 		},
-		[71339] = {
-			["school"] = 4,
+		[71465] = {
+			["school"] = 66,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kor'kron Axethrower",
+			["source"] = "Sister Svalna",
 		},
 		[69705] = {
 			["school"] = 32,
@@ -268,11 +285,10 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Primalist",
 		},
-		[69965] = {
-			["school"] = 8,
+		[69902] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Kor'kron Defender",
 		},
@@ -369,14 +385,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deathbringer Saurfang",
 		},
-		[71465] = {
-			["school"] = 66,
-			["type"] = "BUFF",
+		[71339] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Sister Svalna",
+			["source"] = "Kor'kron Axethrower",
 		},
 		[70361] = {
 			["school"] = 1,
@@ -388,20 +403,5 @@ EncounterDetailsDB = {
 		},
 	},
 	["emotes"] = {
-		{
-			{
-				0.1950000000069849, -- [1]
-				"You have made an... unwise... decision.", -- [2]
-				"Blood-Queen Lana'thel", -- [3]
-				7, -- [4]
-			}, -- [1]
-			["boss"] = "Queen Lana'thel",
-		}, -- [1]
-		{
-			["boss"] = "Blood Council",
-		}, -- [2]
-		{
-			["boss"] = "Professor Putricide",
-		}, -- [3]
 	},
 }

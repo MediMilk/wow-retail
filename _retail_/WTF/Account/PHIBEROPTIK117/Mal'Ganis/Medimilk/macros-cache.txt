@@ -59,7 +59,6 @@ VER 3 0100000000000006 "Cobra + Pet" "134400"
 END
 VER 3 0100000000000018 "CotW" "134400"
 #showtooltip Call of the Wild
-/use Fleeting Elemental Potion of Ultimate Power
 /cast Call of the Wild
 /use 13
 /cast [@pettarget,harm] Claw
@@ -77,23 +76,19 @@ VER 3 0100000000000019 "Dire Beast" "134400"
 /cast [@pettarget,harm] Smack
 /cast [@player] Spirit Mend(Exotic Ability)
 END
-VER 3 010000000000000B "Flame" "134400"
+VER 3 0100000000000025 "FD" "134400"
+#showtooltip
+/cast Feign Death
+END
+VER 3 010000000000000B "High Explosive T" "135826"
 #showtooltip
 /script UIErrorsFrame:Clear()
 /petattack
 /petassist
-/cast Arcane Shot
+/cast [@cursor] High Explosive Trap
 /cast [@pettarget,harm] Claw
 /cast [@pettarget,harm] Bite
 /cast [@pettarget,harm] Smack
-END
-VER 3 0100000000000005 "Flare" "134400"
-#showtooltip
-/cast [@target,harm,exists] Hunter's Mark; [@cursor] Flare
-END
-VER 3 0100000000000003 "Freeze Trap" "134400"
-#showtooltip
-/cast [@cursor] Freezing Trap
 END
 VER 3 010000000000000A "Kill Comm. + Pet" "134400"
 #showtooltip
@@ -112,10 +107,29 @@ VER 3 010000000000000C "Kill Shot" "236174"
 /use [@mouseover,exists,harm][]Kill Shot
 /cast [@player] Spirit Mend(Exotic Ability)
 END
+VER 3 0100000000000023 "KROM'S_BM_AE_RAID" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] KROM'S_BM_AE_RAID LeftButton t; KROM'S_BM_AE_RAID
+END
+VER 3 0100000000000024 "KROM'S_BM_ST_RAID" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:1] KROM'S_BM_ST_RAID LeftButton t; KROM'S_BM_ST_RAID
+END
 VER 3 010000000000001D "Misdirect" "134400"
 #showtooltip [known:Interlope] Interlope; #showtooltip [noknown:Interlope] Misdirection
 /click SmartMisdirect LeftButton 1
 /click SmartMisdirect LeftButton 0
+END
+VER 3 0100000000000022 "Multi-Shot" "134400"
+#showtooltip
+/script UIErrorsFrame:Clear()
+/petattack
+/petassist
+/cast Multi-Shot
+/cast [@pettarget,harm] Claw
+/cast [@pettarget,harm] Bite
+/cast [@pettarget,harm] Smack
+/cast [@player] Spirit Mend(Exotic Ability)
 END
 VER 3 010000000000001E "Pet Control" "644389"
 #showtooltip
@@ -123,14 +137,6 @@ VER 3 010000000000001E "Pet Control" "644389"
 /cleartarget
 /petpassive
 /petdismiss
-END
-VER 3 010000000000001A "Sentinel Owl" "134400"
-#showtooltip
-/cast [@cursor] Sentinel Owl
-END
-VER 3 010000000000001B "SO / TT" "576309"
-#showtooltip
-/cast [known:Sentinel Owl,@cursor] Sentinel Owl; [known:Tar Trap,@cursor] Tar Trap
 END
 VER 3 0100000000000011 "Turtle" "134400"
 #showtooltip

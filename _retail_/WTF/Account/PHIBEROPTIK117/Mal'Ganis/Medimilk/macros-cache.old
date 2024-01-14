@@ -1,13 +1,3 @@
-VER 3 010000000000000B "Arcane + Pet" "134400"
-#showtooltip
-/script UIErrorsFrame:Clear()
-/petattack
-/petassist
-/cast Arcane Shot
-/cast [@pettarget,harm] Claw
-/cast [@pettarget,harm] Bite
-/cast [@pettarget,harm] Smack
-END
 VER 3 0100000000000007 "Barbed Shot" "2058007"
 #showtooltip
 /script UIErrorsFrame:Clear()
@@ -86,6 +76,16 @@ VER 3 0100000000000019 "Dire Beast" "134400"
 /cast [@pettarget,harm] Bite
 /cast [@pettarget,harm] Smack
 /cast [@player] Spirit Mend(Exotic Ability)
+END
+VER 3 010000000000000B "Flame" "134400"
+#showtooltip
+/script UIErrorsFrame:Clear()
+/petattack
+/petassist
+/cast Arcane Shot
+/cast [@pettarget,harm] Claw
+/cast [@pettarget,harm] Bite
+/cast [@pettarget,harm] Smack
 END
 VER 3 0100000000000005 "Flare" "134400"
 #showtooltip

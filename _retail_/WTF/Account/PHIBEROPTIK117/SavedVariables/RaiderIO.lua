@@ -2,15 +2,17 @@
 RaiderIO_Config = {
 	["profilePoint"] = {
 		["y"] = 0,
-		["x"] = -16,
+		["x"] = -16.00000190734863,
 		["point"] = "TOPLEFT",
 	},
 }
 RaiderIO_LastCharacter = "us-Shortwire-stormrage"
 RaiderIO_MissingCharacters = {
-	["us-Optimistic-illidan"] = true,
-	["us-Lazziar-illidan"] = true,
+	["us-Fistsofshini-stormrage"] = true,
+	["us-Stankdaddy-illidan"] = true,
+	["us-Truffleshufl-stormrage"] = true,
 	["us-Heatdrop-kiljaeden"] = true,
+	["us-a-tichondrius"] = true,
 }
 RaiderIO_MissingServers = {
 }

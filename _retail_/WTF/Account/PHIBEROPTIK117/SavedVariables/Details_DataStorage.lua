@@ -1,12 +1,14 @@
 
 DetailsDataStorage = {
+	["mythic_plus"] = {
+	},
 	[16] = {
 		[2737] = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702529859,
-				["date"] = "23:57 13/12/23",
 				["elapsed"] = 301.0500000000029,
+				["date"] = "23:57 13/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						92449726, -- [1]
@@ -46,15 +48,15 @@ DetailsDataStorage = {
 						480.375, -- [2]
 						9, -- [3]
 					},
-					["Mundanemagic"] = {
-						48997031, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
-					},
 					["Monvis"] = {
 						43212382, -- [1]
 						472.125, -- [2]
 						5, -- [3]
+					},
+					["Luhgon"] = {
+						13284334, -- [1]
+						468.3125, -- [2]
+						13, -- [3]
 					},
 					["Quitollis"] = {
 						58305125, -- [1]
@@ -76,10 +78,10 @@ DetailsDataStorage = {
 						475.0625, -- [2]
 						1, -- [3]
 					},
-					["Luhgon"] = {
-						13284334, -- [1]
-						468.3125, -- [2]
-						13, -- [3]
+					["Mundanemagic"] = {
+						48997031, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Beestboy"] = {
 						55683633, -- [1]
@@ -118,8 +120,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702526420,
-				["date"] = "23:00 13/12/23",
 				["elapsed"] = 367.3249999999971,
+				["date"] = "23:00 13/12/23",
 				["healing"] = {
 					["Keranna"] = {
 						78157820, -- [1]
@@ -179,10 +181,10 @@ DetailsDataStorage = {
 						482.9375, -- [2]
 						1, -- [3]
 					},
-					["Swôle"] = {
-						73634847, -- [1]
-						481.8125, -- [2]
-						7, -- [3]
+					["Mittàns"] = {
+						33905313, -- [1]
+						480.6875, -- [2]
+						12, -- [3]
 					},
 					["Badoomp"] = {
 						34225220, -- [1]
@@ -209,10 +211,10 @@ DetailsDataStorage = {
 						482.375, -- [2]
 						12, -- [3]
 					},
-					["Mittàns"] = {
-						33905313, -- [1]
-						480.6875, -- [2]
-						12, -- [3]
+					["Swôle"] = {
+						73634847, -- [1]
+						481.8125, -- [2]
+						7, -- [3]
 					},
 					["Mowk"] = {
 						67165614, -- [1]
@@ -231,8 +233,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702441205,
-				["date"] = "23:20 12/12/23",
 				["elapsed"] = 353.6460000000079,
+				["date"] = "23:20 12/12/23",
 				["healing"] = {
 					["Monvis"] = {
 						24094349, -- [1]
@@ -272,15 +274,15 @@ DetailsDataStorage = {
 						480.625, -- [2]
 						2, -- [3]
 					},
-					["Mittàns"] = {
-						45619534, -- [1]
-						480.125, -- [2]
-						12, -- [3]
+					["Swôle"] = {
+						95586968, -- [1]
+						481.625, -- [2]
+						7, -- [3]
 					},
-					["Luhgon"] = {
-						21922296, -- [1]
-						467.25, -- [2]
-						13, -- [3]
+					["Beestboy"] = {
+						19987652, -- [1]
+						475.9375, -- [2]
+						11, -- [3]
 					},
 					["Quitollis"] = {
 						84875280, -- [1]
@@ -292,10 +294,10 @@ DetailsDataStorage = {
 						482.6875, -- [2]
 						1, -- [3]
 					},
-					["Swôle"] = {
-						95586968, -- [1]
-						481.625, -- [2]
-						7, -- [3]
+					["Mittàns"] = {
+						45619534, -- [1]
+						480.125, -- [2]
+						12, -- [3]
 					},
 					["Badoomp"] = {
 						41788549, -- [1]
@@ -307,10 +309,10 @@ DetailsDataStorage = {
 						482.6875, -- [2]
 						3, -- [3]
 					},
-					["Beestboy"] = {
-						19987652, -- [1]
-						475.9375, -- [2]
-						11, -- [3]
+					["Mundanemagic"] = {
+						77466779, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Sÿs"] = {
 						78663199, -- [1]
@@ -322,10 +324,10 @@ DetailsDataStorage = {
 						481.9375, -- [2]
 						12, -- [3]
 					},
-					["Mundanemagic"] = {
-						77466779, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Luhgon"] = {
+						21922296, -- [1]
+						467.25, -- [2]
+						13, -- [3]
 					},
 					["Medimilk"] = {
 						51851669, -- [1]
@@ -341,15 +343,13 @@ DetailsDataStorage = {
 			}, -- [1]
 		},
 	},
-	["saved_encounters"] = {
-	},
 	[15] = {
 		[2731] = {
 			{
 				["time"] = 1701226124,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701226124,
-				["date"] = "21:48 28/11/23",
+				["elapsed"] = 265.7570000000414,
 				["healing"] = {
 					["Perlyta"] = {
 						63933230, -- [1]
@@ -367,7 +367,7 @@ DetailsDataStorage = {
 						13, -- [3]
 					},
 				},
-				["elapsed"] = 265.7570000000414,
+				["date"] = "21:48 28/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						45310348, -- [1]
@@ -429,8 +429,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702434165,
-				["date"] = "21:22 12/12/23",
 				["elapsed"] = 213.4109999999928,
+				["date"] = "21:22 12/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						56904870, -- [1]
@@ -470,10 +470,10 @@ DetailsDataStorage = {
 						481.875, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						34786606, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						30772906, -- [1]
+						475, -- [2]
+						11, -- [3]
 					},
 					["Quitollis"] = {
 						45964448, -- [1]
@@ -500,10 +500,10 @@ DetailsDataStorage = {
 						482.6875, -- [2]
 						3, -- [3]
 					},
-					["Beestboy"] = {
-						30772906, -- [1]
-						475, -- [2]
-						11, -- [3]
+					["Mundanemagic"] = {
+						34786606, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Mittàns"] = {
 						18033138, -- [1]
@@ -538,7 +538,7 @@ DetailsDataStorage = {
 				["time"] = 1701224254,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701224254,
-				["date"] = "21:17 28/11/23",
+				["elapsed"] = 228.49099999998,
 				["healing"] = {
 					["Perlyta"] = {
 						44821713, -- [1]
@@ -551,7 +551,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["elapsed"] = 228.49099999998,
+				["date"] = "21:17 28/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						42781398, -- [1]
@@ -613,8 +613,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702433217,
-				["date"] = "21:06 12/12/23",
 				["elapsed"] = 178.9830000000075,
+				["date"] = "21:06 12/12/23",
 				["healing"] = {
 					["Keranna"] = {
 						28705615, -- [1]
@@ -654,10 +654,10 @@ DetailsDataStorage = {
 						481.4, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						32447222, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						29034694, -- [1]
+						475, -- [2]
+						11, -- [3]
 					},
 					["Quitollis"] = {
 						44443704, -- [1]
@@ -684,10 +684,10 @@ DetailsDataStorage = {
 						482.6875, -- [2]
 						3, -- [3]
 					},
-					["Beestboy"] = {
-						29034694, -- [1]
-						475, -- [2]
-						11, -- [3]
+					["Mundanemagic"] = {
+						32447222, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Mittàns"] = {
 						17895697, -- [1]
@@ -722,7 +722,7 @@ DetailsDataStorage = {
 				["time"] = 1701233292,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701233292,
-				["date"] = "23:48 28/11/23",
+				["elapsed"] = 437.8640000000014,
 				["healing"] = {
 					["Perlyta"] = {
 						84418563, -- [1]
@@ -740,7 +740,7 @@ DetailsDataStorage = {
 						13, -- [3]
 					},
 				},
-				["elapsed"] = 437.8640000000014,
+				["date"] = "23:48 28/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						28729414, -- [1]
@@ -802,8 +802,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702437139,
-				["date"] = "22:12 12/12/23",
 				["elapsed"] = 367.9530000000086,
+				["date"] = "22:12 12/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						72343316, -- [1]
@@ -848,10 +848,10 @@ DetailsDataStorage = {
 						479, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						39743064, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Luhgon"] = {
+						18827821, -- [1]
+						467.25, -- [2]
+						13, -- [3]
 					},
 					["Quitollis"] = {
 						44387791, -- [1]
@@ -878,10 +878,10 @@ DetailsDataStorage = {
 						482.6875, -- [2]
 						3, -- [3]
 					},
-					["Luhgon"] = {
-						18827821, -- [1]
-						467.25, -- [2]
-						13, -- [3]
+					["Mundanemagic"] = {
+						39743064, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Mittàns"] = {
 						33752728, -- [1]
@@ -916,7 +916,7 @@ DetailsDataStorage = {
 				["time"] = 1700714315,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1700714317,
-				["date"] = "23:38 22/11/23",
+				["elapsed"] = 409.0670000000027,
 				["healing"] = {
 					["Keranna"] = {
 						66349438, -- [1]
@@ -934,7 +934,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 409.0670000000027,
+				["date"] = "23:38 22/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						52820221, -- [1]
@@ -982,7 +982,7 @@ DetailsDataStorage = {
 				["time"] = 1701229593,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701229593,
-				["date"] = "22:46 28/11/23",
+				["elapsed"] = 403.829000000027,
 				["healing"] = {
 					["Perlyta"] = {
 						98426978, -- [1]
@@ -1000,7 +1000,7 @@ DetailsDataStorage = {
 						13, -- [3]
 					},
 				},
-				["elapsed"] = 403.829000000027,
+				["date"] = "22:46 28/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						24335794, -- [1]
@@ -1062,8 +1062,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702436320,
-				["date"] = "21:58 12/12/23",
 				["elapsed"] = 257.5650000000023,
+				["date"] = "21:58 12/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						83194884, -- [1]
@@ -1133,15 +1133,15 @@ DetailsDataStorage = {
 						471.1875, -- [2]
 						5, -- [3]
 					},
-					["Luhgon"] = {
-						13657426, -- [1]
-						467.25, -- [2]
-						13, -- [3]
-					},
 					["Mundanemagic"] = {
 						42198606, -- [1]
 						476.4375, -- [2]
 						8, -- [3]
+					},
+					["Beestboy"] = {
+						44968807, -- [1]
+						475, -- [2]
+						11, -- [3]
 					},
 					["Medimilk"] = {
 						41540242, -- [1]
@@ -1158,10 +1158,10 @@ DetailsDataStorage = {
 						481.625, -- [2]
 						7, -- [3]
 					},
-					["Beestboy"] = {
-						44968807, -- [1]
-						475, -- [2]
-						11, -- [3]
+					["Luhgon"] = {
+						13657426, -- [1]
+						467.25, -- [2]
+						13, -- [3]
 					},
 					["Hydroxcide"] = {
 						36429632, -- [1]
@@ -1176,7 +1176,7 @@ DetailsDataStorage = {
 				["time"] = 1700706484,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1700706486,
-				["date"] = "21:28 22/11/23",
+				["elapsed"] = 297.5580000000009,
 				["healing"] = {
 					["Keranna"] = {
 						33991419, -- [1]
@@ -1194,7 +1194,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 297.5580000000009,
+				["date"] = "21:28 22/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						44347197, -- [1]
@@ -1242,7 +1242,7 @@ DetailsDataStorage = {
 				["time"] = 1701227328,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701227328,
-				["date"] = "22:08 28/11/23",
+				["elapsed"] = 281.75900000002,
 				["healing"] = {
 					["Perlyta"] = {
 						44987061, -- [1]
@@ -1260,7 +1260,7 @@ DetailsDataStorage = {
 						13, -- [3]
 					},
 				},
-				["elapsed"] = 281.75900000002,
+				["date"] = "22:08 28/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						46870236, -- [1]
@@ -1322,8 +1322,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702434849,
-				["date"] = "21:34 12/12/23",
 				["elapsed"] = 168.0249999999942,
+				["date"] = "21:34 12/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						41675953, -- [1]
@@ -1363,10 +1363,10 @@ DetailsDataStorage = {
 						481.875, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						27098520, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						30346751, -- [1]
+						475, -- [2]
+						11, -- [3]
 					},
 					["Quitollis"] = {
 						44441613, -- [1]
@@ -1393,10 +1393,10 @@ DetailsDataStorage = {
 						482.6875, -- [2]
 						3, -- [3]
 					},
-					["Beestboy"] = {
-						30346751, -- [1]
-						475, -- [2]
-						11, -- [3]
+					["Mundanemagic"] = {
+						27098520, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Mittàns"] = {
 						14108143, -- [1]
@@ -1431,7 +1431,7 @@ DetailsDataStorage = {
 				["time"] = 1701224859,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701224859,
-				["date"] = "21:27 28/11/23",
+				["elapsed"] = 176.1790000000037,
 				["healing"] = {
 					["Perlyta"] = {
 						34066584, -- [1]
@@ -1449,7 +1449,7 @@ DetailsDataStorage = {
 						13, -- [3]
 					},
 				},
-				["elapsed"] = 176.1790000000037,
+				["date"] = "21:27 28/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						29528186, -- [1]
@@ -1506,8 +1506,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702433735,
-				["date"] = "21:15 12/12/23",
 				["elapsed"] = 142.679999999993,
+				["date"] = "21:15 12/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						32831862, -- [1]
@@ -1547,10 +1547,10 @@ DetailsDataStorage = {
 						481.875, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						21305654, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						24785099, -- [1]
+						475, -- [2]
+						11, -- [3]
 					},
 					["Quitollis"] = {
 						30246543, -- [1]
@@ -1577,10 +1577,10 @@ DetailsDataStorage = {
 						482.6875, -- [2]
 						3, -- [3]
 					},
-					["Beestboy"] = {
-						24785099, -- [1]
-						475, -- [2]
-						11, -- [3]
+					["Mundanemagic"] = {
+						21305654, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Mittàns"] = {
 						13940387, -- [1]
@@ -1615,7 +1615,7 @@ DetailsDataStorage = {
 				["time"] = 1701223844,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701223844,
-				["date"] = "21:10 28/11/23",
+				["elapsed"] = 168.9709999999614,
 				["healing"] = {
 					["Perlyta"] = {
 						27124111, -- [1]
@@ -1628,7 +1628,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["elapsed"] = 168.9709999999614,
+				["date"] = "21:10 28/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						32089000, -- [1]
@@ -1690,8 +1690,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702432916,
-				["date"] = "21:01 12/12/23",
 				["elapsed"] = 140.9609999999811,
+				["date"] = "21:01 12/12/23",
 				["healing"] = {
 					["Keranna"] = {
 						20637766, -- [1]
@@ -1731,10 +1731,10 @@ DetailsDataStorage = {
 						481.875, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						23595455, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						30587131, -- [1]
+						475, -- [2]
+						11, -- [3]
 					},
 					["Quitollis"] = {
 						37267076, -- [1]
@@ -1761,10 +1761,10 @@ DetailsDataStorage = {
 						482.6875, -- [2]
 						3, -- [3]
 					},
-					["Beestboy"] = {
-						30587131, -- [1]
-						475, -- [2]
-						11, -- [3]
+					["Mundanemagic"] = {
+						23595455, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Mittàns"] = {
 						17608753, -- [1]
@@ -1799,7 +1799,7 @@ DetailsDataStorage = {
 				["time"] = 1700709862,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1700709864,
-				["date"] = "22:24 22/11/23",
+				["elapsed"] = 314.2509999999966,
 				["healing"] = {
 					["Keranna"] = {
 						38660781, -- [1]
@@ -1817,7 +1817,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 314.2509999999966,
+				["date"] = "22:24 22/11/23",
 				["damage"] = {
 					["Mowk"] = {
 						38954388, -- [1]
@@ -1870,7 +1870,7 @@ DetailsDataStorage = {
 				["time"] = 1701228319,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701228319,
-				["date"] = "22:25 28/11/23",
+				["elapsed"] = 284.1070000000182,
 				["healing"] = {
 					["Perlyta"] = {
 						68561091, -- [1]
@@ -1888,7 +1888,7 @@ DetailsDataStorage = {
 						13, -- [3]
 					},
 				},
-				["elapsed"] = 284.1070000000182,
+				["date"] = "22:25 28/11/23",
 				["damage"] = {
 					["Monvis"] = {
 						12325110, -- [1]
@@ -1950,8 +1950,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702435296,
-				["date"] = "21:41 12/12/23",
 				["elapsed"] = 166.5590000000084,
+				["date"] = "21:41 12/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						43160632, -- [1]
@@ -1991,10 +1991,10 @@ DetailsDataStorage = {
 						479, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						24169637, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						31309783, -- [1]
+						475.1333333333333, -- [2]
+						11, -- [3]
 					},
 					["Quitollis"] = {
 						32972592, -- [1]
@@ -2021,10 +2021,10 @@ DetailsDataStorage = {
 						482.6875, -- [2]
 						3, -- [3]
 					},
-					["Beestboy"] = {
-						31309783, -- [1]
-						475.1333333333333, -- [2]
-						11, -- [3]
+					["Mundanemagic"] = {
+						24169637, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Mittàns"] = {
 						12220855, -- [1]
@@ -2058,8 +2058,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702439297,
-				["date"] = "22:48 12/12/23",
 				["elapsed"] = 443.0810000000056,
+				["date"] = "22:48 12/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						125596208, -- [1]
@@ -2129,15 +2129,15 @@ DetailsDataStorage = {
 						471.1875, -- [2]
 						5, -- [3]
 					},
-					["Luhgon"] = {
-						16808885, -- [1]
-						467.25, -- [2]
-						13, -- [3]
-					},
 					["Beestboy"] = {
 						69200230, -- [1]
 						475.75, -- [2]
 						11, -- [3]
+					},
+					["Mundanemagic"] = {
+						53358883, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Medimilk"] = {
 						56281084, -- [1]
@@ -2154,10 +2154,10 @@ DetailsDataStorage = {
 						481.625, -- [2]
 						7, -- [3]
 					},
-					["Mundanemagic"] = {
-						53358883, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Luhgon"] = {
+						16808885, -- [1]
+						467.25, -- [2]
+						13, -- [3]
 					},
 					["Hydroxcide"] = {
 						76364901, -- [1]
@@ -2177,7 +2177,7 @@ DetailsDataStorage = {
 				["time"] = 1701319223,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701319224,
-				["elapsed"] = 155.0240000000013,
+				["date"] = "23:40 29/11/23",
 				["healing"] = {
 					["Perlyta"] = {
 						13877615, -- [1]
@@ -2195,7 +2195,7 @@ DetailsDataStorage = {
 						13, -- [3]
 					},
 				},
-				["date"] = "23:40 29/11/23",
+				["elapsed"] = 155.0240000000013,
 				["damage"] = {
 					["Sÿs"] = {
 						26170799, -- [1]
@@ -2247,8 +2247,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702521634,
-				["date"] = "21:40 13/12/23",
 				["elapsed"] = 156.7450000000026,
+				["date"] = "21:40 13/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						21673584, -- [1]
@@ -2278,10 +2278,10 @@ DetailsDataStorage = {
 						481.375, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						34579864, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						32589034, -- [1]
+						475.375, -- [2]
+						11, -- [3]
 					},
 					["Sritneybears"] = {
 						8772353, -- [1]
@@ -2293,10 +2293,10 @@ DetailsDataStorage = {
 						452.125, -- [2]
 						4, -- [3]
 					},
-					["Luhgon"] = {
-						10356630, -- [1]
-						467.6875, -- [2]
-						13, -- [3]
+					["Mundanemagic"] = {
+						34579864, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Rajamatic"] = {
 						27870966, -- [1]
@@ -2318,10 +2318,10 @@ DetailsDataStorage = {
 						452.5625, -- [2]
 						8, -- [3]
 					},
-					["Beestboy"] = {
-						32589034, -- [1]
-						475.375, -- [2]
-						11, -- [3]
+					["Luhgon"] = {
+						10356630, -- [1]
+						467.6875, -- [2]
+						13, -- [3]
 					},
 					["Sleepyslock"] = {
 						15221581, -- [1]
@@ -2354,7 +2354,7 @@ DetailsDataStorage = {
 				["time"] = 1702694060,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1702694060,
-				["elapsed"] = 179.9569999999949,
+				["date"] = "21:34 15/12/23",
 				["healing"] = {
 					["Swõlè"] = {
 						10911115, -- [1]
@@ -2367,7 +2367,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["date"] = "21:34 15/12/23",
+				["elapsed"] = 179.9569999999949,
 				["damage"] = {
 					["Buzzly"] = {
 						40051749, -- [1]
@@ -2406,8 +2406,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702519518,
-				["date"] = "21:05 13/12/23",
 				["elapsed"] = 201.8580000000002,
+				["date"] = "21:05 13/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						26502272, -- [1]
@@ -2508,7 +2508,7 @@ DetailsDataStorage = {
 				["time"] = 1702693097,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1702693097,
-				["elapsed"] = 180.6110000000044,
+				["date"] = "21:18 15/12/23",
 				["healing"] = {
 					["Swõlè"] = {
 						15186014, -- [1]
@@ -2521,7 +2521,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["date"] = "21:18 15/12/23",
+				["elapsed"] = 180.6110000000044,
 				["damage"] = {
 					["Buzzly"] = {
 						40321637, -- [1]
@@ -2561,7 +2561,7 @@ DetailsDataStorage = {
 				["time"] = 1701320740,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701320741,
-				["elapsed"] = 244.775999999998,
+				["date"] = "00:05 30/11/23",
 				["healing"] = {
 					["Keranna"] = {
 						6704871, -- [1]
@@ -2579,7 +2579,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["date"] = "00:05 30/11/23",
+				["elapsed"] = 244.775999999998,
 				["damage"] = {
 					["Sÿs"] = {
 						27049110, -- [1]
@@ -2626,8 +2626,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702520262,
-				["date"] = "21:17 13/12/23",
 				["elapsed"] = 238.4230000000025,
+				["date"] = "21:17 13/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						11985879, -- [1]
@@ -2657,10 +2657,10 @@ DetailsDataStorage = {
 						481.375, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						25761206, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						38814473, -- [1]
+						476.1875, -- [2]
+						11, -- [3]
 					},
 					["Sritneybears"] = {
 						11265543, -- [1]
@@ -2672,10 +2672,10 @@ DetailsDataStorage = {
 						452.125, -- [2]
 						4, -- [3]
 					},
-					["Luhgon"] = {
-						14355590, -- [1]
-						467.6875, -- [2]
-						13, -- [3]
+					["Mundanemagic"] = {
+						25761206, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Rajamatic"] = {
 						38726606, -- [1]
@@ -2697,10 +2697,10 @@ DetailsDataStorage = {
 						452.6875, -- [2]
 						8, -- [3]
 					},
-					["Beestboy"] = {
-						38814473, -- [1]
-						476.1875, -- [2]
-						11, -- [3]
+					["Luhgon"] = {
+						14355590, -- [1]
+						467.6875, -- [2]
+						13, -- [3]
 					},
 					["Sleepyslock"] = {
 						12260146, -- [1]
@@ -2733,7 +2733,7 @@ DetailsDataStorage = {
 				["time"] = 1702696217,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1702696217,
-				["elapsed"] = 274.4720000000089,
+				["date"] = "22:10 15/12/23",
 				["healing"] = {
 					["Swõlè"] = {
 						10303102, -- [1]
@@ -2746,7 +2746,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["date"] = "22:10 15/12/23",
+				["elapsed"] = 274.4720000000089,
 				["damage"] = {
 					["Buzzly"] = {
 						47970892, -- [1]
@@ -2785,8 +2785,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1701917428,
-				["elapsed"] = 136.5479999999952,
 				["date"] = "21:50 06/12/23",
+				["elapsed"] = 136.5479999999952,
 				["healing"] = {
 					["Perlyta"] = {
 						23577072, -- [1]
@@ -2831,15 +2831,15 @@ DetailsDataStorage = {
 						474, -- [2]
 						13, -- [3]
 					},
-					["Pogrunnerup"] = {
-						35737738, -- [1]
-						480.3125, -- [2]
-						12, -- [3]
-					},
 					["Thesleepypan"] = {
 						31748386, -- [1]
 						480.125, -- [2]
 						3, -- [3]
+					},
+					["Pogrunnerup"] = {
+						35737738, -- [1]
+						480.3125, -- [2]
+						12, -- [3]
 					},
 					["Yundaya"] = {
 						17117710, -- [1]
@@ -2861,8 +2861,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702519836,
-				["date"] = "21:10 13/12/23",
 				["elapsed"] = 157.3580000000002,
+				["date"] = "21:10 13/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						25613653, -- [1]
@@ -2892,10 +2892,10 @@ DetailsDataStorage = {
 						481.375, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						30907188, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						30142910, -- [1]
+						476.1875, -- [2]
+						11, -- [3]
 					},
 					["Sritneybears"] = {
 						7574286, -- [1]
@@ -2907,10 +2907,10 @@ DetailsDataStorage = {
 						452.125, -- [2]
 						4, -- [3]
 					},
-					["Luhgon"] = {
-						10522228, -- [1]
-						467.6875, -- [2]
-						13, -- [3]
+					["Mundanemagic"] = {
+						30907188, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Rajamatic"] = {
 						27169175, -- [1]
@@ -2932,10 +2932,10 @@ DetailsDataStorage = {
 						452.6875, -- [2]
 						8, -- [3]
 					},
-					["Beestboy"] = {
-						30142910, -- [1]
-						476.1875, -- [2]
-						11, -- [3]
+					["Luhgon"] = {
+						10522228, -- [1]
+						467.6875, -- [2]
+						13, -- [3]
 					},
 					["Sleepyslock"] = {
 						15388804, -- [1]
@@ -2968,7 +2968,7 @@ DetailsDataStorage = {
 				["time"] = 1702695775,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1702695775,
-				["elapsed"] = 156.2570000000123,
+				["date"] = "22:02 15/12/23",
 				["healing"] = {
 					["Swõlè"] = {
 						13192750, -- [1]
@@ -2981,7 +2981,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["date"] = "22:02 15/12/23",
+				["elapsed"] = 156.2570000000123,
 				["damage"] = {
 					["Buzzly"] = {
 						37307305, -- [1]
@@ -3021,7 +3021,7 @@ DetailsDataStorage = {
 				["time"] = 1701319697,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701319697,
-				["elapsed"] = 148.1209999999992,
+				["date"] = "23:48 29/11/23",
 				["healing"] = {
 					["Keranna"] = {
 						6912975, -- [1]
@@ -3039,7 +3039,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["date"] = "23:48 29/11/23",
+				["elapsed"] = 148.1209999999992,
 				["damage"] = {
 					["Mowk"] = {
 						20154843, -- [1]
@@ -3086,8 +3086,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1701916451,
-				["elapsed"] = 153.0570000000007,
 				["date"] = "21:34 06/12/23",
+				["elapsed"] = 153.0570000000007,
 				["healing"] = {
 					["Perlyta"] = {
 						19961632, -- [1]
@@ -3153,7 +3153,7 @@ DetailsDataStorage = {
 				["time"] = 1702694851,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1702694851,
-				["elapsed"] = 157.8189999999886,
+				["date"] = "21:47 15/12/23",
 				["healing"] = {
 					["Swõlè"] = {
 						13022097, -- [1]
@@ -3166,7 +3166,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["date"] = "21:47 15/12/23",
+				["elapsed"] = 157.8189999999886,
 				["damage"] = {
 					["Buzzly"] = {
 						42717575, -- [1]
@@ -3206,7 +3206,7 @@ DetailsDataStorage = {
 				["time"] = 1701318859,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701318859,
-				["elapsed"] = 101.4799999999996,
+				["date"] = "23:34 29/11/23",
 				["healing"] = {
 					["Perlyta"] = {
 						10956216, -- [1]
@@ -3224,7 +3224,7 @@ DetailsDataStorage = {
 						13, -- [3]
 					},
 				},
-				["date"] = "23:34 29/11/23",
+				["elapsed"] = 101.4799999999996,
 				["damage"] = {
 					["Sÿs"] = {
 						18873782, -- [1]
@@ -3276,8 +3276,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1701915606,
-				["elapsed"] = 104.2869999999966,
 				["date"] = "21:20 06/12/23",
+				["elapsed"] = 104.2869999999966,
 				["healing"] = {
 					["Perlyta"] = {
 						12648702, -- [1]
@@ -3342,8 +3342,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702521298,
-				["date"] = "21:34 13/12/23",
 				["elapsed"] = 103.3000000000029,
+				["date"] = "21:34 13/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						10704469, -- [1]
@@ -3373,10 +3373,10 @@ DetailsDataStorage = {
 						481.375, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						19935078, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						21244294, -- [1]
+						475.375, -- [2]
+						11, -- [3]
 					},
 					["Sritneybears"] = {
 						6092558, -- [1]
@@ -3388,10 +3388,10 @@ DetailsDataStorage = {
 						452.125, -- [2]
 						4, -- [3]
 					},
-					["Luhgon"] = {
-						6050213, -- [1]
-						467.6875, -- [2]
-						13, -- [3]
+					["Mundanemagic"] = {
+						19935078, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Rajamatic"] = {
 						19811949, -- [1]
@@ -3413,10 +3413,10 @@ DetailsDataStorage = {
 						452.4666666666666, -- [2]
 						8, -- [3]
 					},
-					["Beestboy"] = {
-						21244294, -- [1]
-						475.375, -- [2]
-						11, -- [3]
+					["Luhgon"] = {
+						6050213, -- [1]
+						467.6875, -- [2]
+						13, -- [3]
 					},
 					["Sleepyslock"] = {
 						10278024, -- [1]
@@ -3449,7 +3449,7 @@ DetailsDataStorage = {
 				["time"] = 1702693625,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1702693625,
-				["elapsed"] = 120.752999999997,
+				["date"] = "21:27 15/12/23",
 				["healing"] = {
 					["Swõlè"] = {
 						7787242, -- [1]
@@ -3462,7 +3462,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["date"] = "21:27 15/12/23",
+				["elapsed"] = 120.752999999997,
 				["damage"] = {
 					["Buzzly"] = {
 						28338113, -- [1]
@@ -3501,8 +3501,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1701914858,
-				["elapsed"] = 135.2869999999966,
 				["date"] = "21:07 06/12/23",
+				["elapsed"] = 135.2869999999966,
 				["healing"] = {
 					["Perlyta"] = {
 						16087170, -- [1]
@@ -3567,8 +3567,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702519195,
-				["date"] = "20:59 13/12/23",
 				["elapsed"] = 141.6340000000055,
+				["date"] = "20:59 13/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						11225675, -- [1]
@@ -3669,7 +3669,7 @@ DetailsDataStorage = {
 				["time"] = 1702692784,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1702692784,
-				["elapsed"] = 142.8150000000023,
+				["date"] = "21:13 15/12/23",
 				["healing"] = {
 					["Swõlè"] = {
 						8101874, -- [1]
@@ -3682,7 +3682,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["date"] = "21:13 15/12/23",
+				["elapsed"] = 142.8150000000023,
 				["damage"] = {
 					["Buzzly"] = {
 						28257979, -- [1]
@@ -3722,7 +3722,7 @@ DetailsDataStorage = {
 				["time"] = 1701320038,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701320038,
-				["elapsed"] = 136.9320000000007,
+				["date"] = "23:53 29/11/23",
 				["healing"] = {
 					["Keranna"] = {
 						5679051, -- [1]
@@ -3740,7 +3740,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["date"] = "23:53 29/11/23",
+				["elapsed"] = 136.9320000000007,
 				["damage"] = {
 					["Sÿs"] = {
 						20694541, -- [1]
@@ -3787,8 +3787,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1701916747,
-				["elapsed"] = 138.1440000000002,
 				["date"] = "21:39 06/12/23",
+				["elapsed"] = 138.1440000000002,
 				["healing"] = {
 					["Perlyta"] = {
 						17396563, -- [1]
@@ -3854,7 +3854,7 @@ DetailsDataStorage = {
 				["time"] = 1702695377,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1702695377,
-				["elapsed"] = 197.1050000000105,
+				["date"] = "21:56 15/12/23",
 				["healing"] = {
 					["Swõlè"] = {
 						16369421, -- [1]
@@ -3867,7 +3867,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["date"] = "21:56 15/12/23",
+				["elapsed"] = 197.1050000000105,
 				["damage"] = {
 					["Buzzly"] = {
 						0, -- [1]
@@ -3907,7 +3907,7 @@ DetailsDataStorage = {
 				["time"] = 1701321219,
 				["guild"] = "Incoherent Screaming",
 				["servertime"] = 1701321220,
-				["elapsed"] = 312.9239999999991,
+				["date"] = "00:13 30/11/23",
 				["healing"] = {
 					["Keranna"] = {
 						33102672, -- [1]
@@ -3920,7 +3920,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["date"] = "00:13 30/11/23",
+				["elapsed"] = 312.9239999999991,
 				["damage"] = {
 					["Sÿs"] = {
 						41127188, -- [1]
@@ -3967,8 +3967,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1701918391,
-				["elapsed"] = 326.4840000000113,
 				["date"] = "22:06 06/12/23",
+				["elapsed"] = 326.4840000000113,
 				["healing"] = {
 					["Perlyta"] = {
 						44873701, -- [1]
@@ -4048,8 +4048,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702520724,
-				["date"] = "21:25 13/12/23",
 				["elapsed"] = 324.4910000000018,
+				["date"] = "21:25 13/12/23",
 				["healing"] = {
 					["Perlyta"] = {
 						48435919, -- [1]
@@ -4079,10 +4079,10 @@ DetailsDataStorage = {
 						481.375, -- [2]
 						3, -- [3]
 					},
-					["Mundanemagic"] = {
-						41354358, -- [1]
-						476.4375, -- [2]
-						8, -- [3]
+					["Beestboy"] = {
+						52384755, -- [1]
+						476.1875, -- [2]
+						11, -- [3]
 					},
 					["Sritneybears"] = {
 						16866659, -- [1]
@@ -4094,10 +4094,10 @@ DetailsDataStorage = {
 						452.125, -- [2]
 						4, -- [3]
 					},
-					["Luhgon"] = {
-						16893224, -- [1]
-						467.6875, -- [2]
-						13, -- [3]
+					["Mundanemagic"] = {
+						41354358, -- [1]
+						476.4375, -- [2]
+						8, -- [3]
 					},
 					["Rajamatic"] = {
 						50930771, -- [1]
@@ -4119,10 +4119,10 @@ DetailsDataStorage = {
 						452.6875, -- [2]
 						8, -- [3]
 					},
-					["Beestboy"] = {
-						52384755, -- [1]
-						476.1875, -- [2]
-						11, -- [3]
+					["Luhgon"] = {
+						16893224, -- [1]
+						467.6875, -- [2]
+						13, -- [3]
 					},
 					["Sleepyslock"] = {
 						24595119, -- [1]
@@ -4154,8 +4154,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Incoherent Screaming",
 				["time"] = 1702696750,
-				["elapsed"] = 349.8040000000037,
 				["date"] = "22:19 15/12/23",
+				["elapsed"] = 349.8040000000037,
 				["healing"] = {
 					["Swõlè"] = {
 						26380451, -- [1]
@@ -4204,7 +4204,7 @@ DetailsDataStorage = {
 			}, -- [4]
 		},
 	},
-	["mythic_plus"] = {
+	["saved_encounters"] = {
 	},
 	["totalkills"] = {
 		[2731] = {
@@ -4214,9 +4214,9 @@ DetailsDataStorage = {
 				["wipes"] = 1,
 				["kills"] = 1,
 				["dps_best"] = 170046.6002567264,
-				["dps_best_when"] = 1702434165,
-				["time_fasterkill_when"] = 1702434165,
 				["dps_best_raid_when"] = 1702434165,
+				["time_fasterkill_when"] = 1702434165,
+				["dps_best_when"] = 1702434165,
 				["dps_best_raid"] = 2372315.021250156,
 			},
 			[14] = {
@@ -4225,9 +4225,9 @@ DetailsDataStorage = {
 				["wipes"] = 1,
 				["kills"] = 2,
 				["dps_best"] = 176580.5863466492,
-				["dps_best_when"] = 1702521634,
-				["time_fasterkill_when"] = 1702694060,
 				["dps_best_raid_when"] = 1702521634,
+				["time_fasterkill_when"] = 1702694060,
+				["dps_best_when"] = 1702521634,
 				["dps_best_raid"] = 2066208.695652139,
 			},
 		},
@@ -4238,9 +4238,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 2,
 				["dps_best"] = 100956.7963868957,
-				["dps_best_when"] = 1702519518,
-				["time_fasterkill_when"] = 1702519518,
 				["dps_best_raid_when"] = 1702519518,
+				["time_fasterkill_when"] = 1702519518,
+				["dps_best_when"] = 1702519518,
 				["dps_best_raid"] = 1725252.350662345,
 			},
 			[16] = {
@@ -4249,9 +4249,9 @@ DetailsDataStorage = {
 				["wipes"] = 15,
 				["kills"] = 1,
 				["dps_best"] = 201257.7853561875,
-				["dps_best_when"] = 1702526420,
-				["time_fasterkill_when"] = 1702526420,
 				["dps_best_raid_when"] = 1702526420,
+				["time_fasterkill_when"] = 1702526420,
+				["dps_best_when"] = 1702526420,
 				["dps_best_raid"] = 2294598.254951356,
 			},
 			[15] = {
@@ -4260,9 +4260,9 @@ DetailsDataStorage = {
 				["wipes"] = 1,
 				["kills"] = 1,
 				["dps_best"] = 130086.332228927,
-				["dps_best_when"] = 1702433217,
-				["time_fasterkill_when"] = 1702433217,
 				["dps_best_raid_when"] = 1702433217,
+				["time_fasterkill_when"] = 1702433217,
+				["dps_best_when"] = 1702433217,
 				["dps_best_raid"] = 2537529.960945906,
 			},
 		},
@@ -4273,9 +4273,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 1,
 				["dps_best"] = 151072.226621671,
-				["dps_best_when"] = 1702437139,
-				["time_fasterkill_when"] = 1702437139,
 				["dps_best_raid_when"] = 1702437139,
+				["time_fasterkill_when"] = 1702437139,
+				["dps_best_when"] = 1702437139,
 				["dps_best_raid"] = 2057298.353322251,
 			},
 			[14] = {
@@ -4284,9 +4284,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 2,
 				["dps_best"] = 139873.6866894874,
-				["dps_best_when"] = 1702520262,
-				["time_fasterkill_when"] = 1702696217,
 				["dps_best_raid_when"] = 1702520262,
+				["time_fasterkill_when"] = 1702696217,
+				["dps_best_when"] = 1702520262,
 				["dps_best_raid"] = 1575835.334678265,
 			},
 		},
@@ -4297,9 +4297,9 @@ DetailsDataStorage = {
 				["wipes"] = 2,
 				["kills"] = 1,
 				["dps_best"] = 161280.6165753213,
-				["dps_best_when"] = 1702436320,
-				["time_fasterkill_when"] = 1702436320,
 				["dps_best_raid_when"] = 1702436320,
+				["time_fasterkill_when"] = 1702436320,
+				["dps_best_when"] = 1702436320,
 				["dps_best_raid"] = 2341517.23254322,
 			},
 			[14] = {
@@ -4308,22 +4308,22 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 2,
 				["dps_best"] = 226349.1783513197,
-				["dps_best_when"] = 1702519836,
-				["time_fasterkill_when"] = 1702519836,
 				["dps_best_raid_when"] = 1702519836,
+				["time_fasterkill_when"] = 1702519836,
+				["dps_best_when"] = 1702519836,
 				["dps_best_raid"] = 1928872.545406015,
 			},
 		},
 		[2728] = {
 			[15] = {
-				["time_incombat"] = 168.0249999999942,
-				["time_fasterkill"] = 168.0249999999942,
-				["wipes"] = 0,
-				["kills"] = 1,
+				["time_incombat"] = 679.0709999999945,
+				["time_fasterkill"] = 511.0460000000003,
+				["wipes"] = 6,
+				["kills"] = 2,
 				["dps_best"] = 188728.4451926148,
-				["dps_best_when"] = 1702434849,
-				["time_fasterkill_when"] = 1702434849,
 				["dps_best_raid_when"] = 1702434849,
+				["time_fasterkill_when"] = 1705197500,
+				["dps_best_when"] = 1702434849,
 				["dps_best_raid"] = 2975945.644993408,
 			},
 			[14] = {
@@ -4334,8 +4334,8 @@ DetailsDataStorage = {
 				["dps_best"] = 12924.04594843553,
 				["dps_best_raid"] = 1067202.624525641,
 				["time_fasterkill_when"] = 1702694851,
-				["dps_best_raid_when"] = 1702694851,
 				["dps_best_when"] = 1702694851,
+				["dps_best_raid_when"] = 1702694851,
 			},
 		},
 		[2737] = {
@@ -4345,9 +4345,9 @@ DetailsDataStorage = {
 				["wipes"] = 2,
 				["kills"] = 2,
 				["dps_best"] = 218734.3465848341,
-				["dps_best_when"] = 1702521298,
-				["time_fasterkill_when"] = 1702693625,
 				["dps_best_raid_when"] = 1702521298,
+				["time_fasterkill_when"] = 1702693625,
+				["dps_best_when"] = 1702521298,
 				["dps_best_raid"] = 2117012.362052215,
 			},
 			[16] = {
@@ -4356,9 +4356,9 @@ DetailsDataStorage = {
 				["wipes"] = 9,
 				["kills"] = 1,
 				["dps_best"] = 187434.8513813867,
-				["dps_best_when"] = 1702529859,
-				["time_fasterkill_when"] = 1702529859,
 				["dps_best_raid_when"] = 1702529859,
+				["time_fasterkill_when"] = 1702529859,
+				["dps_best_when"] = 1702529859,
 				["dps_best_raid"] = 2122176.947350918,
 			},
 			[15] = {
@@ -4367,9 +4367,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 1,
 				["dps_best"] = 191521.1452789062,
-				["dps_best_when"] = 1702433735,
-				["time_fasterkill_when"] = 1702433735,
 				["dps_best_raid_when"] = 1702433735,
+				["time_fasterkill_when"] = 1702433735,
+				["dps_best_when"] = 1702433735,
 				["dps_best_raid"] = 2276979.68180555,
 			},
 		},
@@ -4380,9 +4380,9 @@ DetailsDataStorage = {
 				["wipes"] = 2,
 				["kills"] = 2,
 				["dps_best"] = 2.593303867715279e-05,
-				["dps_best_when"] = 1702519195,
-				["time_fasterkill_when"] = 1702692784,
 				["dps_best_raid_when"] = 1702519195,
+				["time_fasterkill_when"] = 1702692784,
+				["dps_best_when"] = 1702519195,
 				["dps_best_raid"] = 1868838.223872727,
 			},
 			[16] = {
@@ -4391,9 +4391,9 @@ DetailsDataStorage = {
 				["wipes"] = 2,
 				["kills"] = 1,
 				["dps_best"] = 146620.2615158403,
-				["dps_best_when"] = 1702441205,
-				["time_fasterkill_when"] = 1702441205,
 				["dps_best_raid_when"] = 1702441205,
+				["time_fasterkill_when"] = 1702441205,
+				["dps_best_when"] = 1702441205,
 				["dps_best_raid"] = 2102327.332982653,
 			},
 			[15] = {
@@ -4402,9 +4402,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 1,
 				["dps_best"] = 197769.0638032345,
-				["dps_best_when"] = 1702432916,
-				["time_fasterkill_when"] = 1702432916,
 				["dps_best_raid_when"] = 1702432916,
+				["time_fasterkill_when"] = 1702432916,
+				["dps_best_when"] = 1702432916,
 				["dps_best_raid"] = 2941456.175822075,
 			},
 		},
@@ -4412,12 +4412,12 @@ DetailsDataStorage = {
 			[15] = {
 				["time_incombat"] = 166.5590000000084,
 				["time_fasterkill"] = 166.5590000000084,
-				["wipes"] = 0,
+				["wipes"] = 5,
 				["kills"] = 1,
 				["dps_best"] = 172024.8380829349,
-				["dps_best_when"] = 1702435296,
-				["time_fasterkill_when"] = 1702435296,
 				["dps_best_raid_when"] = 1702435296,
+				["time_fasterkill_when"] = 1702435296,
+				["dps_best_when"] = 1702435296,
 				["dps_best_raid"] = 2344924.56126646,
 			},
 			[14] = {
@@ -4428,8 +4428,8 @@ DetailsDataStorage = {
 				["dps_best"] = 411.212341366255,
 				["dps_best_raid"] = 669774.3131832931,
 				["time_fasterkill_when"] = 1702695377,
-				["dps_best_raid_when"] = 1702695377,
 				["dps_best_when"] = 1702695377,
+				["dps_best_raid_when"] = 1702695377,
 			},
 		},
 		[2677] = {
@@ -4439,9 +4439,9 @@ DetailsDataStorage = {
 				["wipes"] = 2,
 				["kills"] = 1,
 				["dps_best"] = 127022.111099847,
-				["dps_best_when"] = 1702439297,
-				["time_fasterkill_when"] = 1702439297,
 				["dps_best_raid_when"] = 1702439297,
+				["time_fasterkill_when"] = 1702439297,
+				["dps_best_when"] = 1702439297,
 				["dps_best_raid"] = 2138428.562723267,
 			},
 			[14] = {
@@ -4450,9 +4450,9 @@ DetailsDataStorage = {
 				["wipes"] = 1,
 				["kills"] = 2,
 				["dps_best"] = 151096.4063756953,
-				["dps_best_when"] = 1702520724,
-				["time_fasterkill_when"] = 1702696750,
 				["dps_best_raid_when"] = 1702520724,
+				["time_fasterkill_when"] = 1702696750,
+				["dps_best_when"] = 1702520724,
 				["dps_best_raid"] = 1653711.02742448,
 			},
 		},

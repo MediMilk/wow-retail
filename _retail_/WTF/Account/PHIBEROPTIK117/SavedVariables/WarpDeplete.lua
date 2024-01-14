@@ -54,6 +54,7 @@ WarpDepleteDB = {
 		["Default"] = {
 		},
 		["Luckyone 2.48"] = {
+			["objectivesFontSize"] = 11,
 			["bar2FontSize"] = 11,
 			["deathsFontSize"] = 11,
 			["frameX"] = 19.00000953674316,
@@ -67,7 +68,6 @@ WarpDepleteDB = {
 			["timerFontSize"] = 22,
 			["forcesOverlayTexture"] = "Minimalist",
 			["bar1FontSize"] = 11,
-			["objectivesFontSize"] = 11,
 			["bar3Texture"] = "Minimalist",
 			["keyFontSize"] = 11,
 			["forcesTexture"] = "Minimalist",
